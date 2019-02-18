@@ -30,9 +30,10 @@
 #include <wrap/gui/trackball.h>
 
 #include <vcg/space/index/grid_static_ptr.h>
-#include <vcg/complex/edgemesh/base.h>
-#include <vcg/simplex/edge/base.h>
-#include <vcg/simplex/edge/component.h>
+#include <vcg/complex/complex.h>
+//#include <vcg/complex/edgemesh/base.h>
+//#include <vcg/simplex/edge/base.h>
+//#include <vcg/simplex/edge/component.h>
 #include <wrap/io_edgemesh/export_svg.h>
 
 typedef CMeshO n_Mesh;

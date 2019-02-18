@@ -13,7 +13,7 @@ CONFIG       += ordered
 SUBDIRS       = common \
                 meshlab \                         # the GUI framework
                 meshlabserver \
-                meshlabplugins/io_base\           # a few basic file formats (ply, obj, off), without this you cannot open anything
+                meshlabplugins/io_base\           # a few basic file formats (ply, obj, off), without this you cannot open anything一些基本的文件格式(ply, obj, off)，没有这些你就不能打开任何东西
                 meshlabplugins/filter_meshing \
                 meshlabplugins/decorate_base \
                 meshlabplugins/filter_measure \

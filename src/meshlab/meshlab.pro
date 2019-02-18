@@ -1,8 +1,7 @@
 include (../general.pri)
-#CONFIG += debug_and_release
+CONFIG += debug_and_release
 DESTDIR = ../distrib
 EXIF_DIR = ../external/jhead-2.95
-
 DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x000000
 
 INCLUDEPATH *= . \
@@ -139,13 +138,13 @@ CONFIG += stl
 macx:LIBS		+= -L../external/lib/macx64 -ljhead ../common/libcommon.dylib
 macx:QMAKE_POST_LINK ="cp -P ../common/libcommon.1.dylib ../distrib/meshlab.app/Contents/MacOS; install_name_tool -change libcommon.1.dylib @executable_path/libcommon.1.dylib ../distrib/meshlab.app/Contents/MacOS/meshlab"
 
-win32-msvc:LIBS			+= -L../external/lib/win32-msvc -ljhead -L../distrib -lcommon -lopengl32 -lGLU32
-win32-msvc2005:LIBS		+= -L../external/lib/win32-msvc2005 -ljhead -L../distrib -lcommon -lopengl32 -lGLU32
-win32-msvc2008:LIBS		+= -L../external/lib/win32-msvc2008 -ljhead -L../distrib -lcommon -lopengl32 -lGLU32
-win32-msvc2010:LIBS		+= -L../external/lib/win32-msvc2010 -ljhead -L../distrib -lcommon -lopengl32 -lGLU32
-win32-msvc2012:LIBS		+= -L../external/lib/win32-msvc2012 -ljhead -L../distrib -lcommon -lopengl32 -lGLU32
-win32-msvc2013:LIBS		+= -L../external/lib/win32-msvc2013 -ljhead -L../distrib -lcommon -lopengl32 -lGLU32
-win32-msvc2015:LIBS		+= -L../external/lib/win32-msvc2015 -ljhead -L../distrib -lcommon -lopengl32 -lGLU32
+win32-msvc:LIBS			+= -L../external/lib/win32-msvc/Debug -ljhead -L../distrib -lcommon -lopengl32 -lGLU32
+#win32-msvc2005:LIBS		+= -L../external/lib/win32-msvc2005 -ljhead -L../distrib -lcommon -lopengl32 -lGLU32
+#win32-msvc2008:LIBS		+= -L../external/lib/win32-msvc2008 -ljhead -L../distrib -lcommon -lopengl32 -lGLU32
+#win32-msvc2010:LIBS		+= -L../external/lib/win32-msvc2010 -ljhead -L../distrib -lcommon -lopengl32 -lGLU32
+#win32-msvc2012:LIBS		+= -L../external/lib/win32-msvc2012 -ljhead -L../distrib -lcommon -lopengl32 -lGLU32
+#win32-msvc2013:LIBS		+= -L../external/lib/win32-msvc2013 -ljhead -L../distrib -lcommon -lopengl32 -lGLU32
+#win32-msvc2015:LIBS		+= -L../external/lib/win32-msvc2015/Debug -ljhead -L../distrib -lcommon -lopengl32 -lGLU32
 win32-g++:LIBS        	+= -L../external/lib/win32-gcc -ljhead -L../distrib -lcommon -lopengl32 -lGLU32
 
 #CONFIG(release,debug | release) {
@@ -164,3 +163,6 @@ linux:QMAKE_RPATHDIR += ../distrib
 # The following define is needed in gcc to remove the asserts
 win32-g++:DEFINES += NDEBUG
 CONFIG(debug, debug|release):win32-g++:release:DEFINES -= NDEBUG
+##TODO:翻译
+#TRANSLATIONS    +=  $$TARGET@.ts
+

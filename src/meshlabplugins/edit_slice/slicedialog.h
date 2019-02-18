@@ -25,7 +25,7 @@
 #define DIALOGSLICE_H
 
 #include <QWidget>
-#include <QtGui/QDockWidget>
+#include <QDockWidget>
 #include "ui_slicedialog.h"
 
 class dialogslice : public QDockWidget

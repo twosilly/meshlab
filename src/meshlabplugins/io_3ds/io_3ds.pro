@@ -20,11 +20,20 @@ INCLUDEPATH += ../../external/lib3ds-1.3.0/
 # Once you have compiled the library put the lib files in a dir named lib/XXX/ 
 # where XXX is the name of your system according to the QT naming style.
 # Linux users can rely on their own package managers and hope that it is installing the last version of lib3ds
+CONFIG(debug, debug|release){
 
-win32-msvc:LIBS	+= ../../external/lib/win32-msvc/3ds.lib
-win32-msvc2015:LIBS += ../../external/lib/win32-msvc2015/3ds.lib
-win32-msvc2005:LIBS	+= ../../external/lib/win32-msvc2005/3ds.lib
-win32-msvc2008:LIBS	+= ../../external/lib/win32-msvc2008/3ds.lib
+    win32-msvc:LIBS += ../../external/lib/win32-msvc/Debug/3ds.lib
+    message(debug->$$LIBS)
+}
+CONFIG(release ,debug|release){
+    win32-msvc:LIBS += ../../external/lib/win32-msvc/Release/3ds.lib
+    message(release->$$LIBS)
+}
+#message($$LIBS)
+#win32-msvc:LIBS	+= ../../external/lib/win32-msvc/Debug/3ds.lib
+#win32-msvc2015:LIBS += ../../external/lib/win32-msvc2015/3ds.lib
+#win32-msvc2005:LIBS	+= ../../external/lib/win32-msvc2005/3ds.lib
+#win32-msvc2008:LIBS	+= ../../external/lib/win32-msvc2008/3ds.lib
 win32-g++:LIBS		+= ../../external/lib/win32-gcc/lib3ds.a
 linux-g++:LIBS += $$PWD/../../external/lib/linux-g++/lib3ds.a
 linux-g++-32:LIBS += $$PWD/../../external/lib/linux-g++-32/lib3ds.a

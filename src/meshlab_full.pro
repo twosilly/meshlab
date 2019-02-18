@@ -1,6 +1,7 @@
 #config += debug_and_release
 TEMPLATE      = subdirs
 CONFIG += ordered
+TRANSLATIONS    +=  meshlab_full_zh.ts
 SUBDIRS       = common \
                 meshlab \
                 meshlabserver \
@@ -52,7 +53,7 @@ SUBDIRS       = common \
                 meshlabplugins/filter_trioptimize \
                 meshlabplugins/filter_unsharp \
                 meshlabplugins/filter_voronoi \
-# Rendering and Decoration Plugins
+# Rendering and Decoration Plugins --> 渲染和装饰 插件
                 meshlabplugins/render_gdp \
                 meshlabplugins/render_radiance_scaling \
                 meshlabplugins/decorate_base \
@@ -64,7 +65,7 @@ SUBDIRS       = common \
                 meshlabplugins/edit_manipulators \
                 meshlabplugins/edit_measure \
                 meshlabplugins/edit_mutualcorrs \
-                meshlabplugins/edit_paint\
+                meshlabplugins/edit_paint\               
 #no longer supported#   meshlabplugins/edit_pickpoints \
                 meshlabplugins/edit_point\
                 meshlabplugins/edit_referencing \
@@ -76,6 +77,6 @@ SUBDIRS       = common \
                 sampleplugins/samplefilterdyn \     
                 sampleplugins/filter_createiso \
                 sampleplugins/filter_geodesic \
-				sampleplugins/sample_filtergpu \
+                sampleplugins/sample_filtergpu \
 
 

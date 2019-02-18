@@ -8,6 +8,7 @@
 
 class MeshLabApplication : public QApplication
 {
+
 public:
     enum HW_ARCHITECTURE {HW_32BIT = 32,HW_64BIT = 64};
     MeshLabApplication(int &argc, char *argv[]):QApplication(argc,argv){}

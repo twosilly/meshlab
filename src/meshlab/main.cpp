@@ -40,7 +40,17 @@ int main(int argc, char *argv[])
 
     QString tmp = MeshLabApplication::appArchitecturalName(MeshLabApplication::HW_ARCHITECTURE(QSysInfo::WordSize));
     QCoreApplication::setApplicationName(MeshLabApplication::appArchitecturalName(MeshLabApplication::HW_ARCHITECTURE(QSysInfo::WordSize)));
-   
+    
+    QTranslator translator;
+    if (translator.load(QString("./language/meshlab_zh")))
+    {
+             qDebug()<<"SB:"<<translator.objectName();
+             app.installTranslator(&translator);    
+    }else{
+        qDebug()<<"SB-BS:"<<translator.objectName();
+    }
+
+    
     MainWindow window;
     window.showMaximized();
 

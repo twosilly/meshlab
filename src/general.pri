@@ -28,3 +28,5 @@ MACLIBDIR = ../../external/lib/macx64
 # the awful min/max macros of windows and the limits max
 win32:DEFINES += NOMINMAX
 linux-g++:QMAKE_CXXFLAGS+=-Wno-unknown-pragmas
+#TODO:翻译
+TRANSLATIONS    +=  $$TARGET@.ts
