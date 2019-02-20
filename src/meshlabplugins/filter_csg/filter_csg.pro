@@ -18,12 +18,14 @@ win32-msvc2015:INCLUDEPATH += ../../external/inc/win32-msvc2008/mpir-2.2.1_x64
 
 #macx:LIBS         += ../../external/lib/macx/libmpirxx.a ../../external/lib/macx/libgmp.a
 macx:LIBS         += $$MACLIBDIR/libmpirxx.a $$MACLIBDIR/libmpir.a
-win32-g++:LIBS		 += ../../external/lib/win32-gcc/libmpirxx.a ../../external/lib/win32-gcc/libmpir.a
+#win32-g++:LIBS		 += ../../external/lib/win32-gcc/libmpirxx.a ../../external/lib/win32-gcc/libmpir.a
 CONFIG(debug ,debug|release){
     win32-msvc:LIBS += ../../external/lib/win32-msvc/Debug/mpirxx.lib ../../external/lib/win32-msvc/Debug/mpir.lib
+    win32-g++:LIBS		 += ../../external/lib/win32-gcc/Debug/libmpirxx.a ../../external/lib/win32-gcc/Debug/libmpir.a
 }
 CONFIG(release ,debug|release){
     win32-msvc:LIBS += ../../external/lib/win32-msvc/Release/mpirxx.lib ../../external/lib/win32-msvc/Release/mpir.lib
+    win32-g++:LIBS		 += ../../external/lib/win32-gcc/Release/libmpirxx.a ../../external/lib/win32-gcc/Release/libmpir.a
 }
 #win32-msvc:LIBS		 += ../../external/lib/win32-msvc2015/Debug/mpirxx.lib ../../external/lib/win32-msvc2015/Debug/mpir.lib
 #win32-msvc2008:LIBS		 += ../../external/lib/win32-msvc2008/mpirxx.lib ../../external/lib/win32-msvc2008/mpir.lib

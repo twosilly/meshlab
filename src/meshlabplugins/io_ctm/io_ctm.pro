@@ -16,9 +16,11 @@ win32-g++:DEFINES += OPENCTM_STATIC
 
 CONFIG(debug ,debug|release){
     win32-msvc:LIBS += ../../external/lib/win32-msvc/Debug/openctm.lib
+    win32-g++:LIBS += ../../external/lib/win32-gcc/Debug/libopenctm.a
 }
 CONFIG(release ,debug|release){
     win32-msvc:LIBS += ../../external/lib/win32-msvc/Release/openctm.lib
+    win32-g++:LIBS += ../../external/lib/win32-gcc/Release/libopenctm.a
 }
 #win32-msvc:LIBS	+= ../../external/lib/win32-msvc/Debug/openctm.lib
 #win32-msvc2005:LIBS	+= ../../external/lib/win32-msvc2005/openctm.lib
@@ -26,9 +28,10 @@ CONFIG(release ,debug|release){
 #win32-msvc2010:LIBS	+= ../../external/lib/win32-msvc2010/openctm.lib
 #win32-msvc2012:LIBS	+= ../../external/lib/win32-msvc2012/openctm.lib
 #win32-msvc2015:LIBS	+= ../../external/lib/win32-msvc2015/openctm.lib
-win32-g++:LIBS		+= ../../external/lib/win32-gcc/libopenctm.a
+#win32-g++:LIBS		+= ../../external/lib/win32-gcc/libopenctm.a
 linux-g++:LIBS		+= $$PWD/../../external/lib/linux-g++/libopenctm.a
 linux-g++-32:LIBS	+= $$PWD/../../external/lib/linux-g++-32/libopenctm.a
 linux-g++-64:LIBS	+= $$PWD/../../external/lib/linux-g++-64/libopenctm.a
 #macx:LIBS += ../../external/lib/macx/libopenctm.a
 macx:LIBS += $$MACLIBDIR/libopenctm.a
+

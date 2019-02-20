@@ -26,14 +26,16 @@ RESOURCES     = edit_mutualcorrs.qrc
 FORMS         = edit_mutualcorrsDialog.ui
 CONFIG(debug ,debug|release){
     win32-msvc:LIBS += ../../external/lib/win32-msvc/Debug/levmar.lib
+    win32-g++:LIBS += -L../../external/lib/win32-gcc/Debug/ -llevmar
 }
 CONFIG(release ,debug|release){
     win32-msvc:LIBS += ../../external/lib/win32-msvc/Release/levmar.lib
+    win32-g++:LIBS += -L../../external/lib/win32-gcc/Release/ -llevmar
 }
 #win32-msvc:  LIBS += ../../external/lib/win32-msvc/levmar.lib
 #win32-msvc2013:  LIBS += ../../external/lib/win32-msvc2013/levmar.lib
 #win32-msvc2015:  LIBS += ../../external/lib/win32-msvc2015/levmar.lib
-win32-g++:LIBS += -L../../external -llevmar
+#win32-g++:LIBS += -L../../external -llevmar
 linux-g++:LIBS += -L$$PWD/../../external/lib/linux-g++ -llevmar
 linux-g++-32:LIBS += -L$$PWD/../../external/lib/linux-g++-32 -llevmar
 linux-g++-64:LIBS += -L$$PWD/../../external/lib/linux-g++-64 -llevmar

@@ -14,9 +14,11 @@ INCLUDEPATH += ../../external/muparser_v225/include
 # ./configure --enable-shared=no
 CONFIG(debug ,debug|release){
     win32-msvc:LIBS += ../../external/lib/win32-msvc/Debug/muparser.lib
+    win32-g++:LIBS += ../../external/lib/win32-gcc/Debug/libmuparser.a
 }
 CONFIG(release ,debug|release){
     win32-msvc:LIBS += ../../external/lib/win32-msvc/Release/muparser.lib
+    win32-g++:LIBS += ../../external/lib/win32-gcc/Release/libmuparser.a
 }
 
 #win32-msvc2005:LIBS += ../../external/lib/win32-msvc2005/muparser.lib
@@ -30,4 +32,4 @@ macx:LIBS            += $$MACLIBDIR/libmuparser.a
 linux-g++:LIBS       += $$PWD/../../external/lib/linux-g++/libmuparser.a
 linux-g++-32:LIBS       += $$PWD/../../external/lib/linux-g++-32/libmuparser.a
 linux-g++-64:LIBS       += $$PWD/../../external/lib/linux-g++-64/libmuparser.a
-win32-g++:LIBS		 += ../../external/lib/win32-gcc/libmuparser.a
+#win32-g++:LIBS		 += ../../external/lib/win32-gcc/libmuparser.a

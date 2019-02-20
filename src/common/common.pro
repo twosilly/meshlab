@@ -3,18 +3,18 @@ EXIF_DIR = ../external/jhead-2.95
 
 GLEWCODE = $$GLEWDIR/src/glew.c
 
-win32-msvc2005:DESTDIR = ../distrib
-win32-msvc2008:DESTDIR = ../distrib
-win32-msvc2010:DESTDIR = ../distrib
-win32-msvc2012:DESTDIR = ../distrib
-win32-msvc2013:DESTDIR = ../distrib
-win32-msvc2015:DESTDIR = ../distrib
-win32-msvc:DESTDIR = ../distrib
-win32-g++:DLLDESTDIR = ../distrib
+win32-msvc2005:DESTDIR = ../distrib/$$status
+win32-msvc2008:DESTDIR = ../distrib/$$status
+win32-msvc2010:DESTDIR = ../distrib/$$status
+win32-msvc2012:DESTDIR = ../distrib/$$status
+win32-msvc2013:DESTDIR = ../distrib/$$status
+win32-msvc2015:DESTDIR = ../distrib/$$status
+win32-msvc:DESTDIR = ../distrib/$$status
+win32-g++:DLLDESTDIR = ../distrib/$$status
 
 # The following lines are necessary to avoid that when you re-compile everything you still find old dll in the plugins dir
 macx:QMAKE_CLEAN +=  ../distrib/plugins/*.dylib
-win32:QMAKE_CLEAN +=  ../distrib/plugins/*.dll
+win32:QMAKE_CLEAN +=  ../distrib/$$status/plugins/*.dll
 linux-g++:QMAKE_CLEAN +=  ../distrib/plugins/*.so
 
 
@@ -66,7 +66,7 @@ QT += xml
 QT += xmlpatterns
 QT += script
 
-
+LIBS += -lopengl32 -lGLU32
 TARGET = common
 DEPENDPATH += .
 DEFINES += GLEW_STATIC

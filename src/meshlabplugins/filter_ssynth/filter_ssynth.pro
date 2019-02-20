@@ -12,9 +12,11 @@ SOURCES += filter_ssynth.cpp \
 INCLUDEPATH += ../../external/structuresynth-1.5/ssynth
 CONFIG(debug ,debug|release){
     win32-msvc:LIBS += ../../external/lib/win32-msvc/Debug/ssynth.lib
+    win32-g++:LIBS += ../../external/lib/win32-gcc/Debug/libssynth.a
 }
 CONFIG(release ,debug|release){
     win32-msvc:LIBS += ../../external/lib/win32-msvc/Release/ssynth.lib
+    win32-g++:LIBS += ../../external/lib/win32-gcc/Debug/libssynth.a
 }
 #win32-msvc:LIBS += ../../external/lib/win32-msvc/ssynth.lib
 #win32-msvc2005:LIBS += ../../external/lib/win32-msvc2005/ssynth.lib
@@ -22,7 +24,7 @@ CONFIG(release ,debug|release){
 #win32-msvc2010:LIBS += ../../external/lib/win32-msvc2010/ssynth.lib
 #win32-msvc2012:LIBS += ../../external/lib/win32-msvc2012/ssynth.lib
 #win32-msvc2015:LIBS += ../../external/lib/win32-msvc2015/ssynth.lib
-win32-g++:LIBS += ../../external/lib/win32-gcc/libssynth.a
+#win32-g++:LIBS += ../../external/lib/win32-gcc/libssynth.a
 linux-g++:LIBS += ../../external/lib/linux-g++/libssynth.a
 macx:LIBS += ../../external/lib/macx64/libssynth.a
 TARGET = filter_ssynth
