@@ -16,19 +16,19 @@ QT += xml opengl
 QT += xmlpatterns
 QT += script
 #QT -= gui # Only the core module is used.
-DESTDIR = ../distrib
+DESTDIR = ../distrib/$$status
 macx:DESTDIR = ../distrib/meshlab.app/Contents/MacOS/
 macx:QMAKE_POST_LINK ="install_name_tool -change libcommon.1.dylib @executable_path/libcommon.1.dylib ../distrib/meshlab.app/Contents/MacOS/meshlabserver"
 
 mac:LIBS += ../distrib/meshlab.app/Contents/MacOS/libcommon.dylib
 
-win32-msvc:  LIBS += -L../distrib -lcommon -lopengl32 -lGLU32
-win32-msvc2005:  LIBS += -L../distrib -lcommon -lopengl32 -lGLU32
-win32-msvc2008:  LIBS += -L../distrib -lcommon -lopengl32 -lGLU32
-win32-msvc2010:  LIBS += -L../distrib -lcommon -lopengl32 -lGLU32
-win32-msvc2012:  LIBS += -L../distrib -lcommon -lopengl32 -lGLU32
-win32-msvc2015:  LIBS += -L../distrib -lcommon -lopengl32 -lGLU32
-win32-g++:  LIBS += -L../distrib -lcommon      
+win32-msvc:  LIBS += -L../distrib/$$status -lcommon -lopengl32 -lGLU32
+win32-msvc2005:  LIBS += -L../distrib/$$status -lcommon -lopengl32 -lGLU32
+win32-msvc2008:  LIBS += -L../distrib/$$status -lcommon -lopengl32 -lGLU32
+win32-msvc2010:  LIBS += -L../distrib/$$status -lcommon -lopengl32 -lGLU32
+win32-msvc2012:  LIBS += -L../distrib/$$status -lcommon -lopengl32 -lGLU32
+win32-msvc2015:  LIBS += -L../distrib/$$status -lcommon -lopengl32 -lGLU32
+win32-g++:  LIBS += -L../distrib/$$status -lcommon
 linux:  LIBS += -L../distrib -lcommon
 linux:QMAKE_RPATHDIR += ../distrib
 #CONFIG (release,debug | release) {

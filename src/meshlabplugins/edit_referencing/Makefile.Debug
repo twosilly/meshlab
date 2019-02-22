@@ -17,7 +17,7 @@ CXXFLAGS      = -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStri
 INCPATH       = -I. -I..\.. -I..\..\..\..\vcglib -I..\..\..\..\vcglib\eigenlib -I..\..\external\glew-2.1.0\include -ID:\Qt\SDK\5.9.6\msvc2015_64\include -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtOpenGL -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtANGLE -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtXml -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtXmlPatterns -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtNetwork -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtScript -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore -Idebug -I. -ID:\Qt\SDK\5.9.6\msvc2015_64\mkspecs\win32-msvc 
 LINKER        = link
 LFLAGS        = /NOLOGO /DYNAMICBASE /NXCOMPAT /DEBUG /DLL /SUBSYSTEM:WINDOWS
-LIBS          = ..\..\distrib\common.lib opengl32.lib GLU32.lib /LIBPATH:D:\Qt\SDK\5.9.6\msvc2015_64\lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5OpenGLd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Widgetsd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Guid.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Xmld.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5XmlPatternsd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Networkd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Scriptd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Cored.lib 
+LIBS          = ..\..\distrib\Debug\common.lib opengl32.lib GLU32.lib /LIBPATH:D:\Qt\SDK\5.9.6\msvc2015_64\lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5OpenGLd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Widgetsd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Guid.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Xmld.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5XmlPatternsd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Networkd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Scriptd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Cored.lib 
 QMAKE         = D:\Qt\SDK\5.9.6\msvc2015_64\bin\qmake.exe
 IDC           = idc
 IDL           = midl /NOLOGO
@@ -65,9 +65,9 @@ DIST          =  edit_referencing_factory.h \
 		edit_referencing.cpp \
 		edit_referencingDialog.cpp
 QMAKE_TARGET  = edit_referencing
-DESTDIR        = ..\..\distrib\plugins\ #avoid trailing-slash linebreak
+DESTDIR        = ..\..\distrib\Debug\plugins\ #avoid trailing-slash linebreak
 TARGET         = edit_referencing.dll
-DESTDIR_TARGET = ..\..\distrib\plugins\edit_referencing.dll
+DESTDIR_TARGET = ..\..\distrib\Debug\plugins\edit_referencing.dll
 
 ####### Implicit rules
 
@@ -134,10 +134,10 @@ dist:
 
 clean: compiler_clean 
 	-$(DEL_FILE) debug\edit_referencing_factory.obj debug\edit_referencing.obj debug\edit_referencingDialog.obj debug\qrc_edit_referencing.obj debug\moc_edit_referencing_factory.obj debug\moc_edit_referencing.obj debug\moc_edit_referencingDialog.obj
-	-$(DEL_FILE) ..\..\distrib\plugins\edit_referencing.exp debug\edit_referencing.vc.pdb ..\..\distrib\plugins\edit_referencing.ilk ..\..\distrib\plugins\edit_referencing.idb
+	-$(DEL_FILE) ..\..\distrib\Debug\plugins\edit_referencing.exp debug\edit_referencing.vc.pdb ..\..\distrib\Debug\plugins\edit_referencing.ilk ..\..\distrib\Debug\plugins\edit_referencing.idb
 
 distclean: clean 
-	-$(DEL_FILE) ..\..\distrib\plugins\edit_referencing.lib ..\..\distrib\plugins\edit_referencing.pdb
+	-$(DEL_FILE) ..\..\distrib\Debug\plugins\edit_referencing.lib ..\..\distrib\Debug\plugins\edit_referencing.pdb
 	-$(DEL_FILE) $(DESTDIR_TARGET)
 	-$(DEL_FILE) Makefile.Debug
 
@@ -790,7 +790,7 @@ debug\moc_edit_referencing_factory.cpp: D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCo
 		edit_referencing_factory.h \
 		debug\moc_predefs.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe
-	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IG:/Work/meshlib/src/meshlabplugins/edit_referencing -IG:/Work/meshlib/src -IG:/Work/vcglib -IG:/Work/vcglib/eigenlib -IG:/Work/meshlib/src/external/glew-2.1.0/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward edit_referencing_factory.h -o debug\moc_edit_referencing_factory.cpp
+	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IH:/Work/meshlib/src/meshlabplugins/edit_referencing -IH:/Work/meshlib/src -IH:/Work/vcglib -IH:/Work/vcglib/eigenlib -IH:/Work/meshlib/src/external/glew-2.1.0/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward edit_referencing_factory.h -o debug\moc_edit_referencing_factory.cpp
 
 debug\moc_edit_referencing.cpp: D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QObject \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qobject.h \
@@ -1456,7 +1456,7 @@ debug\moc_edit_referencing.cpp: D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QObje
 		edit_referencing.h \
 		debug\moc_predefs.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe
-	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IG:/Work/meshlib/src/meshlabplugins/edit_referencing -IG:/Work/meshlib/src -IG:/Work/vcglib -IG:/Work/vcglib/eigenlib -IG:/Work/meshlib/src/external/glew-2.1.0/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward edit_referencing.h -o debug\moc_edit_referencing.cpp
+	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IH:/Work/meshlib/src/meshlabplugins/edit_referencing -IH:/Work/meshlib/src -IH:/Work/vcglib -IH:/Work/vcglib/eigenlib -IH:/Work/meshlib/src/external/glew-2.1.0/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward edit_referencing.h -o debug\moc_edit_referencing.cpp
 
 debug\moc_edit_referencingDialog.cpp: D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QDockWidget \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qdockwidget.h \
@@ -1616,7 +1616,7 @@ debug\moc_edit_referencingDialog.cpp: D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidg
 		edit_referencingDialog.h \
 		debug\moc_predefs.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe
-	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IG:/Work/meshlib/src/meshlabplugins/edit_referencing -IG:/Work/meshlib/src -IG:/Work/vcglib -IG:/Work/vcglib/eigenlib -IG:/Work/meshlib/src/external/glew-2.1.0/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward edit_referencingDialog.h -o debug\moc_edit_referencingDialog.cpp
+	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IH:/Work/meshlib/src/meshlabplugins/edit_referencing -IH:/Work/meshlib/src -IH:/Work/vcglib -IH:/Work/vcglib/eigenlib -IH:/Work/meshlib/src/external/glew-2.1.0/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward edit_referencingDialog.h -o debug\moc_edit_referencingDialog.cpp
 
 compiler_moc_source_make_all:
 compiler_moc_source_clean:

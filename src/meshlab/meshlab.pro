@@ -1,6 +1,6 @@
 include (../general.pri)
 #CONFIG += debug_and_release
-DESTDIR = ../distrib
+DESTDIR = ../distrib/$$status
 EXIF_DIR = ../external/jhead-2.95
 
 DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x000000
@@ -148,13 +148,13 @@ macx:QMAKE_POST_LINK ="cp -P ../common/libcommon.1.dylib ../distrib/meshlab.app/
 #win32-msvc2015:LIBS		+= -L../external/lib/win32-msvc2015/Debug -ljhead -L../distrib -lcommon -lopengl32 -lGLU32
 #win32-g++:LIBS                 += -L../external/lib/win32-gcc -ljhead -L../distrib -lcommon -lopengl32 -lGLU32
 CONFIG(debug, debug|release){
-    win32-msvc:LIBS += -L../external/lib/win32-msvc/Debug -ljhead -L../distrib -lcommon -lopengl32 -lGLU32
-    win32-g++:LIBS += -L../external/lib/win32-gcc/Debug -ljhead -L../distrib -lcommon -lopengl32 -lGLU32
+    win32-msvc:LIBS += -L../external/lib/win32-msvc/Debug -ljhead -L../distrib/$$status -lcommon -lopengl32 -lGLU32
+    win32-g++:LIBS += -L../external/lib/win32-gcc/Debug -ljhead -L../distrib/$$status -lcommon -lopengl32 -lGLU32
     message(debug->$$LIBS)
 }
 CONFIG(release ,debug|release){
-    win32-msvc:LIBS += -L../external/lib/win32-msvc/Release -ljhead -L../distrib -lcommon -lopengl32 -lGLU32
-    win32-g++:LIBS += -L../external/lib/win32-gcc/Release -ljhead -L../distrib -lcommon -lopengl32 -lGLU32
+    win32-msvc:LIBS += -L../external/lib/win32-msvc/Release -ljhead -L../distrib/$$status -lcommon -lopengl32 -lGLU32
+    win32-g++:LIBS += -L../external/lib/win32-gcc/Release -ljhead -L../distrib/$$status -lcommon -lopengl32 -lGLU32
     message(release->$$LIBS)
 }
 #CONFIG(release,debug | release) {

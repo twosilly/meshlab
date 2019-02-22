@@ -17,7 +17,7 @@ CXXFLAGS      = -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStri
 INCPATH       = -I. -I..\.. -I..\..\..\..\vcglib -I..\..\..\..\vcglib\eigenlib -I..\..\external\glew-2.1.0\include -I..\..\external\OpenCTM-1.0.3\lib -ID:\Qt\SDK\5.9.6\msvc2015_64\include -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtOpenGL -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtANGLE -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtXml -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtXmlPatterns -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtNetwork -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtScript -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore -Idebug -ID:\Qt\SDK\5.9.6\msvc2015_64\mkspecs\win32-msvc 
 LINKER        = link
 LFLAGS        = /NOLOGO /DYNAMICBASE /NXCOMPAT /DEBUG /DLL /SUBSYSTEM:WINDOWS
-LIBS          = ..\..\distrib\common.lib opengl32.lib GLU32.lib ..\..\external\lib\win32-msvc\Debug\openctm.lib /LIBPATH:D:\Qt\SDK\5.9.6\msvc2015_64\lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5OpenGLd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Widgetsd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Guid.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Xmld.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5XmlPatternsd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Networkd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Scriptd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Cored.lib 
+LIBS          = ..\..\distrib\Debug\common.lib opengl32.lib GLU32.lib ..\..\external\lib\win32-msvc\Debug\openctm.lib /LIBPATH:D:\Qt\SDK\5.9.6\msvc2015_64\lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5OpenGLd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Widgetsd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Guid.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Xmld.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5XmlPatternsd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Networkd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Scriptd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Cored.lib 
 QMAKE         = D:\Qt\SDK\5.9.6\msvc2015_64\bin\qmake.exe
 IDC           = idc
 IDL           = midl /NOLOGO
@@ -53,9 +53,9 @@ DIST          =  io_ctm.h \
 		..\..\..\..\vcglib\wrap\io_trimesh\import_ctm.h \
 		..\..\..\..\vcglib\wrap\io_trimesh\export_ctm.h io_ctm.cpp
 QMAKE_TARGET  = io_ctm
-DESTDIR        = ..\..\distrib\plugins\ #avoid trailing-slash linebreak
+DESTDIR        = ..\..\distrib\Debug\plugins\ #avoid trailing-slash linebreak
 TARGET         = io_ctm.dll
-DESTDIR_TARGET = ..\..\distrib\plugins\io_ctm.dll
+DESTDIR_TARGET = ..\..\distrib\Debug\plugins\io_ctm.dll
 
 ####### Implicit rules
 
@@ -122,10 +122,10 @@ dist:
 
 clean: compiler_clean 
 	-$(DEL_FILE) debug\io_ctm.obj debug\moc_io_ctm.obj
-	-$(DEL_FILE) ..\..\distrib\plugins\io_ctm.exp debug\io_ctm.vc.pdb ..\..\distrib\plugins\io_ctm.ilk ..\..\distrib\plugins\io_ctm.idb
+	-$(DEL_FILE) ..\..\distrib\Debug\plugins\io_ctm.exp debug\io_ctm.vc.pdb ..\..\distrib\Debug\plugins\io_ctm.ilk ..\..\distrib\Debug\plugins\io_ctm.idb
 
 distclean: clean 
-	-$(DEL_FILE) ..\..\distrib\plugins\io_ctm.lib ..\..\distrib\plugins\io_ctm.pdb
+	-$(DEL_FILE) ..\..\distrib\Debug\plugins\io_ctm.lib ..\..\distrib\Debug\plugins\io_ctm.pdb
 	-$(DEL_FILE) $(DESTDIR_TARGET)
 	-$(DEL_FILE) Makefile.Debug
 
@@ -771,7 +771,7 @@ debug\moc_io_ctm.cpp: D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QObject \
 		io_ctm.h \
 		debug\moc_predefs.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe
-	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IG:/Work/meshlib/src/meshlabplugins/io_ctm -IG:/Work/meshlib/src -IG:/Work/vcglib -IG:/Work/vcglib/eigenlib -IG:/Work/meshlib/src/external/glew-2.1.0/include -IG:/Work/meshlib/src/external/OpenCTM-1.0.3/lib -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward io_ctm.h -o debug\moc_io_ctm.cpp
+	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IH:/Work/meshlib/src/meshlabplugins/io_ctm -IH:/Work/meshlib/src -IH:/Work/vcglib -IH:/Work/vcglib/eigenlib -IH:/Work/meshlib/src/external/glew-2.1.0/include -IH:/Work/meshlib/src/external/OpenCTM-1.0.3/lib -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward io_ctm.h -o debug\moc_io_ctm.cpp
 
 compiler_moc_source_make_all:
 compiler_moc_source_clean:

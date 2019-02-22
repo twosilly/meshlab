@@ -17,7 +17,7 @@ CXXFLAGS      = -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStri
 INCPATH       = -I. -I. -I.. -I..\..\..\vcglib -I..\..\..\vcglib\eigenlib -I..\external\glew-2.1.0\include -ID:\Qt\SDK\5.9.6\msvc2015_64\include -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtOpenGL -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtANGLE -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtXml -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtXmlPatterns -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtNetwork -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtScript -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore -Idebug -ID:\Qt\SDK\5.9.6\msvc2015_64\mkspecs\win32-msvc 
 LINKER        = link
 LFLAGS        = /NOLOGO /DYNAMICBASE /NXCOMPAT /DEBUG /SUBSYSTEM:CONSOLE "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'"
-LIBS          = /LIBPATH:..\distrib ..\distrib\common.lib opengl32.lib GLU32.lib /LIBPATH:D:\Qt\SDK\5.9.6\msvc2015_64\lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5OpenGLd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Widgetsd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Guid.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Xmld.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5XmlPatternsd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Networkd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Scriptd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Cored.lib debug\meshlab.res 
+LIBS          = /LIBPATH:..\distrib\Debug ..\distrib\Debug\common.lib opengl32.lib GLU32.lib /LIBPATH:D:\Qt\SDK\5.9.6\msvc2015_64\lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5OpenGLd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Widgetsd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Guid.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Xmld.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5XmlPatternsd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Networkd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Scriptd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Cored.lib debug\meshlab.res 
 QMAKE         = D:\Qt\SDK\5.9.6\msvc2015_64\bin\qmake.exe
 IDC           = idc
 IDL           = midl /NOLOGO
@@ -53,9 +53,9 @@ OBJECTS       = debug\mainserver.obj \
 
 DIST          =   mainserver.cpp
 QMAKE_TARGET  = meshlabserver
-DESTDIR        = ..\distrib\ #avoid trailing-slash linebreak
+DESTDIR        = ..\distrib\Debug\ #avoid trailing-slash linebreak
 TARGET         = meshlabserver.exe
-DESTDIR_TARGET = ..\distrib\meshlabserver.exe
+DESTDIR_TARGET = ..\distrib\Debug\meshlabserver.exe
 
 ####### Implicit rules
 
@@ -125,11 +125,11 @@ dist:
 
 clean: compiler_clean 
 	-$(DEL_FILE) debug\mainserver.obj debug\qrc_meshlab.obj debug\qrc_meshlabserver.obj
-	-$(DEL_FILE) ..\distrib\meshlabserver.exp debug\meshlabserver.vc.pdb ..\distrib\meshlabserver.ilk ..\distrib\meshlabserver.idb
+	-$(DEL_FILE) ..\distrib\Debug\meshlabserver.exp debug\meshlabserver.vc.pdb ..\distrib\Debug\meshlabserver.ilk ..\distrib\Debug\meshlabserver.idb
 	-$(DEL_FILE) debug\meshlab.res
 
 distclean: clean 
-	-$(DEL_FILE) ..\distrib\meshlabserver.lib ..\distrib\meshlabserver.pdb
+	-$(DEL_FILE) ..\distrib\Debug\meshlabserver.lib ..\distrib\Debug\meshlabserver.pdb
 	-$(DEL_FILE) $(DESTDIR_TARGET)
 	-$(DEL_FILE) Makefile.Debug
 

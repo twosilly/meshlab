@@ -1,12 +1,7 @@
 #config += debug_and_release
 TEMPLATE      = subdirs
 CONFIG += ordered
-#当前是debug 还是release
-CONFIG(release,debug | release){
-    status = Release
- }else{
-    status = Debug
-}
+
 SUBDIRS       = common \
                 meshlab \
                 meshlabserver \

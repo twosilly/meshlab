@@ -17,7 +17,7 @@ CXXFLAGS      = -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStri
 INCPATH       = -I. -I..\.. -I..\..\..\..\vcglib -I..\..\..\..\vcglib\eigenlib -I..\..\external\glew-2.1.0\include -ID:\Qt\SDK\5.9.6\msvc2015_64\include -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtOpenGL -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtANGLE -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtXml -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtXmlPatterns -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtNetwork -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtScript -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore -Idebug -ID:\Qt\SDK\5.9.6\msvc2015_64\mkspecs\win32-msvc 
 LINKER        = link
 LFLAGS        = /NOLOGO /DYNAMICBASE /NXCOMPAT /DEBUG /DLL /SUBSYSTEM:WINDOWS
-LIBS          = ..\..\distrib\common.lib opengl32.lib GLU32.lib /LIBPATH:D:\Qt\SDK\5.9.6\msvc2015_64\lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5OpenGLd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Widgetsd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Guid.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Xmld.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5XmlPatternsd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Networkd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Scriptd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Cored.lib 
+LIBS          = ..\..\distrib\Debug\common.lib opengl32.lib GLU32.lib /LIBPATH:D:\Qt\SDK\5.9.6\msvc2015_64\lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5OpenGLd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Widgetsd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Guid.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Xmld.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5XmlPatternsd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Networkd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Scriptd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Cored.lib 
 QMAKE         = D:\Qt\SDK\5.9.6\msvc2015_64\bin\qmake.exe
 IDC           = idc
 IDL           = midl /NOLOGO
@@ -54,9 +54,9 @@ DIST          =  io_expe.h \
 		import_xyz.h \
 		export_xyz.h io_expe.cpp
 QMAKE_TARGET  = io_expe
-DESTDIR        = ..\..\distrib\plugins\ #avoid trailing-slash linebreak
+DESTDIR        = ..\..\distrib\Debug\plugins\ #avoid trailing-slash linebreak
 TARGET         = io_expe.dll
-DESTDIR_TARGET = ..\..\distrib\plugins\io_expe.dll
+DESTDIR_TARGET = ..\..\distrib\Debug\plugins\io_expe.dll
 
 ####### Implicit rules
 
@@ -123,10 +123,10 @@ dist:
 
 clean: compiler_clean 
 	-$(DEL_FILE) debug\io_expe.obj debug\moc_io_expe.obj
-	-$(DEL_FILE) ..\..\distrib\plugins\io_expe.exp debug\io_expe.vc.pdb ..\..\distrib\plugins\io_expe.ilk ..\..\distrib\plugins\io_expe.idb
+	-$(DEL_FILE) ..\..\distrib\Debug\plugins\io_expe.exp debug\io_expe.vc.pdb ..\..\distrib\Debug\plugins\io_expe.ilk ..\..\distrib\Debug\plugins\io_expe.idb
 
 distclean: clean 
-	-$(DEL_FILE) ..\..\distrib\plugins\io_expe.lib ..\..\distrib\plugins\io_expe.pdb
+	-$(DEL_FILE) ..\..\distrib\Debug\plugins\io_expe.lib ..\..\distrib\Debug\plugins\io_expe.pdb
 	-$(DEL_FILE) $(DESTDIR_TARGET)
 	-$(DEL_FILE) Makefile.Debug
 
@@ -772,7 +772,7 @@ debug\moc_io_expe.cpp: D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QObject \
 		io_expe.h \
 		debug\moc_predefs.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe
-	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IG:/Work/meshlib/src/meshlabplugins/io_expe -IG:/Work/meshlib/src -IG:/Work/vcglib -IG:/Work/vcglib/eigenlib -IG:/Work/meshlib/src/external/glew-2.1.0/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward io_expe.h -o debug\moc_io_expe.cpp
+	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IH:/Work/meshlib/src/meshlabplugins/io_expe -IH:/Work/meshlib/src -IH:/Work/vcglib -IH:/Work/vcglib/eigenlib -IH:/Work/meshlib/src/external/glew-2.1.0/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward io_expe.h -o debug\moc_io_expe.cpp
 
 compiler_moc_source_make_all:
 compiler_moc_source_clean:

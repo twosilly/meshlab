@@ -8,7 +8,12 @@ DEFINES += MESHLAB_SCALAR=float
 VCGDIR   = ../../../vcglib
 EIGENDIR = $$VCGDIR/eigenlib
 GLEWDIR = ../external/glew-2.1.0
-
+#当前是debug 还是release
+CONFIG(release,debug | release){
+    status = Release
+ }else{
+    status = Debug
+}
 CONFIG += c++11
 
 macx:QMAKE_CXXFLAGS += -Wno-inconsistent-missing-override

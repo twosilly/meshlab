@@ -462,10 +462,10 @@ qmake_all: FORCE
 make_first: release-make_first debug-make_first  FORCE
 all: release-all debug-all  FORCE
 clean: release-clean debug-clean  FORCE
-	-$(DEL_FILE) ..\..\distrib\plugins\edit_mutualcorrs.exp
+	-$(DEL_FILE) ..\..\distrib\Release\plugins\edit_mutualcorrs.exp
 distclean: release-distclean debug-distclean  FORCE
 	-$(DEL_FILE) Makefile
-	-$(DEL_FILE) ..\..\distrib\plugins\edit_mutualcorrs.lib
+	-$(DEL_FILE) ..\..\distrib\Release\plugins\edit_mutualcorrs.lib
 
 release-mocclean:
 	@set MAKEFLAGS=$(MAKEFLAGS)

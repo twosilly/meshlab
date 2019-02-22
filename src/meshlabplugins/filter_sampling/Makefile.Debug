@@ -17,7 +17,7 @@ CXXFLAGS      = -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStri
 INCPATH       = -I. -I..\.. -I..\..\..\..\vcglib -I..\..\..\..\vcglib\eigenlib -I..\..\external\glew-2.1.0\include -ID:\Qt\SDK\5.9.6\msvc2015_64\include -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtOpenGL -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtANGLE -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtXml -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtXmlPatterns -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtNetwork -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtScript -ID:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore -Idebug -ID:\Qt\SDK\5.9.6\msvc2015_64\mkspecs\win32-msvc 
 LINKER        = link
 LFLAGS        = /NOLOGO /DYNAMICBASE /NXCOMPAT /DEBUG /DLL /SUBSYSTEM:WINDOWS
-LIBS          = ..\..\distrib\common.lib opengl32.lib GLU32.lib /LIBPATH:D:\Qt\SDK\5.9.6\msvc2015_64\lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5OpenGLd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Widgetsd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Guid.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Xmld.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5XmlPatternsd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Networkd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Scriptd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Cored.lib 
+LIBS          = ..\..\distrib\Debug\common.lib opengl32.lib GLU32.lib /LIBPATH:D:\Qt\SDK\5.9.6\msvc2015_64\lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5OpenGLd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Widgetsd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Guid.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Xmld.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5XmlPatternsd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Networkd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Scriptd.lib D:\Qt\SDK\5.9.6\msvc2015_64\lib\Qt5Cored.lib 
 QMAKE         = D:\Qt\SDK\5.9.6\msvc2015_64\bin\qmake.exe
 IDC           = idc
 IDL           = midl /NOLOGO
@@ -52,9 +52,9 @@ OBJECTS       = debug\filter_sampling.obj \
 DIST          =  filter_sampling.h \
 		..\..\..\..\vcglib\vcg\complex\algorithms\point_sampling.h filter_sampling.cpp
 QMAKE_TARGET  = filter_sampling
-DESTDIR        = ..\..\distrib\plugins\ #avoid trailing-slash linebreak
+DESTDIR        = ..\..\distrib\Debug\plugins\ #avoid trailing-slash linebreak
 TARGET         = filter_sampling.dll
-DESTDIR_TARGET = ..\..\distrib\plugins\filter_sampling.dll
+DESTDIR_TARGET = ..\..\distrib\Debug\plugins\filter_sampling.dll
 
 ####### Implicit rules
 
@@ -121,10 +121,10 @@ dist:
 
 clean: compiler_clean 
 	-$(DEL_FILE) debug\filter_sampling.obj debug\moc_filter_sampling.obj
-	-$(DEL_FILE) ..\..\distrib\plugins\filter_sampling.exp debug\filter_sampling.vc.pdb ..\..\distrib\plugins\filter_sampling.ilk ..\..\distrib\plugins\filter_sampling.idb
+	-$(DEL_FILE) ..\..\distrib\Debug\plugins\filter_sampling.exp debug\filter_sampling.vc.pdb ..\..\distrib\Debug\plugins\filter_sampling.ilk ..\..\distrib\Debug\plugins\filter_sampling.idb
 
 distclean: clean 
-	-$(DEL_FILE) ..\..\distrib\plugins\filter_sampling.lib ..\..\distrib\plugins\filter_sampling.pdb
+	-$(DEL_FILE) ..\..\distrib\Debug\plugins\filter_sampling.lib ..\..\distrib\Debug\plugins\filter_sampling.pdb
 	-$(DEL_FILE) $(DESTDIR_TARGET)
 	-$(DEL_FILE) Makefile.Debug
 
@@ -770,7 +770,7 @@ debug\moc_filter_sampling.cpp: ..\..\common\interfaces.h \
 		filter_sampling.h \
 		debug\moc_predefs.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe
-	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IG:/Work/meshlib/src/meshlabplugins/filter_sampling -IG:/Work/meshlib/src -IG:/Work/vcglib -IG:/Work/vcglib/eigenlib -IG:/Work/meshlib/src/external/glew-2.1.0/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward filter_sampling.h -o debug\moc_filter_sampling.cpp
+	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IH:/Work/meshlib/src/meshlabplugins/filter_sampling -IH:/Work/meshlib/src -IH:/Work/vcglib -IH:/Work/vcglib/eigenlib -IH:/Work/meshlib/src/external/glew-2.1.0/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward filter_sampling.h -o debug\moc_filter_sampling.cpp
 
 compiler_moc_source_make_all:
 compiler_moc_source_clean:

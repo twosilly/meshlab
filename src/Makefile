@@ -97,3823 +97,3823 @@ SUBTARGETS    =  \
 
 sub-common-qmake_all:  FORCE
 	@if not exist common\ mkdir common\ & if not exist common\ exit 1
-	cd common\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\common\common.pro -spec win32-msvc
+	cd common\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\common\common.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd common\ && $(MAKE) -f Makefile qmake_all
 sub-common: FORCE
 	@if not exist common\ mkdir common\ & if not exist common\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd common\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\common\common.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd common\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\common\common.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-common-make_first-ordered: FORCE
 	@if not exist common\ mkdir common\ & if not exist common\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd common\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\common\common.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd common\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\common\common.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-common-make_first: FORCE
 	@if not exist common\ mkdir common\ & if not exist common\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd common\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\common\common.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd common\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\common\common.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-common-all-ordered: FORCE
 	@if not exist common\ mkdir common\ & if not exist common\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd common\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\common\common.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd common\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\common\common.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-common-all: FORCE
 	@if not exist common\ mkdir common\ & if not exist common\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd common\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\common\common.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd common\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\common\common.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-common-clean-ordered: FORCE
 	@if not exist common\ mkdir common\ & if not exist common\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd common\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\common\common.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd common\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\common\common.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-common-clean: FORCE
 	@if not exist common\ mkdir common\ & if not exist common\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd common\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\common\common.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd common\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\common\common.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-common-distclean-ordered: FORCE
 	@if not exist common\ mkdir common\ & if not exist common\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd common\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\common\common.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd common\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\common\common.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-common-distclean: FORCE
 	@if not exist common\ mkdir common\ & if not exist common\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd common\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\common\common.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd common\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\common\common.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-common-install_subtargets-ordered: FORCE
 	@if not exist common\ mkdir common\ & if not exist common\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd common\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\common\common.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd common\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\common\common.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-common-install_subtargets: FORCE
 	@if not exist common\ mkdir common\ & if not exist common\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd common\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\common\common.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd common\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\common\common.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-common-uninstall_subtargets-ordered: FORCE
 	@if not exist common\ mkdir common\ & if not exist common\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd common\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\common\common.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd common\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\common\common.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-common-uninstall_subtargets: FORCE
 	@if not exist common\ mkdir common\ & if not exist common\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd common\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\common\common.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd common\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\common\common.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlab-qmake_all: sub-common-qmake_all FORCE
 	@if not exist meshlab\ mkdir meshlab\ & if not exist meshlab\ exit 1
-	cd meshlab\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlab\meshlab.pro -spec win32-msvc
+	cd meshlab\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlab\meshlab.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlab\ && $(MAKE) -f Makefile qmake_all
 sub-meshlab: FORCE
 	@if not exist meshlab\ mkdir meshlab\ & if not exist meshlab\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlab\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlab\meshlab.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlab\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlab\meshlab.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlab-make_first-ordered: sub-common-make_first-ordered  FORCE
 	@if not exist meshlab\ mkdir meshlab\ & if not exist meshlab\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlab\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlab\meshlab.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlab\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlab\meshlab.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlab-make_first: FORCE
 	@if not exist meshlab\ mkdir meshlab\ & if not exist meshlab\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlab\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlab\meshlab.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlab\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlab\meshlab.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlab-all-ordered: sub-common-all-ordered  FORCE
 	@if not exist meshlab\ mkdir meshlab\ & if not exist meshlab\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlab\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlab\meshlab.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlab\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlab\meshlab.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlab-all: FORCE
 	@if not exist meshlab\ mkdir meshlab\ & if not exist meshlab\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlab\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlab\meshlab.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlab\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlab\meshlab.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlab-clean-ordered: sub-common-clean-ordered  FORCE
 	@if not exist meshlab\ mkdir meshlab\ & if not exist meshlab\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlab\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlab\meshlab.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlab\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlab\meshlab.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlab-clean: FORCE
 	@if not exist meshlab\ mkdir meshlab\ & if not exist meshlab\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlab\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlab\meshlab.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlab\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlab\meshlab.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlab-distclean-ordered: sub-common-distclean-ordered  FORCE
 	@if not exist meshlab\ mkdir meshlab\ & if not exist meshlab\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlab\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlab\meshlab.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlab\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlab\meshlab.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlab-distclean: FORCE
 	@if not exist meshlab\ mkdir meshlab\ & if not exist meshlab\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlab\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlab\meshlab.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlab\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlab\meshlab.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlab-install_subtargets-ordered: sub-common-install_subtargets-ordered  FORCE
 	@if not exist meshlab\ mkdir meshlab\ & if not exist meshlab\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlab\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlab\meshlab.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlab\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlab\meshlab.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlab-install_subtargets: FORCE
 	@if not exist meshlab\ mkdir meshlab\ & if not exist meshlab\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlab\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlab\meshlab.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlab\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlab\meshlab.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlab-uninstall_subtargets-ordered: sub-common-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlab\ mkdir meshlab\ & if not exist meshlab\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlab\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlab\meshlab.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlab\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlab\meshlab.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlab-uninstall_subtargets: FORCE
 	@if not exist meshlab\ mkdir meshlab\ & if not exist meshlab\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlab\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlab\meshlab.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlab\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlab\meshlab.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabserver-qmake_all: sub-meshlab-qmake_all FORCE
 	@if not exist meshlabserver\ mkdir meshlabserver\ & if not exist meshlabserver\ exit 1
-	cd meshlabserver\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabserver\meshlabserver.pro -spec win32-msvc
+	cd meshlabserver\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabserver\meshlabserver.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabserver\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabserver: FORCE
 	@if not exist meshlabserver\ mkdir meshlabserver\ & if not exist meshlabserver\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabserver\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabserver\meshlabserver.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabserver\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabserver\meshlabserver.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabserver-make_first-ordered: sub-meshlab-make_first-ordered  FORCE
 	@if not exist meshlabserver\ mkdir meshlabserver\ & if not exist meshlabserver\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabserver\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabserver\meshlabserver.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabserver\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabserver\meshlabserver.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabserver-make_first: FORCE
 	@if not exist meshlabserver\ mkdir meshlabserver\ & if not exist meshlabserver\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabserver\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabserver\meshlabserver.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabserver\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabserver\meshlabserver.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabserver-all-ordered: sub-meshlab-all-ordered  FORCE
 	@if not exist meshlabserver\ mkdir meshlabserver\ & if not exist meshlabserver\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabserver\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabserver\meshlabserver.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabserver\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabserver\meshlabserver.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabserver-all: FORCE
 	@if not exist meshlabserver\ mkdir meshlabserver\ & if not exist meshlabserver\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabserver\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabserver\meshlabserver.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabserver\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabserver\meshlabserver.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabserver-clean-ordered: sub-meshlab-clean-ordered  FORCE
 	@if not exist meshlabserver\ mkdir meshlabserver\ & if not exist meshlabserver\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabserver\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabserver\meshlabserver.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabserver\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabserver\meshlabserver.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabserver-clean: FORCE
 	@if not exist meshlabserver\ mkdir meshlabserver\ & if not exist meshlabserver\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabserver\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabserver\meshlabserver.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabserver\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabserver\meshlabserver.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabserver-distclean-ordered: sub-meshlab-distclean-ordered  FORCE
 	@if not exist meshlabserver\ mkdir meshlabserver\ & if not exist meshlabserver\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabserver\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabserver\meshlabserver.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabserver\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabserver\meshlabserver.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabserver-distclean: FORCE
 	@if not exist meshlabserver\ mkdir meshlabserver\ & if not exist meshlabserver\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabserver\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabserver\meshlabserver.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabserver\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabserver\meshlabserver.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabserver-install_subtargets-ordered: sub-meshlab-install_subtargets-ordered  FORCE
 	@if not exist meshlabserver\ mkdir meshlabserver\ & if not exist meshlabserver\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabserver\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabserver\meshlabserver.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabserver\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabserver\meshlabserver.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabserver-install_subtargets: FORCE
 	@if not exist meshlabserver\ mkdir meshlabserver\ & if not exist meshlabserver\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabserver\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabserver\meshlabserver.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabserver\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabserver\meshlabserver.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabserver-uninstall_subtargets-ordered: sub-meshlab-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabserver\ mkdir meshlabserver\ & if not exist meshlabserver\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabserver\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabserver\meshlabserver.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabserver\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabserver\meshlabserver.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabserver-uninstall_subtargets: FORCE
 	@if not exist meshlabserver\ mkdir meshlabserver\ & if not exist meshlabserver\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabserver\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabserver\meshlabserver.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabserver\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabserver\meshlabserver.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-io_3ds-qmake_all: sub-meshlabserver-qmake_all FORCE
 	@if not exist meshlabplugins\io_3ds\ mkdir meshlabplugins\io_3ds\ & if not exist meshlabplugins\io_3ds\ exit 1
-	cd meshlabplugins\io_3ds\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_3ds\io_3ds.pro -spec win32-msvc
+	cd meshlabplugins\io_3ds\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_3ds\io_3ds.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\io_3ds\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-io_3ds: FORCE
 	@if not exist meshlabplugins\io_3ds\ mkdir meshlabplugins\io_3ds\ & if not exist meshlabplugins\io_3ds\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_3ds\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_3ds\io_3ds.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\io_3ds\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_3ds\io_3ds.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-io_3ds-make_first-ordered: sub-meshlabserver-make_first-ordered  FORCE
 	@if not exist meshlabplugins\io_3ds\ mkdir meshlabplugins\io_3ds\ & if not exist meshlabplugins\io_3ds\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_3ds\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_3ds\io_3ds.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\io_3ds\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_3ds\io_3ds.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-io_3ds-make_first: FORCE
 	@if not exist meshlabplugins\io_3ds\ mkdir meshlabplugins\io_3ds\ & if not exist meshlabplugins\io_3ds\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_3ds\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_3ds\io_3ds.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\io_3ds\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_3ds\io_3ds.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-io_3ds-all-ordered: sub-meshlabserver-all-ordered  FORCE
 	@if not exist meshlabplugins\io_3ds\ mkdir meshlabplugins\io_3ds\ & if not exist meshlabplugins\io_3ds\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_3ds\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_3ds\io_3ds.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\io_3ds\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_3ds\io_3ds.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-io_3ds-all: FORCE
 	@if not exist meshlabplugins\io_3ds\ mkdir meshlabplugins\io_3ds\ & if not exist meshlabplugins\io_3ds\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_3ds\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_3ds\io_3ds.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\io_3ds\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_3ds\io_3ds.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-io_3ds-clean-ordered: sub-meshlabserver-clean-ordered  FORCE
 	@if not exist meshlabplugins\io_3ds\ mkdir meshlabplugins\io_3ds\ & if not exist meshlabplugins\io_3ds\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_3ds\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_3ds\io_3ds.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\io_3ds\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_3ds\io_3ds.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-io_3ds-clean: FORCE
 	@if not exist meshlabplugins\io_3ds\ mkdir meshlabplugins\io_3ds\ & if not exist meshlabplugins\io_3ds\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_3ds\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_3ds\io_3ds.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\io_3ds\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_3ds\io_3ds.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-io_3ds-distclean-ordered: sub-meshlabserver-distclean-ordered  FORCE
 	@if not exist meshlabplugins\io_3ds\ mkdir meshlabplugins\io_3ds\ & if not exist meshlabplugins\io_3ds\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_3ds\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_3ds\io_3ds.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\io_3ds\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_3ds\io_3ds.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-io_3ds-distclean: FORCE
 	@if not exist meshlabplugins\io_3ds\ mkdir meshlabplugins\io_3ds\ & if not exist meshlabplugins\io_3ds\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_3ds\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_3ds\io_3ds.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\io_3ds\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_3ds\io_3ds.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-io_3ds-install_subtargets-ordered: sub-meshlabserver-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\io_3ds\ mkdir meshlabplugins\io_3ds\ & if not exist meshlabplugins\io_3ds\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_3ds\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_3ds\io_3ds.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\io_3ds\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_3ds\io_3ds.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-io_3ds-install_subtargets: FORCE
 	@if not exist meshlabplugins\io_3ds\ mkdir meshlabplugins\io_3ds\ & if not exist meshlabplugins\io_3ds\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_3ds\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_3ds\io_3ds.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\io_3ds\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_3ds\io_3ds.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-io_3ds-uninstall_subtargets-ordered: sub-meshlabserver-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\io_3ds\ mkdir meshlabplugins\io_3ds\ & if not exist meshlabplugins\io_3ds\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_3ds\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_3ds\io_3ds.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\io_3ds\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_3ds\io_3ds.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-io_3ds-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\io_3ds\ mkdir meshlabplugins\io_3ds\ & if not exist meshlabplugins\io_3ds\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_3ds\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_3ds\io_3ds.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\io_3ds\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_3ds\io_3ds.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-io_base-qmake_all: sub-meshlabplugins-io_3ds-qmake_all FORCE
 	@if not exist meshlabplugins\io_base\ mkdir meshlabplugins\io_base\ & if not exist meshlabplugins\io_base\ exit 1
-	cd meshlabplugins\io_base\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_base\io_base.pro -spec win32-msvc
+	cd meshlabplugins\io_base\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_base\io_base.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\io_base\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-io_base: FORCE
 	@if not exist meshlabplugins\io_base\ mkdir meshlabplugins\io_base\ & if not exist meshlabplugins\io_base\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_base\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_base\io_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\io_base\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_base\io_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-io_base-make_first-ordered: sub-meshlabplugins-io_3ds-make_first-ordered  FORCE
 	@if not exist meshlabplugins\io_base\ mkdir meshlabplugins\io_base\ & if not exist meshlabplugins\io_base\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_base\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_base\io_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\io_base\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_base\io_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-io_base-make_first: FORCE
 	@if not exist meshlabplugins\io_base\ mkdir meshlabplugins\io_base\ & if not exist meshlabplugins\io_base\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_base\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_base\io_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\io_base\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_base\io_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-io_base-all-ordered: sub-meshlabplugins-io_3ds-all-ordered  FORCE
 	@if not exist meshlabplugins\io_base\ mkdir meshlabplugins\io_base\ & if not exist meshlabplugins\io_base\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_base\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_base\io_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\io_base\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_base\io_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-io_base-all: FORCE
 	@if not exist meshlabplugins\io_base\ mkdir meshlabplugins\io_base\ & if not exist meshlabplugins\io_base\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_base\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_base\io_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\io_base\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_base\io_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-io_base-clean-ordered: sub-meshlabplugins-io_3ds-clean-ordered  FORCE
 	@if not exist meshlabplugins\io_base\ mkdir meshlabplugins\io_base\ & if not exist meshlabplugins\io_base\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_base\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_base\io_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\io_base\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_base\io_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-io_base-clean: FORCE
 	@if not exist meshlabplugins\io_base\ mkdir meshlabplugins\io_base\ & if not exist meshlabplugins\io_base\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_base\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_base\io_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\io_base\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_base\io_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-io_base-distclean-ordered: sub-meshlabplugins-io_3ds-distclean-ordered  FORCE
 	@if not exist meshlabplugins\io_base\ mkdir meshlabplugins\io_base\ & if not exist meshlabplugins\io_base\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_base\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_base\io_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\io_base\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_base\io_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-io_base-distclean: FORCE
 	@if not exist meshlabplugins\io_base\ mkdir meshlabplugins\io_base\ & if not exist meshlabplugins\io_base\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_base\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_base\io_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\io_base\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_base\io_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-io_base-install_subtargets-ordered: sub-meshlabplugins-io_3ds-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\io_base\ mkdir meshlabplugins\io_base\ & if not exist meshlabplugins\io_base\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_base\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_base\io_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\io_base\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_base\io_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-io_base-install_subtargets: FORCE
 	@if not exist meshlabplugins\io_base\ mkdir meshlabplugins\io_base\ & if not exist meshlabplugins\io_base\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_base\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_base\io_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\io_base\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_base\io_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-io_base-uninstall_subtargets-ordered: sub-meshlabplugins-io_3ds-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\io_base\ mkdir meshlabplugins\io_base\ & if not exist meshlabplugins\io_base\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_base\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_base\io_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\io_base\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_base\io_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-io_base-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\io_base\ mkdir meshlabplugins\io_base\ & if not exist meshlabplugins\io_base\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_base\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_base\io_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\io_base\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_base\io_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-io_bre-qmake_all: sub-meshlabplugins-io_base-qmake_all FORCE
 	@if not exist meshlabplugins\io_bre\ mkdir meshlabplugins\io_bre\ & if not exist meshlabplugins\io_bre\ exit 1
-	cd meshlabplugins\io_bre\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_bre\io_bre.pro -spec win32-msvc
+	cd meshlabplugins\io_bre\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_bre\io_bre.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\io_bre\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-io_bre: FORCE
 	@if not exist meshlabplugins\io_bre\ mkdir meshlabplugins\io_bre\ & if not exist meshlabplugins\io_bre\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_bre\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_bre\io_bre.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\io_bre\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_bre\io_bre.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-io_bre-make_first-ordered: sub-meshlabplugins-io_base-make_first-ordered  FORCE
 	@if not exist meshlabplugins\io_bre\ mkdir meshlabplugins\io_bre\ & if not exist meshlabplugins\io_bre\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_bre\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_bre\io_bre.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\io_bre\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_bre\io_bre.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-io_bre-make_first: FORCE
 	@if not exist meshlabplugins\io_bre\ mkdir meshlabplugins\io_bre\ & if not exist meshlabplugins\io_bre\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_bre\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_bre\io_bre.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\io_bre\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_bre\io_bre.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-io_bre-all-ordered: sub-meshlabplugins-io_base-all-ordered  FORCE
 	@if not exist meshlabplugins\io_bre\ mkdir meshlabplugins\io_bre\ & if not exist meshlabplugins\io_bre\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_bre\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_bre\io_bre.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\io_bre\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_bre\io_bre.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-io_bre-all: FORCE
 	@if not exist meshlabplugins\io_bre\ mkdir meshlabplugins\io_bre\ & if not exist meshlabplugins\io_bre\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_bre\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_bre\io_bre.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\io_bre\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_bre\io_bre.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-io_bre-clean-ordered: sub-meshlabplugins-io_base-clean-ordered  FORCE
 	@if not exist meshlabplugins\io_bre\ mkdir meshlabplugins\io_bre\ & if not exist meshlabplugins\io_bre\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_bre\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_bre\io_bre.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\io_bre\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_bre\io_bre.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-io_bre-clean: FORCE
 	@if not exist meshlabplugins\io_bre\ mkdir meshlabplugins\io_bre\ & if not exist meshlabplugins\io_bre\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_bre\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_bre\io_bre.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\io_bre\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_bre\io_bre.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-io_bre-distclean-ordered: sub-meshlabplugins-io_base-distclean-ordered  FORCE
 	@if not exist meshlabplugins\io_bre\ mkdir meshlabplugins\io_bre\ & if not exist meshlabplugins\io_bre\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_bre\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_bre\io_bre.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\io_bre\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_bre\io_bre.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-io_bre-distclean: FORCE
 	@if not exist meshlabplugins\io_bre\ mkdir meshlabplugins\io_bre\ & if not exist meshlabplugins\io_bre\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_bre\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_bre\io_bre.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\io_bre\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_bre\io_bre.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-io_bre-install_subtargets-ordered: sub-meshlabplugins-io_base-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\io_bre\ mkdir meshlabplugins\io_bre\ & if not exist meshlabplugins\io_bre\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_bre\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_bre\io_bre.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\io_bre\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_bre\io_bre.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-io_bre-install_subtargets: FORCE
 	@if not exist meshlabplugins\io_bre\ mkdir meshlabplugins\io_bre\ & if not exist meshlabplugins\io_bre\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_bre\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_bre\io_bre.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\io_bre\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_bre\io_bre.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-io_bre-uninstall_subtargets-ordered: sub-meshlabplugins-io_base-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\io_bre\ mkdir meshlabplugins\io_bre\ & if not exist meshlabplugins\io_bre\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_bre\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_bre\io_bre.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\io_bre\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_bre\io_bre.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-io_bre-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\io_bre\ mkdir meshlabplugins\io_bre\ & if not exist meshlabplugins\io_bre\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_bre\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_bre\io_bre.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\io_bre\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_bre\io_bre.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-io_collada-qmake_all: sub-meshlabplugins-io_bre-qmake_all FORCE
 	@if not exist meshlabplugins\io_collada\ mkdir meshlabplugins\io_collada\ & if not exist meshlabplugins\io_collada\ exit 1
-	cd meshlabplugins\io_collada\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_collada\io_collada.pro -spec win32-msvc
+	cd meshlabplugins\io_collada\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_collada\io_collada.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\io_collada\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-io_collada: FORCE
 	@if not exist meshlabplugins\io_collada\ mkdir meshlabplugins\io_collada\ & if not exist meshlabplugins\io_collada\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_collada\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_collada\io_collada.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\io_collada\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_collada\io_collada.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-io_collada-make_first-ordered: sub-meshlabplugins-io_bre-make_first-ordered  FORCE
 	@if not exist meshlabplugins\io_collada\ mkdir meshlabplugins\io_collada\ & if not exist meshlabplugins\io_collada\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_collada\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_collada\io_collada.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\io_collada\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_collada\io_collada.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-io_collada-make_first: FORCE
 	@if not exist meshlabplugins\io_collada\ mkdir meshlabplugins\io_collada\ & if not exist meshlabplugins\io_collada\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_collada\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_collada\io_collada.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\io_collada\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_collada\io_collada.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-io_collada-all-ordered: sub-meshlabplugins-io_bre-all-ordered  FORCE
 	@if not exist meshlabplugins\io_collada\ mkdir meshlabplugins\io_collada\ & if not exist meshlabplugins\io_collada\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_collada\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_collada\io_collada.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\io_collada\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_collada\io_collada.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-io_collada-all: FORCE
 	@if not exist meshlabplugins\io_collada\ mkdir meshlabplugins\io_collada\ & if not exist meshlabplugins\io_collada\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_collada\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_collada\io_collada.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\io_collada\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_collada\io_collada.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-io_collada-clean-ordered: sub-meshlabplugins-io_bre-clean-ordered  FORCE
 	@if not exist meshlabplugins\io_collada\ mkdir meshlabplugins\io_collada\ & if not exist meshlabplugins\io_collada\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_collada\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_collada\io_collada.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\io_collada\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_collada\io_collada.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-io_collada-clean: FORCE
 	@if not exist meshlabplugins\io_collada\ mkdir meshlabplugins\io_collada\ & if not exist meshlabplugins\io_collada\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_collada\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_collada\io_collada.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\io_collada\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_collada\io_collada.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-io_collada-distclean-ordered: sub-meshlabplugins-io_bre-distclean-ordered  FORCE
 	@if not exist meshlabplugins\io_collada\ mkdir meshlabplugins\io_collada\ & if not exist meshlabplugins\io_collada\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_collada\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_collada\io_collada.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\io_collada\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_collada\io_collada.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-io_collada-distclean: FORCE
 	@if not exist meshlabplugins\io_collada\ mkdir meshlabplugins\io_collada\ & if not exist meshlabplugins\io_collada\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_collada\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_collada\io_collada.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\io_collada\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_collada\io_collada.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-io_collada-install_subtargets-ordered: sub-meshlabplugins-io_bre-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\io_collada\ mkdir meshlabplugins\io_collada\ & if not exist meshlabplugins\io_collada\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_collada\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_collada\io_collada.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\io_collada\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_collada\io_collada.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-io_collada-install_subtargets: FORCE
 	@if not exist meshlabplugins\io_collada\ mkdir meshlabplugins\io_collada\ & if not exist meshlabplugins\io_collada\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_collada\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_collada\io_collada.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\io_collada\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_collada\io_collada.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-io_collada-uninstall_subtargets-ordered: sub-meshlabplugins-io_bre-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\io_collada\ mkdir meshlabplugins\io_collada\ & if not exist meshlabplugins\io_collada\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_collada\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_collada\io_collada.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\io_collada\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_collada\io_collada.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-io_collada-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\io_collada\ mkdir meshlabplugins\io_collada\ & if not exist meshlabplugins\io_collada\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_collada\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_collada\io_collada.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\io_collada\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_collada\io_collada.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-io_ctm-qmake_all: sub-meshlabplugins-io_collada-qmake_all FORCE
 	@if not exist meshlabplugins\io_ctm\ mkdir meshlabplugins\io_ctm\ & if not exist meshlabplugins\io_ctm\ exit 1
-	cd meshlabplugins\io_ctm\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_ctm\io_ctm.pro -spec win32-msvc
+	cd meshlabplugins\io_ctm\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_ctm\io_ctm.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\io_ctm\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-io_ctm: FORCE
 	@if not exist meshlabplugins\io_ctm\ mkdir meshlabplugins\io_ctm\ & if not exist meshlabplugins\io_ctm\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_ctm\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_ctm\io_ctm.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\io_ctm\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_ctm\io_ctm.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-io_ctm-make_first-ordered: sub-meshlabplugins-io_collada-make_first-ordered  FORCE
 	@if not exist meshlabplugins\io_ctm\ mkdir meshlabplugins\io_ctm\ & if not exist meshlabplugins\io_ctm\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_ctm\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_ctm\io_ctm.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\io_ctm\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_ctm\io_ctm.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-io_ctm-make_first: FORCE
 	@if not exist meshlabplugins\io_ctm\ mkdir meshlabplugins\io_ctm\ & if not exist meshlabplugins\io_ctm\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_ctm\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_ctm\io_ctm.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\io_ctm\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_ctm\io_ctm.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-io_ctm-all-ordered: sub-meshlabplugins-io_collada-all-ordered  FORCE
 	@if not exist meshlabplugins\io_ctm\ mkdir meshlabplugins\io_ctm\ & if not exist meshlabplugins\io_ctm\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_ctm\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_ctm\io_ctm.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\io_ctm\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_ctm\io_ctm.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-io_ctm-all: FORCE
 	@if not exist meshlabplugins\io_ctm\ mkdir meshlabplugins\io_ctm\ & if not exist meshlabplugins\io_ctm\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_ctm\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_ctm\io_ctm.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\io_ctm\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_ctm\io_ctm.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-io_ctm-clean-ordered: sub-meshlabplugins-io_collada-clean-ordered  FORCE
 	@if not exist meshlabplugins\io_ctm\ mkdir meshlabplugins\io_ctm\ & if not exist meshlabplugins\io_ctm\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_ctm\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_ctm\io_ctm.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\io_ctm\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_ctm\io_ctm.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-io_ctm-clean: FORCE
 	@if not exist meshlabplugins\io_ctm\ mkdir meshlabplugins\io_ctm\ & if not exist meshlabplugins\io_ctm\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_ctm\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_ctm\io_ctm.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\io_ctm\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_ctm\io_ctm.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-io_ctm-distclean-ordered: sub-meshlabplugins-io_collada-distclean-ordered  FORCE
 	@if not exist meshlabplugins\io_ctm\ mkdir meshlabplugins\io_ctm\ & if not exist meshlabplugins\io_ctm\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_ctm\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_ctm\io_ctm.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\io_ctm\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_ctm\io_ctm.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-io_ctm-distclean: FORCE
 	@if not exist meshlabplugins\io_ctm\ mkdir meshlabplugins\io_ctm\ & if not exist meshlabplugins\io_ctm\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_ctm\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_ctm\io_ctm.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\io_ctm\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_ctm\io_ctm.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-io_ctm-install_subtargets-ordered: sub-meshlabplugins-io_collada-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\io_ctm\ mkdir meshlabplugins\io_ctm\ & if not exist meshlabplugins\io_ctm\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_ctm\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_ctm\io_ctm.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\io_ctm\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_ctm\io_ctm.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-io_ctm-install_subtargets: FORCE
 	@if not exist meshlabplugins\io_ctm\ mkdir meshlabplugins\io_ctm\ & if not exist meshlabplugins\io_ctm\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_ctm\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_ctm\io_ctm.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\io_ctm\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_ctm\io_ctm.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-io_ctm-uninstall_subtargets-ordered: sub-meshlabplugins-io_collada-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\io_ctm\ mkdir meshlabplugins\io_ctm\ & if not exist meshlabplugins\io_ctm\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_ctm\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_ctm\io_ctm.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\io_ctm\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_ctm\io_ctm.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-io_ctm-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\io_ctm\ mkdir meshlabplugins\io_ctm\ & if not exist meshlabplugins\io_ctm\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_ctm\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_ctm\io_ctm.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\io_ctm\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_ctm\io_ctm.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-io_expe-qmake_all: sub-meshlabplugins-io_ctm-qmake_all FORCE
 	@if not exist meshlabplugins\io_expe\ mkdir meshlabplugins\io_expe\ & if not exist meshlabplugins\io_expe\ exit 1
-	cd meshlabplugins\io_expe\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_expe\io_expe.pro -spec win32-msvc
+	cd meshlabplugins\io_expe\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_expe\io_expe.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\io_expe\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-io_expe: FORCE
 	@if not exist meshlabplugins\io_expe\ mkdir meshlabplugins\io_expe\ & if not exist meshlabplugins\io_expe\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_expe\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_expe\io_expe.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\io_expe\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_expe\io_expe.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-io_expe-make_first-ordered: sub-meshlabplugins-io_ctm-make_first-ordered  FORCE
 	@if not exist meshlabplugins\io_expe\ mkdir meshlabplugins\io_expe\ & if not exist meshlabplugins\io_expe\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_expe\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_expe\io_expe.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\io_expe\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_expe\io_expe.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-io_expe-make_first: FORCE
 	@if not exist meshlabplugins\io_expe\ mkdir meshlabplugins\io_expe\ & if not exist meshlabplugins\io_expe\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_expe\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_expe\io_expe.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\io_expe\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_expe\io_expe.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-io_expe-all-ordered: sub-meshlabplugins-io_ctm-all-ordered  FORCE
 	@if not exist meshlabplugins\io_expe\ mkdir meshlabplugins\io_expe\ & if not exist meshlabplugins\io_expe\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_expe\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_expe\io_expe.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\io_expe\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_expe\io_expe.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-io_expe-all: FORCE
 	@if not exist meshlabplugins\io_expe\ mkdir meshlabplugins\io_expe\ & if not exist meshlabplugins\io_expe\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_expe\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_expe\io_expe.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\io_expe\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_expe\io_expe.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-io_expe-clean-ordered: sub-meshlabplugins-io_ctm-clean-ordered  FORCE
 	@if not exist meshlabplugins\io_expe\ mkdir meshlabplugins\io_expe\ & if not exist meshlabplugins\io_expe\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_expe\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_expe\io_expe.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\io_expe\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_expe\io_expe.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-io_expe-clean: FORCE
 	@if not exist meshlabplugins\io_expe\ mkdir meshlabplugins\io_expe\ & if not exist meshlabplugins\io_expe\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_expe\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_expe\io_expe.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\io_expe\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_expe\io_expe.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-io_expe-distclean-ordered: sub-meshlabplugins-io_ctm-distclean-ordered  FORCE
 	@if not exist meshlabplugins\io_expe\ mkdir meshlabplugins\io_expe\ & if not exist meshlabplugins\io_expe\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_expe\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_expe\io_expe.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\io_expe\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_expe\io_expe.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-io_expe-distclean: FORCE
 	@if not exist meshlabplugins\io_expe\ mkdir meshlabplugins\io_expe\ & if not exist meshlabplugins\io_expe\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_expe\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_expe\io_expe.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\io_expe\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_expe\io_expe.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-io_expe-install_subtargets-ordered: sub-meshlabplugins-io_ctm-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\io_expe\ mkdir meshlabplugins\io_expe\ & if not exist meshlabplugins\io_expe\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_expe\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_expe\io_expe.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\io_expe\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_expe\io_expe.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-io_expe-install_subtargets: FORCE
 	@if not exist meshlabplugins\io_expe\ mkdir meshlabplugins\io_expe\ & if not exist meshlabplugins\io_expe\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_expe\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_expe\io_expe.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\io_expe\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_expe\io_expe.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-io_expe-uninstall_subtargets-ordered: sub-meshlabplugins-io_ctm-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\io_expe\ mkdir meshlabplugins\io_expe\ & if not exist meshlabplugins\io_expe\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_expe\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_expe\io_expe.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\io_expe\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_expe\io_expe.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-io_expe-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\io_expe\ mkdir meshlabplugins\io_expe\ & if not exist meshlabplugins\io_expe\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_expe\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_expe\io_expe.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\io_expe\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_expe\io_expe.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-io_json-qmake_all: sub-meshlabplugins-io_expe-qmake_all FORCE
 	@if not exist meshlabplugins\io_json\ mkdir meshlabplugins\io_json\ & if not exist meshlabplugins\io_json\ exit 1
-	cd meshlabplugins\io_json\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_json\io_json.pro -spec win32-msvc
+	cd meshlabplugins\io_json\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_json\io_json.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\io_json\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-io_json: FORCE
 	@if not exist meshlabplugins\io_json\ mkdir meshlabplugins\io_json\ & if not exist meshlabplugins\io_json\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_json\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_json\io_json.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\io_json\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_json\io_json.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-io_json-make_first-ordered: sub-meshlabplugins-io_expe-make_first-ordered  FORCE
 	@if not exist meshlabplugins\io_json\ mkdir meshlabplugins\io_json\ & if not exist meshlabplugins\io_json\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_json\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_json\io_json.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\io_json\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_json\io_json.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-io_json-make_first: FORCE
 	@if not exist meshlabplugins\io_json\ mkdir meshlabplugins\io_json\ & if not exist meshlabplugins\io_json\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_json\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_json\io_json.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\io_json\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_json\io_json.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-io_json-all-ordered: sub-meshlabplugins-io_expe-all-ordered  FORCE
 	@if not exist meshlabplugins\io_json\ mkdir meshlabplugins\io_json\ & if not exist meshlabplugins\io_json\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_json\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_json\io_json.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\io_json\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_json\io_json.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-io_json-all: FORCE
 	@if not exist meshlabplugins\io_json\ mkdir meshlabplugins\io_json\ & if not exist meshlabplugins\io_json\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_json\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_json\io_json.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\io_json\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_json\io_json.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-io_json-clean-ordered: sub-meshlabplugins-io_expe-clean-ordered  FORCE
 	@if not exist meshlabplugins\io_json\ mkdir meshlabplugins\io_json\ & if not exist meshlabplugins\io_json\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_json\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_json\io_json.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\io_json\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_json\io_json.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-io_json-clean: FORCE
 	@if not exist meshlabplugins\io_json\ mkdir meshlabplugins\io_json\ & if not exist meshlabplugins\io_json\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_json\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_json\io_json.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\io_json\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_json\io_json.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-io_json-distclean-ordered: sub-meshlabplugins-io_expe-distclean-ordered  FORCE
 	@if not exist meshlabplugins\io_json\ mkdir meshlabplugins\io_json\ & if not exist meshlabplugins\io_json\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_json\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_json\io_json.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\io_json\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_json\io_json.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-io_json-distclean: FORCE
 	@if not exist meshlabplugins\io_json\ mkdir meshlabplugins\io_json\ & if not exist meshlabplugins\io_json\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_json\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_json\io_json.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\io_json\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_json\io_json.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-io_json-install_subtargets-ordered: sub-meshlabplugins-io_expe-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\io_json\ mkdir meshlabplugins\io_json\ & if not exist meshlabplugins\io_json\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_json\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_json\io_json.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\io_json\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_json\io_json.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-io_json-install_subtargets: FORCE
 	@if not exist meshlabplugins\io_json\ mkdir meshlabplugins\io_json\ & if not exist meshlabplugins\io_json\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_json\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_json\io_json.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\io_json\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_json\io_json.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-io_json-uninstall_subtargets-ordered: sub-meshlabplugins-io_expe-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\io_json\ mkdir meshlabplugins\io_json\ & if not exist meshlabplugins\io_json\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_json\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_json\io_json.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\io_json\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_json\io_json.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-io_json-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\io_json\ mkdir meshlabplugins\io_json\ & if not exist meshlabplugins\io_json\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_json\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_json\io_json.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\io_json\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_json\io_json.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-io_tri-qmake_all: sub-meshlabplugins-io_json-qmake_all FORCE
 	@if not exist meshlabplugins\io_tri\ mkdir meshlabplugins\io_tri\ & if not exist meshlabplugins\io_tri\ exit 1
-	cd meshlabplugins\io_tri\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_tri\io_tri.pro -spec win32-msvc
+	cd meshlabplugins\io_tri\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_tri\io_tri.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\io_tri\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-io_tri: FORCE
 	@if not exist meshlabplugins\io_tri\ mkdir meshlabplugins\io_tri\ & if not exist meshlabplugins\io_tri\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_tri\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_tri\io_tri.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\io_tri\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_tri\io_tri.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-io_tri-make_first-ordered: sub-meshlabplugins-io_json-make_first-ordered  FORCE
 	@if not exist meshlabplugins\io_tri\ mkdir meshlabplugins\io_tri\ & if not exist meshlabplugins\io_tri\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_tri\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_tri\io_tri.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\io_tri\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_tri\io_tri.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-io_tri-make_first: FORCE
 	@if not exist meshlabplugins\io_tri\ mkdir meshlabplugins\io_tri\ & if not exist meshlabplugins\io_tri\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_tri\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_tri\io_tri.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\io_tri\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_tri\io_tri.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-io_tri-all-ordered: sub-meshlabplugins-io_json-all-ordered  FORCE
 	@if not exist meshlabplugins\io_tri\ mkdir meshlabplugins\io_tri\ & if not exist meshlabplugins\io_tri\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_tri\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_tri\io_tri.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\io_tri\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_tri\io_tri.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-io_tri-all: FORCE
 	@if not exist meshlabplugins\io_tri\ mkdir meshlabplugins\io_tri\ & if not exist meshlabplugins\io_tri\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_tri\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_tri\io_tri.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\io_tri\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_tri\io_tri.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-io_tri-clean-ordered: sub-meshlabplugins-io_json-clean-ordered  FORCE
 	@if not exist meshlabplugins\io_tri\ mkdir meshlabplugins\io_tri\ & if not exist meshlabplugins\io_tri\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_tri\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_tri\io_tri.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\io_tri\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_tri\io_tri.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-io_tri-clean: FORCE
 	@if not exist meshlabplugins\io_tri\ mkdir meshlabplugins\io_tri\ & if not exist meshlabplugins\io_tri\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_tri\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_tri\io_tri.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\io_tri\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_tri\io_tri.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-io_tri-distclean-ordered: sub-meshlabplugins-io_json-distclean-ordered  FORCE
 	@if not exist meshlabplugins\io_tri\ mkdir meshlabplugins\io_tri\ & if not exist meshlabplugins\io_tri\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_tri\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_tri\io_tri.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\io_tri\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_tri\io_tri.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-io_tri-distclean: FORCE
 	@if not exist meshlabplugins\io_tri\ mkdir meshlabplugins\io_tri\ & if not exist meshlabplugins\io_tri\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_tri\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_tri\io_tri.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\io_tri\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_tri\io_tri.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-io_tri-install_subtargets-ordered: sub-meshlabplugins-io_json-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\io_tri\ mkdir meshlabplugins\io_tri\ & if not exist meshlabplugins\io_tri\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_tri\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_tri\io_tri.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\io_tri\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_tri\io_tri.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-io_tri-install_subtargets: FORCE
 	@if not exist meshlabplugins\io_tri\ mkdir meshlabplugins\io_tri\ & if not exist meshlabplugins\io_tri\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_tri\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_tri\io_tri.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\io_tri\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_tri\io_tri.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-io_tri-uninstall_subtargets-ordered: sub-meshlabplugins-io_json-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\io_tri\ mkdir meshlabplugins\io_tri\ & if not exist meshlabplugins\io_tri\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_tri\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_tri\io_tri.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\io_tri\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_tri\io_tri.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-io_tri-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\io_tri\ mkdir meshlabplugins\io_tri\ & if not exist meshlabplugins\io_tri\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_tri\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_tri\io_tri.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\io_tri\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_tri\io_tri.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-io_x3d-qmake_all: sub-meshlabplugins-io_tri-qmake_all FORCE
 	@if not exist meshlabplugins\io_x3d\ mkdir meshlabplugins\io_x3d\ & if not exist meshlabplugins\io_x3d\ exit 1
-	cd meshlabplugins\io_x3d\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_x3d\io_x3d.pro -spec win32-msvc
+	cd meshlabplugins\io_x3d\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_x3d\io_x3d.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\io_x3d\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-io_x3d: FORCE
 	@if not exist meshlabplugins\io_x3d\ mkdir meshlabplugins\io_x3d\ & if not exist meshlabplugins\io_x3d\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_x3d\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_x3d\io_x3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\io_x3d\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_x3d\io_x3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-io_x3d-make_first-ordered: sub-meshlabplugins-io_tri-make_first-ordered  FORCE
 	@if not exist meshlabplugins\io_x3d\ mkdir meshlabplugins\io_x3d\ & if not exist meshlabplugins\io_x3d\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_x3d\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_x3d\io_x3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\io_x3d\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_x3d\io_x3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-io_x3d-make_first: FORCE
 	@if not exist meshlabplugins\io_x3d\ mkdir meshlabplugins\io_x3d\ & if not exist meshlabplugins\io_x3d\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_x3d\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_x3d\io_x3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\io_x3d\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_x3d\io_x3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-io_x3d-all-ordered: sub-meshlabplugins-io_tri-all-ordered  FORCE
 	@if not exist meshlabplugins\io_x3d\ mkdir meshlabplugins\io_x3d\ & if not exist meshlabplugins\io_x3d\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_x3d\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_x3d\io_x3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\io_x3d\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_x3d\io_x3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-io_x3d-all: FORCE
 	@if not exist meshlabplugins\io_x3d\ mkdir meshlabplugins\io_x3d\ & if not exist meshlabplugins\io_x3d\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_x3d\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_x3d\io_x3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\io_x3d\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_x3d\io_x3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-io_x3d-clean-ordered: sub-meshlabplugins-io_tri-clean-ordered  FORCE
 	@if not exist meshlabplugins\io_x3d\ mkdir meshlabplugins\io_x3d\ & if not exist meshlabplugins\io_x3d\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_x3d\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_x3d\io_x3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\io_x3d\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_x3d\io_x3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-io_x3d-clean: FORCE
 	@if not exist meshlabplugins\io_x3d\ mkdir meshlabplugins\io_x3d\ & if not exist meshlabplugins\io_x3d\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_x3d\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_x3d\io_x3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\io_x3d\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_x3d\io_x3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-io_x3d-distclean-ordered: sub-meshlabplugins-io_tri-distclean-ordered  FORCE
 	@if not exist meshlabplugins\io_x3d\ mkdir meshlabplugins\io_x3d\ & if not exist meshlabplugins\io_x3d\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_x3d\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_x3d\io_x3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\io_x3d\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_x3d\io_x3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-io_x3d-distclean: FORCE
 	@if not exist meshlabplugins\io_x3d\ mkdir meshlabplugins\io_x3d\ & if not exist meshlabplugins\io_x3d\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_x3d\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_x3d\io_x3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\io_x3d\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_x3d\io_x3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-io_x3d-install_subtargets-ordered: sub-meshlabplugins-io_tri-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\io_x3d\ mkdir meshlabplugins\io_x3d\ & if not exist meshlabplugins\io_x3d\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_x3d\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_x3d\io_x3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\io_x3d\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_x3d\io_x3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-io_x3d-install_subtargets: FORCE
 	@if not exist meshlabplugins\io_x3d\ mkdir meshlabplugins\io_x3d\ & if not exist meshlabplugins\io_x3d\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_x3d\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_x3d\io_x3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\io_x3d\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_x3d\io_x3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-io_x3d-uninstall_subtargets-ordered: sub-meshlabplugins-io_tri-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\io_x3d\ mkdir meshlabplugins\io_x3d\ & if not exist meshlabplugins\io_x3d\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_x3d\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_x3d\io_x3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\io_x3d\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_x3d\io_x3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-io_x3d-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\io_x3d\ mkdir meshlabplugins\io_x3d\ & if not exist meshlabplugins\io_x3d\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_x3d\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_x3d\io_x3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\io_x3d\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_x3d\io_x3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-io_pdb-qmake_all: sub-meshlabplugins-io_x3d-qmake_all FORCE
 	@if not exist meshlabplugins\io_pdb\ mkdir meshlabplugins\io_pdb\ & if not exist meshlabplugins\io_pdb\ exit 1
-	cd meshlabplugins\io_pdb\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_pdb\io_pdb.pro -spec win32-msvc
+	cd meshlabplugins\io_pdb\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_pdb\io_pdb.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\io_pdb\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-io_pdb: FORCE
 	@if not exist meshlabplugins\io_pdb\ mkdir meshlabplugins\io_pdb\ & if not exist meshlabplugins\io_pdb\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_pdb\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_pdb\io_pdb.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\io_pdb\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_pdb\io_pdb.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-io_pdb-make_first-ordered: sub-meshlabplugins-io_x3d-make_first-ordered  FORCE
 	@if not exist meshlabplugins\io_pdb\ mkdir meshlabplugins\io_pdb\ & if not exist meshlabplugins\io_pdb\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_pdb\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_pdb\io_pdb.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\io_pdb\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_pdb\io_pdb.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-io_pdb-make_first: FORCE
 	@if not exist meshlabplugins\io_pdb\ mkdir meshlabplugins\io_pdb\ & if not exist meshlabplugins\io_pdb\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_pdb\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_pdb\io_pdb.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\io_pdb\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_pdb\io_pdb.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-io_pdb-all-ordered: sub-meshlabplugins-io_x3d-all-ordered  FORCE
 	@if not exist meshlabplugins\io_pdb\ mkdir meshlabplugins\io_pdb\ & if not exist meshlabplugins\io_pdb\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_pdb\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_pdb\io_pdb.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\io_pdb\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_pdb\io_pdb.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-io_pdb-all: FORCE
 	@if not exist meshlabplugins\io_pdb\ mkdir meshlabplugins\io_pdb\ & if not exist meshlabplugins\io_pdb\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_pdb\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_pdb\io_pdb.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\io_pdb\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_pdb\io_pdb.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-io_pdb-clean-ordered: sub-meshlabplugins-io_x3d-clean-ordered  FORCE
 	@if not exist meshlabplugins\io_pdb\ mkdir meshlabplugins\io_pdb\ & if not exist meshlabplugins\io_pdb\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_pdb\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_pdb\io_pdb.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\io_pdb\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_pdb\io_pdb.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-io_pdb-clean: FORCE
 	@if not exist meshlabplugins\io_pdb\ mkdir meshlabplugins\io_pdb\ & if not exist meshlabplugins\io_pdb\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_pdb\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_pdb\io_pdb.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\io_pdb\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_pdb\io_pdb.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-io_pdb-distclean-ordered: sub-meshlabplugins-io_x3d-distclean-ordered  FORCE
 	@if not exist meshlabplugins\io_pdb\ mkdir meshlabplugins\io_pdb\ & if not exist meshlabplugins\io_pdb\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_pdb\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_pdb\io_pdb.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\io_pdb\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_pdb\io_pdb.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-io_pdb-distclean: FORCE
 	@if not exist meshlabplugins\io_pdb\ mkdir meshlabplugins\io_pdb\ & if not exist meshlabplugins\io_pdb\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_pdb\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_pdb\io_pdb.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\io_pdb\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_pdb\io_pdb.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-io_pdb-install_subtargets-ordered: sub-meshlabplugins-io_x3d-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\io_pdb\ mkdir meshlabplugins\io_pdb\ & if not exist meshlabplugins\io_pdb\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_pdb\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_pdb\io_pdb.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\io_pdb\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_pdb\io_pdb.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-io_pdb-install_subtargets: FORCE
 	@if not exist meshlabplugins\io_pdb\ mkdir meshlabplugins\io_pdb\ & if not exist meshlabplugins\io_pdb\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_pdb\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_pdb\io_pdb.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\io_pdb\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_pdb\io_pdb.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-io_pdb-uninstall_subtargets-ordered: sub-meshlabplugins-io_x3d-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\io_pdb\ mkdir meshlabplugins\io_pdb\ & if not exist meshlabplugins\io_pdb\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_pdb\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_pdb\io_pdb.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\io_pdb\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_pdb\io_pdb.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-io_pdb-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\io_pdb\ mkdir meshlabplugins\io_pdb\ & if not exist meshlabplugins\io_pdb\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_pdb\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_pdb\io_pdb.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\io_pdb\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_pdb\io_pdb.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-io_txt-qmake_all: sub-meshlabplugins-io_pdb-qmake_all FORCE
 	@if not exist meshlabplugins\io_txt\ mkdir meshlabplugins\io_txt\ & if not exist meshlabplugins\io_txt\ exit 1
-	cd meshlabplugins\io_txt\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_txt\io_txt.pro -spec win32-msvc
+	cd meshlabplugins\io_txt\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_txt\io_txt.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\io_txt\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-io_txt: FORCE
 	@if not exist meshlabplugins\io_txt\ mkdir meshlabplugins\io_txt\ & if not exist meshlabplugins\io_txt\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_txt\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_txt\io_txt.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\io_txt\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_txt\io_txt.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-io_txt-make_first-ordered: sub-meshlabplugins-io_pdb-make_first-ordered  FORCE
 	@if not exist meshlabplugins\io_txt\ mkdir meshlabplugins\io_txt\ & if not exist meshlabplugins\io_txt\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_txt\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_txt\io_txt.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\io_txt\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_txt\io_txt.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-io_txt-make_first: FORCE
 	@if not exist meshlabplugins\io_txt\ mkdir meshlabplugins\io_txt\ & if not exist meshlabplugins\io_txt\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_txt\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_txt\io_txt.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\io_txt\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_txt\io_txt.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-io_txt-all-ordered: sub-meshlabplugins-io_pdb-all-ordered  FORCE
 	@if not exist meshlabplugins\io_txt\ mkdir meshlabplugins\io_txt\ & if not exist meshlabplugins\io_txt\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_txt\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_txt\io_txt.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\io_txt\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_txt\io_txt.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-io_txt-all: FORCE
 	@if not exist meshlabplugins\io_txt\ mkdir meshlabplugins\io_txt\ & if not exist meshlabplugins\io_txt\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_txt\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_txt\io_txt.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\io_txt\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_txt\io_txt.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-io_txt-clean-ordered: sub-meshlabplugins-io_pdb-clean-ordered  FORCE
 	@if not exist meshlabplugins\io_txt\ mkdir meshlabplugins\io_txt\ & if not exist meshlabplugins\io_txt\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_txt\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_txt\io_txt.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\io_txt\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_txt\io_txt.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-io_txt-clean: FORCE
 	@if not exist meshlabplugins\io_txt\ mkdir meshlabplugins\io_txt\ & if not exist meshlabplugins\io_txt\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_txt\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_txt\io_txt.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\io_txt\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_txt\io_txt.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-io_txt-distclean-ordered: sub-meshlabplugins-io_pdb-distclean-ordered  FORCE
 	@if not exist meshlabplugins\io_txt\ mkdir meshlabplugins\io_txt\ & if not exist meshlabplugins\io_txt\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_txt\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_txt\io_txt.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\io_txt\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_txt\io_txt.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-io_txt-distclean: FORCE
 	@if not exist meshlabplugins\io_txt\ mkdir meshlabplugins\io_txt\ & if not exist meshlabplugins\io_txt\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_txt\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_txt\io_txt.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\io_txt\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_txt\io_txt.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-io_txt-install_subtargets-ordered: sub-meshlabplugins-io_pdb-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\io_txt\ mkdir meshlabplugins\io_txt\ & if not exist meshlabplugins\io_txt\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_txt\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_txt\io_txt.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\io_txt\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_txt\io_txt.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-io_txt-install_subtargets: FORCE
 	@if not exist meshlabplugins\io_txt\ mkdir meshlabplugins\io_txt\ & if not exist meshlabplugins\io_txt\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_txt\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_txt\io_txt.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\io_txt\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_txt\io_txt.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-io_txt-uninstall_subtargets-ordered: sub-meshlabplugins-io_pdb-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\io_txt\ mkdir meshlabplugins\io_txt\ & if not exist meshlabplugins\io_txt\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_txt\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_txt\io_txt.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\io_txt\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_txt\io_txt.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-io_txt-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\io_txt\ mkdir meshlabplugins\io_txt\ & if not exist meshlabplugins\io_txt\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_txt\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_txt\io_txt.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\io_txt\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_txt\io_txt.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-io_u3d-qmake_all: sub-meshlabplugins-io_txt-qmake_all FORCE
 	@if not exist meshlabplugins\io_u3d\ mkdir meshlabplugins\io_u3d\ & if not exist meshlabplugins\io_u3d\ exit 1
-	cd meshlabplugins\io_u3d\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_u3d\io_u3d.pro -spec win32-msvc
+	cd meshlabplugins\io_u3d\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_u3d\io_u3d.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\io_u3d\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-io_u3d: FORCE
 	@if not exist meshlabplugins\io_u3d\ mkdir meshlabplugins\io_u3d\ & if not exist meshlabplugins\io_u3d\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_u3d\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_u3d\io_u3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\io_u3d\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_u3d\io_u3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-io_u3d-make_first-ordered: sub-meshlabplugins-io_txt-make_first-ordered  FORCE
 	@if not exist meshlabplugins\io_u3d\ mkdir meshlabplugins\io_u3d\ & if not exist meshlabplugins\io_u3d\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_u3d\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_u3d\io_u3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\io_u3d\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_u3d\io_u3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-io_u3d-make_first: FORCE
 	@if not exist meshlabplugins\io_u3d\ mkdir meshlabplugins\io_u3d\ & if not exist meshlabplugins\io_u3d\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_u3d\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_u3d\io_u3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\io_u3d\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_u3d\io_u3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-io_u3d-all-ordered: sub-meshlabplugins-io_txt-all-ordered  FORCE
 	@if not exist meshlabplugins\io_u3d\ mkdir meshlabplugins\io_u3d\ & if not exist meshlabplugins\io_u3d\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_u3d\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_u3d\io_u3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\io_u3d\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_u3d\io_u3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-io_u3d-all: FORCE
 	@if not exist meshlabplugins\io_u3d\ mkdir meshlabplugins\io_u3d\ & if not exist meshlabplugins\io_u3d\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_u3d\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_u3d\io_u3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\io_u3d\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_u3d\io_u3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-io_u3d-clean-ordered: sub-meshlabplugins-io_txt-clean-ordered  FORCE
 	@if not exist meshlabplugins\io_u3d\ mkdir meshlabplugins\io_u3d\ & if not exist meshlabplugins\io_u3d\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_u3d\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_u3d\io_u3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\io_u3d\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_u3d\io_u3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-io_u3d-clean: FORCE
 	@if not exist meshlabplugins\io_u3d\ mkdir meshlabplugins\io_u3d\ & if not exist meshlabplugins\io_u3d\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_u3d\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_u3d\io_u3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\io_u3d\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_u3d\io_u3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-io_u3d-distclean-ordered: sub-meshlabplugins-io_txt-distclean-ordered  FORCE
 	@if not exist meshlabplugins\io_u3d\ mkdir meshlabplugins\io_u3d\ & if not exist meshlabplugins\io_u3d\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_u3d\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_u3d\io_u3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\io_u3d\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_u3d\io_u3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-io_u3d-distclean: FORCE
 	@if not exist meshlabplugins\io_u3d\ mkdir meshlabplugins\io_u3d\ & if not exist meshlabplugins\io_u3d\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_u3d\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_u3d\io_u3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\io_u3d\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_u3d\io_u3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-io_u3d-install_subtargets-ordered: sub-meshlabplugins-io_txt-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\io_u3d\ mkdir meshlabplugins\io_u3d\ & if not exist meshlabplugins\io_u3d\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_u3d\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_u3d\io_u3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\io_u3d\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_u3d\io_u3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-io_u3d-install_subtargets: FORCE
 	@if not exist meshlabplugins\io_u3d\ mkdir meshlabplugins\io_u3d\ & if not exist meshlabplugins\io_u3d\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_u3d\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_u3d\io_u3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\io_u3d\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_u3d\io_u3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-io_u3d-uninstall_subtargets-ordered: sub-meshlabplugins-io_txt-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\io_u3d\ mkdir meshlabplugins\io_u3d\ & if not exist meshlabplugins\io_u3d\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_u3d\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_u3d\io_u3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\io_u3d\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_u3d\io_u3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-io_u3d-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\io_u3d\ mkdir meshlabplugins\io_u3d\ & if not exist meshlabplugins\io_u3d\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_u3d\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_u3d\io_u3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\io_u3d\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_u3d\io_u3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_ao-qmake_all: sub-meshlabplugins-io_u3d-qmake_all FORCE
 	@if not exist meshlabplugins\filter_ao\ mkdir meshlabplugins\filter_ao\ & if not exist meshlabplugins\filter_ao\ exit 1
-	cd meshlabplugins\filter_ao\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_ao\filter_ao.pro -spec win32-msvc
+	cd meshlabplugins\filter_ao\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_ao\filter_ao.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\filter_ao\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-filter_ao: FORCE
 	@if not exist meshlabplugins\filter_ao\ mkdir meshlabplugins\filter_ao\ & if not exist meshlabplugins\filter_ao\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_ao\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_ao\filter_ao.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\filter_ao\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_ao\filter_ao.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-filter_ao-make_first-ordered: sub-meshlabplugins-io_u3d-make_first-ordered  FORCE
 	@if not exist meshlabplugins\filter_ao\ mkdir meshlabplugins\filter_ao\ & if not exist meshlabplugins\filter_ao\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_ao\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_ao\filter_ao.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_ao\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_ao\filter_ao.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_ao-make_first: FORCE
 	@if not exist meshlabplugins\filter_ao\ mkdir meshlabplugins\filter_ao\ & if not exist meshlabplugins\filter_ao\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_ao\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_ao\filter_ao.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_ao\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_ao\filter_ao.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_ao-all-ordered: sub-meshlabplugins-io_u3d-all-ordered  FORCE
 	@if not exist meshlabplugins\filter_ao\ mkdir meshlabplugins\filter_ao\ & if not exist meshlabplugins\filter_ao\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_ao\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_ao\filter_ao.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_ao\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_ao\filter_ao.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_ao-all: FORCE
 	@if not exist meshlabplugins\filter_ao\ mkdir meshlabplugins\filter_ao\ & if not exist meshlabplugins\filter_ao\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_ao\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_ao\filter_ao.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_ao\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_ao\filter_ao.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_ao-clean-ordered: sub-meshlabplugins-io_u3d-clean-ordered  FORCE
 	@if not exist meshlabplugins\filter_ao\ mkdir meshlabplugins\filter_ao\ & if not exist meshlabplugins\filter_ao\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_ao\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_ao\filter_ao.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_ao\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_ao\filter_ao.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_ao-clean: FORCE
 	@if not exist meshlabplugins\filter_ao\ mkdir meshlabplugins\filter_ao\ & if not exist meshlabplugins\filter_ao\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_ao\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_ao\filter_ao.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_ao\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_ao\filter_ao.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_ao-distclean-ordered: sub-meshlabplugins-io_u3d-distclean-ordered  FORCE
 	@if not exist meshlabplugins\filter_ao\ mkdir meshlabplugins\filter_ao\ & if not exist meshlabplugins\filter_ao\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_ao\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_ao\filter_ao.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_ao\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_ao\filter_ao.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_ao-distclean: FORCE
 	@if not exist meshlabplugins\filter_ao\ mkdir meshlabplugins\filter_ao\ & if not exist meshlabplugins\filter_ao\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_ao\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_ao\filter_ao.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_ao\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_ao\filter_ao.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_ao-install_subtargets-ordered: sub-meshlabplugins-io_u3d-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_ao\ mkdir meshlabplugins\filter_ao\ & if not exist meshlabplugins\filter_ao\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_ao\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_ao\filter_ao.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_ao\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_ao\filter_ao.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_ao-install_subtargets: FORCE
 	@if not exist meshlabplugins\filter_ao\ mkdir meshlabplugins\filter_ao\ & if not exist meshlabplugins\filter_ao\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_ao\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_ao\filter_ao.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_ao\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_ao\filter_ao.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_ao-uninstall_subtargets-ordered: sub-meshlabplugins-io_u3d-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_ao\ mkdir meshlabplugins\filter_ao\ & if not exist meshlabplugins\filter_ao\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_ao\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_ao\filter_ao.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_ao\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_ao\filter_ao.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_ao-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\filter_ao\ mkdir meshlabplugins\filter_ao\ & if not exist meshlabplugins\filter_ao\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_ao\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_ao\filter_ao.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_ao\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_ao\filter_ao.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_camera-qmake_all: sub-meshlabplugins-filter_ao-qmake_all FORCE
 	@if not exist meshlabplugins\filter_camera\ mkdir meshlabplugins\filter_camera\ & if not exist meshlabplugins\filter_camera\ exit 1
-	cd meshlabplugins\filter_camera\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_camera\filter_camera.pro -spec win32-msvc
+	cd meshlabplugins\filter_camera\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_camera\filter_camera.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\filter_camera\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-filter_camera: FORCE
 	@if not exist meshlabplugins\filter_camera\ mkdir meshlabplugins\filter_camera\ & if not exist meshlabplugins\filter_camera\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_camera\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_camera\filter_camera.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\filter_camera\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_camera\filter_camera.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-filter_camera-make_first-ordered: sub-meshlabplugins-filter_ao-make_first-ordered  FORCE
 	@if not exist meshlabplugins\filter_camera\ mkdir meshlabplugins\filter_camera\ & if not exist meshlabplugins\filter_camera\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_camera\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_camera\filter_camera.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_camera\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_camera\filter_camera.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_camera-make_first: FORCE
 	@if not exist meshlabplugins\filter_camera\ mkdir meshlabplugins\filter_camera\ & if not exist meshlabplugins\filter_camera\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_camera\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_camera\filter_camera.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_camera\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_camera\filter_camera.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_camera-all-ordered: sub-meshlabplugins-filter_ao-all-ordered  FORCE
 	@if not exist meshlabplugins\filter_camera\ mkdir meshlabplugins\filter_camera\ & if not exist meshlabplugins\filter_camera\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_camera\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_camera\filter_camera.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_camera\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_camera\filter_camera.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_camera-all: FORCE
 	@if not exist meshlabplugins\filter_camera\ mkdir meshlabplugins\filter_camera\ & if not exist meshlabplugins\filter_camera\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_camera\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_camera\filter_camera.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_camera\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_camera\filter_camera.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_camera-clean-ordered: sub-meshlabplugins-filter_ao-clean-ordered  FORCE
 	@if not exist meshlabplugins\filter_camera\ mkdir meshlabplugins\filter_camera\ & if not exist meshlabplugins\filter_camera\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_camera\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_camera\filter_camera.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_camera\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_camera\filter_camera.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_camera-clean: FORCE
 	@if not exist meshlabplugins\filter_camera\ mkdir meshlabplugins\filter_camera\ & if not exist meshlabplugins\filter_camera\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_camera\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_camera\filter_camera.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_camera\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_camera\filter_camera.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_camera-distclean-ordered: sub-meshlabplugins-filter_ao-distclean-ordered  FORCE
 	@if not exist meshlabplugins\filter_camera\ mkdir meshlabplugins\filter_camera\ & if not exist meshlabplugins\filter_camera\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_camera\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_camera\filter_camera.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_camera\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_camera\filter_camera.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_camera-distclean: FORCE
 	@if not exist meshlabplugins\filter_camera\ mkdir meshlabplugins\filter_camera\ & if not exist meshlabplugins\filter_camera\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_camera\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_camera\filter_camera.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_camera\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_camera\filter_camera.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_camera-install_subtargets-ordered: sub-meshlabplugins-filter_ao-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_camera\ mkdir meshlabplugins\filter_camera\ & if not exist meshlabplugins\filter_camera\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_camera\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_camera\filter_camera.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_camera\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_camera\filter_camera.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_camera-install_subtargets: FORCE
 	@if not exist meshlabplugins\filter_camera\ mkdir meshlabplugins\filter_camera\ & if not exist meshlabplugins\filter_camera\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_camera\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_camera\filter_camera.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_camera\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_camera\filter_camera.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_camera-uninstall_subtargets-ordered: sub-meshlabplugins-filter_ao-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_camera\ mkdir meshlabplugins\filter_camera\ & if not exist meshlabplugins\filter_camera\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_camera\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_camera\filter_camera.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_camera\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_camera\filter_camera.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_camera-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\filter_camera\ mkdir meshlabplugins\filter_camera\ & if not exist meshlabplugins\filter_camera\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_camera\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_camera\filter_camera.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_camera\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_camera\filter_camera.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_clean-qmake_all: sub-meshlabplugins-filter_camera-qmake_all FORCE
 	@if not exist meshlabplugins\filter_clean\ mkdir meshlabplugins\filter_clean\ & if not exist meshlabplugins\filter_clean\ exit 1
-	cd meshlabplugins\filter_clean\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_clean\filter_clean.pro -spec win32-msvc
+	cd meshlabplugins\filter_clean\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_clean\filter_clean.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\filter_clean\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-filter_clean: FORCE
 	@if not exist meshlabplugins\filter_clean\ mkdir meshlabplugins\filter_clean\ & if not exist meshlabplugins\filter_clean\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_clean\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_clean\filter_clean.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\filter_clean\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_clean\filter_clean.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-filter_clean-make_first-ordered: sub-meshlabplugins-filter_camera-make_first-ordered  FORCE
 	@if not exist meshlabplugins\filter_clean\ mkdir meshlabplugins\filter_clean\ & if not exist meshlabplugins\filter_clean\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_clean\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_clean\filter_clean.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_clean\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_clean\filter_clean.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_clean-make_first: FORCE
 	@if not exist meshlabplugins\filter_clean\ mkdir meshlabplugins\filter_clean\ & if not exist meshlabplugins\filter_clean\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_clean\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_clean\filter_clean.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_clean\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_clean\filter_clean.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_clean-all-ordered: sub-meshlabplugins-filter_camera-all-ordered  FORCE
 	@if not exist meshlabplugins\filter_clean\ mkdir meshlabplugins\filter_clean\ & if not exist meshlabplugins\filter_clean\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_clean\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_clean\filter_clean.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_clean\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_clean\filter_clean.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_clean-all: FORCE
 	@if not exist meshlabplugins\filter_clean\ mkdir meshlabplugins\filter_clean\ & if not exist meshlabplugins\filter_clean\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_clean\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_clean\filter_clean.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_clean\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_clean\filter_clean.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_clean-clean-ordered: sub-meshlabplugins-filter_camera-clean-ordered  FORCE
 	@if not exist meshlabplugins\filter_clean\ mkdir meshlabplugins\filter_clean\ & if not exist meshlabplugins\filter_clean\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_clean\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_clean\filter_clean.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_clean\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_clean\filter_clean.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_clean-clean: FORCE
 	@if not exist meshlabplugins\filter_clean\ mkdir meshlabplugins\filter_clean\ & if not exist meshlabplugins\filter_clean\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_clean\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_clean\filter_clean.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_clean\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_clean\filter_clean.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_clean-distclean-ordered: sub-meshlabplugins-filter_camera-distclean-ordered  FORCE
 	@if not exist meshlabplugins\filter_clean\ mkdir meshlabplugins\filter_clean\ & if not exist meshlabplugins\filter_clean\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_clean\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_clean\filter_clean.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_clean\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_clean\filter_clean.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_clean-distclean: FORCE
 	@if not exist meshlabplugins\filter_clean\ mkdir meshlabplugins\filter_clean\ & if not exist meshlabplugins\filter_clean\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_clean\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_clean\filter_clean.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_clean\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_clean\filter_clean.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_clean-install_subtargets-ordered: sub-meshlabplugins-filter_camera-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_clean\ mkdir meshlabplugins\filter_clean\ & if not exist meshlabplugins\filter_clean\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_clean\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_clean\filter_clean.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_clean\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_clean\filter_clean.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_clean-install_subtargets: FORCE
 	@if not exist meshlabplugins\filter_clean\ mkdir meshlabplugins\filter_clean\ & if not exist meshlabplugins\filter_clean\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_clean\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_clean\filter_clean.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_clean\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_clean\filter_clean.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_clean-uninstall_subtargets-ordered: sub-meshlabplugins-filter_camera-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_clean\ mkdir meshlabplugins\filter_clean\ & if not exist meshlabplugins\filter_clean\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_clean\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_clean\filter_clean.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_clean\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_clean\filter_clean.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_clean-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\filter_clean\ mkdir meshlabplugins\filter_clean\ & if not exist meshlabplugins\filter_clean\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_clean\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_clean\filter_clean.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_clean\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_clean\filter_clean.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_color_projection-qmake_all: sub-meshlabplugins-filter_clean-qmake_all FORCE
 	@if not exist meshlabplugins\filter_color_projection\ mkdir meshlabplugins\filter_color_projection\ & if not exist meshlabplugins\filter_color_projection\ exit 1
-	cd meshlabplugins\filter_color_projection\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_color_projection\filter_color_projection.pro -spec win32-msvc
+	cd meshlabplugins\filter_color_projection\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_color_projection\filter_color_projection.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\filter_color_projection\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-filter_color_projection: FORCE
 	@if not exist meshlabplugins\filter_color_projection\ mkdir meshlabplugins\filter_color_projection\ & if not exist meshlabplugins\filter_color_projection\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_color_projection\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_color_projection\filter_color_projection.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\filter_color_projection\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_color_projection\filter_color_projection.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-filter_color_projection-make_first-ordered: sub-meshlabplugins-filter_clean-make_first-ordered  FORCE
 	@if not exist meshlabplugins\filter_color_projection\ mkdir meshlabplugins\filter_color_projection\ & if not exist meshlabplugins\filter_color_projection\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_color_projection\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_color_projection\filter_color_projection.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_color_projection\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_color_projection\filter_color_projection.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_color_projection-make_first: FORCE
 	@if not exist meshlabplugins\filter_color_projection\ mkdir meshlabplugins\filter_color_projection\ & if not exist meshlabplugins\filter_color_projection\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_color_projection\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_color_projection\filter_color_projection.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_color_projection\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_color_projection\filter_color_projection.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_color_projection-all-ordered: sub-meshlabplugins-filter_clean-all-ordered  FORCE
 	@if not exist meshlabplugins\filter_color_projection\ mkdir meshlabplugins\filter_color_projection\ & if not exist meshlabplugins\filter_color_projection\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_color_projection\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_color_projection\filter_color_projection.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_color_projection\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_color_projection\filter_color_projection.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_color_projection-all: FORCE
 	@if not exist meshlabplugins\filter_color_projection\ mkdir meshlabplugins\filter_color_projection\ & if not exist meshlabplugins\filter_color_projection\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_color_projection\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_color_projection\filter_color_projection.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_color_projection\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_color_projection\filter_color_projection.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_color_projection-clean-ordered: sub-meshlabplugins-filter_clean-clean-ordered  FORCE
 	@if not exist meshlabplugins\filter_color_projection\ mkdir meshlabplugins\filter_color_projection\ & if not exist meshlabplugins\filter_color_projection\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_color_projection\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_color_projection\filter_color_projection.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_color_projection\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_color_projection\filter_color_projection.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_color_projection-clean: FORCE
 	@if not exist meshlabplugins\filter_color_projection\ mkdir meshlabplugins\filter_color_projection\ & if not exist meshlabplugins\filter_color_projection\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_color_projection\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_color_projection\filter_color_projection.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_color_projection\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_color_projection\filter_color_projection.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_color_projection-distclean-ordered: sub-meshlabplugins-filter_clean-distclean-ordered  FORCE
 	@if not exist meshlabplugins\filter_color_projection\ mkdir meshlabplugins\filter_color_projection\ & if not exist meshlabplugins\filter_color_projection\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_color_projection\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_color_projection\filter_color_projection.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_color_projection\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_color_projection\filter_color_projection.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_color_projection-distclean: FORCE
 	@if not exist meshlabplugins\filter_color_projection\ mkdir meshlabplugins\filter_color_projection\ & if not exist meshlabplugins\filter_color_projection\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_color_projection\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_color_projection\filter_color_projection.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_color_projection\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_color_projection\filter_color_projection.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_color_projection-install_subtargets-ordered: sub-meshlabplugins-filter_clean-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_color_projection\ mkdir meshlabplugins\filter_color_projection\ & if not exist meshlabplugins\filter_color_projection\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_color_projection\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_color_projection\filter_color_projection.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_color_projection\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_color_projection\filter_color_projection.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_color_projection-install_subtargets: FORCE
 	@if not exist meshlabplugins\filter_color_projection\ mkdir meshlabplugins\filter_color_projection\ & if not exist meshlabplugins\filter_color_projection\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_color_projection\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_color_projection\filter_color_projection.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_color_projection\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_color_projection\filter_color_projection.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_color_projection-uninstall_subtargets-ordered: sub-meshlabplugins-filter_clean-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_color_projection\ mkdir meshlabplugins\filter_color_projection\ & if not exist meshlabplugins\filter_color_projection\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_color_projection\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_color_projection\filter_color_projection.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_color_projection\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_color_projection\filter_color_projection.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_color_projection-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\filter_color_projection\ mkdir meshlabplugins\filter_color_projection\ & if not exist meshlabplugins\filter_color_projection\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_color_projection\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_color_projection\filter_color_projection.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_color_projection\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_color_projection\filter_color_projection.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_colorproc-qmake_all: sub-meshlabplugins-filter_color_projection-qmake_all FORCE
 	@if not exist meshlabplugins\filter_colorproc\ mkdir meshlabplugins\filter_colorproc\ & if not exist meshlabplugins\filter_colorproc\ exit 1
-	cd meshlabplugins\filter_colorproc\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_colorproc\filter_colorproc.pro -spec win32-msvc
+	cd meshlabplugins\filter_colorproc\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_colorproc\filter_colorproc.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\filter_colorproc\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-filter_colorproc: FORCE
 	@if not exist meshlabplugins\filter_colorproc\ mkdir meshlabplugins\filter_colorproc\ & if not exist meshlabplugins\filter_colorproc\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_colorproc\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_colorproc\filter_colorproc.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\filter_colorproc\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_colorproc\filter_colorproc.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-filter_colorproc-make_first-ordered: sub-meshlabplugins-filter_color_projection-make_first-ordered  FORCE
 	@if not exist meshlabplugins\filter_colorproc\ mkdir meshlabplugins\filter_colorproc\ & if not exist meshlabplugins\filter_colorproc\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_colorproc\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_colorproc\filter_colorproc.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_colorproc\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_colorproc\filter_colorproc.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_colorproc-make_first: FORCE
 	@if not exist meshlabplugins\filter_colorproc\ mkdir meshlabplugins\filter_colorproc\ & if not exist meshlabplugins\filter_colorproc\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_colorproc\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_colorproc\filter_colorproc.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_colorproc\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_colorproc\filter_colorproc.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_colorproc-all-ordered: sub-meshlabplugins-filter_color_projection-all-ordered  FORCE
 	@if not exist meshlabplugins\filter_colorproc\ mkdir meshlabplugins\filter_colorproc\ & if not exist meshlabplugins\filter_colorproc\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_colorproc\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_colorproc\filter_colorproc.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_colorproc\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_colorproc\filter_colorproc.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_colorproc-all: FORCE
 	@if not exist meshlabplugins\filter_colorproc\ mkdir meshlabplugins\filter_colorproc\ & if not exist meshlabplugins\filter_colorproc\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_colorproc\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_colorproc\filter_colorproc.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_colorproc\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_colorproc\filter_colorproc.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_colorproc-clean-ordered: sub-meshlabplugins-filter_color_projection-clean-ordered  FORCE
 	@if not exist meshlabplugins\filter_colorproc\ mkdir meshlabplugins\filter_colorproc\ & if not exist meshlabplugins\filter_colorproc\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_colorproc\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_colorproc\filter_colorproc.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_colorproc\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_colorproc\filter_colorproc.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_colorproc-clean: FORCE
 	@if not exist meshlabplugins\filter_colorproc\ mkdir meshlabplugins\filter_colorproc\ & if not exist meshlabplugins\filter_colorproc\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_colorproc\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_colorproc\filter_colorproc.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_colorproc\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_colorproc\filter_colorproc.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_colorproc-distclean-ordered: sub-meshlabplugins-filter_color_projection-distclean-ordered  FORCE
 	@if not exist meshlabplugins\filter_colorproc\ mkdir meshlabplugins\filter_colorproc\ & if not exist meshlabplugins\filter_colorproc\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_colorproc\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_colorproc\filter_colorproc.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_colorproc\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_colorproc\filter_colorproc.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_colorproc-distclean: FORCE
 	@if not exist meshlabplugins\filter_colorproc\ mkdir meshlabplugins\filter_colorproc\ & if not exist meshlabplugins\filter_colorproc\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_colorproc\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_colorproc\filter_colorproc.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_colorproc\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_colorproc\filter_colorproc.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_colorproc-install_subtargets-ordered: sub-meshlabplugins-filter_color_projection-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_colorproc\ mkdir meshlabplugins\filter_colorproc\ & if not exist meshlabplugins\filter_colorproc\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_colorproc\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_colorproc\filter_colorproc.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_colorproc\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_colorproc\filter_colorproc.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_colorproc-install_subtargets: FORCE
 	@if not exist meshlabplugins\filter_colorproc\ mkdir meshlabplugins\filter_colorproc\ & if not exist meshlabplugins\filter_colorproc\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_colorproc\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_colorproc\filter_colorproc.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_colorproc\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_colorproc\filter_colorproc.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_colorproc-uninstall_subtargets-ordered: sub-meshlabplugins-filter_color_projection-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_colorproc\ mkdir meshlabplugins\filter_colorproc\ & if not exist meshlabplugins\filter_colorproc\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_colorproc\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_colorproc\filter_colorproc.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_colorproc\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_colorproc\filter_colorproc.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_colorproc-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\filter_colorproc\ mkdir meshlabplugins\filter_colorproc\ & if not exist meshlabplugins\filter_colorproc\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_colorproc\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_colorproc\filter_colorproc.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_colorproc\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_colorproc\filter_colorproc.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_create-qmake_all: sub-meshlabplugins-filter_colorproc-qmake_all FORCE
 	@if not exist meshlabplugins\filter_create\ mkdir meshlabplugins\filter_create\ & if not exist meshlabplugins\filter_create\ exit 1
-	cd meshlabplugins\filter_create\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_create\filter_create.pro -spec win32-msvc
+	cd meshlabplugins\filter_create\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_create\filter_create.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\filter_create\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-filter_create: FORCE
 	@if not exist meshlabplugins\filter_create\ mkdir meshlabplugins\filter_create\ & if not exist meshlabplugins\filter_create\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_create\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_create\filter_create.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\filter_create\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_create\filter_create.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-filter_create-make_first-ordered: sub-meshlabplugins-filter_colorproc-make_first-ordered  FORCE
 	@if not exist meshlabplugins\filter_create\ mkdir meshlabplugins\filter_create\ & if not exist meshlabplugins\filter_create\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_create\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_create\filter_create.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_create\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_create\filter_create.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_create-make_first: FORCE
 	@if not exist meshlabplugins\filter_create\ mkdir meshlabplugins\filter_create\ & if not exist meshlabplugins\filter_create\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_create\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_create\filter_create.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_create\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_create\filter_create.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_create-all-ordered: sub-meshlabplugins-filter_colorproc-all-ordered  FORCE
 	@if not exist meshlabplugins\filter_create\ mkdir meshlabplugins\filter_create\ & if not exist meshlabplugins\filter_create\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_create\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_create\filter_create.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_create\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_create\filter_create.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_create-all: FORCE
 	@if not exist meshlabplugins\filter_create\ mkdir meshlabplugins\filter_create\ & if not exist meshlabplugins\filter_create\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_create\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_create\filter_create.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_create\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_create\filter_create.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_create-clean-ordered: sub-meshlabplugins-filter_colorproc-clean-ordered  FORCE
 	@if not exist meshlabplugins\filter_create\ mkdir meshlabplugins\filter_create\ & if not exist meshlabplugins\filter_create\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_create\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_create\filter_create.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_create\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_create\filter_create.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_create-clean: FORCE
 	@if not exist meshlabplugins\filter_create\ mkdir meshlabplugins\filter_create\ & if not exist meshlabplugins\filter_create\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_create\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_create\filter_create.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_create\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_create\filter_create.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_create-distclean-ordered: sub-meshlabplugins-filter_colorproc-distclean-ordered  FORCE
 	@if not exist meshlabplugins\filter_create\ mkdir meshlabplugins\filter_create\ & if not exist meshlabplugins\filter_create\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_create\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_create\filter_create.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_create\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_create\filter_create.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_create-distclean: FORCE
 	@if not exist meshlabplugins\filter_create\ mkdir meshlabplugins\filter_create\ & if not exist meshlabplugins\filter_create\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_create\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_create\filter_create.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_create\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_create\filter_create.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_create-install_subtargets-ordered: sub-meshlabplugins-filter_colorproc-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_create\ mkdir meshlabplugins\filter_create\ & if not exist meshlabplugins\filter_create\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_create\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_create\filter_create.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_create\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_create\filter_create.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_create-install_subtargets: FORCE
 	@if not exist meshlabplugins\filter_create\ mkdir meshlabplugins\filter_create\ & if not exist meshlabplugins\filter_create\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_create\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_create\filter_create.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_create\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_create\filter_create.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_create-uninstall_subtargets-ordered: sub-meshlabplugins-filter_colorproc-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_create\ mkdir meshlabplugins\filter_create\ & if not exist meshlabplugins\filter_create\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_create\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_create\filter_create.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_create\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_create\filter_create.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_create-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\filter_create\ mkdir meshlabplugins\filter_create\ & if not exist meshlabplugins\filter_create\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_create\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_create\filter_create.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_create\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_create\filter_create.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_csg-qmake_all: sub-meshlabplugins-filter_create-qmake_all FORCE
 	@if not exist meshlabplugins\filter_csg\ mkdir meshlabplugins\filter_csg\ & if not exist meshlabplugins\filter_csg\ exit 1
-	cd meshlabplugins\filter_csg\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_csg\filter_csg.pro -spec win32-msvc
+	cd meshlabplugins\filter_csg\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_csg\filter_csg.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\filter_csg\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-filter_csg: FORCE
 	@if not exist meshlabplugins\filter_csg\ mkdir meshlabplugins\filter_csg\ & if not exist meshlabplugins\filter_csg\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_csg\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_csg\filter_csg.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\filter_csg\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_csg\filter_csg.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-filter_csg-make_first-ordered: sub-meshlabplugins-filter_create-make_first-ordered  FORCE
 	@if not exist meshlabplugins\filter_csg\ mkdir meshlabplugins\filter_csg\ & if not exist meshlabplugins\filter_csg\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_csg\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_csg\filter_csg.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_csg\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_csg\filter_csg.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_csg-make_first: FORCE
 	@if not exist meshlabplugins\filter_csg\ mkdir meshlabplugins\filter_csg\ & if not exist meshlabplugins\filter_csg\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_csg\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_csg\filter_csg.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_csg\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_csg\filter_csg.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_csg-all-ordered: sub-meshlabplugins-filter_create-all-ordered  FORCE
 	@if not exist meshlabplugins\filter_csg\ mkdir meshlabplugins\filter_csg\ & if not exist meshlabplugins\filter_csg\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_csg\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_csg\filter_csg.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_csg\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_csg\filter_csg.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_csg-all: FORCE
 	@if not exist meshlabplugins\filter_csg\ mkdir meshlabplugins\filter_csg\ & if not exist meshlabplugins\filter_csg\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_csg\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_csg\filter_csg.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_csg\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_csg\filter_csg.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_csg-clean-ordered: sub-meshlabplugins-filter_create-clean-ordered  FORCE
 	@if not exist meshlabplugins\filter_csg\ mkdir meshlabplugins\filter_csg\ & if not exist meshlabplugins\filter_csg\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_csg\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_csg\filter_csg.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_csg\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_csg\filter_csg.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_csg-clean: FORCE
 	@if not exist meshlabplugins\filter_csg\ mkdir meshlabplugins\filter_csg\ & if not exist meshlabplugins\filter_csg\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_csg\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_csg\filter_csg.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_csg\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_csg\filter_csg.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_csg-distclean-ordered: sub-meshlabplugins-filter_create-distclean-ordered  FORCE
 	@if not exist meshlabplugins\filter_csg\ mkdir meshlabplugins\filter_csg\ & if not exist meshlabplugins\filter_csg\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_csg\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_csg\filter_csg.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_csg\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_csg\filter_csg.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_csg-distclean: FORCE
 	@if not exist meshlabplugins\filter_csg\ mkdir meshlabplugins\filter_csg\ & if not exist meshlabplugins\filter_csg\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_csg\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_csg\filter_csg.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_csg\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_csg\filter_csg.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_csg-install_subtargets-ordered: sub-meshlabplugins-filter_create-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_csg\ mkdir meshlabplugins\filter_csg\ & if not exist meshlabplugins\filter_csg\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_csg\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_csg\filter_csg.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_csg\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_csg\filter_csg.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_csg-install_subtargets: FORCE
 	@if not exist meshlabplugins\filter_csg\ mkdir meshlabplugins\filter_csg\ & if not exist meshlabplugins\filter_csg\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_csg\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_csg\filter_csg.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_csg\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_csg\filter_csg.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_csg-uninstall_subtargets-ordered: sub-meshlabplugins-filter_create-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_csg\ mkdir meshlabplugins\filter_csg\ & if not exist meshlabplugins\filter_csg\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_csg\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_csg\filter_csg.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_csg\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_csg\filter_csg.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_csg-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\filter_csg\ mkdir meshlabplugins\filter_csg\ & if not exist meshlabplugins\filter_csg\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_csg\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_csg\filter_csg.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_csg\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_csg\filter_csg.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_dirt-qmake_all: sub-meshlabplugins-filter_csg-qmake_all FORCE
 	@if not exist meshlabplugins\filter_dirt\ mkdir meshlabplugins\filter_dirt\ & if not exist meshlabplugins\filter_dirt\ exit 1
-	cd meshlabplugins\filter_dirt\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_dirt\filter_dirt.pro -spec win32-msvc
+	cd meshlabplugins\filter_dirt\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_dirt\filter_dirt.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\filter_dirt\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-filter_dirt: FORCE
 	@if not exist meshlabplugins\filter_dirt\ mkdir meshlabplugins\filter_dirt\ & if not exist meshlabplugins\filter_dirt\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_dirt\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_dirt\filter_dirt.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\filter_dirt\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_dirt\filter_dirt.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-filter_dirt-make_first-ordered: sub-meshlabplugins-filter_csg-make_first-ordered  FORCE
 	@if not exist meshlabplugins\filter_dirt\ mkdir meshlabplugins\filter_dirt\ & if not exist meshlabplugins\filter_dirt\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_dirt\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_dirt\filter_dirt.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_dirt\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_dirt\filter_dirt.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_dirt-make_first: FORCE
 	@if not exist meshlabplugins\filter_dirt\ mkdir meshlabplugins\filter_dirt\ & if not exist meshlabplugins\filter_dirt\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_dirt\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_dirt\filter_dirt.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_dirt\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_dirt\filter_dirt.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_dirt-all-ordered: sub-meshlabplugins-filter_csg-all-ordered  FORCE
 	@if not exist meshlabplugins\filter_dirt\ mkdir meshlabplugins\filter_dirt\ & if not exist meshlabplugins\filter_dirt\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_dirt\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_dirt\filter_dirt.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_dirt\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_dirt\filter_dirt.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_dirt-all: FORCE
 	@if not exist meshlabplugins\filter_dirt\ mkdir meshlabplugins\filter_dirt\ & if not exist meshlabplugins\filter_dirt\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_dirt\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_dirt\filter_dirt.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_dirt\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_dirt\filter_dirt.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_dirt-clean-ordered: sub-meshlabplugins-filter_csg-clean-ordered  FORCE
 	@if not exist meshlabplugins\filter_dirt\ mkdir meshlabplugins\filter_dirt\ & if not exist meshlabplugins\filter_dirt\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_dirt\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_dirt\filter_dirt.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_dirt\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_dirt\filter_dirt.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_dirt-clean: FORCE
 	@if not exist meshlabplugins\filter_dirt\ mkdir meshlabplugins\filter_dirt\ & if not exist meshlabplugins\filter_dirt\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_dirt\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_dirt\filter_dirt.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_dirt\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_dirt\filter_dirt.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_dirt-distclean-ordered: sub-meshlabplugins-filter_csg-distclean-ordered  FORCE
 	@if not exist meshlabplugins\filter_dirt\ mkdir meshlabplugins\filter_dirt\ & if not exist meshlabplugins\filter_dirt\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_dirt\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_dirt\filter_dirt.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_dirt\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_dirt\filter_dirt.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_dirt-distclean: FORCE
 	@if not exist meshlabplugins\filter_dirt\ mkdir meshlabplugins\filter_dirt\ & if not exist meshlabplugins\filter_dirt\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_dirt\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_dirt\filter_dirt.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_dirt\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_dirt\filter_dirt.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_dirt-install_subtargets-ordered: sub-meshlabplugins-filter_csg-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_dirt\ mkdir meshlabplugins\filter_dirt\ & if not exist meshlabplugins\filter_dirt\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_dirt\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_dirt\filter_dirt.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_dirt\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_dirt\filter_dirt.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_dirt-install_subtargets: FORCE
 	@if not exist meshlabplugins\filter_dirt\ mkdir meshlabplugins\filter_dirt\ & if not exist meshlabplugins\filter_dirt\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_dirt\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_dirt\filter_dirt.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_dirt\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_dirt\filter_dirt.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_dirt-uninstall_subtargets-ordered: sub-meshlabplugins-filter_csg-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_dirt\ mkdir meshlabplugins\filter_dirt\ & if not exist meshlabplugins\filter_dirt\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_dirt\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_dirt\filter_dirt.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_dirt\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_dirt\filter_dirt.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_dirt-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\filter_dirt\ mkdir meshlabplugins\filter_dirt\ & if not exist meshlabplugins\filter_dirt\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_dirt\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_dirt\filter_dirt.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_dirt\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_dirt\filter_dirt.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_fractal-qmake_all: sub-meshlabplugins-filter_dirt-qmake_all FORCE
 	@if not exist meshlabplugins\filter_fractal\ mkdir meshlabplugins\filter_fractal\ & if not exist meshlabplugins\filter_fractal\ exit 1
-	cd meshlabplugins\filter_fractal\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_fractal\filter_fractal.pro -spec win32-msvc
+	cd meshlabplugins\filter_fractal\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_fractal\filter_fractal.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\filter_fractal\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-filter_fractal: FORCE
 	@if not exist meshlabplugins\filter_fractal\ mkdir meshlabplugins\filter_fractal\ & if not exist meshlabplugins\filter_fractal\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_fractal\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_fractal\filter_fractal.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\filter_fractal\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_fractal\filter_fractal.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-filter_fractal-make_first-ordered: sub-meshlabplugins-filter_dirt-make_first-ordered  FORCE
 	@if not exist meshlabplugins\filter_fractal\ mkdir meshlabplugins\filter_fractal\ & if not exist meshlabplugins\filter_fractal\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_fractal\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_fractal\filter_fractal.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_fractal\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_fractal\filter_fractal.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_fractal-make_first: FORCE
 	@if not exist meshlabplugins\filter_fractal\ mkdir meshlabplugins\filter_fractal\ & if not exist meshlabplugins\filter_fractal\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_fractal\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_fractal\filter_fractal.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_fractal\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_fractal\filter_fractal.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_fractal-all-ordered: sub-meshlabplugins-filter_dirt-all-ordered  FORCE
 	@if not exist meshlabplugins\filter_fractal\ mkdir meshlabplugins\filter_fractal\ & if not exist meshlabplugins\filter_fractal\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_fractal\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_fractal\filter_fractal.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_fractal\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_fractal\filter_fractal.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_fractal-all: FORCE
 	@if not exist meshlabplugins\filter_fractal\ mkdir meshlabplugins\filter_fractal\ & if not exist meshlabplugins\filter_fractal\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_fractal\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_fractal\filter_fractal.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_fractal\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_fractal\filter_fractal.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_fractal-clean-ordered: sub-meshlabplugins-filter_dirt-clean-ordered  FORCE
 	@if not exist meshlabplugins\filter_fractal\ mkdir meshlabplugins\filter_fractal\ & if not exist meshlabplugins\filter_fractal\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_fractal\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_fractal\filter_fractal.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_fractal\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_fractal\filter_fractal.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_fractal-clean: FORCE
 	@if not exist meshlabplugins\filter_fractal\ mkdir meshlabplugins\filter_fractal\ & if not exist meshlabplugins\filter_fractal\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_fractal\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_fractal\filter_fractal.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_fractal\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_fractal\filter_fractal.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_fractal-distclean-ordered: sub-meshlabplugins-filter_dirt-distclean-ordered  FORCE
 	@if not exist meshlabplugins\filter_fractal\ mkdir meshlabplugins\filter_fractal\ & if not exist meshlabplugins\filter_fractal\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_fractal\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_fractal\filter_fractal.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_fractal\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_fractal\filter_fractal.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_fractal-distclean: FORCE
 	@if not exist meshlabplugins\filter_fractal\ mkdir meshlabplugins\filter_fractal\ & if not exist meshlabplugins\filter_fractal\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_fractal\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_fractal\filter_fractal.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_fractal\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_fractal\filter_fractal.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_fractal-install_subtargets-ordered: sub-meshlabplugins-filter_dirt-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_fractal\ mkdir meshlabplugins\filter_fractal\ & if not exist meshlabplugins\filter_fractal\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_fractal\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_fractal\filter_fractal.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_fractal\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_fractal\filter_fractal.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_fractal-install_subtargets: FORCE
 	@if not exist meshlabplugins\filter_fractal\ mkdir meshlabplugins\filter_fractal\ & if not exist meshlabplugins\filter_fractal\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_fractal\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_fractal\filter_fractal.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_fractal\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_fractal\filter_fractal.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_fractal-uninstall_subtargets-ordered: sub-meshlabplugins-filter_dirt-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_fractal\ mkdir meshlabplugins\filter_fractal\ & if not exist meshlabplugins\filter_fractal\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_fractal\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_fractal\filter_fractal.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_fractal\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_fractal\filter_fractal.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_fractal-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\filter_fractal\ mkdir meshlabplugins\filter_fractal\ & if not exist meshlabplugins\filter_fractal\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_fractal\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_fractal\filter_fractal.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_fractal\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_fractal\filter_fractal.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_func-qmake_all: sub-meshlabplugins-filter_fractal-qmake_all FORCE
 	@if not exist meshlabplugins\filter_func\ mkdir meshlabplugins\filter_func\ & if not exist meshlabplugins\filter_func\ exit 1
-	cd meshlabplugins\filter_func\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_func\filter_func.pro -spec win32-msvc
+	cd meshlabplugins\filter_func\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_func\filter_func.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\filter_func\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-filter_func: FORCE
 	@if not exist meshlabplugins\filter_func\ mkdir meshlabplugins\filter_func\ & if not exist meshlabplugins\filter_func\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_func\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_func\filter_func.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\filter_func\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_func\filter_func.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-filter_func-make_first-ordered: sub-meshlabplugins-filter_fractal-make_first-ordered  FORCE
 	@if not exist meshlabplugins\filter_func\ mkdir meshlabplugins\filter_func\ & if not exist meshlabplugins\filter_func\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_func\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_func\filter_func.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_func\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_func\filter_func.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_func-make_first: FORCE
 	@if not exist meshlabplugins\filter_func\ mkdir meshlabplugins\filter_func\ & if not exist meshlabplugins\filter_func\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_func\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_func\filter_func.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_func\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_func\filter_func.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_func-all-ordered: sub-meshlabplugins-filter_fractal-all-ordered  FORCE
 	@if not exist meshlabplugins\filter_func\ mkdir meshlabplugins\filter_func\ & if not exist meshlabplugins\filter_func\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_func\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_func\filter_func.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_func\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_func\filter_func.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_func-all: FORCE
 	@if not exist meshlabplugins\filter_func\ mkdir meshlabplugins\filter_func\ & if not exist meshlabplugins\filter_func\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_func\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_func\filter_func.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_func\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_func\filter_func.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_func-clean-ordered: sub-meshlabplugins-filter_fractal-clean-ordered  FORCE
 	@if not exist meshlabplugins\filter_func\ mkdir meshlabplugins\filter_func\ & if not exist meshlabplugins\filter_func\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_func\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_func\filter_func.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_func\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_func\filter_func.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_func-clean: FORCE
 	@if not exist meshlabplugins\filter_func\ mkdir meshlabplugins\filter_func\ & if not exist meshlabplugins\filter_func\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_func\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_func\filter_func.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_func\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_func\filter_func.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_func-distclean-ordered: sub-meshlabplugins-filter_fractal-distclean-ordered  FORCE
 	@if not exist meshlabplugins\filter_func\ mkdir meshlabplugins\filter_func\ & if not exist meshlabplugins\filter_func\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_func\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_func\filter_func.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_func\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_func\filter_func.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_func-distclean: FORCE
 	@if not exist meshlabplugins\filter_func\ mkdir meshlabplugins\filter_func\ & if not exist meshlabplugins\filter_func\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_func\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_func\filter_func.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_func\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_func\filter_func.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_func-install_subtargets-ordered: sub-meshlabplugins-filter_fractal-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_func\ mkdir meshlabplugins\filter_func\ & if not exist meshlabplugins\filter_func\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_func\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_func\filter_func.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_func\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_func\filter_func.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_func-install_subtargets: FORCE
 	@if not exist meshlabplugins\filter_func\ mkdir meshlabplugins\filter_func\ & if not exist meshlabplugins\filter_func\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_func\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_func\filter_func.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_func\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_func\filter_func.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_func-uninstall_subtargets-ordered: sub-meshlabplugins-filter_fractal-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_func\ mkdir meshlabplugins\filter_func\ & if not exist meshlabplugins\filter_func\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_func\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_func\filter_func.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_func\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_func\filter_func.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_func-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\filter_func\ mkdir meshlabplugins\filter_func\ & if not exist meshlabplugins\filter_func\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_func\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_func\filter_func.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_func\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_func\filter_func.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_img_patch_param-qmake_all: sub-meshlabplugins-filter_func-qmake_all FORCE
 	@if not exist meshlabplugins\filter_img_patch_param\ mkdir meshlabplugins\filter_img_patch_param\ & if not exist meshlabplugins\filter_img_patch_param\ exit 1
-	cd meshlabplugins\filter_img_patch_param\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_img_patch_param\filter_img_patch_param.pro -spec win32-msvc
+	cd meshlabplugins\filter_img_patch_param\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_img_patch_param\filter_img_patch_param.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\filter_img_patch_param\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-filter_img_patch_param: FORCE
 	@if not exist meshlabplugins\filter_img_patch_param\ mkdir meshlabplugins\filter_img_patch_param\ & if not exist meshlabplugins\filter_img_patch_param\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_img_patch_param\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_img_patch_param\filter_img_patch_param.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\filter_img_patch_param\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_img_patch_param\filter_img_patch_param.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-filter_img_patch_param-make_first-ordered: sub-meshlabplugins-filter_func-make_first-ordered  FORCE
 	@if not exist meshlabplugins\filter_img_patch_param\ mkdir meshlabplugins\filter_img_patch_param\ & if not exist meshlabplugins\filter_img_patch_param\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_img_patch_param\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_img_patch_param\filter_img_patch_param.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_img_patch_param\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_img_patch_param\filter_img_patch_param.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_img_patch_param-make_first: FORCE
 	@if not exist meshlabplugins\filter_img_patch_param\ mkdir meshlabplugins\filter_img_patch_param\ & if not exist meshlabplugins\filter_img_patch_param\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_img_patch_param\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_img_patch_param\filter_img_patch_param.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_img_patch_param\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_img_patch_param\filter_img_patch_param.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_img_patch_param-all-ordered: sub-meshlabplugins-filter_func-all-ordered  FORCE
 	@if not exist meshlabplugins\filter_img_patch_param\ mkdir meshlabplugins\filter_img_patch_param\ & if not exist meshlabplugins\filter_img_patch_param\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_img_patch_param\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_img_patch_param\filter_img_patch_param.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_img_patch_param\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_img_patch_param\filter_img_patch_param.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_img_patch_param-all: FORCE
 	@if not exist meshlabplugins\filter_img_patch_param\ mkdir meshlabplugins\filter_img_patch_param\ & if not exist meshlabplugins\filter_img_patch_param\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_img_patch_param\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_img_patch_param\filter_img_patch_param.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_img_patch_param\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_img_patch_param\filter_img_patch_param.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_img_patch_param-clean-ordered: sub-meshlabplugins-filter_func-clean-ordered  FORCE
 	@if not exist meshlabplugins\filter_img_patch_param\ mkdir meshlabplugins\filter_img_patch_param\ & if not exist meshlabplugins\filter_img_patch_param\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_img_patch_param\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_img_patch_param\filter_img_patch_param.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_img_patch_param\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_img_patch_param\filter_img_patch_param.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_img_patch_param-clean: FORCE
 	@if not exist meshlabplugins\filter_img_patch_param\ mkdir meshlabplugins\filter_img_patch_param\ & if not exist meshlabplugins\filter_img_patch_param\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_img_patch_param\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_img_patch_param\filter_img_patch_param.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_img_patch_param\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_img_patch_param\filter_img_patch_param.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_img_patch_param-distclean-ordered: sub-meshlabplugins-filter_func-distclean-ordered  FORCE
 	@if not exist meshlabplugins\filter_img_patch_param\ mkdir meshlabplugins\filter_img_patch_param\ & if not exist meshlabplugins\filter_img_patch_param\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_img_patch_param\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_img_patch_param\filter_img_patch_param.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_img_patch_param\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_img_patch_param\filter_img_patch_param.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_img_patch_param-distclean: FORCE
 	@if not exist meshlabplugins\filter_img_patch_param\ mkdir meshlabplugins\filter_img_patch_param\ & if not exist meshlabplugins\filter_img_patch_param\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_img_patch_param\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_img_patch_param\filter_img_patch_param.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_img_patch_param\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_img_patch_param\filter_img_patch_param.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_img_patch_param-install_subtargets-ordered: sub-meshlabplugins-filter_func-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_img_patch_param\ mkdir meshlabplugins\filter_img_patch_param\ & if not exist meshlabplugins\filter_img_patch_param\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_img_patch_param\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_img_patch_param\filter_img_patch_param.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_img_patch_param\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_img_patch_param\filter_img_patch_param.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_img_patch_param-install_subtargets: FORCE
 	@if not exist meshlabplugins\filter_img_patch_param\ mkdir meshlabplugins\filter_img_patch_param\ & if not exist meshlabplugins\filter_img_patch_param\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_img_patch_param\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_img_patch_param\filter_img_patch_param.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_img_patch_param\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_img_patch_param\filter_img_patch_param.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_img_patch_param-uninstall_subtargets-ordered: sub-meshlabplugins-filter_func-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_img_patch_param\ mkdir meshlabplugins\filter_img_patch_param\ & if not exist meshlabplugins\filter_img_patch_param\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_img_patch_param\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_img_patch_param\filter_img_patch_param.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_img_patch_param\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_img_patch_param\filter_img_patch_param.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_img_patch_param-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\filter_img_patch_param\ mkdir meshlabplugins\filter_img_patch_param\ & if not exist meshlabplugins\filter_img_patch_param\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_img_patch_param\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_img_patch_param\filter_img_patch_param.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_img_patch_param\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_img_patch_param\filter_img_patch_param.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_isoparametrization-qmake_all: sub-meshlabplugins-filter_img_patch_param-qmake_all FORCE
 	@if not exist meshlabplugins\filter_isoparametrization\ mkdir meshlabplugins\filter_isoparametrization\ & if not exist meshlabplugins\filter_isoparametrization\ exit 1
-	cd meshlabplugins\filter_isoparametrization\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_isoparametrization\filter_isoparametrization.pro -spec win32-msvc
+	cd meshlabplugins\filter_isoparametrization\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_isoparametrization\filter_isoparametrization.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\filter_isoparametrization\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-filter_isoparametrization: FORCE
 	@if not exist meshlabplugins\filter_isoparametrization\ mkdir meshlabplugins\filter_isoparametrization\ & if not exist meshlabplugins\filter_isoparametrization\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_isoparametrization\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_isoparametrization\filter_isoparametrization.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\filter_isoparametrization\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_isoparametrization\filter_isoparametrization.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-filter_isoparametrization-make_first-ordered: sub-meshlabplugins-filter_img_patch_param-make_first-ordered  FORCE
 	@if not exist meshlabplugins\filter_isoparametrization\ mkdir meshlabplugins\filter_isoparametrization\ & if not exist meshlabplugins\filter_isoparametrization\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_isoparametrization\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_isoparametrization\filter_isoparametrization.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_isoparametrization\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_isoparametrization\filter_isoparametrization.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_isoparametrization-make_first: FORCE
 	@if not exist meshlabplugins\filter_isoparametrization\ mkdir meshlabplugins\filter_isoparametrization\ & if not exist meshlabplugins\filter_isoparametrization\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_isoparametrization\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_isoparametrization\filter_isoparametrization.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_isoparametrization\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_isoparametrization\filter_isoparametrization.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_isoparametrization-all-ordered: sub-meshlabplugins-filter_img_patch_param-all-ordered  FORCE
 	@if not exist meshlabplugins\filter_isoparametrization\ mkdir meshlabplugins\filter_isoparametrization\ & if not exist meshlabplugins\filter_isoparametrization\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_isoparametrization\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_isoparametrization\filter_isoparametrization.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_isoparametrization\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_isoparametrization\filter_isoparametrization.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_isoparametrization-all: FORCE
 	@if not exist meshlabplugins\filter_isoparametrization\ mkdir meshlabplugins\filter_isoparametrization\ & if not exist meshlabplugins\filter_isoparametrization\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_isoparametrization\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_isoparametrization\filter_isoparametrization.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_isoparametrization\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_isoparametrization\filter_isoparametrization.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_isoparametrization-clean-ordered: sub-meshlabplugins-filter_img_patch_param-clean-ordered  FORCE
 	@if not exist meshlabplugins\filter_isoparametrization\ mkdir meshlabplugins\filter_isoparametrization\ & if not exist meshlabplugins\filter_isoparametrization\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_isoparametrization\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_isoparametrization\filter_isoparametrization.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_isoparametrization\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_isoparametrization\filter_isoparametrization.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_isoparametrization-clean: FORCE
 	@if not exist meshlabplugins\filter_isoparametrization\ mkdir meshlabplugins\filter_isoparametrization\ & if not exist meshlabplugins\filter_isoparametrization\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_isoparametrization\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_isoparametrization\filter_isoparametrization.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_isoparametrization\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_isoparametrization\filter_isoparametrization.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_isoparametrization-distclean-ordered: sub-meshlabplugins-filter_img_patch_param-distclean-ordered  FORCE
 	@if not exist meshlabplugins\filter_isoparametrization\ mkdir meshlabplugins\filter_isoparametrization\ & if not exist meshlabplugins\filter_isoparametrization\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_isoparametrization\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_isoparametrization\filter_isoparametrization.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_isoparametrization\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_isoparametrization\filter_isoparametrization.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_isoparametrization-distclean: FORCE
 	@if not exist meshlabplugins\filter_isoparametrization\ mkdir meshlabplugins\filter_isoparametrization\ & if not exist meshlabplugins\filter_isoparametrization\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_isoparametrization\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_isoparametrization\filter_isoparametrization.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_isoparametrization\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_isoparametrization\filter_isoparametrization.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_isoparametrization-install_subtargets-ordered: sub-meshlabplugins-filter_img_patch_param-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_isoparametrization\ mkdir meshlabplugins\filter_isoparametrization\ & if not exist meshlabplugins\filter_isoparametrization\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_isoparametrization\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_isoparametrization\filter_isoparametrization.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_isoparametrization\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_isoparametrization\filter_isoparametrization.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_isoparametrization-install_subtargets: FORCE
 	@if not exist meshlabplugins\filter_isoparametrization\ mkdir meshlabplugins\filter_isoparametrization\ & if not exist meshlabplugins\filter_isoparametrization\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_isoparametrization\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_isoparametrization\filter_isoparametrization.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_isoparametrization\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_isoparametrization\filter_isoparametrization.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_isoparametrization-uninstall_subtargets-ordered: sub-meshlabplugins-filter_img_patch_param-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_isoparametrization\ mkdir meshlabplugins\filter_isoparametrization\ & if not exist meshlabplugins\filter_isoparametrization\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_isoparametrization\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_isoparametrization\filter_isoparametrization.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_isoparametrization\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_isoparametrization\filter_isoparametrization.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_isoparametrization-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\filter_isoparametrization\ mkdir meshlabplugins\filter_isoparametrization\ & if not exist meshlabplugins\filter_isoparametrization\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_isoparametrization\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_isoparametrization\filter_isoparametrization.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_isoparametrization\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_isoparametrization\filter_isoparametrization.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_layer-qmake_all: sub-meshlabplugins-filter_isoparametrization-qmake_all FORCE
 	@if not exist meshlabplugins\filter_layer\ mkdir meshlabplugins\filter_layer\ & if not exist meshlabplugins\filter_layer\ exit 1
-	cd meshlabplugins\filter_layer\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_layer\filter_layer.pro -spec win32-msvc
+	cd meshlabplugins\filter_layer\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_layer\filter_layer.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\filter_layer\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-filter_layer: FORCE
 	@if not exist meshlabplugins\filter_layer\ mkdir meshlabplugins\filter_layer\ & if not exist meshlabplugins\filter_layer\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_layer\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_layer\filter_layer.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\filter_layer\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_layer\filter_layer.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-filter_layer-make_first-ordered: sub-meshlabplugins-filter_isoparametrization-make_first-ordered  FORCE
 	@if not exist meshlabplugins\filter_layer\ mkdir meshlabplugins\filter_layer\ & if not exist meshlabplugins\filter_layer\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_layer\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_layer\filter_layer.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_layer\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_layer\filter_layer.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_layer-make_first: FORCE
 	@if not exist meshlabplugins\filter_layer\ mkdir meshlabplugins\filter_layer\ & if not exist meshlabplugins\filter_layer\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_layer\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_layer\filter_layer.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_layer\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_layer\filter_layer.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_layer-all-ordered: sub-meshlabplugins-filter_isoparametrization-all-ordered  FORCE
 	@if not exist meshlabplugins\filter_layer\ mkdir meshlabplugins\filter_layer\ & if not exist meshlabplugins\filter_layer\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_layer\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_layer\filter_layer.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_layer\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_layer\filter_layer.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_layer-all: FORCE
 	@if not exist meshlabplugins\filter_layer\ mkdir meshlabplugins\filter_layer\ & if not exist meshlabplugins\filter_layer\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_layer\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_layer\filter_layer.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_layer\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_layer\filter_layer.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_layer-clean-ordered: sub-meshlabplugins-filter_isoparametrization-clean-ordered  FORCE
 	@if not exist meshlabplugins\filter_layer\ mkdir meshlabplugins\filter_layer\ & if not exist meshlabplugins\filter_layer\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_layer\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_layer\filter_layer.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_layer\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_layer\filter_layer.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_layer-clean: FORCE
 	@if not exist meshlabplugins\filter_layer\ mkdir meshlabplugins\filter_layer\ & if not exist meshlabplugins\filter_layer\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_layer\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_layer\filter_layer.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_layer\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_layer\filter_layer.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_layer-distclean-ordered: sub-meshlabplugins-filter_isoparametrization-distclean-ordered  FORCE
 	@if not exist meshlabplugins\filter_layer\ mkdir meshlabplugins\filter_layer\ & if not exist meshlabplugins\filter_layer\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_layer\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_layer\filter_layer.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_layer\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_layer\filter_layer.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_layer-distclean: FORCE
 	@if not exist meshlabplugins\filter_layer\ mkdir meshlabplugins\filter_layer\ & if not exist meshlabplugins\filter_layer\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_layer\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_layer\filter_layer.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_layer\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_layer\filter_layer.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_layer-install_subtargets-ordered: sub-meshlabplugins-filter_isoparametrization-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_layer\ mkdir meshlabplugins\filter_layer\ & if not exist meshlabplugins\filter_layer\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_layer\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_layer\filter_layer.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_layer\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_layer\filter_layer.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_layer-install_subtargets: FORCE
 	@if not exist meshlabplugins\filter_layer\ mkdir meshlabplugins\filter_layer\ & if not exist meshlabplugins\filter_layer\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_layer\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_layer\filter_layer.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_layer\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_layer\filter_layer.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_layer-uninstall_subtargets-ordered: sub-meshlabplugins-filter_isoparametrization-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_layer\ mkdir meshlabplugins\filter_layer\ & if not exist meshlabplugins\filter_layer\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_layer\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_layer\filter_layer.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_layer\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_layer\filter_layer.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_layer-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\filter_layer\ mkdir meshlabplugins\filter_layer\ & if not exist meshlabplugins\filter_layer\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_layer\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_layer\filter_layer.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_layer\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_layer\filter_layer.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_measure-qmake_all: sub-meshlabplugins-filter_layer-qmake_all FORCE
 	@if not exist meshlabplugins\filter_measure\ mkdir meshlabplugins\filter_measure\ & if not exist meshlabplugins\filter_measure\ exit 1
-	cd meshlabplugins\filter_measure\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_measure\filter_measure.pro -spec win32-msvc
+	cd meshlabplugins\filter_measure\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_measure\filter_measure.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\filter_measure\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-filter_measure: FORCE
 	@if not exist meshlabplugins\filter_measure\ mkdir meshlabplugins\filter_measure\ & if not exist meshlabplugins\filter_measure\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_measure\filter_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\filter_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_measure\filter_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-filter_measure-make_first-ordered: sub-meshlabplugins-filter_layer-make_first-ordered  FORCE
 	@if not exist meshlabplugins\filter_measure\ mkdir meshlabplugins\filter_measure\ & if not exist meshlabplugins\filter_measure\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_measure\filter_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_measure\filter_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_measure-make_first: FORCE
 	@if not exist meshlabplugins\filter_measure\ mkdir meshlabplugins\filter_measure\ & if not exist meshlabplugins\filter_measure\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_measure\filter_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_measure\filter_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_measure-all-ordered: sub-meshlabplugins-filter_layer-all-ordered  FORCE
 	@if not exist meshlabplugins\filter_measure\ mkdir meshlabplugins\filter_measure\ & if not exist meshlabplugins\filter_measure\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_measure\filter_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_measure\filter_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_measure-all: FORCE
 	@if not exist meshlabplugins\filter_measure\ mkdir meshlabplugins\filter_measure\ & if not exist meshlabplugins\filter_measure\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_measure\filter_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_measure\filter_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_measure-clean-ordered: sub-meshlabplugins-filter_layer-clean-ordered  FORCE
 	@if not exist meshlabplugins\filter_measure\ mkdir meshlabplugins\filter_measure\ & if not exist meshlabplugins\filter_measure\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_measure\filter_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_measure\filter_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_measure-clean: FORCE
 	@if not exist meshlabplugins\filter_measure\ mkdir meshlabplugins\filter_measure\ & if not exist meshlabplugins\filter_measure\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_measure\filter_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_measure\filter_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_measure-distclean-ordered: sub-meshlabplugins-filter_layer-distclean-ordered  FORCE
 	@if not exist meshlabplugins\filter_measure\ mkdir meshlabplugins\filter_measure\ & if not exist meshlabplugins\filter_measure\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_measure\filter_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_measure\filter_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_measure-distclean: FORCE
 	@if not exist meshlabplugins\filter_measure\ mkdir meshlabplugins\filter_measure\ & if not exist meshlabplugins\filter_measure\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_measure\filter_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_measure\filter_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_measure-install_subtargets-ordered: sub-meshlabplugins-filter_layer-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_measure\ mkdir meshlabplugins\filter_measure\ & if not exist meshlabplugins\filter_measure\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_measure\filter_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_measure\filter_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_measure-install_subtargets: FORCE
 	@if not exist meshlabplugins\filter_measure\ mkdir meshlabplugins\filter_measure\ & if not exist meshlabplugins\filter_measure\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_measure\filter_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_measure\filter_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_measure-uninstall_subtargets-ordered: sub-meshlabplugins-filter_layer-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_measure\ mkdir meshlabplugins\filter_measure\ & if not exist meshlabplugins\filter_measure\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_measure\filter_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_measure\filter_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_measure-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\filter_measure\ mkdir meshlabplugins\filter_measure\ & if not exist meshlabplugins\filter_measure\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_measure\filter_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_measure\filter_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_meshing-qmake_all: sub-meshlabplugins-filter_measure-qmake_all FORCE
 	@if not exist meshlabplugins\filter_meshing\ mkdir meshlabplugins\filter_meshing\ & if not exist meshlabplugins\filter_meshing\ exit 1
-	cd meshlabplugins\filter_meshing\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_meshing\filter_meshing.pro -spec win32-msvc
+	cd meshlabplugins\filter_meshing\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_meshing\filter_meshing.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\filter_meshing\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-filter_meshing: FORCE
 	@if not exist meshlabplugins\filter_meshing\ mkdir meshlabplugins\filter_meshing\ & if not exist meshlabplugins\filter_meshing\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_meshing\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_meshing\filter_meshing.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\filter_meshing\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_meshing\filter_meshing.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-filter_meshing-make_first-ordered: sub-meshlabplugins-filter_measure-make_first-ordered  FORCE
 	@if not exist meshlabplugins\filter_meshing\ mkdir meshlabplugins\filter_meshing\ & if not exist meshlabplugins\filter_meshing\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_meshing\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_meshing\filter_meshing.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_meshing\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_meshing\filter_meshing.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_meshing-make_first: FORCE
 	@if not exist meshlabplugins\filter_meshing\ mkdir meshlabplugins\filter_meshing\ & if not exist meshlabplugins\filter_meshing\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_meshing\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_meshing\filter_meshing.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_meshing\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_meshing\filter_meshing.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_meshing-all-ordered: sub-meshlabplugins-filter_measure-all-ordered  FORCE
 	@if not exist meshlabplugins\filter_meshing\ mkdir meshlabplugins\filter_meshing\ & if not exist meshlabplugins\filter_meshing\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_meshing\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_meshing\filter_meshing.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_meshing\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_meshing\filter_meshing.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_meshing-all: FORCE
 	@if not exist meshlabplugins\filter_meshing\ mkdir meshlabplugins\filter_meshing\ & if not exist meshlabplugins\filter_meshing\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_meshing\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_meshing\filter_meshing.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_meshing\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_meshing\filter_meshing.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_meshing-clean-ordered: sub-meshlabplugins-filter_measure-clean-ordered  FORCE
 	@if not exist meshlabplugins\filter_meshing\ mkdir meshlabplugins\filter_meshing\ & if not exist meshlabplugins\filter_meshing\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_meshing\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_meshing\filter_meshing.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_meshing\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_meshing\filter_meshing.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_meshing-clean: FORCE
 	@if not exist meshlabplugins\filter_meshing\ mkdir meshlabplugins\filter_meshing\ & if not exist meshlabplugins\filter_meshing\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_meshing\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_meshing\filter_meshing.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_meshing\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_meshing\filter_meshing.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_meshing-distclean-ordered: sub-meshlabplugins-filter_measure-distclean-ordered  FORCE
 	@if not exist meshlabplugins\filter_meshing\ mkdir meshlabplugins\filter_meshing\ & if not exist meshlabplugins\filter_meshing\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_meshing\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_meshing\filter_meshing.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_meshing\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_meshing\filter_meshing.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_meshing-distclean: FORCE
 	@if not exist meshlabplugins\filter_meshing\ mkdir meshlabplugins\filter_meshing\ & if not exist meshlabplugins\filter_meshing\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_meshing\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_meshing\filter_meshing.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_meshing\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_meshing\filter_meshing.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_meshing-install_subtargets-ordered: sub-meshlabplugins-filter_measure-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_meshing\ mkdir meshlabplugins\filter_meshing\ & if not exist meshlabplugins\filter_meshing\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_meshing\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_meshing\filter_meshing.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_meshing\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_meshing\filter_meshing.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_meshing-install_subtargets: FORCE
 	@if not exist meshlabplugins\filter_meshing\ mkdir meshlabplugins\filter_meshing\ & if not exist meshlabplugins\filter_meshing\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_meshing\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_meshing\filter_meshing.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_meshing\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_meshing\filter_meshing.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_meshing-uninstall_subtargets-ordered: sub-meshlabplugins-filter_measure-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_meshing\ mkdir meshlabplugins\filter_meshing\ & if not exist meshlabplugins\filter_meshing\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_meshing\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_meshing\filter_meshing.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_meshing\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_meshing\filter_meshing.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_meshing-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\filter_meshing\ mkdir meshlabplugins\filter_meshing\ & if not exist meshlabplugins\filter_meshing\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_meshing\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_meshing\filter_meshing.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_meshing\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_meshing\filter_meshing.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_mls-qmake_all: sub-meshlabplugins-filter_meshing-qmake_all FORCE
 	@if not exist meshlabplugins\filter_mls\ mkdir meshlabplugins\filter_mls\ & if not exist meshlabplugins\filter_mls\ exit 1
-	cd meshlabplugins\filter_mls\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mls\filter_mls.pro -spec win32-msvc
+	cd meshlabplugins\filter_mls\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mls\filter_mls.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\filter_mls\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-filter_mls: FORCE
 	@if not exist meshlabplugins\filter_mls\ mkdir meshlabplugins\filter_mls\ & if not exist meshlabplugins\filter_mls\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mls\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mls\filter_mls.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\filter_mls\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mls\filter_mls.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-filter_mls-make_first-ordered: sub-meshlabplugins-filter_meshing-make_first-ordered  FORCE
 	@if not exist meshlabplugins\filter_mls\ mkdir meshlabplugins\filter_mls\ & if not exist meshlabplugins\filter_mls\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mls\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mls\filter_mls.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_mls\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mls\filter_mls.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_mls-make_first: FORCE
 	@if not exist meshlabplugins\filter_mls\ mkdir meshlabplugins\filter_mls\ & if not exist meshlabplugins\filter_mls\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mls\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mls\filter_mls.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_mls\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mls\filter_mls.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_mls-all-ordered: sub-meshlabplugins-filter_meshing-all-ordered  FORCE
 	@if not exist meshlabplugins\filter_mls\ mkdir meshlabplugins\filter_mls\ & if not exist meshlabplugins\filter_mls\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mls\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mls\filter_mls.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_mls\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mls\filter_mls.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_mls-all: FORCE
 	@if not exist meshlabplugins\filter_mls\ mkdir meshlabplugins\filter_mls\ & if not exist meshlabplugins\filter_mls\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mls\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mls\filter_mls.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_mls\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mls\filter_mls.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_mls-clean-ordered: sub-meshlabplugins-filter_meshing-clean-ordered  FORCE
 	@if not exist meshlabplugins\filter_mls\ mkdir meshlabplugins\filter_mls\ & if not exist meshlabplugins\filter_mls\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mls\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mls\filter_mls.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_mls\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mls\filter_mls.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_mls-clean: FORCE
 	@if not exist meshlabplugins\filter_mls\ mkdir meshlabplugins\filter_mls\ & if not exist meshlabplugins\filter_mls\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mls\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mls\filter_mls.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_mls\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mls\filter_mls.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_mls-distclean-ordered: sub-meshlabplugins-filter_meshing-distclean-ordered  FORCE
 	@if not exist meshlabplugins\filter_mls\ mkdir meshlabplugins\filter_mls\ & if not exist meshlabplugins\filter_mls\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mls\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mls\filter_mls.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_mls\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mls\filter_mls.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_mls-distclean: FORCE
 	@if not exist meshlabplugins\filter_mls\ mkdir meshlabplugins\filter_mls\ & if not exist meshlabplugins\filter_mls\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mls\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mls\filter_mls.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_mls\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mls\filter_mls.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_mls-install_subtargets-ordered: sub-meshlabplugins-filter_meshing-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_mls\ mkdir meshlabplugins\filter_mls\ & if not exist meshlabplugins\filter_mls\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mls\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mls\filter_mls.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_mls\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mls\filter_mls.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_mls-install_subtargets: FORCE
 	@if not exist meshlabplugins\filter_mls\ mkdir meshlabplugins\filter_mls\ & if not exist meshlabplugins\filter_mls\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mls\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mls\filter_mls.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_mls\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mls\filter_mls.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_mls-uninstall_subtargets-ordered: sub-meshlabplugins-filter_meshing-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_mls\ mkdir meshlabplugins\filter_mls\ & if not exist meshlabplugins\filter_mls\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mls\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mls\filter_mls.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_mls\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mls\filter_mls.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_mls-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\filter_mls\ mkdir meshlabplugins\filter_mls\ & if not exist meshlabplugins\filter_mls\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mls\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mls\filter_mls.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_mls\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mls\filter_mls.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_mutualglobal-qmake_all: sub-meshlabplugins-filter_mls-qmake_all FORCE
 	@if not exist meshlabplugins\filter_mutualglobal\ mkdir meshlabplugins\filter_mutualglobal\ & if not exist meshlabplugins\filter_mutualglobal\ exit 1
-	cd meshlabplugins\filter_mutualglobal\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mutualglobal\filter_mutualglobal.pro -spec win32-msvc
+	cd meshlabplugins\filter_mutualglobal\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mutualglobal\filter_mutualglobal.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\filter_mutualglobal\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-filter_mutualglobal: FORCE
 	@if not exist meshlabplugins\filter_mutualglobal\ mkdir meshlabplugins\filter_mutualglobal\ & if not exist meshlabplugins\filter_mutualglobal\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mutualglobal\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mutualglobal\filter_mutualglobal.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\filter_mutualglobal\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mutualglobal\filter_mutualglobal.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-filter_mutualglobal-make_first-ordered: sub-meshlabplugins-filter_mls-make_first-ordered  FORCE
 	@if not exist meshlabplugins\filter_mutualglobal\ mkdir meshlabplugins\filter_mutualglobal\ & if not exist meshlabplugins\filter_mutualglobal\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mutualglobal\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mutualglobal\filter_mutualglobal.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_mutualglobal\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mutualglobal\filter_mutualglobal.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_mutualglobal-make_first: FORCE
 	@if not exist meshlabplugins\filter_mutualglobal\ mkdir meshlabplugins\filter_mutualglobal\ & if not exist meshlabplugins\filter_mutualglobal\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mutualglobal\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mutualglobal\filter_mutualglobal.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_mutualglobal\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mutualglobal\filter_mutualglobal.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_mutualglobal-all-ordered: sub-meshlabplugins-filter_mls-all-ordered  FORCE
 	@if not exist meshlabplugins\filter_mutualglobal\ mkdir meshlabplugins\filter_mutualglobal\ & if not exist meshlabplugins\filter_mutualglobal\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mutualglobal\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mutualglobal\filter_mutualglobal.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_mutualglobal\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mutualglobal\filter_mutualglobal.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_mutualglobal-all: FORCE
 	@if not exist meshlabplugins\filter_mutualglobal\ mkdir meshlabplugins\filter_mutualglobal\ & if not exist meshlabplugins\filter_mutualglobal\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mutualglobal\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mutualglobal\filter_mutualglobal.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_mutualglobal\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mutualglobal\filter_mutualglobal.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_mutualglobal-clean-ordered: sub-meshlabplugins-filter_mls-clean-ordered  FORCE
 	@if not exist meshlabplugins\filter_mutualglobal\ mkdir meshlabplugins\filter_mutualglobal\ & if not exist meshlabplugins\filter_mutualglobal\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mutualglobal\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mutualglobal\filter_mutualglobal.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_mutualglobal\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mutualglobal\filter_mutualglobal.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_mutualglobal-clean: FORCE
 	@if not exist meshlabplugins\filter_mutualglobal\ mkdir meshlabplugins\filter_mutualglobal\ & if not exist meshlabplugins\filter_mutualglobal\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mutualglobal\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mutualglobal\filter_mutualglobal.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_mutualglobal\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mutualglobal\filter_mutualglobal.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_mutualglobal-distclean-ordered: sub-meshlabplugins-filter_mls-distclean-ordered  FORCE
 	@if not exist meshlabplugins\filter_mutualglobal\ mkdir meshlabplugins\filter_mutualglobal\ & if not exist meshlabplugins\filter_mutualglobal\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mutualglobal\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mutualglobal\filter_mutualglobal.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_mutualglobal\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mutualglobal\filter_mutualglobal.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_mutualglobal-distclean: FORCE
 	@if not exist meshlabplugins\filter_mutualglobal\ mkdir meshlabplugins\filter_mutualglobal\ & if not exist meshlabplugins\filter_mutualglobal\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mutualglobal\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mutualglobal\filter_mutualglobal.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_mutualglobal\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mutualglobal\filter_mutualglobal.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_mutualglobal-install_subtargets-ordered: sub-meshlabplugins-filter_mls-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_mutualglobal\ mkdir meshlabplugins\filter_mutualglobal\ & if not exist meshlabplugins\filter_mutualglobal\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mutualglobal\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mutualglobal\filter_mutualglobal.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_mutualglobal\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mutualglobal\filter_mutualglobal.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_mutualglobal-install_subtargets: FORCE
 	@if not exist meshlabplugins\filter_mutualglobal\ mkdir meshlabplugins\filter_mutualglobal\ & if not exist meshlabplugins\filter_mutualglobal\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mutualglobal\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mutualglobal\filter_mutualglobal.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_mutualglobal\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mutualglobal\filter_mutualglobal.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_mutualglobal-uninstall_subtargets-ordered: sub-meshlabplugins-filter_mls-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_mutualglobal\ mkdir meshlabplugins\filter_mutualglobal\ & if not exist meshlabplugins\filter_mutualglobal\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mutualglobal\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mutualglobal\filter_mutualglobal.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_mutualglobal\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mutualglobal\filter_mutualglobal.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_mutualglobal-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\filter_mutualglobal\ mkdir meshlabplugins\filter_mutualglobal\ & if not exist meshlabplugins\filter_mutualglobal\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mutualglobal\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mutualglobal\filter_mutualglobal.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_mutualglobal\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mutualglobal\filter_mutualglobal.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_mutualinfoxml-qmake_all: sub-meshlabplugins-filter_mutualglobal-qmake_all FORCE
 	@if not exist meshlabplugins\filter_mutualinfoxml\ mkdir meshlabplugins\filter_mutualinfoxml\ & if not exist meshlabplugins\filter_mutualinfoxml\ exit 1
-	cd meshlabplugins\filter_mutualinfoxml\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mutualinfoxml\filter_mutualinfoxml.pro -spec win32-msvc
+	cd meshlabplugins\filter_mutualinfoxml\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mutualinfoxml\filter_mutualinfoxml.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\filter_mutualinfoxml\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-filter_mutualinfoxml: FORCE
 	@if not exist meshlabplugins\filter_mutualinfoxml\ mkdir meshlabplugins\filter_mutualinfoxml\ & if not exist meshlabplugins\filter_mutualinfoxml\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mutualinfoxml\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mutualinfoxml\filter_mutualinfoxml.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\filter_mutualinfoxml\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mutualinfoxml\filter_mutualinfoxml.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-filter_mutualinfoxml-make_first-ordered: sub-meshlabplugins-filter_mutualglobal-make_first-ordered  FORCE
 	@if not exist meshlabplugins\filter_mutualinfoxml\ mkdir meshlabplugins\filter_mutualinfoxml\ & if not exist meshlabplugins\filter_mutualinfoxml\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mutualinfoxml\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mutualinfoxml\filter_mutualinfoxml.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_mutualinfoxml\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mutualinfoxml\filter_mutualinfoxml.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_mutualinfoxml-make_first: FORCE
 	@if not exist meshlabplugins\filter_mutualinfoxml\ mkdir meshlabplugins\filter_mutualinfoxml\ & if not exist meshlabplugins\filter_mutualinfoxml\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mutualinfoxml\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mutualinfoxml\filter_mutualinfoxml.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_mutualinfoxml\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mutualinfoxml\filter_mutualinfoxml.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_mutualinfoxml-all-ordered: sub-meshlabplugins-filter_mutualglobal-all-ordered  FORCE
 	@if not exist meshlabplugins\filter_mutualinfoxml\ mkdir meshlabplugins\filter_mutualinfoxml\ & if not exist meshlabplugins\filter_mutualinfoxml\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mutualinfoxml\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mutualinfoxml\filter_mutualinfoxml.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_mutualinfoxml\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mutualinfoxml\filter_mutualinfoxml.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_mutualinfoxml-all: FORCE
 	@if not exist meshlabplugins\filter_mutualinfoxml\ mkdir meshlabplugins\filter_mutualinfoxml\ & if not exist meshlabplugins\filter_mutualinfoxml\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mutualinfoxml\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mutualinfoxml\filter_mutualinfoxml.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_mutualinfoxml\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mutualinfoxml\filter_mutualinfoxml.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_mutualinfoxml-clean-ordered: sub-meshlabplugins-filter_mutualglobal-clean-ordered  FORCE
 	@if not exist meshlabplugins\filter_mutualinfoxml\ mkdir meshlabplugins\filter_mutualinfoxml\ & if not exist meshlabplugins\filter_mutualinfoxml\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mutualinfoxml\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mutualinfoxml\filter_mutualinfoxml.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_mutualinfoxml\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mutualinfoxml\filter_mutualinfoxml.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_mutualinfoxml-clean: FORCE
 	@if not exist meshlabplugins\filter_mutualinfoxml\ mkdir meshlabplugins\filter_mutualinfoxml\ & if not exist meshlabplugins\filter_mutualinfoxml\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mutualinfoxml\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mutualinfoxml\filter_mutualinfoxml.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_mutualinfoxml\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mutualinfoxml\filter_mutualinfoxml.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_mutualinfoxml-distclean-ordered: sub-meshlabplugins-filter_mutualglobal-distclean-ordered  FORCE
 	@if not exist meshlabplugins\filter_mutualinfoxml\ mkdir meshlabplugins\filter_mutualinfoxml\ & if not exist meshlabplugins\filter_mutualinfoxml\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mutualinfoxml\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mutualinfoxml\filter_mutualinfoxml.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_mutualinfoxml\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mutualinfoxml\filter_mutualinfoxml.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_mutualinfoxml-distclean: FORCE
 	@if not exist meshlabplugins\filter_mutualinfoxml\ mkdir meshlabplugins\filter_mutualinfoxml\ & if not exist meshlabplugins\filter_mutualinfoxml\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mutualinfoxml\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mutualinfoxml\filter_mutualinfoxml.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_mutualinfoxml\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mutualinfoxml\filter_mutualinfoxml.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_mutualinfoxml-install_subtargets-ordered: sub-meshlabplugins-filter_mutualglobal-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_mutualinfoxml\ mkdir meshlabplugins\filter_mutualinfoxml\ & if not exist meshlabplugins\filter_mutualinfoxml\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mutualinfoxml\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mutualinfoxml\filter_mutualinfoxml.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_mutualinfoxml\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mutualinfoxml\filter_mutualinfoxml.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_mutualinfoxml-install_subtargets: FORCE
 	@if not exist meshlabplugins\filter_mutualinfoxml\ mkdir meshlabplugins\filter_mutualinfoxml\ & if not exist meshlabplugins\filter_mutualinfoxml\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mutualinfoxml\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mutualinfoxml\filter_mutualinfoxml.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_mutualinfoxml\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mutualinfoxml\filter_mutualinfoxml.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_mutualinfoxml-uninstall_subtargets-ordered: sub-meshlabplugins-filter_mutualglobal-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_mutualinfoxml\ mkdir meshlabplugins\filter_mutualinfoxml\ & if not exist meshlabplugins\filter_mutualinfoxml\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mutualinfoxml\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mutualinfoxml\filter_mutualinfoxml.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_mutualinfoxml\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mutualinfoxml\filter_mutualinfoxml.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_mutualinfoxml-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\filter_mutualinfoxml\ mkdir meshlabplugins\filter_mutualinfoxml\ & if not exist meshlabplugins\filter_mutualinfoxml\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mutualinfoxml\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mutualinfoxml\filter_mutualinfoxml.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_mutualinfoxml\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mutualinfoxml\filter_mutualinfoxml.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_plymc-qmake_all: sub-meshlabplugins-filter_mutualinfoxml-qmake_all FORCE
 	@if not exist meshlabplugins\filter_plymc\ mkdir meshlabplugins\filter_plymc\ & if not exist meshlabplugins\filter_plymc\ exit 1
-	cd meshlabplugins\filter_plymc\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_plymc\filter_plymc.pro -spec win32-msvc
+	cd meshlabplugins\filter_plymc\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_plymc\filter_plymc.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\filter_plymc\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-filter_plymc: FORCE
 	@if not exist meshlabplugins\filter_plymc\ mkdir meshlabplugins\filter_plymc\ & if not exist meshlabplugins\filter_plymc\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_plymc\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_plymc\filter_plymc.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\filter_plymc\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_plymc\filter_plymc.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-filter_plymc-make_first-ordered: sub-meshlabplugins-filter_mutualinfoxml-make_first-ordered  FORCE
 	@if not exist meshlabplugins\filter_plymc\ mkdir meshlabplugins\filter_plymc\ & if not exist meshlabplugins\filter_plymc\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_plymc\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_plymc\filter_plymc.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_plymc\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_plymc\filter_plymc.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_plymc-make_first: FORCE
 	@if not exist meshlabplugins\filter_plymc\ mkdir meshlabplugins\filter_plymc\ & if not exist meshlabplugins\filter_plymc\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_plymc\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_plymc\filter_plymc.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_plymc\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_plymc\filter_plymc.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_plymc-all-ordered: sub-meshlabplugins-filter_mutualinfoxml-all-ordered  FORCE
 	@if not exist meshlabplugins\filter_plymc\ mkdir meshlabplugins\filter_plymc\ & if not exist meshlabplugins\filter_plymc\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_plymc\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_plymc\filter_plymc.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_plymc\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_plymc\filter_plymc.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_plymc-all: FORCE
 	@if not exist meshlabplugins\filter_plymc\ mkdir meshlabplugins\filter_plymc\ & if not exist meshlabplugins\filter_plymc\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_plymc\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_plymc\filter_plymc.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_plymc\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_plymc\filter_plymc.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_plymc-clean-ordered: sub-meshlabplugins-filter_mutualinfoxml-clean-ordered  FORCE
 	@if not exist meshlabplugins\filter_plymc\ mkdir meshlabplugins\filter_plymc\ & if not exist meshlabplugins\filter_plymc\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_plymc\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_plymc\filter_plymc.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_plymc\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_plymc\filter_plymc.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_plymc-clean: FORCE
 	@if not exist meshlabplugins\filter_plymc\ mkdir meshlabplugins\filter_plymc\ & if not exist meshlabplugins\filter_plymc\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_plymc\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_plymc\filter_plymc.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_plymc\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_plymc\filter_plymc.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_plymc-distclean-ordered: sub-meshlabplugins-filter_mutualinfoxml-distclean-ordered  FORCE
 	@if not exist meshlabplugins\filter_plymc\ mkdir meshlabplugins\filter_plymc\ & if not exist meshlabplugins\filter_plymc\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_plymc\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_plymc\filter_plymc.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_plymc\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_plymc\filter_plymc.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_plymc-distclean: FORCE
 	@if not exist meshlabplugins\filter_plymc\ mkdir meshlabplugins\filter_plymc\ & if not exist meshlabplugins\filter_plymc\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_plymc\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_plymc\filter_plymc.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_plymc\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_plymc\filter_plymc.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_plymc-install_subtargets-ordered: sub-meshlabplugins-filter_mutualinfoxml-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_plymc\ mkdir meshlabplugins\filter_plymc\ & if not exist meshlabplugins\filter_plymc\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_plymc\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_plymc\filter_plymc.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_plymc\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_plymc\filter_plymc.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_plymc-install_subtargets: FORCE
 	@if not exist meshlabplugins\filter_plymc\ mkdir meshlabplugins\filter_plymc\ & if not exist meshlabplugins\filter_plymc\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_plymc\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_plymc\filter_plymc.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_plymc\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_plymc\filter_plymc.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_plymc-uninstall_subtargets-ordered: sub-meshlabplugins-filter_mutualinfoxml-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_plymc\ mkdir meshlabplugins\filter_plymc\ & if not exist meshlabplugins\filter_plymc\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_plymc\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_plymc\filter_plymc.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_plymc\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_plymc\filter_plymc.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_plymc-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\filter_plymc\ mkdir meshlabplugins\filter_plymc\ & if not exist meshlabplugins\filter_plymc\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_plymc\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_plymc\filter_plymc.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_plymc\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_plymc\filter_plymc.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_qhull-qmake_all: sub-meshlabplugins-filter_plymc-qmake_all FORCE
 	@if not exist meshlabplugins\filter_qhull\ mkdir meshlabplugins\filter_qhull\ & if not exist meshlabplugins\filter_qhull\ exit 1
-	cd meshlabplugins\filter_qhull\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_qhull\filter_qhull.pro -spec win32-msvc
+	cd meshlabplugins\filter_qhull\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_qhull\filter_qhull.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\filter_qhull\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-filter_qhull: FORCE
 	@if not exist meshlabplugins\filter_qhull\ mkdir meshlabplugins\filter_qhull\ & if not exist meshlabplugins\filter_qhull\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_qhull\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_qhull\filter_qhull.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\filter_qhull\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_qhull\filter_qhull.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-filter_qhull-make_first-ordered: sub-meshlabplugins-filter_plymc-make_first-ordered  FORCE
 	@if not exist meshlabplugins\filter_qhull\ mkdir meshlabplugins\filter_qhull\ & if not exist meshlabplugins\filter_qhull\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_qhull\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_qhull\filter_qhull.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_qhull\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_qhull\filter_qhull.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_qhull-make_first: FORCE
 	@if not exist meshlabplugins\filter_qhull\ mkdir meshlabplugins\filter_qhull\ & if not exist meshlabplugins\filter_qhull\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_qhull\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_qhull\filter_qhull.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_qhull\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_qhull\filter_qhull.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_qhull-all-ordered: sub-meshlabplugins-filter_plymc-all-ordered  FORCE
 	@if not exist meshlabplugins\filter_qhull\ mkdir meshlabplugins\filter_qhull\ & if not exist meshlabplugins\filter_qhull\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_qhull\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_qhull\filter_qhull.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_qhull\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_qhull\filter_qhull.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_qhull-all: FORCE
 	@if not exist meshlabplugins\filter_qhull\ mkdir meshlabplugins\filter_qhull\ & if not exist meshlabplugins\filter_qhull\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_qhull\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_qhull\filter_qhull.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_qhull\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_qhull\filter_qhull.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_qhull-clean-ordered: sub-meshlabplugins-filter_plymc-clean-ordered  FORCE
 	@if not exist meshlabplugins\filter_qhull\ mkdir meshlabplugins\filter_qhull\ & if not exist meshlabplugins\filter_qhull\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_qhull\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_qhull\filter_qhull.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_qhull\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_qhull\filter_qhull.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_qhull-clean: FORCE
 	@if not exist meshlabplugins\filter_qhull\ mkdir meshlabplugins\filter_qhull\ & if not exist meshlabplugins\filter_qhull\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_qhull\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_qhull\filter_qhull.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_qhull\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_qhull\filter_qhull.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_qhull-distclean-ordered: sub-meshlabplugins-filter_plymc-distclean-ordered  FORCE
 	@if not exist meshlabplugins\filter_qhull\ mkdir meshlabplugins\filter_qhull\ & if not exist meshlabplugins\filter_qhull\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_qhull\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_qhull\filter_qhull.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_qhull\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_qhull\filter_qhull.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_qhull-distclean: FORCE
 	@if not exist meshlabplugins\filter_qhull\ mkdir meshlabplugins\filter_qhull\ & if not exist meshlabplugins\filter_qhull\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_qhull\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_qhull\filter_qhull.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_qhull\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_qhull\filter_qhull.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_qhull-install_subtargets-ordered: sub-meshlabplugins-filter_plymc-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_qhull\ mkdir meshlabplugins\filter_qhull\ & if not exist meshlabplugins\filter_qhull\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_qhull\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_qhull\filter_qhull.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_qhull\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_qhull\filter_qhull.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_qhull-install_subtargets: FORCE
 	@if not exist meshlabplugins\filter_qhull\ mkdir meshlabplugins\filter_qhull\ & if not exist meshlabplugins\filter_qhull\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_qhull\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_qhull\filter_qhull.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_qhull\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_qhull\filter_qhull.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_qhull-uninstall_subtargets-ordered: sub-meshlabplugins-filter_plymc-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_qhull\ mkdir meshlabplugins\filter_qhull\ & if not exist meshlabplugins\filter_qhull\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_qhull\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_qhull\filter_qhull.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_qhull\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_qhull\filter_qhull.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_qhull-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\filter_qhull\ mkdir meshlabplugins\filter_qhull\ & if not exist meshlabplugins\filter_qhull\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_qhull\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_qhull\filter_qhull.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_qhull\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_qhull\filter_qhull.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_quality-qmake_all: sub-meshlabplugins-filter_qhull-qmake_all FORCE
 	@if not exist meshlabplugins\filter_quality\ mkdir meshlabplugins\filter_quality\ & if not exist meshlabplugins\filter_quality\ exit 1
-	cd meshlabplugins\filter_quality\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_quality\filter_quality.pro -spec win32-msvc
+	cd meshlabplugins\filter_quality\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_quality\filter_quality.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\filter_quality\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-filter_quality: FORCE
 	@if not exist meshlabplugins\filter_quality\ mkdir meshlabplugins\filter_quality\ & if not exist meshlabplugins\filter_quality\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_quality\filter_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\filter_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_quality\filter_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-filter_quality-make_first-ordered: sub-meshlabplugins-filter_qhull-make_first-ordered  FORCE
 	@if not exist meshlabplugins\filter_quality\ mkdir meshlabplugins\filter_quality\ & if not exist meshlabplugins\filter_quality\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_quality\filter_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_quality\filter_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_quality-make_first: FORCE
 	@if not exist meshlabplugins\filter_quality\ mkdir meshlabplugins\filter_quality\ & if not exist meshlabplugins\filter_quality\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_quality\filter_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_quality\filter_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_quality-all-ordered: sub-meshlabplugins-filter_qhull-all-ordered  FORCE
 	@if not exist meshlabplugins\filter_quality\ mkdir meshlabplugins\filter_quality\ & if not exist meshlabplugins\filter_quality\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_quality\filter_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_quality\filter_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_quality-all: FORCE
 	@if not exist meshlabplugins\filter_quality\ mkdir meshlabplugins\filter_quality\ & if not exist meshlabplugins\filter_quality\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_quality\filter_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_quality\filter_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_quality-clean-ordered: sub-meshlabplugins-filter_qhull-clean-ordered  FORCE
 	@if not exist meshlabplugins\filter_quality\ mkdir meshlabplugins\filter_quality\ & if not exist meshlabplugins\filter_quality\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_quality\filter_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_quality\filter_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_quality-clean: FORCE
 	@if not exist meshlabplugins\filter_quality\ mkdir meshlabplugins\filter_quality\ & if not exist meshlabplugins\filter_quality\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_quality\filter_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_quality\filter_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_quality-distclean-ordered: sub-meshlabplugins-filter_qhull-distclean-ordered  FORCE
 	@if not exist meshlabplugins\filter_quality\ mkdir meshlabplugins\filter_quality\ & if not exist meshlabplugins\filter_quality\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_quality\filter_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_quality\filter_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_quality-distclean: FORCE
 	@if not exist meshlabplugins\filter_quality\ mkdir meshlabplugins\filter_quality\ & if not exist meshlabplugins\filter_quality\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_quality\filter_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_quality\filter_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_quality-install_subtargets-ordered: sub-meshlabplugins-filter_qhull-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_quality\ mkdir meshlabplugins\filter_quality\ & if not exist meshlabplugins\filter_quality\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_quality\filter_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_quality\filter_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_quality-install_subtargets: FORCE
 	@if not exist meshlabplugins\filter_quality\ mkdir meshlabplugins\filter_quality\ & if not exist meshlabplugins\filter_quality\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_quality\filter_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_quality\filter_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_quality-uninstall_subtargets-ordered: sub-meshlabplugins-filter_qhull-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_quality\ mkdir meshlabplugins\filter_quality\ & if not exist meshlabplugins\filter_quality\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_quality\filter_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_quality\filter_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_quality-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\filter_quality\ mkdir meshlabplugins\filter_quality\ & if not exist meshlabplugins\filter_quality\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_quality\filter_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_quality\filter_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_sampling-qmake_all: sub-meshlabplugins-filter_quality-qmake_all FORCE
 	@if not exist meshlabplugins\filter_sampling\ mkdir meshlabplugins\filter_sampling\ & if not exist meshlabplugins\filter_sampling\ exit 1
-	cd meshlabplugins\filter_sampling\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sampling\filter_sampling.pro -spec win32-msvc
+	cd meshlabplugins\filter_sampling\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sampling\filter_sampling.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\filter_sampling\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-filter_sampling: FORCE
 	@if not exist meshlabplugins\filter_sampling\ mkdir meshlabplugins\filter_sampling\ & if not exist meshlabplugins\filter_sampling\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sampling\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sampling\filter_sampling.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\filter_sampling\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sampling\filter_sampling.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-filter_sampling-make_first-ordered: sub-meshlabplugins-filter_quality-make_first-ordered  FORCE
 	@if not exist meshlabplugins\filter_sampling\ mkdir meshlabplugins\filter_sampling\ & if not exist meshlabplugins\filter_sampling\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sampling\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sampling\filter_sampling.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_sampling\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sampling\filter_sampling.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_sampling-make_first: FORCE
 	@if not exist meshlabplugins\filter_sampling\ mkdir meshlabplugins\filter_sampling\ & if not exist meshlabplugins\filter_sampling\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sampling\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sampling\filter_sampling.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_sampling\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sampling\filter_sampling.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_sampling-all-ordered: sub-meshlabplugins-filter_quality-all-ordered  FORCE
 	@if not exist meshlabplugins\filter_sampling\ mkdir meshlabplugins\filter_sampling\ & if not exist meshlabplugins\filter_sampling\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sampling\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sampling\filter_sampling.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_sampling\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sampling\filter_sampling.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_sampling-all: FORCE
 	@if not exist meshlabplugins\filter_sampling\ mkdir meshlabplugins\filter_sampling\ & if not exist meshlabplugins\filter_sampling\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sampling\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sampling\filter_sampling.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_sampling\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sampling\filter_sampling.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_sampling-clean-ordered: sub-meshlabplugins-filter_quality-clean-ordered  FORCE
 	@if not exist meshlabplugins\filter_sampling\ mkdir meshlabplugins\filter_sampling\ & if not exist meshlabplugins\filter_sampling\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sampling\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sampling\filter_sampling.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_sampling\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sampling\filter_sampling.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_sampling-clean: FORCE
 	@if not exist meshlabplugins\filter_sampling\ mkdir meshlabplugins\filter_sampling\ & if not exist meshlabplugins\filter_sampling\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sampling\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sampling\filter_sampling.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_sampling\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sampling\filter_sampling.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_sampling-distclean-ordered: sub-meshlabplugins-filter_quality-distclean-ordered  FORCE
 	@if not exist meshlabplugins\filter_sampling\ mkdir meshlabplugins\filter_sampling\ & if not exist meshlabplugins\filter_sampling\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sampling\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sampling\filter_sampling.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_sampling\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sampling\filter_sampling.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_sampling-distclean: FORCE
 	@if not exist meshlabplugins\filter_sampling\ mkdir meshlabplugins\filter_sampling\ & if not exist meshlabplugins\filter_sampling\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sampling\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sampling\filter_sampling.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_sampling\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sampling\filter_sampling.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_sampling-install_subtargets-ordered: sub-meshlabplugins-filter_quality-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_sampling\ mkdir meshlabplugins\filter_sampling\ & if not exist meshlabplugins\filter_sampling\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sampling\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sampling\filter_sampling.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_sampling\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sampling\filter_sampling.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_sampling-install_subtargets: FORCE
 	@if not exist meshlabplugins\filter_sampling\ mkdir meshlabplugins\filter_sampling\ & if not exist meshlabplugins\filter_sampling\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sampling\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sampling\filter_sampling.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_sampling\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sampling\filter_sampling.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_sampling-uninstall_subtargets-ordered: sub-meshlabplugins-filter_quality-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_sampling\ mkdir meshlabplugins\filter_sampling\ & if not exist meshlabplugins\filter_sampling\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sampling\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sampling\filter_sampling.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_sampling\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sampling\filter_sampling.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_sampling-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\filter_sampling\ mkdir meshlabplugins\filter_sampling\ & if not exist meshlabplugins\filter_sampling\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sampling\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sampling\filter_sampling.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_sampling\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sampling\filter_sampling.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_screened_poisson-qmake_all: sub-meshlabplugins-filter_sampling-qmake_all FORCE
 	@if not exist meshlabplugins\filter_screened_poisson\ mkdir meshlabplugins\filter_screened_poisson\ & if not exist meshlabplugins\filter_screened_poisson\ exit 1
-	cd meshlabplugins\filter_screened_poisson\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_screened_poisson\filter_screened_poisson.pro -spec win32-msvc
+	cd meshlabplugins\filter_screened_poisson\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_screened_poisson\filter_screened_poisson.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\filter_screened_poisson\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-filter_screened_poisson: FORCE
 	@if not exist meshlabplugins\filter_screened_poisson\ mkdir meshlabplugins\filter_screened_poisson\ & if not exist meshlabplugins\filter_screened_poisson\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_screened_poisson\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_screened_poisson\filter_screened_poisson.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\filter_screened_poisson\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_screened_poisson\filter_screened_poisson.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-filter_screened_poisson-make_first-ordered: sub-meshlabplugins-filter_sampling-make_first-ordered  FORCE
 	@if not exist meshlabplugins\filter_screened_poisson\ mkdir meshlabplugins\filter_screened_poisson\ & if not exist meshlabplugins\filter_screened_poisson\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_screened_poisson\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_screened_poisson\filter_screened_poisson.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_screened_poisson\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_screened_poisson\filter_screened_poisson.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_screened_poisson-make_first: FORCE
 	@if not exist meshlabplugins\filter_screened_poisson\ mkdir meshlabplugins\filter_screened_poisson\ & if not exist meshlabplugins\filter_screened_poisson\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_screened_poisson\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_screened_poisson\filter_screened_poisson.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_screened_poisson\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_screened_poisson\filter_screened_poisson.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_screened_poisson-all-ordered: sub-meshlabplugins-filter_sampling-all-ordered  FORCE
 	@if not exist meshlabplugins\filter_screened_poisson\ mkdir meshlabplugins\filter_screened_poisson\ & if not exist meshlabplugins\filter_screened_poisson\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_screened_poisson\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_screened_poisson\filter_screened_poisson.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_screened_poisson\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_screened_poisson\filter_screened_poisson.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_screened_poisson-all: FORCE
 	@if not exist meshlabplugins\filter_screened_poisson\ mkdir meshlabplugins\filter_screened_poisson\ & if not exist meshlabplugins\filter_screened_poisson\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_screened_poisson\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_screened_poisson\filter_screened_poisson.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_screened_poisson\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_screened_poisson\filter_screened_poisson.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_screened_poisson-clean-ordered: sub-meshlabplugins-filter_sampling-clean-ordered  FORCE
 	@if not exist meshlabplugins\filter_screened_poisson\ mkdir meshlabplugins\filter_screened_poisson\ & if not exist meshlabplugins\filter_screened_poisson\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_screened_poisson\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_screened_poisson\filter_screened_poisson.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_screened_poisson\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_screened_poisson\filter_screened_poisson.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_screened_poisson-clean: FORCE
 	@if not exist meshlabplugins\filter_screened_poisson\ mkdir meshlabplugins\filter_screened_poisson\ & if not exist meshlabplugins\filter_screened_poisson\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_screened_poisson\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_screened_poisson\filter_screened_poisson.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_screened_poisson\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_screened_poisson\filter_screened_poisson.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_screened_poisson-distclean-ordered: sub-meshlabplugins-filter_sampling-distclean-ordered  FORCE
 	@if not exist meshlabplugins\filter_screened_poisson\ mkdir meshlabplugins\filter_screened_poisson\ & if not exist meshlabplugins\filter_screened_poisson\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_screened_poisson\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_screened_poisson\filter_screened_poisson.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_screened_poisson\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_screened_poisson\filter_screened_poisson.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_screened_poisson-distclean: FORCE
 	@if not exist meshlabplugins\filter_screened_poisson\ mkdir meshlabplugins\filter_screened_poisson\ & if not exist meshlabplugins\filter_screened_poisson\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_screened_poisson\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_screened_poisson\filter_screened_poisson.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_screened_poisson\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_screened_poisson\filter_screened_poisson.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_screened_poisson-install_subtargets-ordered: sub-meshlabplugins-filter_sampling-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_screened_poisson\ mkdir meshlabplugins\filter_screened_poisson\ & if not exist meshlabplugins\filter_screened_poisson\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_screened_poisson\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_screened_poisson\filter_screened_poisson.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_screened_poisson\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_screened_poisson\filter_screened_poisson.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_screened_poisson-install_subtargets: FORCE
 	@if not exist meshlabplugins\filter_screened_poisson\ mkdir meshlabplugins\filter_screened_poisson\ & if not exist meshlabplugins\filter_screened_poisson\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_screened_poisson\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_screened_poisson\filter_screened_poisson.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_screened_poisson\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_screened_poisson\filter_screened_poisson.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_screened_poisson-uninstall_subtargets-ordered: sub-meshlabplugins-filter_sampling-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_screened_poisson\ mkdir meshlabplugins\filter_screened_poisson\ & if not exist meshlabplugins\filter_screened_poisson\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_screened_poisson\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_screened_poisson\filter_screened_poisson.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_screened_poisson\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_screened_poisson\filter_screened_poisson.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_screened_poisson-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\filter_screened_poisson\ mkdir meshlabplugins\filter_screened_poisson\ & if not exist meshlabplugins\filter_screened_poisson\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_screened_poisson\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_screened_poisson\filter_screened_poisson.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_screened_poisson\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_screened_poisson\filter_screened_poisson.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_sdfgpu-qmake_all: sub-meshlabplugins-filter_screened_poisson-qmake_all FORCE
 	@if not exist meshlabplugins\filter_sdfgpu\ mkdir meshlabplugins\filter_sdfgpu\ & if not exist meshlabplugins\filter_sdfgpu\ exit 1
-	cd meshlabplugins\filter_sdfgpu\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sdfgpu\filter_sdfgpu.pro -spec win32-msvc
+	cd meshlabplugins\filter_sdfgpu\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sdfgpu\filter_sdfgpu.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\filter_sdfgpu\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-filter_sdfgpu: FORCE
 	@if not exist meshlabplugins\filter_sdfgpu\ mkdir meshlabplugins\filter_sdfgpu\ & if not exist meshlabplugins\filter_sdfgpu\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sdfgpu\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sdfgpu\filter_sdfgpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\filter_sdfgpu\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sdfgpu\filter_sdfgpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-filter_sdfgpu-make_first-ordered: sub-meshlabplugins-filter_screened_poisson-make_first-ordered  FORCE
 	@if not exist meshlabplugins\filter_sdfgpu\ mkdir meshlabplugins\filter_sdfgpu\ & if not exist meshlabplugins\filter_sdfgpu\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sdfgpu\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sdfgpu\filter_sdfgpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_sdfgpu\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sdfgpu\filter_sdfgpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_sdfgpu-make_first: FORCE
 	@if not exist meshlabplugins\filter_sdfgpu\ mkdir meshlabplugins\filter_sdfgpu\ & if not exist meshlabplugins\filter_sdfgpu\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sdfgpu\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sdfgpu\filter_sdfgpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_sdfgpu\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sdfgpu\filter_sdfgpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_sdfgpu-all-ordered: sub-meshlabplugins-filter_screened_poisson-all-ordered  FORCE
 	@if not exist meshlabplugins\filter_sdfgpu\ mkdir meshlabplugins\filter_sdfgpu\ & if not exist meshlabplugins\filter_sdfgpu\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sdfgpu\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sdfgpu\filter_sdfgpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_sdfgpu\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sdfgpu\filter_sdfgpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_sdfgpu-all: FORCE
 	@if not exist meshlabplugins\filter_sdfgpu\ mkdir meshlabplugins\filter_sdfgpu\ & if not exist meshlabplugins\filter_sdfgpu\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sdfgpu\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sdfgpu\filter_sdfgpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_sdfgpu\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sdfgpu\filter_sdfgpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_sdfgpu-clean-ordered: sub-meshlabplugins-filter_screened_poisson-clean-ordered  FORCE
 	@if not exist meshlabplugins\filter_sdfgpu\ mkdir meshlabplugins\filter_sdfgpu\ & if not exist meshlabplugins\filter_sdfgpu\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sdfgpu\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sdfgpu\filter_sdfgpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_sdfgpu\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sdfgpu\filter_sdfgpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_sdfgpu-clean: FORCE
 	@if not exist meshlabplugins\filter_sdfgpu\ mkdir meshlabplugins\filter_sdfgpu\ & if not exist meshlabplugins\filter_sdfgpu\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sdfgpu\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sdfgpu\filter_sdfgpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_sdfgpu\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sdfgpu\filter_sdfgpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_sdfgpu-distclean-ordered: sub-meshlabplugins-filter_screened_poisson-distclean-ordered  FORCE
 	@if not exist meshlabplugins\filter_sdfgpu\ mkdir meshlabplugins\filter_sdfgpu\ & if not exist meshlabplugins\filter_sdfgpu\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sdfgpu\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sdfgpu\filter_sdfgpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_sdfgpu\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sdfgpu\filter_sdfgpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_sdfgpu-distclean: FORCE
 	@if not exist meshlabplugins\filter_sdfgpu\ mkdir meshlabplugins\filter_sdfgpu\ & if not exist meshlabplugins\filter_sdfgpu\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sdfgpu\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sdfgpu\filter_sdfgpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_sdfgpu\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sdfgpu\filter_sdfgpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_sdfgpu-install_subtargets-ordered: sub-meshlabplugins-filter_screened_poisson-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_sdfgpu\ mkdir meshlabplugins\filter_sdfgpu\ & if not exist meshlabplugins\filter_sdfgpu\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sdfgpu\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sdfgpu\filter_sdfgpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_sdfgpu\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sdfgpu\filter_sdfgpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_sdfgpu-install_subtargets: FORCE
 	@if not exist meshlabplugins\filter_sdfgpu\ mkdir meshlabplugins\filter_sdfgpu\ & if not exist meshlabplugins\filter_sdfgpu\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sdfgpu\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sdfgpu\filter_sdfgpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_sdfgpu\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sdfgpu\filter_sdfgpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_sdfgpu-uninstall_subtargets-ordered: sub-meshlabplugins-filter_screened_poisson-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_sdfgpu\ mkdir meshlabplugins\filter_sdfgpu\ & if not exist meshlabplugins\filter_sdfgpu\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sdfgpu\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sdfgpu\filter_sdfgpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_sdfgpu\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sdfgpu\filter_sdfgpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_sdfgpu-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\filter_sdfgpu\ mkdir meshlabplugins\filter_sdfgpu\ & if not exist meshlabplugins\filter_sdfgpu\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sdfgpu\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sdfgpu\filter_sdfgpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_sdfgpu\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sdfgpu\filter_sdfgpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_select-qmake_all: sub-meshlabplugins-filter_sdfgpu-qmake_all FORCE
 	@if not exist meshlabplugins\filter_select\ mkdir meshlabplugins\filter_select\ & if not exist meshlabplugins\filter_select\ exit 1
-	cd meshlabplugins\filter_select\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_select\filter_select.pro -spec win32-msvc
+	cd meshlabplugins\filter_select\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_select\filter_select.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\filter_select\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-filter_select: FORCE
 	@if not exist meshlabplugins\filter_select\ mkdir meshlabplugins\filter_select\ & if not exist meshlabplugins\filter_select\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_select\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_select\filter_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\filter_select\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_select\filter_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-filter_select-make_first-ordered: sub-meshlabplugins-filter_sdfgpu-make_first-ordered  FORCE
 	@if not exist meshlabplugins\filter_select\ mkdir meshlabplugins\filter_select\ & if not exist meshlabplugins\filter_select\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_select\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_select\filter_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_select\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_select\filter_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_select-make_first: FORCE
 	@if not exist meshlabplugins\filter_select\ mkdir meshlabplugins\filter_select\ & if not exist meshlabplugins\filter_select\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_select\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_select\filter_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_select\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_select\filter_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_select-all-ordered: sub-meshlabplugins-filter_sdfgpu-all-ordered  FORCE
 	@if not exist meshlabplugins\filter_select\ mkdir meshlabplugins\filter_select\ & if not exist meshlabplugins\filter_select\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_select\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_select\filter_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_select\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_select\filter_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_select-all: FORCE
 	@if not exist meshlabplugins\filter_select\ mkdir meshlabplugins\filter_select\ & if not exist meshlabplugins\filter_select\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_select\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_select\filter_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_select\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_select\filter_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_select-clean-ordered: sub-meshlabplugins-filter_sdfgpu-clean-ordered  FORCE
 	@if not exist meshlabplugins\filter_select\ mkdir meshlabplugins\filter_select\ & if not exist meshlabplugins\filter_select\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_select\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_select\filter_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_select\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_select\filter_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_select-clean: FORCE
 	@if not exist meshlabplugins\filter_select\ mkdir meshlabplugins\filter_select\ & if not exist meshlabplugins\filter_select\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_select\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_select\filter_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_select\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_select\filter_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_select-distclean-ordered: sub-meshlabplugins-filter_sdfgpu-distclean-ordered  FORCE
 	@if not exist meshlabplugins\filter_select\ mkdir meshlabplugins\filter_select\ & if not exist meshlabplugins\filter_select\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_select\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_select\filter_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_select\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_select\filter_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_select-distclean: FORCE
 	@if not exist meshlabplugins\filter_select\ mkdir meshlabplugins\filter_select\ & if not exist meshlabplugins\filter_select\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_select\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_select\filter_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_select\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_select\filter_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_select-install_subtargets-ordered: sub-meshlabplugins-filter_sdfgpu-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_select\ mkdir meshlabplugins\filter_select\ & if not exist meshlabplugins\filter_select\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_select\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_select\filter_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_select\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_select\filter_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_select-install_subtargets: FORCE
 	@if not exist meshlabplugins\filter_select\ mkdir meshlabplugins\filter_select\ & if not exist meshlabplugins\filter_select\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_select\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_select\filter_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_select\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_select\filter_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_select-uninstall_subtargets-ordered: sub-meshlabplugins-filter_sdfgpu-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_select\ mkdir meshlabplugins\filter_select\ & if not exist meshlabplugins\filter_select\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_select\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_select\filter_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_select\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_select\filter_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_select-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\filter_select\ mkdir meshlabplugins\filter_select\ & if not exist meshlabplugins\filter_select\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_select\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_select\filter_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_select\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_select\filter_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_sketchfab-qmake_all: sub-meshlabplugins-filter_select-qmake_all FORCE
 	@if not exist meshlabplugins\filter_sketchfab\ mkdir meshlabplugins\filter_sketchfab\ & if not exist meshlabplugins\filter_sketchfab\ exit 1
-	cd meshlabplugins\filter_sketchfab\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sketchfab\filter_sketchfab.pro -spec win32-msvc
+	cd meshlabplugins\filter_sketchfab\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sketchfab\filter_sketchfab.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\filter_sketchfab\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-filter_sketchfab: FORCE
 	@if not exist meshlabplugins\filter_sketchfab\ mkdir meshlabplugins\filter_sketchfab\ & if not exist meshlabplugins\filter_sketchfab\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sketchfab\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sketchfab\filter_sketchfab.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\filter_sketchfab\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sketchfab\filter_sketchfab.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-filter_sketchfab-make_first-ordered: sub-meshlabplugins-filter_select-make_first-ordered  FORCE
 	@if not exist meshlabplugins\filter_sketchfab\ mkdir meshlabplugins\filter_sketchfab\ & if not exist meshlabplugins\filter_sketchfab\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sketchfab\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sketchfab\filter_sketchfab.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_sketchfab\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sketchfab\filter_sketchfab.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_sketchfab-make_first: FORCE
 	@if not exist meshlabplugins\filter_sketchfab\ mkdir meshlabplugins\filter_sketchfab\ & if not exist meshlabplugins\filter_sketchfab\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sketchfab\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sketchfab\filter_sketchfab.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_sketchfab\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sketchfab\filter_sketchfab.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_sketchfab-all-ordered: sub-meshlabplugins-filter_select-all-ordered  FORCE
 	@if not exist meshlabplugins\filter_sketchfab\ mkdir meshlabplugins\filter_sketchfab\ & if not exist meshlabplugins\filter_sketchfab\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sketchfab\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sketchfab\filter_sketchfab.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_sketchfab\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sketchfab\filter_sketchfab.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_sketchfab-all: FORCE
 	@if not exist meshlabplugins\filter_sketchfab\ mkdir meshlabplugins\filter_sketchfab\ & if not exist meshlabplugins\filter_sketchfab\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sketchfab\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sketchfab\filter_sketchfab.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_sketchfab\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sketchfab\filter_sketchfab.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_sketchfab-clean-ordered: sub-meshlabplugins-filter_select-clean-ordered  FORCE
 	@if not exist meshlabplugins\filter_sketchfab\ mkdir meshlabplugins\filter_sketchfab\ & if not exist meshlabplugins\filter_sketchfab\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sketchfab\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sketchfab\filter_sketchfab.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_sketchfab\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sketchfab\filter_sketchfab.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_sketchfab-clean: FORCE
 	@if not exist meshlabplugins\filter_sketchfab\ mkdir meshlabplugins\filter_sketchfab\ & if not exist meshlabplugins\filter_sketchfab\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sketchfab\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sketchfab\filter_sketchfab.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_sketchfab\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sketchfab\filter_sketchfab.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_sketchfab-distclean-ordered: sub-meshlabplugins-filter_select-distclean-ordered  FORCE
 	@if not exist meshlabplugins\filter_sketchfab\ mkdir meshlabplugins\filter_sketchfab\ & if not exist meshlabplugins\filter_sketchfab\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sketchfab\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sketchfab\filter_sketchfab.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_sketchfab\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sketchfab\filter_sketchfab.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_sketchfab-distclean: FORCE
 	@if not exist meshlabplugins\filter_sketchfab\ mkdir meshlabplugins\filter_sketchfab\ & if not exist meshlabplugins\filter_sketchfab\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sketchfab\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sketchfab\filter_sketchfab.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_sketchfab\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sketchfab\filter_sketchfab.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_sketchfab-install_subtargets-ordered: sub-meshlabplugins-filter_select-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_sketchfab\ mkdir meshlabplugins\filter_sketchfab\ & if not exist meshlabplugins\filter_sketchfab\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sketchfab\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sketchfab\filter_sketchfab.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_sketchfab\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sketchfab\filter_sketchfab.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_sketchfab-install_subtargets: FORCE
 	@if not exist meshlabplugins\filter_sketchfab\ mkdir meshlabplugins\filter_sketchfab\ & if not exist meshlabplugins\filter_sketchfab\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sketchfab\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sketchfab\filter_sketchfab.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_sketchfab\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sketchfab\filter_sketchfab.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_sketchfab-uninstall_subtargets-ordered: sub-meshlabplugins-filter_select-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_sketchfab\ mkdir meshlabplugins\filter_sketchfab\ & if not exist meshlabplugins\filter_sketchfab\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sketchfab\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sketchfab\filter_sketchfab.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_sketchfab\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sketchfab\filter_sketchfab.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_sketchfab-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\filter_sketchfab\ mkdir meshlabplugins\filter_sketchfab\ & if not exist meshlabplugins\filter_sketchfab\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sketchfab\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sketchfab\filter_sketchfab.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_sketchfab\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sketchfab\filter_sketchfab.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_ssynth-qmake_all: sub-meshlabplugins-filter_sketchfab-qmake_all FORCE
 	@if not exist meshlabplugins\filter_ssynth\ mkdir meshlabplugins\filter_ssynth\ & if not exist meshlabplugins\filter_ssynth\ exit 1
-	cd meshlabplugins\filter_ssynth\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_ssynth\filter_ssynth.pro -spec win32-msvc
+	cd meshlabplugins\filter_ssynth\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_ssynth\filter_ssynth.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\filter_ssynth\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-filter_ssynth: FORCE
 	@if not exist meshlabplugins\filter_ssynth\ mkdir meshlabplugins\filter_ssynth\ & if not exist meshlabplugins\filter_ssynth\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_ssynth\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_ssynth\filter_ssynth.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\filter_ssynth\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_ssynth\filter_ssynth.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-filter_ssynth-make_first-ordered: sub-meshlabplugins-filter_sketchfab-make_first-ordered  FORCE
 	@if not exist meshlabplugins\filter_ssynth\ mkdir meshlabplugins\filter_ssynth\ & if not exist meshlabplugins\filter_ssynth\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_ssynth\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_ssynth\filter_ssynth.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_ssynth\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_ssynth\filter_ssynth.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_ssynth-make_first: FORCE
 	@if not exist meshlabplugins\filter_ssynth\ mkdir meshlabplugins\filter_ssynth\ & if not exist meshlabplugins\filter_ssynth\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_ssynth\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_ssynth\filter_ssynth.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_ssynth\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_ssynth\filter_ssynth.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_ssynth-all-ordered: sub-meshlabplugins-filter_sketchfab-all-ordered  FORCE
 	@if not exist meshlabplugins\filter_ssynth\ mkdir meshlabplugins\filter_ssynth\ & if not exist meshlabplugins\filter_ssynth\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_ssynth\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_ssynth\filter_ssynth.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_ssynth\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_ssynth\filter_ssynth.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_ssynth-all: FORCE
 	@if not exist meshlabplugins\filter_ssynth\ mkdir meshlabplugins\filter_ssynth\ & if not exist meshlabplugins\filter_ssynth\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_ssynth\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_ssynth\filter_ssynth.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_ssynth\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_ssynth\filter_ssynth.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_ssynth-clean-ordered: sub-meshlabplugins-filter_sketchfab-clean-ordered  FORCE
 	@if not exist meshlabplugins\filter_ssynth\ mkdir meshlabplugins\filter_ssynth\ & if not exist meshlabplugins\filter_ssynth\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_ssynth\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_ssynth\filter_ssynth.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_ssynth\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_ssynth\filter_ssynth.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_ssynth-clean: FORCE
 	@if not exist meshlabplugins\filter_ssynth\ mkdir meshlabplugins\filter_ssynth\ & if not exist meshlabplugins\filter_ssynth\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_ssynth\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_ssynth\filter_ssynth.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_ssynth\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_ssynth\filter_ssynth.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_ssynth-distclean-ordered: sub-meshlabplugins-filter_sketchfab-distclean-ordered  FORCE
 	@if not exist meshlabplugins\filter_ssynth\ mkdir meshlabplugins\filter_ssynth\ & if not exist meshlabplugins\filter_ssynth\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_ssynth\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_ssynth\filter_ssynth.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_ssynth\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_ssynth\filter_ssynth.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_ssynth-distclean: FORCE
 	@if not exist meshlabplugins\filter_ssynth\ mkdir meshlabplugins\filter_ssynth\ & if not exist meshlabplugins\filter_ssynth\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_ssynth\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_ssynth\filter_ssynth.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_ssynth\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_ssynth\filter_ssynth.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_ssynth-install_subtargets-ordered: sub-meshlabplugins-filter_sketchfab-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_ssynth\ mkdir meshlabplugins\filter_ssynth\ & if not exist meshlabplugins\filter_ssynth\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_ssynth\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_ssynth\filter_ssynth.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_ssynth\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_ssynth\filter_ssynth.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_ssynth-install_subtargets: FORCE
 	@if not exist meshlabplugins\filter_ssynth\ mkdir meshlabplugins\filter_ssynth\ & if not exist meshlabplugins\filter_ssynth\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_ssynth\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_ssynth\filter_ssynth.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_ssynth\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_ssynth\filter_ssynth.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_ssynth-uninstall_subtargets-ordered: sub-meshlabplugins-filter_sketchfab-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_ssynth\ mkdir meshlabplugins\filter_ssynth\ & if not exist meshlabplugins\filter_ssynth\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_ssynth\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_ssynth\filter_ssynth.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_ssynth\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_ssynth\filter_ssynth.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_ssynth-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\filter_ssynth\ mkdir meshlabplugins\filter_ssynth\ & if not exist meshlabplugins\filter_ssynth\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_ssynth\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_ssynth\filter_ssynth.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_ssynth\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_ssynth\filter_ssynth.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_texture-qmake_all: sub-meshlabplugins-filter_ssynth-qmake_all FORCE
 	@if not exist meshlabplugins\filter_texture\ mkdir meshlabplugins\filter_texture\ & if not exist meshlabplugins\filter_texture\ exit 1
-	cd meshlabplugins\filter_texture\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_texture\filter_texture.pro -spec win32-msvc
+	cd meshlabplugins\filter_texture\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_texture\filter_texture.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\filter_texture\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-filter_texture: FORCE
 	@if not exist meshlabplugins\filter_texture\ mkdir meshlabplugins\filter_texture\ & if not exist meshlabplugins\filter_texture\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_texture\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_texture\filter_texture.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\filter_texture\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_texture\filter_texture.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-filter_texture-make_first-ordered: sub-meshlabplugins-filter_ssynth-make_first-ordered  FORCE
 	@if not exist meshlabplugins\filter_texture\ mkdir meshlabplugins\filter_texture\ & if not exist meshlabplugins\filter_texture\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_texture\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_texture\filter_texture.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_texture\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_texture\filter_texture.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_texture-make_first: FORCE
 	@if not exist meshlabplugins\filter_texture\ mkdir meshlabplugins\filter_texture\ & if not exist meshlabplugins\filter_texture\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_texture\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_texture\filter_texture.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_texture\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_texture\filter_texture.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_texture-all-ordered: sub-meshlabplugins-filter_ssynth-all-ordered  FORCE
 	@if not exist meshlabplugins\filter_texture\ mkdir meshlabplugins\filter_texture\ & if not exist meshlabplugins\filter_texture\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_texture\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_texture\filter_texture.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_texture\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_texture\filter_texture.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_texture-all: FORCE
 	@if not exist meshlabplugins\filter_texture\ mkdir meshlabplugins\filter_texture\ & if not exist meshlabplugins\filter_texture\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_texture\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_texture\filter_texture.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_texture\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_texture\filter_texture.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_texture-clean-ordered: sub-meshlabplugins-filter_ssynth-clean-ordered  FORCE
 	@if not exist meshlabplugins\filter_texture\ mkdir meshlabplugins\filter_texture\ & if not exist meshlabplugins\filter_texture\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_texture\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_texture\filter_texture.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_texture\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_texture\filter_texture.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_texture-clean: FORCE
 	@if not exist meshlabplugins\filter_texture\ mkdir meshlabplugins\filter_texture\ & if not exist meshlabplugins\filter_texture\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_texture\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_texture\filter_texture.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_texture\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_texture\filter_texture.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_texture-distclean-ordered: sub-meshlabplugins-filter_ssynth-distclean-ordered  FORCE
 	@if not exist meshlabplugins\filter_texture\ mkdir meshlabplugins\filter_texture\ & if not exist meshlabplugins\filter_texture\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_texture\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_texture\filter_texture.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_texture\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_texture\filter_texture.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_texture-distclean: FORCE
 	@if not exist meshlabplugins\filter_texture\ mkdir meshlabplugins\filter_texture\ & if not exist meshlabplugins\filter_texture\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_texture\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_texture\filter_texture.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_texture\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_texture\filter_texture.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_texture-install_subtargets-ordered: sub-meshlabplugins-filter_ssynth-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_texture\ mkdir meshlabplugins\filter_texture\ & if not exist meshlabplugins\filter_texture\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_texture\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_texture\filter_texture.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_texture\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_texture\filter_texture.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_texture-install_subtargets: FORCE
 	@if not exist meshlabplugins\filter_texture\ mkdir meshlabplugins\filter_texture\ & if not exist meshlabplugins\filter_texture\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_texture\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_texture\filter_texture.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_texture\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_texture\filter_texture.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_texture-uninstall_subtargets-ordered: sub-meshlabplugins-filter_ssynth-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_texture\ mkdir meshlabplugins\filter_texture\ & if not exist meshlabplugins\filter_texture\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_texture\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_texture\filter_texture.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_texture\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_texture\filter_texture.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_texture-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\filter_texture\ mkdir meshlabplugins\filter_texture\ & if not exist meshlabplugins\filter_texture\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_texture\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_texture\filter_texture.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_texture\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_texture\filter_texture.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_trioptimize-qmake_all: sub-meshlabplugins-filter_texture-qmake_all FORCE
 	@if not exist meshlabplugins\filter_trioptimize\ mkdir meshlabplugins\filter_trioptimize\ & if not exist meshlabplugins\filter_trioptimize\ exit 1
-	cd meshlabplugins\filter_trioptimize\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_trioptimize\filter_trioptimize.pro -spec win32-msvc
+	cd meshlabplugins\filter_trioptimize\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_trioptimize\filter_trioptimize.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\filter_trioptimize\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-filter_trioptimize: FORCE
 	@if not exist meshlabplugins\filter_trioptimize\ mkdir meshlabplugins\filter_trioptimize\ & if not exist meshlabplugins\filter_trioptimize\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_trioptimize\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_trioptimize\filter_trioptimize.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\filter_trioptimize\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_trioptimize\filter_trioptimize.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-filter_trioptimize-make_first-ordered: sub-meshlabplugins-filter_texture-make_first-ordered  FORCE
 	@if not exist meshlabplugins\filter_trioptimize\ mkdir meshlabplugins\filter_trioptimize\ & if not exist meshlabplugins\filter_trioptimize\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_trioptimize\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_trioptimize\filter_trioptimize.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_trioptimize\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_trioptimize\filter_trioptimize.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_trioptimize-make_first: FORCE
 	@if not exist meshlabplugins\filter_trioptimize\ mkdir meshlabplugins\filter_trioptimize\ & if not exist meshlabplugins\filter_trioptimize\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_trioptimize\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_trioptimize\filter_trioptimize.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_trioptimize\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_trioptimize\filter_trioptimize.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_trioptimize-all-ordered: sub-meshlabplugins-filter_texture-all-ordered  FORCE
 	@if not exist meshlabplugins\filter_trioptimize\ mkdir meshlabplugins\filter_trioptimize\ & if not exist meshlabplugins\filter_trioptimize\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_trioptimize\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_trioptimize\filter_trioptimize.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_trioptimize\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_trioptimize\filter_trioptimize.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_trioptimize-all: FORCE
 	@if not exist meshlabplugins\filter_trioptimize\ mkdir meshlabplugins\filter_trioptimize\ & if not exist meshlabplugins\filter_trioptimize\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_trioptimize\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_trioptimize\filter_trioptimize.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_trioptimize\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_trioptimize\filter_trioptimize.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_trioptimize-clean-ordered: sub-meshlabplugins-filter_texture-clean-ordered  FORCE
 	@if not exist meshlabplugins\filter_trioptimize\ mkdir meshlabplugins\filter_trioptimize\ & if not exist meshlabplugins\filter_trioptimize\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_trioptimize\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_trioptimize\filter_trioptimize.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_trioptimize\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_trioptimize\filter_trioptimize.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_trioptimize-clean: FORCE
 	@if not exist meshlabplugins\filter_trioptimize\ mkdir meshlabplugins\filter_trioptimize\ & if not exist meshlabplugins\filter_trioptimize\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_trioptimize\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_trioptimize\filter_trioptimize.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_trioptimize\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_trioptimize\filter_trioptimize.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_trioptimize-distclean-ordered: sub-meshlabplugins-filter_texture-distclean-ordered  FORCE
 	@if not exist meshlabplugins\filter_trioptimize\ mkdir meshlabplugins\filter_trioptimize\ & if not exist meshlabplugins\filter_trioptimize\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_trioptimize\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_trioptimize\filter_trioptimize.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_trioptimize\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_trioptimize\filter_trioptimize.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_trioptimize-distclean: FORCE
 	@if not exist meshlabplugins\filter_trioptimize\ mkdir meshlabplugins\filter_trioptimize\ & if not exist meshlabplugins\filter_trioptimize\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_trioptimize\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_trioptimize\filter_trioptimize.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_trioptimize\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_trioptimize\filter_trioptimize.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_trioptimize-install_subtargets-ordered: sub-meshlabplugins-filter_texture-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_trioptimize\ mkdir meshlabplugins\filter_trioptimize\ & if not exist meshlabplugins\filter_trioptimize\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_trioptimize\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_trioptimize\filter_trioptimize.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_trioptimize\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_trioptimize\filter_trioptimize.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_trioptimize-install_subtargets: FORCE
 	@if not exist meshlabplugins\filter_trioptimize\ mkdir meshlabplugins\filter_trioptimize\ & if not exist meshlabplugins\filter_trioptimize\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_trioptimize\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_trioptimize\filter_trioptimize.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_trioptimize\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_trioptimize\filter_trioptimize.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_trioptimize-uninstall_subtargets-ordered: sub-meshlabplugins-filter_texture-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_trioptimize\ mkdir meshlabplugins\filter_trioptimize\ & if not exist meshlabplugins\filter_trioptimize\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_trioptimize\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_trioptimize\filter_trioptimize.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_trioptimize\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_trioptimize\filter_trioptimize.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_trioptimize-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\filter_trioptimize\ mkdir meshlabplugins\filter_trioptimize\ & if not exist meshlabplugins\filter_trioptimize\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_trioptimize\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_trioptimize\filter_trioptimize.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_trioptimize\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_trioptimize\filter_trioptimize.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_unsharp-qmake_all: sub-meshlabplugins-filter_trioptimize-qmake_all FORCE
 	@if not exist meshlabplugins\filter_unsharp\ mkdir meshlabplugins\filter_unsharp\ & if not exist meshlabplugins\filter_unsharp\ exit 1
-	cd meshlabplugins\filter_unsharp\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_unsharp\filter_unsharp.pro -spec win32-msvc
+	cd meshlabplugins\filter_unsharp\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_unsharp\filter_unsharp.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\filter_unsharp\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-filter_unsharp: FORCE
 	@if not exist meshlabplugins\filter_unsharp\ mkdir meshlabplugins\filter_unsharp\ & if not exist meshlabplugins\filter_unsharp\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_unsharp\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_unsharp\filter_unsharp.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\filter_unsharp\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_unsharp\filter_unsharp.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-filter_unsharp-make_first-ordered: sub-meshlabplugins-filter_trioptimize-make_first-ordered  FORCE
 	@if not exist meshlabplugins\filter_unsharp\ mkdir meshlabplugins\filter_unsharp\ & if not exist meshlabplugins\filter_unsharp\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_unsharp\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_unsharp\filter_unsharp.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_unsharp\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_unsharp\filter_unsharp.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_unsharp-make_first: FORCE
 	@if not exist meshlabplugins\filter_unsharp\ mkdir meshlabplugins\filter_unsharp\ & if not exist meshlabplugins\filter_unsharp\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_unsharp\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_unsharp\filter_unsharp.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_unsharp\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_unsharp\filter_unsharp.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_unsharp-all-ordered: sub-meshlabplugins-filter_trioptimize-all-ordered  FORCE
 	@if not exist meshlabplugins\filter_unsharp\ mkdir meshlabplugins\filter_unsharp\ & if not exist meshlabplugins\filter_unsharp\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_unsharp\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_unsharp\filter_unsharp.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_unsharp\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_unsharp\filter_unsharp.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_unsharp-all: FORCE
 	@if not exist meshlabplugins\filter_unsharp\ mkdir meshlabplugins\filter_unsharp\ & if not exist meshlabplugins\filter_unsharp\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_unsharp\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_unsharp\filter_unsharp.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_unsharp\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_unsharp\filter_unsharp.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_unsharp-clean-ordered: sub-meshlabplugins-filter_trioptimize-clean-ordered  FORCE
 	@if not exist meshlabplugins\filter_unsharp\ mkdir meshlabplugins\filter_unsharp\ & if not exist meshlabplugins\filter_unsharp\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_unsharp\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_unsharp\filter_unsharp.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_unsharp\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_unsharp\filter_unsharp.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_unsharp-clean: FORCE
 	@if not exist meshlabplugins\filter_unsharp\ mkdir meshlabplugins\filter_unsharp\ & if not exist meshlabplugins\filter_unsharp\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_unsharp\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_unsharp\filter_unsharp.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_unsharp\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_unsharp\filter_unsharp.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_unsharp-distclean-ordered: sub-meshlabplugins-filter_trioptimize-distclean-ordered  FORCE
 	@if not exist meshlabplugins\filter_unsharp\ mkdir meshlabplugins\filter_unsharp\ & if not exist meshlabplugins\filter_unsharp\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_unsharp\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_unsharp\filter_unsharp.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_unsharp\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_unsharp\filter_unsharp.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_unsharp-distclean: FORCE
 	@if not exist meshlabplugins\filter_unsharp\ mkdir meshlabplugins\filter_unsharp\ & if not exist meshlabplugins\filter_unsharp\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_unsharp\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_unsharp\filter_unsharp.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_unsharp\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_unsharp\filter_unsharp.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_unsharp-install_subtargets-ordered: sub-meshlabplugins-filter_trioptimize-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_unsharp\ mkdir meshlabplugins\filter_unsharp\ & if not exist meshlabplugins\filter_unsharp\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_unsharp\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_unsharp\filter_unsharp.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_unsharp\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_unsharp\filter_unsharp.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_unsharp-install_subtargets: FORCE
 	@if not exist meshlabplugins\filter_unsharp\ mkdir meshlabplugins\filter_unsharp\ & if not exist meshlabplugins\filter_unsharp\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_unsharp\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_unsharp\filter_unsharp.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_unsharp\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_unsharp\filter_unsharp.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_unsharp-uninstall_subtargets-ordered: sub-meshlabplugins-filter_trioptimize-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_unsharp\ mkdir meshlabplugins\filter_unsharp\ & if not exist meshlabplugins\filter_unsharp\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_unsharp\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_unsharp\filter_unsharp.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_unsharp\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_unsharp\filter_unsharp.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_unsharp-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\filter_unsharp\ mkdir meshlabplugins\filter_unsharp\ & if not exist meshlabplugins\filter_unsharp\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_unsharp\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_unsharp\filter_unsharp.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_unsharp\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_unsharp\filter_unsharp.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_voronoi-qmake_all: sub-meshlabplugins-filter_unsharp-qmake_all FORCE
 	@if not exist meshlabplugins\filter_voronoi\ mkdir meshlabplugins\filter_voronoi\ & if not exist meshlabplugins\filter_voronoi\ exit 1
-	cd meshlabplugins\filter_voronoi\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_voronoi\filter_voronoi.pro -spec win32-msvc
+	cd meshlabplugins\filter_voronoi\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_voronoi\filter_voronoi.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\filter_voronoi\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-filter_voronoi: FORCE
 	@if not exist meshlabplugins\filter_voronoi\ mkdir meshlabplugins\filter_voronoi\ & if not exist meshlabplugins\filter_voronoi\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_voronoi\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_voronoi\filter_voronoi.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\filter_voronoi\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_voronoi\filter_voronoi.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-filter_voronoi-make_first-ordered: sub-meshlabplugins-filter_unsharp-make_first-ordered  FORCE
 	@if not exist meshlabplugins\filter_voronoi\ mkdir meshlabplugins\filter_voronoi\ & if not exist meshlabplugins\filter_voronoi\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_voronoi\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_voronoi\filter_voronoi.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_voronoi\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_voronoi\filter_voronoi.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_voronoi-make_first: FORCE
 	@if not exist meshlabplugins\filter_voronoi\ mkdir meshlabplugins\filter_voronoi\ & if not exist meshlabplugins\filter_voronoi\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_voronoi\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_voronoi\filter_voronoi.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\filter_voronoi\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_voronoi\filter_voronoi.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-filter_voronoi-all-ordered: sub-meshlabplugins-filter_unsharp-all-ordered  FORCE
 	@if not exist meshlabplugins\filter_voronoi\ mkdir meshlabplugins\filter_voronoi\ & if not exist meshlabplugins\filter_voronoi\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_voronoi\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_voronoi\filter_voronoi.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_voronoi\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_voronoi\filter_voronoi.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_voronoi-all: FORCE
 	@if not exist meshlabplugins\filter_voronoi\ mkdir meshlabplugins\filter_voronoi\ & if not exist meshlabplugins\filter_voronoi\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_voronoi\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_voronoi\filter_voronoi.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\filter_voronoi\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_voronoi\filter_voronoi.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-filter_voronoi-clean-ordered: sub-meshlabplugins-filter_unsharp-clean-ordered  FORCE
 	@if not exist meshlabplugins\filter_voronoi\ mkdir meshlabplugins\filter_voronoi\ & if not exist meshlabplugins\filter_voronoi\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_voronoi\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_voronoi\filter_voronoi.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_voronoi\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_voronoi\filter_voronoi.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_voronoi-clean: FORCE
 	@if not exist meshlabplugins\filter_voronoi\ mkdir meshlabplugins\filter_voronoi\ & if not exist meshlabplugins\filter_voronoi\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_voronoi\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_voronoi\filter_voronoi.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\filter_voronoi\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_voronoi\filter_voronoi.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-filter_voronoi-distclean-ordered: sub-meshlabplugins-filter_unsharp-distclean-ordered  FORCE
 	@if not exist meshlabplugins\filter_voronoi\ mkdir meshlabplugins\filter_voronoi\ & if not exist meshlabplugins\filter_voronoi\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_voronoi\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_voronoi\filter_voronoi.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_voronoi\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_voronoi\filter_voronoi.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_voronoi-distclean: FORCE
 	@if not exist meshlabplugins\filter_voronoi\ mkdir meshlabplugins\filter_voronoi\ & if not exist meshlabplugins\filter_voronoi\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_voronoi\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_voronoi\filter_voronoi.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\filter_voronoi\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_voronoi\filter_voronoi.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-filter_voronoi-install_subtargets-ordered: sub-meshlabplugins-filter_unsharp-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_voronoi\ mkdir meshlabplugins\filter_voronoi\ & if not exist meshlabplugins\filter_voronoi\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_voronoi\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_voronoi\filter_voronoi.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_voronoi\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_voronoi\filter_voronoi.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_voronoi-install_subtargets: FORCE
 	@if not exist meshlabplugins\filter_voronoi\ mkdir meshlabplugins\filter_voronoi\ & if not exist meshlabplugins\filter_voronoi\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_voronoi\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_voronoi\filter_voronoi.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\filter_voronoi\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_voronoi\filter_voronoi.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-filter_voronoi-uninstall_subtargets-ordered: sub-meshlabplugins-filter_unsharp-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\filter_voronoi\ mkdir meshlabplugins\filter_voronoi\ & if not exist meshlabplugins\filter_voronoi\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_voronoi\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_voronoi\filter_voronoi.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_voronoi\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_voronoi\filter_voronoi.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-filter_voronoi-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\filter_voronoi\ mkdir meshlabplugins\filter_voronoi\ & if not exist meshlabplugins\filter_voronoi\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_voronoi\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_voronoi\filter_voronoi.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\filter_voronoi\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_voronoi\filter_voronoi.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-render_gdp-qmake_all: sub-meshlabplugins-filter_voronoi-qmake_all FORCE
 	@if not exist meshlabplugins\render_gdp\ mkdir meshlabplugins\render_gdp\ & if not exist meshlabplugins\render_gdp\ exit 1
-	cd meshlabplugins\render_gdp\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\render_gdp\render_gdp.pro -spec win32-msvc
+	cd meshlabplugins\render_gdp\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\render_gdp\render_gdp.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\render_gdp\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-render_gdp: FORCE
 	@if not exist meshlabplugins\render_gdp\ mkdir meshlabplugins\render_gdp\ & if not exist meshlabplugins\render_gdp\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\render_gdp\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\render_gdp\render_gdp.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\render_gdp\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\render_gdp\render_gdp.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-render_gdp-make_first-ordered: sub-meshlabplugins-filter_voronoi-make_first-ordered  FORCE
 	@if not exist meshlabplugins\render_gdp\ mkdir meshlabplugins\render_gdp\ & if not exist meshlabplugins\render_gdp\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\render_gdp\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\render_gdp\render_gdp.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\render_gdp\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\render_gdp\render_gdp.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-render_gdp-make_first: FORCE
 	@if not exist meshlabplugins\render_gdp\ mkdir meshlabplugins\render_gdp\ & if not exist meshlabplugins\render_gdp\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\render_gdp\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\render_gdp\render_gdp.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\render_gdp\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\render_gdp\render_gdp.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-render_gdp-all-ordered: sub-meshlabplugins-filter_voronoi-all-ordered  FORCE
 	@if not exist meshlabplugins\render_gdp\ mkdir meshlabplugins\render_gdp\ & if not exist meshlabplugins\render_gdp\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\render_gdp\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\render_gdp\render_gdp.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\render_gdp\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\render_gdp\render_gdp.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-render_gdp-all: FORCE
 	@if not exist meshlabplugins\render_gdp\ mkdir meshlabplugins\render_gdp\ & if not exist meshlabplugins\render_gdp\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\render_gdp\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\render_gdp\render_gdp.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\render_gdp\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\render_gdp\render_gdp.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-render_gdp-clean-ordered: sub-meshlabplugins-filter_voronoi-clean-ordered  FORCE
 	@if not exist meshlabplugins\render_gdp\ mkdir meshlabplugins\render_gdp\ & if not exist meshlabplugins\render_gdp\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\render_gdp\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\render_gdp\render_gdp.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\render_gdp\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\render_gdp\render_gdp.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-render_gdp-clean: FORCE
 	@if not exist meshlabplugins\render_gdp\ mkdir meshlabplugins\render_gdp\ & if not exist meshlabplugins\render_gdp\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\render_gdp\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\render_gdp\render_gdp.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\render_gdp\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\render_gdp\render_gdp.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-render_gdp-distclean-ordered: sub-meshlabplugins-filter_voronoi-distclean-ordered  FORCE
 	@if not exist meshlabplugins\render_gdp\ mkdir meshlabplugins\render_gdp\ & if not exist meshlabplugins\render_gdp\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\render_gdp\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\render_gdp\render_gdp.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\render_gdp\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\render_gdp\render_gdp.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-render_gdp-distclean: FORCE
 	@if not exist meshlabplugins\render_gdp\ mkdir meshlabplugins\render_gdp\ & if not exist meshlabplugins\render_gdp\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\render_gdp\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\render_gdp\render_gdp.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\render_gdp\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\render_gdp\render_gdp.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-render_gdp-install_subtargets-ordered: sub-meshlabplugins-filter_voronoi-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\render_gdp\ mkdir meshlabplugins\render_gdp\ & if not exist meshlabplugins\render_gdp\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\render_gdp\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\render_gdp\render_gdp.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\render_gdp\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\render_gdp\render_gdp.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-render_gdp-install_subtargets: FORCE
 	@if not exist meshlabplugins\render_gdp\ mkdir meshlabplugins\render_gdp\ & if not exist meshlabplugins\render_gdp\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\render_gdp\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\render_gdp\render_gdp.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\render_gdp\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\render_gdp\render_gdp.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-render_gdp-uninstall_subtargets-ordered: sub-meshlabplugins-filter_voronoi-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\render_gdp\ mkdir meshlabplugins\render_gdp\ & if not exist meshlabplugins\render_gdp\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\render_gdp\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\render_gdp\render_gdp.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\render_gdp\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\render_gdp\render_gdp.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-render_gdp-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\render_gdp\ mkdir meshlabplugins\render_gdp\ & if not exist meshlabplugins\render_gdp\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\render_gdp\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\render_gdp\render_gdp.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\render_gdp\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\render_gdp\render_gdp.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-render_radiance_scaling-qmake_all: sub-meshlabplugins-render_gdp-qmake_all FORCE
 	@if not exist meshlabplugins\render_radiance_scaling\ mkdir meshlabplugins\render_radiance_scaling\ & if not exist meshlabplugins\render_radiance_scaling\ exit 1
-	cd meshlabplugins\render_radiance_scaling\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\render_radiance_scaling\render_radiance_scaling.pro -spec win32-msvc
+	cd meshlabplugins\render_radiance_scaling\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\render_radiance_scaling\render_radiance_scaling.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\render_radiance_scaling\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-render_radiance_scaling: FORCE
 	@if not exist meshlabplugins\render_radiance_scaling\ mkdir meshlabplugins\render_radiance_scaling\ & if not exist meshlabplugins\render_radiance_scaling\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\render_radiance_scaling\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\render_radiance_scaling\render_radiance_scaling.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\render_radiance_scaling\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\render_radiance_scaling\render_radiance_scaling.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-render_radiance_scaling-make_first-ordered: sub-meshlabplugins-render_gdp-make_first-ordered  FORCE
 	@if not exist meshlabplugins\render_radiance_scaling\ mkdir meshlabplugins\render_radiance_scaling\ & if not exist meshlabplugins\render_radiance_scaling\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\render_radiance_scaling\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\render_radiance_scaling\render_radiance_scaling.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\render_radiance_scaling\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\render_radiance_scaling\render_radiance_scaling.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-render_radiance_scaling-make_first: FORCE
 	@if not exist meshlabplugins\render_radiance_scaling\ mkdir meshlabplugins\render_radiance_scaling\ & if not exist meshlabplugins\render_radiance_scaling\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\render_radiance_scaling\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\render_radiance_scaling\render_radiance_scaling.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\render_radiance_scaling\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\render_radiance_scaling\render_radiance_scaling.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-render_radiance_scaling-all-ordered: sub-meshlabplugins-render_gdp-all-ordered  FORCE
 	@if not exist meshlabplugins\render_radiance_scaling\ mkdir meshlabplugins\render_radiance_scaling\ & if not exist meshlabplugins\render_radiance_scaling\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\render_radiance_scaling\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\render_radiance_scaling\render_radiance_scaling.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\render_radiance_scaling\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\render_radiance_scaling\render_radiance_scaling.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-render_radiance_scaling-all: FORCE
 	@if not exist meshlabplugins\render_radiance_scaling\ mkdir meshlabplugins\render_radiance_scaling\ & if not exist meshlabplugins\render_radiance_scaling\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\render_radiance_scaling\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\render_radiance_scaling\render_radiance_scaling.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\render_radiance_scaling\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\render_radiance_scaling\render_radiance_scaling.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-render_radiance_scaling-clean-ordered: sub-meshlabplugins-render_gdp-clean-ordered  FORCE
 	@if not exist meshlabplugins\render_radiance_scaling\ mkdir meshlabplugins\render_radiance_scaling\ & if not exist meshlabplugins\render_radiance_scaling\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\render_radiance_scaling\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\render_radiance_scaling\render_radiance_scaling.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\render_radiance_scaling\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\render_radiance_scaling\render_radiance_scaling.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-render_radiance_scaling-clean: FORCE
 	@if not exist meshlabplugins\render_radiance_scaling\ mkdir meshlabplugins\render_radiance_scaling\ & if not exist meshlabplugins\render_radiance_scaling\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\render_radiance_scaling\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\render_radiance_scaling\render_radiance_scaling.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\render_radiance_scaling\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\render_radiance_scaling\render_radiance_scaling.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-render_radiance_scaling-distclean-ordered: sub-meshlabplugins-render_gdp-distclean-ordered  FORCE
 	@if not exist meshlabplugins\render_radiance_scaling\ mkdir meshlabplugins\render_radiance_scaling\ & if not exist meshlabplugins\render_radiance_scaling\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\render_radiance_scaling\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\render_radiance_scaling\render_radiance_scaling.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\render_radiance_scaling\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\render_radiance_scaling\render_radiance_scaling.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-render_radiance_scaling-distclean: FORCE
 	@if not exist meshlabplugins\render_radiance_scaling\ mkdir meshlabplugins\render_radiance_scaling\ & if not exist meshlabplugins\render_radiance_scaling\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\render_radiance_scaling\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\render_radiance_scaling\render_radiance_scaling.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\render_radiance_scaling\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\render_radiance_scaling\render_radiance_scaling.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-render_radiance_scaling-install_subtargets-ordered: sub-meshlabplugins-render_gdp-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\render_radiance_scaling\ mkdir meshlabplugins\render_radiance_scaling\ & if not exist meshlabplugins\render_radiance_scaling\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\render_radiance_scaling\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\render_radiance_scaling\render_radiance_scaling.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\render_radiance_scaling\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\render_radiance_scaling\render_radiance_scaling.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-render_radiance_scaling-install_subtargets: FORCE
 	@if not exist meshlabplugins\render_radiance_scaling\ mkdir meshlabplugins\render_radiance_scaling\ & if not exist meshlabplugins\render_radiance_scaling\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\render_radiance_scaling\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\render_radiance_scaling\render_radiance_scaling.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\render_radiance_scaling\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\render_radiance_scaling\render_radiance_scaling.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-render_radiance_scaling-uninstall_subtargets-ordered: sub-meshlabplugins-render_gdp-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\render_radiance_scaling\ mkdir meshlabplugins\render_radiance_scaling\ & if not exist meshlabplugins\render_radiance_scaling\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\render_radiance_scaling\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\render_radiance_scaling\render_radiance_scaling.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\render_radiance_scaling\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\render_radiance_scaling\render_radiance_scaling.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-render_radiance_scaling-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\render_radiance_scaling\ mkdir meshlabplugins\render_radiance_scaling\ & if not exist meshlabplugins\render_radiance_scaling\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\render_radiance_scaling\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\render_radiance_scaling\render_radiance_scaling.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\render_radiance_scaling\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\render_radiance_scaling\render_radiance_scaling.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-decorate_base-qmake_all: sub-meshlabplugins-render_radiance_scaling-qmake_all FORCE
 	@if not exist meshlabplugins\decorate_base\ mkdir meshlabplugins\decorate_base\ & if not exist meshlabplugins\decorate_base\ exit 1
-	cd meshlabplugins\decorate_base\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_base\decorate_base.pro -spec win32-msvc
+	cd meshlabplugins\decorate_base\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_base\decorate_base.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\decorate_base\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-decorate_base: FORCE
 	@if not exist meshlabplugins\decorate_base\ mkdir meshlabplugins\decorate_base\ & if not exist meshlabplugins\decorate_base\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_base\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_base\decorate_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\decorate_base\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_base\decorate_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-decorate_base-make_first-ordered: sub-meshlabplugins-render_radiance_scaling-make_first-ordered  FORCE
 	@if not exist meshlabplugins\decorate_base\ mkdir meshlabplugins\decorate_base\ & if not exist meshlabplugins\decorate_base\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_base\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_base\decorate_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\decorate_base\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_base\decorate_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-decorate_base-make_first: FORCE
 	@if not exist meshlabplugins\decorate_base\ mkdir meshlabplugins\decorate_base\ & if not exist meshlabplugins\decorate_base\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_base\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_base\decorate_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\decorate_base\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_base\decorate_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-decorate_base-all-ordered: sub-meshlabplugins-render_radiance_scaling-all-ordered  FORCE
 	@if not exist meshlabplugins\decorate_base\ mkdir meshlabplugins\decorate_base\ & if not exist meshlabplugins\decorate_base\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_base\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_base\decorate_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\decorate_base\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_base\decorate_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-decorate_base-all: FORCE
 	@if not exist meshlabplugins\decorate_base\ mkdir meshlabplugins\decorate_base\ & if not exist meshlabplugins\decorate_base\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_base\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_base\decorate_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\decorate_base\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_base\decorate_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-decorate_base-clean-ordered: sub-meshlabplugins-render_radiance_scaling-clean-ordered  FORCE
 	@if not exist meshlabplugins\decorate_base\ mkdir meshlabplugins\decorate_base\ & if not exist meshlabplugins\decorate_base\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_base\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_base\decorate_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\decorate_base\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_base\decorate_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-decorate_base-clean: FORCE
 	@if not exist meshlabplugins\decorate_base\ mkdir meshlabplugins\decorate_base\ & if not exist meshlabplugins\decorate_base\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_base\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_base\decorate_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\decorate_base\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_base\decorate_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-decorate_base-distclean-ordered: sub-meshlabplugins-render_radiance_scaling-distclean-ordered  FORCE
 	@if not exist meshlabplugins\decorate_base\ mkdir meshlabplugins\decorate_base\ & if not exist meshlabplugins\decorate_base\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_base\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_base\decorate_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\decorate_base\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_base\decorate_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-decorate_base-distclean: FORCE
 	@if not exist meshlabplugins\decorate_base\ mkdir meshlabplugins\decorate_base\ & if not exist meshlabplugins\decorate_base\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_base\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_base\decorate_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\decorate_base\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_base\decorate_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-decorate_base-install_subtargets-ordered: sub-meshlabplugins-render_radiance_scaling-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\decorate_base\ mkdir meshlabplugins\decorate_base\ & if not exist meshlabplugins\decorate_base\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_base\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_base\decorate_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\decorate_base\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_base\decorate_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-decorate_base-install_subtargets: FORCE
 	@if not exist meshlabplugins\decorate_base\ mkdir meshlabplugins\decorate_base\ & if not exist meshlabplugins\decorate_base\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_base\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_base\decorate_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\decorate_base\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_base\decorate_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-decorate_base-uninstall_subtargets-ordered: sub-meshlabplugins-render_radiance_scaling-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\decorate_base\ mkdir meshlabplugins\decorate_base\ & if not exist meshlabplugins\decorate_base\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_base\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_base\decorate_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\decorate_base\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_base\decorate_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-decorate_base-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\decorate_base\ mkdir meshlabplugins\decorate_base\ & if not exist meshlabplugins\decorate_base\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_base\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_base\decorate_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\decorate_base\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_base\decorate_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-decorate_background-qmake_all: sub-meshlabplugins-decorate_base-qmake_all FORCE
 	@if not exist meshlabplugins\decorate_background\ mkdir meshlabplugins\decorate_background\ & if not exist meshlabplugins\decorate_background\ exit 1
-	cd meshlabplugins\decorate_background\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_background\decorate_background.pro -spec win32-msvc
+	cd meshlabplugins\decorate_background\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_background\decorate_background.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\decorate_background\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-decorate_background: FORCE
 	@if not exist meshlabplugins\decorate_background\ mkdir meshlabplugins\decorate_background\ & if not exist meshlabplugins\decorate_background\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_background\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_background\decorate_background.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\decorate_background\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_background\decorate_background.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-decorate_background-make_first-ordered: sub-meshlabplugins-decorate_base-make_first-ordered  FORCE
 	@if not exist meshlabplugins\decorate_background\ mkdir meshlabplugins\decorate_background\ & if not exist meshlabplugins\decorate_background\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_background\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_background\decorate_background.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\decorate_background\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_background\decorate_background.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-decorate_background-make_first: FORCE
 	@if not exist meshlabplugins\decorate_background\ mkdir meshlabplugins\decorate_background\ & if not exist meshlabplugins\decorate_background\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_background\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_background\decorate_background.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\decorate_background\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_background\decorate_background.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-decorate_background-all-ordered: sub-meshlabplugins-decorate_base-all-ordered  FORCE
 	@if not exist meshlabplugins\decorate_background\ mkdir meshlabplugins\decorate_background\ & if not exist meshlabplugins\decorate_background\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_background\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_background\decorate_background.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\decorate_background\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_background\decorate_background.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-decorate_background-all: FORCE
 	@if not exist meshlabplugins\decorate_background\ mkdir meshlabplugins\decorate_background\ & if not exist meshlabplugins\decorate_background\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_background\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_background\decorate_background.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\decorate_background\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_background\decorate_background.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-decorate_background-clean-ordered: sub-meshlabplugins-decorate_base-clean-ordered  FORCE
 	@if not exist meshlabplugins\decorate_background\ mkdir meshlabplugins\decorate_background\ & if not exist meshlabplugins\decorate_background\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_background\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_background\decorate_background.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\decorate_background\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_background\decorate_background.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-decorate_background-clean: FORCE
 	@if not exist meshlabplugins\decorate_background\ mkdir meshlabplugins\decorate_background\ & if not exist meshlabplugins\decorate_background\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_background\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_background\decorate_background.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\decorate_background\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_background\decorate_background.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-decorate_background-distclean-ordered: sub-meshlabplugins-decorate_base-distclean-ordered  FORCE
 	@if not exist meshlabplugins\decorate_background\ mkdir meshlabplugins\decorate_background\ & if not exist meshlabplugins\decorate_background\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_background\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_background\decorate_background.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\decorate_background\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_background\decorate_background.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-decorate_background-distclean: FORCE
 	@if not exist meshlabplugins\decorate_background\ mkdir meshlabplugins\decorate_background\ & if not exist meshlabplugins\decorate_background\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_background\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_background\decorate_background.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\decorate_background\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_background\decorate_background.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-decorate_background-install_subtargets-ordered: sub-meshlabplugins-decorate_base-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\decorate_background\ mkdir meshlabplugins\decorate_background\ & if not exist meshlabplugins\decorate_background\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_background\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_background\decorate_background.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\decorate_background\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_background\decorate_background.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-decorate_background-install_subtargets: FORCE
 	@if not exist meshlabplugins\decorate_background\ mkdir meshlabplugins\decorate_background\ & if not exist meshlabplugins\decorate_background\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_background\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_background\decorate_background.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\decorate_background\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_background\decorate_background.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-decorate_background-uninstall_subtargets-ordered: sub-meshlabplugins-decorate_base-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\decorate_background\ mkdir meshlabplugins\decorate_background\ & if not exist meshlabplugins\decorate_background\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_background\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_background\decorate_background.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\decorate_background\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_background\decorate_background.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-decorate_background-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\decorate_background\ mkdir meshlabplugins\decorate_background\ & if not exist meshlabplugins\decorate_background\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_background\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_background\decorate_background.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\decorate_background\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_background\decorate_background.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-decorate_raster_proj-qmake_all: sub-meshlabplugins-decorate_background-qmake_all FORCE
 	@if not exist meshlabplugins\decorate_raster_proj\ mkdir meshlabplugins\decorate_raster_proj\ & if not exist meshlabplugins\decorate_raster_proj\ exit 1
-	cd meshlabplugins\decorate_raster_proj\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_raster_proj\decorate_raster_proj.pro -spec win32-msvc
+	cd meshlabplugins\decorate_raster_proj\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_raster_proj\decorate_raster_proj.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\decorate_raster_proj\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-decorate_raster_proj: FORCE
 	@if not exist meshlabplugins\decorate_raster_proj\ mkdir meshlabplugins\decorate_raster_proj\ & if not exist meshlabplugins\decorate_raster_proj\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_raster_proj\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_raster_proj\decorate_raster_proj.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\decorate_raster_proj\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_raster_proj\decorate_raster_proj.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-decorate_raster_proj-make_first-ordered: sub-meshlabplugins-decorate_background-make_first-ordered  FORCE
 	@if not exist meshlabplugins\decorate_raster_proj\ mkdir meshlabplugins\decorate_raster_proj\ & if not exist meshlabplugins\decorate_raster_proj\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_raster_proj\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_raster_proj\decorate_raster_proj.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\decorate_raster_proj\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_raster_proj\decorate_raster_proj.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-decorate_raster_proj-make_first: FORCE
 	@if not exist meshlabplugins\decorate_raster_proj\ mkdir meshlabplugins\decorate_raster_proj\ & if not exist meshlabplugins\decorate_raster_proj\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_raster_proj\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_raster_proj\decorate_raster_proj.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\decorate_raster_proj\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_raster_proj\decorate_raster_proj.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-decorate_raster_proj-all-ordered: sub-meshlabplugins-decorate_background-all-ordered  FORCE
 	@if not exist meshlabplugins\decorate_raster_proj\ mkdir meshlabplugins\decorate_raster_proj\ & if not exist meshlabplugins\decorate_raster_proj\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_raster_proj\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_raster_proj\decorate_raster_proj.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\decorate_raster_proj\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_raster_proj\decorate_raster_proj.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-decorate_raster_proj-all: FORCE
 	@if not exist meshlabplugins\decorate_raster_proj\ mkdir meshlabplugins\decorate_raster_proj\ & if not exist meshlabplugins\decorate_raster_proj\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_raster_proj\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_raster_proj\decorate_raster_proj.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\decorate_raster_proj\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_raster_proj\decorate_raster_proj.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-decorate_raster_proj-clean-ordered: sub-meshlabplugins-decorate_background-clean-ordered  FORCE
 	@if not exist meshlabplugins\decorate_raster_proj\ mkdir meshlabplugins\decorate_raster_proj\ & if not exist meshlabplugins\decorate_raster_proj\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_raster_proj\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_raster_proj\decorate_raster_proj.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\decorate_raster_proj\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_raster_proj\decorate_raster_proj.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-decorate_raster_proj-clean: FORCE
 	@if not exist meshlabplugins\decorate_raster_proj\ mkdir meshlabplugins\decorate_raster_proj\ & if not exist meshlabplugins\decorate_raster_proj\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_raster_proj\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_raster_proj\decorate_raster_proj.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\decorate_raster_proj\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_raster_proj\decorate_raster_proj.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-decorate_raster_proj-distclean-ordered: sub-meshlabplugins-decorate_background-distclean-ordered  FORCE
 	@if not exist meshlabplugins\decorate_raster_proj\ mkdir meshlabplugins\decorate_raster_proj\ & if not exist meshlabplugins\decorate_raster_proj\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_raster_proj\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_raster_proj\decorate_raster_proj.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\decorate_raster_proj\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_raster_proj\decorate_raster_proj.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-decorate_raster_proj-distclean: FORCE
 	@if not exist meshlabplugins\decorate_raster_proj\ mkdir meshlabplugins\decorate_raster_proj\ & if not exist meshlabplugins\decorate_raster_proj\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_raster_proj\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_raster_proj\decorate_raster_proj.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\decorate_raster_proj\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_raster_proj\decorate_raster_proj.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-decorate_raster_proj-install_subtargets-ordered: sub-meshlabplugins-decorate_background-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\decorate_raster_proj\ mkdir meshlabplugins\decorate_raster_proj\ & if not exist meshlabplugins\decorate_raster_proj\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_raster_proj\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_raster_proj\decorate_raster_proj.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\decorate_raster_proj\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_raster_proj\decorate_raster_proj.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-decorate_raster_proj-install_subtargets: FORCE
 	@if not exist meshlabplugins\decorate_raster_proj\ mkdir meshlabplugins\decorate_raster_proj\ & if not exist meshlabplugins\decorate_raster_proj\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_raster_proj\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_raster_proj\decorate_raster_proj.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\decorate_raster_proj\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_raster_proj\decorate_raster_proj.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-decorate_raster_proj-uninstall_subtargets-ordered: sub-meshlabplugins-decorate_background-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\decorate_raster_proj\ mkdir meshlabplugins\decorate_raster_proj\ & if not exist meshlabplugins\decorate_raster_proj\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_raster_proj\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_raster_proj\decorate_raster_proj.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\decorate_raster_proj\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_raster_proj\decorate_raster_proj.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-decorate_raster_proj-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\decorate_raster_proj\ mkdir meshlabplugins\decorate_raster_proj\ & if not exist meshlabplugins\decorate_raster_proj\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_raster_proj\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_raster_proj\decorate_raster_proj.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\decorate_raster_proj\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_raster_proj\decorate_raster_proj.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-decorate_shadow-qmake_all: sub-meshlabplugins-decorate_raster_proj-qmake_all FORCE
 	@if not exist meshlabplugins\decorate_shadow\ mkdir meshlabplugins\decorate_shadow\ & if not exist meshlabplugins\decorate_shadow\ exit 1
-	cd meshlabplugins\decorate_shadow\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_shadow\decorate_shadow.pro -spec win32-msvc
+	cd meshlabplugins\decorate_shadow\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_shadow\decorate_shadow.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\decorate_shadow\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-decorate_shadow: FORCE
 	@if not exist meshlabplugins\decorate_shadow\ mkdir meshlabplugins\decorate_shadow\ & if not exist meshlabplugins\decorate_shadow\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_shadow\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_shadow\decorate_shadow.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\decorate_shadow\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_shadow\decorate_shadow.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-decorate_shadow-make_first-ordered: sub-meshlabplugins-decorate_raster_proj-make_first-ordered  FORCE
 	@if not exist meshlabplugins\decorate_shadow\ mkdir meshlabplugins\decorate_shadow\ & if not exist meshlabplugins\decorate_shadow\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_shadow\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_shadow\decorate_shadow.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\decorate_shadow\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_shadow\decorate_shadow.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-decorate_shadow-make_first: FORCE
 	@if not exist meshlabplugins\decorate_shadow\ mkdir meshlabplugins\decorate_shadow\ & if not exist meshlabplugins\decorate_shadow\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_shadow\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_shadow\decorate_shadow.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\decorate_shadow\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_shadow\decorate_shadow.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-decorate_shadow-all-ordered: sub-meshlabplugins-decorate_raster_proj-all-ordered  FORCE
 	@if not exist meshlabplugins\decorate_shadow\ mkdir meshlabplugins\decorate_shadow\ & if not exist meshlabplugins\decorate_shadow\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_shadow\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_shadow\decorate_shadow.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\decorate_shadow\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_shadow\decorate_shadow.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-decorate_shadow-all: FORCE
 	@if not exist meshlabplugins\decorate_shadow\ mkdir meshlabplugins\decorate_shadow\ & if not exist meshlabplugins\decorate_shadow\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_shadow\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_shadow\decorate_shadow.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\decorate_shadow\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_shadow\decorate_shadow.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-decorate_shadow-clean-ordered: sub-meshlabplugins-decorate_raster_proj-clean-ordered  FORCE
 	@if not exist meshlabplugins\decorate_shadow\ mkdir meshlabplugins\decorate_shadow\ & if not exist meshlabplugins\decorate_shadow\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_shadow\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_shadow\decorate_shadow.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\decorate_shadow\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_shadow\decorate_shadow.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-decorate_shadow-clean: FORCE
 	@if not exist meshlabplugins\decorate_shadow\ mkdir meshlabplugins\decorate_shadow\ & if not exist meshlabplugins\decorate_shadow\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_shadow\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_shadow\decorate_shadow.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\decorate_shadow\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_shadow\decorate_shadow.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-decorate_shadow-distclean-ordered: sub-meshlabplugins-decorate_raster_proj-distclean-ordered  FORCE
 	@if not exist meshlabplugins\decorate_shadow\ mkdir meshlabplugins\decorate_shadow\ & if not exist meshlabplugins\decorate_shadow\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_shadow\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_shadow\decorate_shadow.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\decorate_shadow\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_shadow\decorate_shadow.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-decorate_shadow-distclean: FORCE
 	@if not exist meshlabplugins\decorate_shadow\ mkdir meshlabplugins\decorate_shadow\ & if not exist meshlabplugins\decorate_shadow\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_shadow\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_shadow\decorate_shadow.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\decorate_shadow\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_shadow\decorate_shadow.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-decorate_shadow-install_subtargets-ordered: sub-meshlabplugins-decorate_raster_proj-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\decorate_shadow\ mkdir meshlabplugins\decorate_shadow\ & if not exist meshlabplugins\decorate_shadow\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_shadow\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_shadow\decorate_shadow.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\decorate_shadow\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_shadow\decorate_shadow.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-decorate_shadow-install_subtargets: FORCE
 	@if not exist meshlabplugins\decorate_shadow\ mkdir meshlabplugins\decorate_shadow\ & if not exist meshlabplugins\decorate_shadow\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_shadow\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_shadow\decorate_shadow.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\decorate_shadow\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_shadow\decorate_shadow.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-decorate_shadow-uninstall_subtargets-ordered: sub-meshlabplugins-decorate_raster_proj-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\decorate_shadow\ mkdir meshlabplugins\decorate_shadow\ & if not exist meshlabplugins\decorate_shadow\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_shadow\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_shadow\decorate_shadow.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\decorate_shadow\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_shadow\decorate_shadow.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-decorate_shadow-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\decorate_shadow\ mkdir meshlabplugins\decorate_shadow\ & if not exist meshlabplugins\decorate_shadow\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_shadow\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_shadow\decorate_shadow.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\decorate_shadow\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_shadow\decorate_shadow.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-edit_align-qmake_all: sub-meshlabplugins-decorate_shadow-qmake_all FORCE
 	@if not exist meshlabplugins\edit_align\ mkdir meshlabplugins\edit_align\ & if not exist meshlabplugins\edit_align\ exit 1
-	cd meshlabplugins\edit_align\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_align\edit_align.pro -spec win32-msvc
+	cd meshlabplugins\edit_align\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_align\edit_align.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\edit_align\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-edit_align: FORCE
 	@if not exist meshlabplugins\edit_align\ mkdir meshlabplugins\edit_align\ & if not exist meshlabplugins\edit_align\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_align\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_align\edit_align.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\edit_align\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_align\edit_align.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-edit_align-make_first-ordered: sub-meshlabplugins-decorate_shadow-make_first-ordered  FORCE
 	@if not exist meshlabplugins\edit_align\ mkdir meshlabplugins\edit_align\ & if not exist meshlabplugins\edit_align\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_align\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_align\edit_align.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\edit_align\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_align\edit_align.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-edit_align-make_first: FORCE
 	@if not exist meshlabplugins\edit_align\ mkdir meshlabplugins\edit_align\ & if not exist meshlabplugins\edit_align\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_align\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_align\edit_align.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\edit_align\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_align\edit_align.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-edit_align-all-ordered: sub-meshlabplugins-decorate_shadow-all-ordered  FORCE
 	@if not exist meshlabplugins\edit_align\ mkdir meshlabplugins\edit_align\ & if not exist meshlabplugins\edit_align\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_align\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_align\edit_align.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\edit_align\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_align\edit_align.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-edit_align-all: FORCE
 	@if not exist meshlabplugins\edit_align\ mkdir meshlabplugins\edit_align\ & if not exist meshlabplugins\edit_align\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_align\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_align\edit_align.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\edit_align\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_align\edit_align.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-edit_align-clean-ordered: sub-meshlabplugins-decorate_shadow-clean-ordered  FORCE
 	@if not exist meshlabplugins\edit_align\ mkdir meshlabplugins\edit_align\ & if not exist meshlabplugins\edit_align\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_align\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_align\edit_align.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\edit_align\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_align\edit_align.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-edit_align-clean: FORCE
 	@if not exist meshlabplugins\edit_align\ mkdir meshlabplugins\edit_align\ & if not exist meshlabplugins\edit_align\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_align\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_align\edit_align.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\edit_align\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_align\edit_align.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-edit_align-distclean-ordered: sub-meshlabplugins-decorate_shadow-distclean-ordered  FORCE
 	@if not exist meshlabplugins\edit_align\ mkdir meshlabplugins\edit_align\ & if not exist meshlabplugins\edit_align\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_align\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_align\edit_align.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\edit_align\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_align\edit_align.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-edit_align-distclean: FORCE
 	@if not exist meshlabplugins\edit_align\ mkdir meshlabplugins\edit_align\ & if not exist meshlabplugins\edit_align\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_align\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_align\edit_align.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\edit_align\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_align\edit_align.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-edit_align-install_subtargets-ordered: sub-meshlabplugins-decorate_shadow-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\edit_align\ mkdir meshlabplugins\edit_align\ & if not exist meshlabplugins\edit_align\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_align\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_align\edit_align.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\edit_align\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_align\edit_align.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-edit_align-install_subtargets: FORCE
 	@if not exist meshlabplugins\edit_align\ mkdir meshlabplugins\edit_align\ & if not exist meshlabplugins\edit_align\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_align\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_align\edit_align.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\edit_align\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_align\edit_align.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-edit_align-uninstall_subtargets-ordered: sub-meshlabplugins-decorate_shadow-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\edit_align\ mkdir meshlabplugins\edit_align\ & if not exist meshlabplugins\edit_align\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_align\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_align\edit_align.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\edit_align\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_align\edit_align.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-edit_align-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\edit_align\ mkdir meshlabplugins\edit_align\ & if not exist meshlabplugins\edit_align\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_align\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_align\edit_align.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\edit_align\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_align\edit_align.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-edit_manipulators-qmake_all: sub-meshlabplugins-edit_align-qmake_all FORCE
 	@if not exist meshlabplugins\edit_manipulators\ mkdir meshlabplugins\edit_manipulators\ & if not exist meshlabplugins\edit_manipulators\ exit 1
-	cd meshlabplugins\edit_manipulators\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_manipulators\edit_manipulators.pro -spec win32-msvc
+	cd meshlabplugins\edit_manipulators\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_manipulators\edit_manipulators.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\edit_manipulators\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-edit_manipulators: FORCE
 	@if not exist meshlabplugins\edit_manipulators\ mkdir meshlabplugins\edit_manipulators\ & if not exist meshlabplugins\edit_manipulators\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_manipulators\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_manipulators\edit_manipulators.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\edit_manipulators\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_manipulators\edit_manipulators.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-edit_manipulators-make_first-ordered: sub-meshlabplugins-edit_align-make_first-ordered  FORCE
 	@if not exist meshlabplugins\edit_manipulators\ mkdir meshlabplugins\edit_manipulators\ & if not exist meshlabplugins\edit_manipulators\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_manipulators\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_manipulators\edit_manipulators.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\edit_manipulators\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_manipulators\edit_manipulators.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-edit_manipulators-make_first: FORCE
 	@if not exist meshlabplugins\edit_manipulators\ mkdir meshlabplugins\edit_manipulators\ & if not exist meshlabplugins\edit_manipulators\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_manipulators\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_manipulators\edit_manipulators.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\edit_manipulators\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_manipulators\edit_manipulators.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-edit_manipulators-all-ordered: sub-meshlabplugins-edit_align-all-ordered  FORCE
 	@if not exist meshlabplugins\edit_manipulators\ mkdir meshlabplugins\edit_manipulators\ & if not exist meshlabplugins\edit_manipulators\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_manipulators\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_manipulators\edit_manipulators.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\edit_manipulators\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_manipulators\edit_manipulators.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-edit_manipulators-all: FORCE
 	@if not exist meshlabplugins\edit_manipulators\ mkdir meshlabplugins\edit_manipulators\ & if not exist meshlabplugins\edit_manipulators\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_manipulators\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_manipulators\edit_manipulators.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\edit_manipulators\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_manipulators\edit_manipulators.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-edit_manipulators-clean-ordered: sub-meshlabplugins-edit_align-clean-ordered  FORCE
 	@if not exist meshlabplugins\edit_manipulators\ mkdir meshlabplugins\edit_manipulators\ & if not exist meshlabplugins\edit_manipulators\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_manipulators\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_manipulators\edit_manipulators.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\edit_manipulators\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_manipulators\edit_manipulators.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-edit_manipulators-clean: FORCE
 	@if not exist meshlabplugins\edit_manipulators\ mkdir meshlabplugins\edit_manipulators\ & if not exist meshlabplugins\edit_manipulators\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_manipulators\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_manipulators\edit_manipulators.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\edit_manipulators\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_manipulators\edit_manipulators.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-edit_manipulators-distclean-ordered: sub-meshlabplugins-edit_align-distclean-ordered  FORCE
 	@if not exist meshlabplugins\edit_manipulators\ mkdir meshlabplugins\edit_manipulators\ & if not exist meshlabplugins\edit_manipulators\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_manipulators\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_manipulators\edit_manipulators.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\edit_manipulators\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_manipulators\edit_manipulators.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-edit_manipulators-distclean: FORCE
 	@if not exist meshlabplugins\edit_manipulators\ mkdir meshlabplugins\edit_manipulators\ & if not exist meshlabplugins\edit_manipulators\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_manipulators\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_manipulators\edit_manipulators.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\edit_manipulators\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_manipulators\edit_manipulators.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-edit_manipulators-install_subtargets-ordered: sub-meshlabplugins-edit_align-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\edit_manipulators\ mkdir meshlabplugins\edit_manipulators\ & if not exist meshlabplugins\edit_manipulators\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_manipulators\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_manipulators\edit_manipulators.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\edit_manipulators\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_manipulators\edit_manipulators.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-edit_manipulators-install_subtargets: FORCE
 	@if not exist meshlabplugins\edit_manipulators\ mkdir meshlabplugins\edit_manipulators\ & if not exist meshlabplugins\edit_manipulators\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_manipulators\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_manipulators\edit_manipulators.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\edit_manipulators\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_manipulators\edit_manipulators.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-edit_manipulators-uninstall_subtargets-ordered: sub-meshlabplugins-edit_align-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\edit_manipulators\ mkdir meshlabplugins\edit_manipulators\ & if not exist meshlabplugins\edit_manipulators\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_manipulators\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_manipulators\edit_manipulators.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\edit_manipulators\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_manipulators\edit_manipulators.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-edit_manipulators-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\edit_manipulators\ mkdir meshlabplugins\edit_manipulators\ & if not exist meshlabplugins\edit_manipulators\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_manipulators\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_manipulators\edit_manipulators.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\edit_manipulators\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_manipulators\edit_manipulators.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-edit_measure-qmake_all: sub-meshlabplugins-edit_manipulators-qmake_all FORCE
 	@if not exist meshlabplugins\edit_measure\ mkdir meshlabplugins\edit_measure\ & if not exist meshlabplugins\edit_measure\ exit 1
-	cd meshlabplugins\edit_measure\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_measure\edit_measure.pro -spec win32-msvc
+	cd meshlabplugins\edit_measure\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_measure\edit_measure.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\edit_measure\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-edit_measure: FORCE
 	@if not exist meshlabplugins\edit_measure\ mkdir meshlabplugins\edit_measure\ & if not exist meshlabplugins\edit_measure\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_measure\edit_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\edit_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_measure\edit_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-edit_measure-make_first-ordered: sub-meshlabplugins-edit_manipulators-make_first-ordered  FORCE
 	@if not exist meshlabplugins\edit_measure\ mkdir meshlabplugins\edit_measure\ & if not exist meshlabplugins\edit_measure\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_measure\edit_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\edit_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_measure\edit_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-edit_measure-make_first: FORCE
 	@if not exist meshlabplugins\edit_measure\ mkdir meshlabplugins\edit_measure\ & if not exist meshlabplugins\edit_measure\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_measure\edit_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\edit_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_measure\edit_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-edit_measure-all-ordered: sub-meshlabplugins-edit_manipulators-all-ordered  FORCE
 	@if not exist meshlabplugins\edit_measure\ mkdir meshlabplugins\edit_measure\ & if not exist meshlabplugins\edit_measure\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_measure\edit_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\edit_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_measure\edit_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-edit_measure-all: FORCE
 	@if not exist meshlabplugins\edit_measure\ mkdir meshlabplugins\edit_measure\ & if not exist meshlabplugins\edit_measure\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_measure\edit_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\edit_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_measure\edit_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-edit_measure-clean-ordered: sub-meshlabplugins-edit_manipulators-clean-ordered  FORCE
 	@if not exist meshlabplugins\edit_measure\ mkdir meshlabplugins\edit_measure\ & if not exist meshlabplugins\edit_measure\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_measure\edit_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\edit_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_measure\edit_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-edit_measure-clean: FORCE
 	@if not exist meshlabplugins\edit_measure\ mkdir meshlabplugins\edit_measure\ & if not exist meshlabplugins\edit_measure\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_measure\edit_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\edit_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_measure\edit_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-edit_measure-distclean-ordered: sub-meshlabplugins-edit_manipulators-distclean-ordered  FORCE
 	@if not exist meshlabplugins\edit_measure\ mkdir meshlabplugins\edit_measure\ & if not exist meshlabplugins\edit_measure\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_measure\edit_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\edit_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_measure\edit_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-edit_measure-distclean: FORCE
 	@if not exist meshlabplugins\edit_measure\ mkdir meshlabplugins\edit_measure\ & if not exist meshlabplugins\edit_measure\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_measure\edit_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\edit_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_measure\edit_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-edit_measure-install_subtargets-ordered: sub-meshlabplugins-edit_manipulators-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\edit_measure\ mkdir meshlabplugins\edit_measure\ & if not exist meshlabplugins\edit_measure\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_measure\edit_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\edit_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_measure\edit_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-edit_measure-install_subtargets: FORCE
 	@if not exist meshlabplugins\edit_measure\ mkdir meshlabplugins\edit_measure\ & if not exist meshlabplugins\edit_measure\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_measure\edit_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\edit_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_measure\edit_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-edit_measure-uninstall_subtargets-ordered: sub-meshlabplugins-edit_manipulators-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\edit_measure\ mkdir meshlabplugins\edit_measure\ & if not exist meshlabplugins\edit_measure\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_measure\edit_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\edit_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_measure\edit_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-edit_measure-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\edit_measure\ mkdir meshlabplugins\edit_measure\ & if not exist meshlabplugins\edit_measure\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_measure\edit_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\edit_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_measure\edit_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-edit_mutualcorrs-qmake_all: sub-meshlabplugins-edit_measure-qmake_all FORCE
 	@if not exist meshlabplugins\edit_mutualcorrs\ mkdir meshlabplugins\edit_mutualcorrs\ & if not exist meshlabplugins\edit_mutualcorrs\ exit 1
-	cd meshlabplugins\edit_mutualcorrs\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_mutualcorrs\edit_mutualcorrs.pro -spec win32-msvc
+	cd meshlabplugins\edit_mutualcorrs\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_mutualcorrs\edit_mutualcorrs.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\edit_mutualcorrs\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-edit_mutualcorrs: FORCE
 	@if not exist meshlabplugins\edit_mutualcorrs\ mkdir meshlabplugins\edit_mutualcorrs\ & if not exist meshlabplugins\edit_mutualcorrs\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_mutualcorrs\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_mutualcorrs\edit_mutualcorrs.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\edit_mutualcorrs\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_mutualcorrs\edit_mutualcorrs.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-edit_mutualcorrs-make_first-ordered: sub-meshlabplugins-edit_measure-make_first-ordered  FORCE
 	@if not exist meshlabplugins\edit_mutualcorrs\ mkdir meshlabplugins\edit_mutualcorrs\ & if not exist meshlabplugins\edit_mutualcorrs\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_mutualcorrs\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_mutualcorrs\edit_mutualcorrs.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\edit_mutualcorrs\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_mutualcorrs\edit_mutualcorrs.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-edit_mutualcorrs-make_first: FORCE
 	@if not exist meshlabplugins\edit_mutualcorrs\ mkdir meshlabplugins\edit_mutualcorrs\ & if not exist meshlabplugins\edit_mutualcorrs\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_mutualcorrs\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_mutualcorrs\edit_mutualcorrs.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\edit_mutualcorrs\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_mutualcorrs\edit_mutualcorrs.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-edit_mutualcorrs-all-ordered: sub-meshlabplugins-edit_measure-all-ordered  FORCE
 	@if not exist meshlabplugins\edit_mutualcorrs\ mkdir meshlabplugins\edit_mutualcorrs\ & if not exist meshlabplugins\edit_mutualcorrs\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_mutualcorrs\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_mutualcorrs\edit_mutualcorrs.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\edit_mutualcorrs\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_mutualcorrs\edit_mutualcorrs.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-edit_mutualcorrs-all: FORCE
 	@if not exist meshlabplugins\edit_mutualcorrs\ mkdir meshlabplugins\edit_mutualcorrs\ & if not exist meshlabplugins\edit_mutualcorrs\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_mutualcorrs\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_mutualcorrs\edit_mutualcorrs.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\edit_mutualcorrs\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_mutualcorrs\edit_mutualcorrs.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-edit_mutualcorrs-clean-ordered: sub-meshlabplugins-edit_measure-clean-ordered  FORCE
 	@if not exist meshlabplugins\edit_mutualcorrs\ mkdir meshlabplugins\edit_mutualcorrs\ & if not exist meshlabplugins\edit_mutualcorrs\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_mutualcorrs\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_mutualcorrs\edit_mutualcorrs.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\edit_mutualcorrs\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_mutualcorrs\edit_mutualcorrs.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-edit_mutualcorrs-clean: FORCE
 	@if not exist meshlabplugins\edit_mutualcorrs\ mkdir meshlabplugins\edit_mutualcorrs\ & if not exist meshlabplugins\edit_mutualcorrs\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_mutualcorrs\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_mutualcorrs\edit_mutualcorrs.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\edit_mutualcorrs\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_mutualcorrs\edit_mutualcorrs.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-edit_mutualcorrs-distclean-ordered: sub-meshlabplugins-edit_measure-distclean-ordered  FORCE
 	@if not exist meshlabplugins\edit_mutualcorrs\ mkdir meshlabplugins\edit_mutualcorrs\ & if not exist meshlabplugins\edit_mutualcorrs\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_mutualcorrs\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_mutualcorrs\edit_mutualcorrs.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\edit_mutualcorrs\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_mutualcorrs\edit_mutualcorrs.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-edit_mutualcorrs-distclean: FORCE
 	@if not exist meshlabplugins\edit_mutualcorrs\ mkdir meshlabplugins\edit_mutualcorrs\ & if not exist meshlabplugins\edit_mutualcorrs\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_mutualcorrs\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_mutualcorrs\edit_mutualcorrs.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\edit_mutualcorrs\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_mutualcorrs\edit_mutualcorrs.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-edit_mutualcorrs-install_subtargets-ordered: sub-meshlabplugins-edit_measure-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\edit_mutualcorrs\ mkdir meshlabplugins\edit_mutualcorrs\ & if not exist meshlabplugins\edit_mutualcorrs\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_mutualcorrs\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_mutualcorrs\edit_mutualcorrs.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\edit_mutualcorrs\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_mutualcorrs\edit_mutualcorrs.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-edit_mutualcorrs-install_subtargets: FORCE
 	@if not exist meshlabplugins\edit_mutualcorrs\ mkdir meshlabplugins\edit_mutualcorrs\ & if not exist meshlabplugins\edit_mutualcorrs\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_mutualcorrs\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_mutualcorrs\edit_mutualcorrs.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\edit_mutualcorrs\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_mutualcorrs\edit_mutualcorrs.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-edit_mutualcorrs-uninstall_subtargets-ordered: sub-meshlabplugins-edit_measure-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\edit_mutualcorrs\ mkdir meshlabplugins\edit_mutualcorrs\ & if not exist meshlabplugins\edit_mutualcorrs\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_mutualcorrs\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_mutualcorrs\edit_mutualcorrs.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\edit_mutualcorrs\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_mutualcorrs\edit_mutualcorrs.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-edit_mutualcorrs-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\edit_mutualcorrs\ mkdir meshlabplugins\edit_mutualcorrs\ & if not exist meshlabplugins\edit_mutualcorrs\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_mutualcorrs\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_mutualcorrs\edit_mutualcorrs.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\edit_mutualcorrs\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_mutualcorrs\edit_mutualcorrs.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-edit_paint-qmake_all: sub-meshlabplugins-edit_mutualcorrs-qmake_all FORCE
 	@if not exist meshlabplugins\edit_paint\ mkdir meshlabplugins\edit_paint\ & if not exist meshlabplugins\edit_paint\ exit 1
-	cd meshlabplugins\edit_paint\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_paint\edit_paint.pro -spec win32-msvc
+	cd meshlabplugins\edit_paint\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_paint\edit_paint.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\edit_paint\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-edit_paint: FORCE
 	@if not exist meshlabplugins\edit_paint\ mkdir meshlabplugins\edit_paint\ & if not exist meshlabplugins\edit_paint\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_paint\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_paint\edit_paint.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\edit_paint\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_paint\edit_paint.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-edit_paint-make_first-ordered: sub-meshlabplugins-edit_mutualcorrs-make_first-ordered  FORCE
 	@if not exist meshlabplugins\edit_paint\ mkdir meshlabplugins\edit_paint\ & if not exist meshlabplugins\edit_paint\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_paint\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_paint\edit_paint.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\edit_paint\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_paint\edit_paint.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-edit_paint-make_first: FORCE
 	@if not exist meshlabplugins\edit_paint\ mkdir meshlabplugins\edit_paint\ & if not exist meshlabplugins\edit_paint\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_paint\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_paint\edit_paint.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\edit_paint\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_paint\edit_paint.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-edit_paint-all-ordered: sub-meshlabplugins-edit_mutualcorrs-all-ordered  FORCE
 	@if not exist meshlabplugins\edit_paint\ mkdir meshlabplugins\edit_paint\ & if not exist meshlabplugins\edit_paint\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_paint\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_paint\edit_paint.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\edit_paint\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_paint\edit_paint.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-edit_paint-all: FORCE
 	@if not exist meshlabplugins\edit_paint\ mkdir meshlabplugins\edit_paint\ & if not exist meshlabplugins\edit_paint\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_paint\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_paint\edit_paint.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\edit_paint\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_paint\edit_paint.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-edit_paint-clean-ordered: sub-meshlabplugins-edit_mutualcorrs-clean-ordered  FORCE
 	@if not exist meshlabplugins\edit_paint\ mkdir meshlabplugins\edit_paint\ & if not exist meshlabplugins\edit_paint\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_paint\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_paint\edit_paint.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\edit_paint\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_paint\edit_paint.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-edit_paint-clean: FORCE
 	@if not exist meshlabplugins\edit_paint\ mkdir meshlabplugins\edit_paint\ & if not exist meshlabplugins\edit_paint\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_paint\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_paint\edit_paint.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\edit_paint\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_paint\edit_paint.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-edit_paint-distclean-ordered: sub-meshlabplugins-edit_mutualcorrs-distclean-ordered  FORCE
 	@if not exist meshlabplugins\edit_paint\ mkdir meshlabplugins\edit_paint\ & if not exist meshlabplugins\edit_paint\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_paint\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_paint\edit_paint.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\edit_paint\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_paint\edit_paint.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-edit_paint-distclean: FORCE
 	@if not exist meshlabplugins\edit_paint\ mkdir meshlabplugins\edit_paint\ & if not exist meshlabplugins\edit_paint\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_paint\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_paint\edit_paint.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\edit_paint\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_paint\edit_paint.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-edit_paint-install_subtargets-ordered: sub-meshlabplugins-edit_mutualcorrs-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\edit_paint\ mkdir meshlabplugins\edit_paint\ & if not exist meshlabplugins\edit_paint\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_paint\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_paint\edit_paint.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\edit_paint\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_paint\edit_paint.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-edit_paint-install_subtargets: FORCE
 	@if not exist meshlabplugins\edit_paint\ mkdir meshlabplugins\edit_paint\ & if not exist meshlabplugins\edit_paint\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_paint\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_paint\edit_paint.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\edit_paint\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_paint\edit_paint.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-edit_paint-uninstall_subtargets-ordered: sub-meshlabplugins-edit_mutualcorrs-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\edit_paint\ mkdir meshlabplugins\edit_paint\ & if not exist meshlabplugins\edit_paint\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_paint\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_paint\edit_paint.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\edit_paint\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_paint\edit_paint.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-edit_paint-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\edit_paint\ mkdir meshlabplugins\edit_paint\ & if not exist meshlabplugins\edit_paint\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_paint\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_paint\edit_paint.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\edit_paint\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_paint\edit_paint.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-edit_point-qmake_all: sub-meshlabplugins-edit_paint-qmake_all FORCE
 	@if not exist meshlabplugins\edit_point\ mkdir meshlabplugins\edit_point\ & if not exist meshlabplugins\edit_point\ exit 1
-	cd meshlabplugins\edit_point\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_point\edit_point.pro -spec win32-msvc
+	cd meshlabplugins\edit_point\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_point\edit_point.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\edit_point\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-edit_point: FORCE
 	@if not exist meshlabplugins\edit_point\ mkdir meshlabplugins\edit_point\ & if not exist meshlabplugins\edit_point\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_point\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_point\edit_point.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\edit_point\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_point\edit_point.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-edit_point-make_first-ordered: sub-meshlabplugins-edit_paint-make_first-ordered  FORCE
 	@if not exist meshlabplugins\edit_point\ mkdir meshlabplugins\edit_point\ & if not exist meshlabplugins\edit_point\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_point\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_point\edit_point.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\edit_point\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_point\edit_point.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-edit_point-make_first: FORCE
 	@if not exist meshlabplugins\edit_point\ mkdir meshlabplugins\edit_point\ & if not exist meshlabplugins\edit_point\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_point\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_point\edit_point.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\edit_point\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_point\edit_point.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-edit_point-all-ordered: sub-meshlabplugins-edit_paint-all-ordered  FORCE
 	@if not exist meshlabplugins\edit_point\ mkdir meshlabplugins\edit_point\ & if not exist meshlabplugins\edit_point\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_point\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_point\edit_point.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\edit_point\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_point\edit_point.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-edit_point-all: FORCE
 	@if not exist meshlabplugins\edit_point\ mkdir meshlabplugins\edit_point\ & if not exist meshlabplugins\edit_point\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_point\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_point\edit_point.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\edit_point\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_point\edit_point.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-edit_point-clean-ordered: sub-meshlabplugins-edit_paint-clean-ordered  FORCE
 	@if not exist meshlabplugins\edit_point\ mkdir meshlabplugins\edit_point\ & if not exist meshlabplugins\edit_point\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_point\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_point\edit_point.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\edit_point\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_point\edit_point.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-edit_point-clean: FORCE
 	@if not exist meshlabplugins\edit_point\ mkdir meshlabplugins\edit_point\ & if not exist meshlabplugins\edit_point\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_point\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_point\edit_point.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\edit_point\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_point\edit_point.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-edit_point-distclean-ordered: sub-meshlabplugins-edit_paint-distclean-ordered  FORCE
 	@if not exist meshlabplugins\edit_point\ mkdir meshlabplugins\edit_point\ & if not exist meshlabplugins\edit_point\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_point\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_point\edit_point.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\edit_point\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_point\edit_point.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-edit_point-distclean: FORCE
 	@if not exist meshlabplugins\edit_point\ mkdir meshlabplugins\edit_point\ & if not exist meshlabplugins\edit_point\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_point\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_point\edit_point.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\edit_point\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_point\edit_point.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-edit_point-install_subtargets-ordered: sub-meshlabplugins-edit_paint-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\edit_point\ mkdir meshlabplugins\edit_point\ & if not exist meshlabplugins\edit_point\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_point\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_point\edit_point.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\edit_point\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_point\edit_point.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-edit_point-install_subtargets: FORCE
 	@if not exist meshlabplugins\edit_point\ mkdir meshlabplugins\edit_point\ & if not exist meshlabplugins\edit_point\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_point\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_point\edit_point.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\edit_point\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_point\edit_point.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-edit_point-uninstall_subtargets-ordered: sub-meshlabplugins-edit_paint-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\edit_point\ mkdir meshlabplugins\edit_point\ & if not exist meshlabplugins\edit_point\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_point\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_point\edit_point.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\edit_point\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_point\edit_point.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-edit_point-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\edit_point\ mkdir meshlabplugins\edit_point\ & if not exist meshlabplugins\edit_point\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_point\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_point\edit_point.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\edit_point\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_point\edit_point.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-edit_referencing-qmake_all: sub-meshlabplugins-edit_point-qmake_all FORCE
 	@if not exist meshlabplugins\edit_referencing\ mkdir meshlabplugins\edit_referencing\ & if not exist meshlabplugins\edit_referencing\ exit 1
-	cd meshlabplugins\edit_referencing\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_referencing\edit_referencing.pro -spec win32-msvc
+	cd meshlabplugins\edit_referencing\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_referencing\edit_referencing.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\edit_referencing\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-edit_referencing: FORCE
 	@if not exist meshlabplugins\edit_referencing\ mkdir meshlabplugins\edit_referencing\ & if not exist meshlabplugins\edit_referencing\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_referencing\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_referencing\edit_referencing.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\edit_referencing\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_referencing\edit_referencing.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-edit_referencing-make_first-ordered: sub-meshlabplugins-edit_point-make_first-ordered  FORCE
 	@if not exist meshlabplugins\edit_referencing\ mkdir meshlabplugins\edit_referencing\ & if not exist meshlabplugins\edit_referencing\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_referencing\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_referencing\edit_referencing.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\edit_referencing\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_referencing\edit_referencing.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-edit_referencing-make_first: FORCE
 	@if not exist meshlabplugins\edit_referencing\ mkdir meshlabplugins\edit_referencing\ & if not exist meshlabplugins\edit_referencing\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_referencing\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_referencing\edit_referencing.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\edit_referencing\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_referencing\edit_referencing.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-edit_referencing-all-ordered: sub-meshlabplugins-edit_point-all-ordered  FORCE
 	@if not exist meshlabplugins\edit_referencing\ mkdir meshlabplugins\edit_referencing\ & if not exist meshlabplugins\edit_referencing\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_referencing\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_referencing\edit_referencing.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\edit_referencing\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_referencing\edit_referencing.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-edit_referencing-all: FORCE
 	@if not exist meshlabplugins\edit_referencing\ mkdir meshlabplugins\edit_referencing\ & if not exist meshlabplugins\edit_referencing\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_referencing\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_referencing\edit_referencing.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\edit_referencing\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_referencing\edit_referencing.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-edit_referencing-clean-ordered: sub-meshlabplugins-edit_point-clean-ordered  FORCE
 	@if not exist meshlabplugins\edit_referencing\ mkdir meshlabplugins\edit_referencing\ & if not exist meshlabplugins\edit_referencing\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_referencing\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_referencing\edit_referencing.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\edit_referencing\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_referencing\edit_referencing.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-edit_referencing-clean: FORCE
 	@if not exist meshlabplugins\edit_referencing\ mkdir meshlabplugins\edit_referencing\ & if not exist meshlabplugins\edit_referencing\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_referencing\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_referencing\edit_referencing.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\edit_referencing\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_referencing\edit_referencing.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-edit_referencing-distclean-ordered: sub-meshlabplugins-edit_point-distclean-ordered  FORCE
 	@if not exist meshlabplugins\edit_referencing\ mkdir meshlabplugins\edit_referencing\ & if not exist meshlabplugins\edit_referencing\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_referencing\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_referencing\edit_referencing.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\edit_referencing\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_referencing\edit_referencing.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-edit_referencing-distclean: FORCE
 	@if not exist meshlabplugins\edit_referencing\ mkdir meshlabplugins\edit_referencing\ & if not exist meshlabplugins\edit_referencing\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_referencing\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_referencing\edit_referencing.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\edit_referencing\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_referencing\edit_referencing.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-edit_referencing-install_subtargets-ordered: sub-meshlabplugins-edit_point-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\edit_referencing\ mkdir meshlabplugins\edit_referencing\ & if not exist meshlabplugins\edit_referencing\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_referencing\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_referencing\edit_referencing.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\edit_referencing\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_referencing\edit_referencing.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-edit_referencing-install_subtargets: FORCE
 	@if not exist meshlabplugins\edit_referencing\ mkdir meshlabplugins\edit_referencing\ & if not exist meshlabplugins\edit_referencing\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_referencing\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_referencing\edit_referencing.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\edit_referencing\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_referencing\edit_referencing.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-edit_referencing-uninstall_subtargets-ordered: sub-meshlabplugins-edit_point-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\edit_referencing\ mkdir meshlabplugins\edit_referencing\ & if not exist meshlabplugins\edit_referencing\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_referencing\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_referencing\edit_referencing.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\edit_referencing\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_referencing\edit_referencing.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-edit_referencing-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\edit_referencing\ mkdir meshlabplugins\edit_referencing\ & if not exist meshlabplugins\edit_referencing\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_referencing\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_referencing\edit_referencing.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\edit_referencing\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_referencing\edit_referencing.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-edit_quality-qmake_all: sub-meshlabplugins-edit_referencing-qmake_all FORCE
 	@if not exist meshlabplugins\edit_quality\ mkdir meshlabplugins\edit_quality\ & if not exist meshlabplugins\edit_quality\ exit 1
-	cd meshlabplugins\edit_quality\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_quality\edit_quality.pro -spec win32-msvc
+	cd meshlabplugins\edit_quality\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_quality\edit_quality.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\edit_quality\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-edit_quality: FORCE
 	@if not exist meshlabplugins\edit_quality\ mkdir meshlabplugins\edit_quality\ & if not exist meshlabplugins\edit_quality\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_quality\edit_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\edit_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_quality\edit_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-edit_quality-make_first-ordered: sub-meshlabplugins-edit_referencing-make_first-ordered  FORCE
 	@if not exist meshlabplugins\edit_quality\ mkdir meshlabplugins\edit_quality\ & if not exist meshlabplugins\edit_quality\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_quality\edit_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\edit_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_quality\edit_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-edit_quality-make_first: FORCE
 	@if not exist meshlabplugins\edit_quality\ mkdir meshlabplugins\edit_quality\ & if not exist meshlabplugins\edit_quality\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_quality\edit_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\edit_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_quality\edit_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-edit_quality-all-ordered: sub-meshlabplugins-edit_referencing-all-ordered  FORCE
 	@if not exist meshlabplugins\edit_quality\ mkdir meshlabplugins\edit_quality\ & if not exist meshlabplugins\edit_quality\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_quality\edit_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\edit_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_quality\edit_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-edit_quality-all: FORCE
 	@if not exist meshlabplugins\edit_quality\ mkdir meshlabplugins\edit_quality\ & if not exist meshlabplugins\edit_quality\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_quality\edit_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\edit_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_quality\edit_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-edit_quality-clean-ordered: sub-meshlabplugins-edit_referencing-clean-ordered  FORCE
 	@if not exist meshlabplugins\edit_quality\ mkdir meshlabplugins\edit_quality\ & if not exist meshlabplugins\edit_quality\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_quality\edit_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\edit_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_quality\edit_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-edit_quality-clean: FORCE
 	@if not exist meshlabplugins\edit_quality\ mkdir meshlabplugins\edit_quality\ & if not exist meshlabplugins\edit_quality\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_quality\edit_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\edit_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_quality\edit_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-edit_quality-distclean-ordered: sub-meshlabplugins-edit_referencing-distclean-ordered  FORCE
 	@if not exist meshlabplugins\edit_quality\ mkdir meshlabplugins\edit_quality\ & if not exist meshlabplugins\edit_quality\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_quality\edit_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\edit_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_quality\edit_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-edit_quality-distclean: FORCE
 	@if not exist meshlabplugins\edit_quality\ mkdir meshlabplugins\edit_quality\ & if not exist meshlabplugins\edit_quality\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_quality\edit_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\edit_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_quality\edit_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-edit_quality-install_subtargets-ordered: sub-meshlabplugins-edit_referencing-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\edit_quality\ mkdir meshlabplugins\edit_quality\ & if not exist meshlabplugins\edit_quality\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_quality\edit_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\edit_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_quality\edit_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-edit_quality-install_subtargets: FORCE
 	@if not exist meshlabplugins\edit_quality\ mkdir meshlabplugins\edit_quality\ & if not exist meshlabplugins\edit_quality\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_quality\edit_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\edit_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_quality\edit_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-edit_quality-uninstall_subtargets-ordered: sub-meshlabplugins-edit_referencing-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\edit_quality\ mkdir meshlabplugins\edit_quality\ & if not exist meshlabplugins\edit_quality\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_quality\edit_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\edit_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_quality\edit_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-edit_quality-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\edit_quality\ mkdir meshlabplugins\edit_quality\ & if not exist meshlabplugins\edit_quality\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_quality\edit_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\edit_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_quality\edit_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-edit_select-qmake_all: sub-meshlabplugins-edit_quality-qmake_all FORCE
 	@if not exist meshlabplugins\edit_select\ mkdir meshlabplugins\edit_select\ & if not exist meshlabplugins\edit_select\ exit 1
-	cd meshlabplugins\edit_select\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_select\edit_select.pro -spec win32-msvc
+	cd meshlabplugins\edit_select\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_select\edit_select.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd meshlabplugins\edit_select\ && $(MAKE) -f Makefile qmake_all
 sub-meshlabplugins-edit_select: FORCE
 	@if not exist meshlabplugins\edit_select\ mkdir meshlabplugins\edit_select\ & if not exist meshlabplugins\edit_select\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_select\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_select\edit_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd meshlabplugins\edit_select\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_select\edit_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-meshlabplugins-edit_select-make_first-ordered: sub-meshlabplugins-edit_quality-make_first-ordered  FORCE
 	@if not exist meshlabplugins\edit_select\ mkdir meshlabplugins\edit_select\ & if not exist meshlabplugins\edit_select\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_select\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_select\edit_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\edit_select\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_select\edit_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-edit_select-make_first: FORCE
 	@if not exist meshlabplugins\edit_select\ mkdir meshlabplugins\edit_select\ & if not exist meshlabplugins\edit_select\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_select\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_select\edit_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd meshlabplugins\edit_select\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_select\edit_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-meshlabplugins-edit_select-all-ordered: sub-meshlabplugins-edit_quality-all-ordered  FORCE
 	@if not exist meshlabplugins\edit_select\ mkdir meshlabplugins\edit_select\ & if not exist meshlabplugins\edit_select\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_select\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_select\edit_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\edit_select\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_select\edit_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-edit_select-all: FORCE
 	@if not exist meshlabplugins\edit_select\ mkdir meshlabplugins\edit_select\ & if not exist meshlabplugins\edit_select\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_select\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_select\edit_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd meshlabplugins\edit_select\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_select\edit_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-meshlabplugins-edit_select-clean-ordered: sub-meshlabplugins-edit_quality-clean-ordered  FORCE
 	@if not exist meshlabplugins\edit_select\ mkdir meshlabplugins\edit_select\ & if not exist meshlabplugins\edit_select\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_select\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_select\edit_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\edit_select\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_select\edit_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-edit_select-clean: FORCE
 	@if not exist meshlabplugins\edit_select\ mkdir meshlabplugins\edit_select\ & if not exist meshlabplugins\edit_select\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_select\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_select\edit_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd meshlabplugins\edit_select\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_select\edit_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-meshlabplugins-edit_select-distclean-ordered: sub-meshlabplugins-edit_quality-distclean-ordered  FORCE
 	@if not exist meshlabplugins\edit_select\ mkdir meshlabplugins\edit_select\ & if not exist meshlabplugins\edit_select\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_select\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_select\edit_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\edit_select\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_select\edit_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-edit_select-distclean: FORCE
 	@if not exist meshlabplugins\edit_select\ mkdir meshlabplugins\edit_select\ & if not exist meshlabplugins\edit_select\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_select\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_select\edit_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd meshlabplugins\edit_select\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_select\edit_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-meshlabplugins-edit_select-install_subtargets-ordered: sub-meshlabplugins-edit_quality-install_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\edit_select\ mkdir meshlabplugins\edit_select\ & if not exist meshlabplugins\edit_select\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_select\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_select\edit_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\edit_select\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_select\edit_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-edit_select-install_subtargets: FORCE
 	@if not exist meshlabplugins\edit_select\ mkdir meshlabplugins\edit_select\ & if not exist meshlabplugins\edit_select\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_select\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_select\edit_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd meshlabplugins\edit_select\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_select\edit_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-meshlabplugins-edit_select-uninstall_subtargets-ordered: sub-meshlabplugins-edit_quality-uninstall_subtargets-ordered  FORCE
 	@if not exist meshlabplugins\edit_select\ mkdir meshlabplugins\edit_select\ & if not exist meshlabplugins\edit_select\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_select\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_select\edit_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\edit_select\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_select\edit_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-meshlabplugins-edit_select-uninstall_subtargets: FORCE
 	@if not exist meshlabplugins\edit_select\ mkdir meshlabplugins\edit_select\ & if not exist meshlabplugins\edit_select\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_select\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_select\edit_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd meshlabplugins\edit_select\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_select\edit_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-sampleplugins-sampleedit-qmake_all: sub-meshlabplugins-edit_select-qmake_all FORCE
 	@if not exist sampleplugins\sampleedit\ mkdir sampleplugins\sampleedit\ & if not exist sampleplugins\sampleedit\ exit 1
-	cd sampleplugins\sampleedit\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\sampleedit\sampleedit.pro -spec win32-msvc
+	cd sampleplugins\sampleedit\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\sampleedit\sampleedit.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd sampleplugins\sampleedit\ && $(MAKE) -f Makefile qmake_all
 sub-sampleplugins-sampleedit: FORCE
 	@if not exist sampleplugins\sampleedit\ mkdir sampleplugins\sampleedit\ & if not exist sampleplugins\sampleedit\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\sampleedit\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\sampleedit\sampleedit.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd sampleplugins\sampleedit\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\sampleedit\sampleedit.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-sampleplugins-sampleedit-make_first-ordered: sub-meshlabplugins-edit_select-make_first-ordered  FORCE
 	@if not exist sampleplugins\sampleedit\ mkdir sampleplugins\sampleedit\ & if not exist sampleplugins\sampleedit\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\sampleedit\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\sampleedit\sampleedit.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd sampleplugins\sampleedit\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\sampleedit\sampleedit.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-sampleplugins-sampleedit-make_first: FORCE
 	@if not exist sampleplugins\sampleedit\ mkdir sampleplugins\sampleedit\ & if not exist sampleplugins\sampleedit\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\sampleedit\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\sampleedit\sampleedit.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd sampleplugins\sampleedit\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\sampleedit\sampleedit.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-sampleplugins-sampleedit-all-ordered: sub-meshlabplugins-edit_select-all-ordered  FORCE
 	@if not exist sampleplugins\sampleedit\ mkdir sampleplugins\sampleedit\ & if not exist sampleplugins\sampleedit\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\sampleedit\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\sampleedit\sampleedit.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd sampleplugins\sampleedit\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\sampleedit\sampleedit.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-sampleplugins-sampleedit-all: FORCE
 	@if not exist sampleplugins\sampleedit\ mkdir sampleplugins\sampleedit\ & if not exist sampleplugins\sampleedit\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\sampleedit\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\sampleedit\sampleedit.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd sampleplugins\sampleedit\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\sampleedit\sampleedit.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-sampleplugins-sampleedit-clean-ordered: sub-meshlabplugins-edit_select-clean-ordered  FORCE
 	@if not exist sampleplugins\sampleedit\ mkdir sampleplugins\sampleedit\ & if not exist sampleplugins\sampleedit\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\sampleedit\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\sampleedit\sampleedit.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd sampleplugins\sampleedit\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\sampleedit\sampleedit.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-sampleplugins-sampleedit-clean: FORCE
 	@if not exist sampleplugins\sampleedit\ mkdir sampleplugins\sampleedit\ & if not exist sampleplugins\sampleedit\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\sampleedit\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\sampleedit\sampleedit.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd sampleplugins\sampleedit\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\sampleedit\sampleedit.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-sampleplugins-sampleedit-distclean-ordered: sub-meshlabplugins-edit_select-distclean-ordered  FORCE
 	@if not exist sampleplugins\sampleedit\ mkdir sampleplugins\sampleedit\ & if not exist sampleplugins\sampleedit\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\sampleedit\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\sampleedit\sampleedit.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd sampleplugins\sampleedit\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\sampleedit\sampleedit.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-sampleplugins-sampleedit-distclean: FORCE
 	@if not exist sampleplugins\sampleedit\ mkdir sampleplugins\sampleedit\ & if not exist sampleplugins\sampleedit\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\sampleedit\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\sampleedit\sampleedit.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd sampleplugins\sampleedit\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\sampleedit\sampleedit.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-sampleplugins-sampleedit-install_subtargets-ordered: sub-meshlabplugins-edit_select-install_subtargets-ordered  FORCE
 	@if not exist sampleplugins\sampleedit\ mkdir sampleplugins\sampleedit\ & if not exist sampleplugins\sampleedit\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\sampleedit\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\sampleedit\sampleedit.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd sampleplugins\sampleedit\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\sampleedit\sampleedit.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-sampleplugins-sampleedit-install_subtargets: FORCE
 	@if not exist sampleplugins\sampleedit\ mkdir sampleplugins\sampleedit\ & if not exist sampleplugins\sampleedit\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\sampleedit\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\sampleedit\sampleedit.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd sampleplugins\sampleedit\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\sampleedit\sampleedit.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-sampleplugins-sampleedit-uninstall_subtargets-ordered: sub-meshlabplugins-edit_select-uninstall_subtargets-ordered  FORCE
 	@if not exist sampleplugins\sampleedit\ mkdir sampleplugins\sampleedit\ & if not exist sampleplugins\sampleedit\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\sampleedit\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\sampleedit\sampleedit.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd sampleplugins\sampleedit\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\sampleedit\sampleedit.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-sampleplugins-sampleedit-uninstall_subtargets: FORCE
 	@if not exist sampleplugins\sampleedit\ mkdir sampleplugins\sampleedit\ & if not exist sampleplugins\sampleedit\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\sampleedit\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\sampleedit\sampleedit.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd sampleplugins\sampleedit\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\sampleedit\sampleedit.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-sampleplugins-samplefilter-qmake_all: sub-sampleplugins-sampleedit-qmake_all FORCE
 	@if not exist sampleplugins\samplefilter\ mkdir sampleplugins\samplefilter\ & if not exist sampleplugins\samplefilter\ exit 1
-	cd sampleplugins\samplefilter\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\samplefilter\samplefilter.pro -spec win32-msvc
+	cd sampleplugins\samplefilter\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\samplefilter\samplefilter.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd sampleplugins\samplefilter\ && $(MAKE) -f Makefile qmake_all
 sub-sampleplugins-samplefilter: FORCE
 	@if not exist sampleplugins\samplefilter\ mkdir sampleplugins\samplefilter\ & if not exist sampleplugins\samplefilter\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\samplefilter\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\samplefilter\samplefilter.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd sampleplugins\samplefilter\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\samplefilter\samplefilter.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-sampleplugins-samplefilter-make_first-ordered: sub-sampleplugins-sampleedit-make_first-ordered  FORCE
 	@if not exist sampleplugins\samplefilter\ mkdir sampleplugins\samplefilter\ & if not exist sampleplugins\samplefilter\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\samplefilter\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\samplefilter\samplefilter.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd sampleplugins\samplefilter\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\samplefilter\samplefilter.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-sampleplugins-samplefilter-make_first: FORCE
 	@if not exist sampleplugins\samplefilter\ mkdir sampleplugins\samplefilter\ & if not exist sampleplugins\samplefilter\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\samplefilter\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\samplefilter\samplefilter.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd sampleplugins\samplefilter\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\samplefilter\samplefilter.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-sampleplugins-samplefilter-all-ordered: sub-sampleplugins-sampleedit-all-ordered  FORCE
 	@if not exist sampleplugins\samplefilter\ mkdir sampleplugins\samplefilter\ & if not exist sampleplugins\samplefilter\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\samplefilter\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\samplefilter\samplefilter.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd sampleplugins\samplefilter\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\samplefilter\samplefilter.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-sampleplugins-samplefilter-all: FORCE
 	@if not exist sampleplugins\samplefilter\ mkdir sampleplugins\samplefilter\ & if not exist sampleplugins\samplefilter\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\samplefilter\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\samplefilter\samplefilter.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd sampleplugins\samplefilter\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\samplefilter\samplefilter.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-sampleplugins-samplefilter-clean-ordered: sub-sampleplugins-sampleedit-clean-ordered  FORCE
 	@if not exist sampleplugins\samplefilter\ mkdir sampleplugins\samplefilter\ & if not exist sampleplugins\samplefilter\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\samplefilter\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\samplefilter\samplefilter.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd sampleplugins\samplefilter\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\samplefilter\samplefilter.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-sampleplugins-samplefilter-clean: FORCE
 	@if not exist sampleplugins\samplefilter\ mkdir sampleplugins\samplefilter\ & if not exist sampleplugins\samplefilter\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\samplefilter\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\samplefilter\samplefilter.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd sampleplugins\samplefilter\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\samplefilter\samplefilter.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-sampleplugins-samplefilter-distclean-ordered: sub-sampleplugins-sampleedit-distclean-ordered  FORCE
 	@if not exist sampleplugins\samplefilter\ mkdir sampleplugins\samplefilter\ & if not exist sampleplugins\samplefilter\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\samplefilter\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\samplefilter\samplefilter.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd sampleplugins\samplefilter\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\samplefilter\samplefilter.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-sampleplugins-samplefilter-distclean: FORCE
 	@if not exist sampleplugins\samplefilter\ mkdir sampleplugins\samplefilter\ & if not exist sampleplugins\samplefilter\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\samplefilter\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\samplefilter\samplefilter.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd sampleplugins\samplefilter\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\samplefilter\samplefilter.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-sampleplugins-samplefilter-install_subtargets-ordered: sub-sampleplugins-sampleedit-install_subtargets-ordered  FORCE
 	@if not exist sampleplugins\samplefilter\ mkdir sampleplugins\samplefilter\ & if not exist sampleplugins\samplefilter\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\samplefilter\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\samplefilter\samplefilter.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd sampleplugins\samplefilter\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\samplefilter\samplefilter.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-sampleplugins-samplefilter-install_subtargets: FORCE
 	@if not exist sampleplugins\samplefilter\ mkdir sampleplugins\samplefilter\ & if not exist sampleplugins\samplefilter\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\samplefilter\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\samplefilter\samplefilter.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd sampleplugins\samplefilter\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\samplefilter\samplefilter.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-sampleplugins-samplefilter-uninstall_subtargets-ordered: sub-sampleplugins-sampleedit-uninstall_subtargets-ordered  FORCE
 	@if not exist sampleplugins\samplefilter\ mkdir sampleplugins\samplefilter\ & if not exist sampleplugins\samplefilter\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\samplefilter\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\samplefilter\samplefilter.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd sampleplugins\samplefilter\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\samplefilter\samplefilter.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-sampleplugins-samplefilter-uninstall_subtargets: FORCE
 	@if not exist sampleplugins\samplefilter\ mkdir sampleplugins\samplefilter\ & if not exist sampleplugins\samplefilter\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\samplefilter\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\samplefilter\samplefilter.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd sampleplugins\samplefilter\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\samplefilter\samplefilter.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-sampleplugins-samplefilterdyn-qmake_all: sub-sampleplugins-samplefilter-qmake_all FORCE
 	@if not exist sampleplugins\samplefilterdyn\ mkdir sampleplugins\samplefilterdyn\ & if not exist sampleplugins\samplefilterdyn\ exit 1
-	cd sampleplugins\samplefilterdyn\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\samplefilterdyn\samplefilterdyn.pro -spec win32-msvc
+	cd sampleplugins\samplefilterdyn\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\samplefilterdyn\samplefilterdyn.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd sampleplugins\samplefilterdyn\ && $(MAKE) -f Makefile qmake_all
 sub-sampleplugins-samplefilterdyn: FORCE
 	@if not exist sampleplugins\samplefilterdyn\ mkdir sampleplugins\samplefilterdyn\ & if not exist sampleplugins\samplefilterdyn\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\samplefilterdyn\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\samplefilterdyn\samplefilterdyn.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd sampleplugins\samplefilterdyn\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\samplefilterdyn\samplefilterdyn.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-sampleplugins-samplefilterdyn-make_first-ordered: sub-sampleplugins-samplefilter-make_first-ordered  FORCE
 	@if not exist sampleplugins\samplefilterdyn\ mkdir sampleplugins\samplefilterdyn\ & if not exist sampleplugins\samplefilterdyn\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\samplefilterdyn\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\samplefilterdyn\samplefilterdyn.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd sampleplugins\samplefilterdyn\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\samplefilterdyn\samplefilterdyn.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-sampleplugins-samplefilterdyn-make_first: FORCE
 	@if not exist sampleplugins\samplefilterdyn\ mkdir sampleplugins\samplefilterdyn\ & if not exist sampleplugins\samplefilterdyn\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\samplefilterdyn\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\samplefilterdyn\samplefilterdyn.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd sampleplugins\samplefilterdyn\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\samplefilterdyn\samplefilterdyn.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-sampleplugins-samplefilterdyn-all-ordered: sub-sampleplugins-samplefilter-all-ordered  FORCE
 	@if not exist sampleplugins\samplefilterdyn\ mkdir sampleplugins\samplefilterdyn\ & if not exist sampleplugins\samplefilterdyn\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\samplefilterdyn\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\samplefilterdyn\samplefilterdyn.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd sampleplugins\samplefilterdyn\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\samplefilterdyn\samplefilterdyn.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-sampleplugins-samplefilterdyn-all: FORCE
 	@if not exist sampleplugins\samplefilterdyn\ mkdir sampleplugins\samplefilterdyn\ & if not exist sampleplugins\samplefilterdyn\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\samplefilterdyn\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\samplefilterdyn\samplefilterdyn.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd sampleplugins\samplefilterdyn\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\samplefilterdyn\samplefilterdyn.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-sampleplugins-samplefilterdyn-clean-ordered: sub-sampleplugins-samplefilter-clean-ordered  FORCE
 	@if not exist sampleplugins\samplefilterdyn\ mkdir sampleplugins\samplefilterdyn\ & if not exist sampleplugins\samplefilterdyn\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\samplefilterdyn\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\samplefilterdyn\samplefilterdyn.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd sampleplugins\samplefilterdyn\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\samplefilterdyn\samplefilterdyn.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-sampleplugins-samplefilterdyn-clean: FORCE
 	@if not exist sampleplugins\samplefilterdyn\ mkdir sampleplugins\samplefilterdyn\ & if not exist sampleplugins\samplefilterdyn\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\samplefilterdyn\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\samplefilterdyn\samplefilterdyn.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd sampleplugins\samplefilterdyn\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\samplefilterdyn\samplefilterdyn.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-sampleplugins-samplefilterdyn-distclean-ordered: sub-sampleplugins-samplefilter-distclean-ordered  FORCE
 	@if not exist sampleplugins\samplefilterdyn\ mkdir sampleplugins\samplefilterdyn\ & if not exist sampleplugins\samplefilterdyn\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\samplefilterdyn\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\samplefilterdyn\samplefilterdyn.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd sampleplugins\samplefilterdyn\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\samplefilterdyn\samplefilterdyn.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-sampleplugins-samplefilterdyn-distclean: FORCE
 	@if not exist sampleplugins\samplefilterdyn\ mkdir sampleplugins\samplefilterdyn\ & if not exist sampleplugins\samplefilterdyn\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\samplefilterdyn\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\samplefilterdyn\samplefilterdyn.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd sampleplugins\samplefilterdyn\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\samplefilterdyn\samplefilterdyn.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-sampleplugins-samplefilterdyn-install_subtargets-ordered: sub-sampleplugins-samplefilter-install_subtargets-ordered  FORCE
 	@if not exist sampleplugins\samplefilterdyn\ mkdir sampleplugins\samplefilterdyn\ & if not exist sampleplugins\samplefilterdyn\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\samplefilterdyn\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\samplefilterdyn\samplefilterdyn.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd sampleplugins\samplefilterdyn\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\samplefilterdyn\samplefilterdyn.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-sampleplugins-samplefilterdyn-install_subtargets: FORCE
 	@if not exist sampleplugins\samplefilterdyn\ mkdir sampleplugins\samplefilterdyn\ & if not exist sampleplugins\samplefilterdyn\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\samplefilterdyn\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\samplefilterdyn\samplefilterdyn.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd sampleplugins\samplefilterdyn\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\samplefilterdyn\samplefilterdyn.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-sampleplugins-samplefilterdyn-uninstall_subtargets-ordered: sub-sampleplugins-samplefilter-uninstall_subtargets-ordered  FORCE
 	@if not exist sampleplugins\samplefilterdyn\ mkdir sampleplugins\samplefilterdyn\ & if not exist sampleplugins\samplefilterdyn\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\samplefilterdyn\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\samplefilterdyn\samplefilterdyn.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd sampleplugins\samplefilterdyn\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\samplefilterdyn\samplefilterdyn.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-sampleplugins-samplefilterdyn-uninstall_subtargets: FORCE
 	@if not exist sampleplugins\samplefilterdyn\ mkdir sampleplugins\samplefilterdyn\ & if not exist sampleplugins\samplefilterdyn\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\samplefilterdyn\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\samplefilterdyn\samplefilterdyn.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd sampleplugins\samplefilterdyn\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\samplefilterdyn\samplefilterdyn.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-sampleplugins-filter_createiso-qmake_all: sub-sampleplugins-samplefilterdyn-qmake_all FORCE
 	@if not exist sampleplugins\filter_createiso\ mkdir sampleplugins\filter_createiso\ & if not exist sampleplugins\filter_createiso\ exit 1
-	cd sampleplugins\filter_createiso\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\filter_createiso\filter_createiso.pro -spec win32-msvc
+	cd sampleplugins\filter_createiso\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\filter_createiso\filter_createiso.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd sampleplugins\filter_createiso\ && $(MAKE) -f Makefile qmake_all
 sub-sampleplugins-filter_createiso: FORCE
 	@if not exist sampleplugins\filter_createiso\ mkdir sampleplugins\filter_createiso\ & if not exist sampleplugins\filter_createiso\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\filter_createiso\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\filter_createiso\filter_createiso.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd sampleplugins\filter_createiso\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\filter_createiso\filter_createiso.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-sampleplugins-filter_createiso-make_first-ordered: sub-sampleplugins-samplefilterdyn-make_first-ordered  FORCE
 	@if not exist sampleplugins\filter_createiso\ mkdir sampleplugins\filter_createiso\ & if not exist sampleplugins\filter_createiso\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\filter_createiso\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\filter_createiso\filter_createiso.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd sampleplugins\filter_createiso\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\filter_createiso\filter_createiso.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-sampleplugins-filter_createiso-make_first: FORCE
 	@if not exist sampleplugins\filter_createiso\ mkdir sampleplugins\filter_createiso\ & if not exist sampleplugins\filter_createiso\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\filter_createiso\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\filter_createiso\filter_createiso.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd sampleplugins\filter_createiso\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\filter_createiso\filter_createiso.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-sampleplugins-filter_createiso-all-ordered: sub-sampleplugins-samplefilterdyn-all-ordered  FORCE
 	@if not exist sampleplugins\filter_createiso\ mkdir sampleplugins\filter_createiso\ & if not exist sampleplugins\filter_createiso\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\filter_createiso\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\filter_createiso\filter_createiso.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd sampleplugins\filter_createiso\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\filter_createiso\filter_createiso.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-sampleplugins-filter_createiso-all: FORCE
 	@if not exist sampleplugins\filter_createiso\ mkdir sampleplugins\filter_createiso\ & if not exist sampleplugins\filter_createiso\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\filter_createiso\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\filter_createiso\filter_createiso.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd sampleplugins\filter_createiso\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\filter_createiso\filter_createiso.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-sampleplugins-filter_createiso-clean-ordered: sub-sampleplugins-samplefilterdyn-clean-ordered  FORCE
 	@if not exist sampleplugins\filter_createiso\ mkdir sampleplugins\filter_createiso\ & if not exist sampleplugins\filter_createiso\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\filter_createiso\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\filter_createiso\filter_createiso.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd sampleplugins\filter_createiso\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\filter_createiso\filter_createiso.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-sampleplugins-filter_createiso-clean: FORCE
 	@if not exist sampleplugins\filter_createiso\ mkdir sampleplugins\filter_createiso\ & if not exist sampleplugins\filter_createiso\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\filter_createiso\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\filter_createiso\filter_createiso.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd sampleplugins\filter_createiso\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\filter_createiso\filter_createiso.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-sampleplugins-filter_createiso-distclean-ordered: sub-sampleplugins-samplefilterdyn-distclean-ordered  FORCE
 	@if not exist sampleplugins\filter_createiso\ mkdir sampleplugins\filter_createiso\ & if not exist sampleplugins\filter_createiso\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\filter_createiso\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\filter_createiso\filter_createiso.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd sampleplugins\filter_createiso\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\filter_createiso\filter_createiso.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-sampleplugins-filter_createiso-distclean: FORCE
 	@if not exist sampleplugins\filter_createiso\ mkdir sampleplugins\filter_createiso\ & if not exist sampleplugins\filter_createiso\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\filter_createiso\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\filter_createiso\filter_createiso.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd sampleplugins\filter_createiso\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\filter_createiso\filter_createiso.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-sampleplugins-filter_createiso-install_subtargets-ordered: sub-sampleplugins-samplefilterdyn-install_subtargets-ordered  FORCE
 	@if not exist sampleplugins\filter_createiso\ mkdir sampleplugins\filter_createiso\ & if not exist sampleplugins\filter_createiso\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\filter_createiso\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\filter_createiso\filter_createiso.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd sampleplugins\filter_createiso\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\filter_createiso\filter_createiso.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-sampleplugins-filter_createiso-install_subtargets: FORCE
 	@if not exist sampleplugins\filter_createiso\ mkdir sampleplugins\filter_createiso\ & if not exist sampleplugins\filter_createiso\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\filter_createiso\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\filter_createiso\filter_createiso.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd sampleplugins\filter_createiso\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\filter_createiso\filter_createiso.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-sampleplugins-filter_createiso-uninstall_subtargets-ordered: sub-sampleplugins-samplefilterdyn-uninstall_subtargets-ordered  FORCE
 	@if not exist sampleplugins\filter_createiso\ mkdir sampleplugins\filter_createiso\ & if not exist sampleplugins\filter_createiso\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\filter_createiso\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\filter_createiso\filter_createiso.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd sampleplugins\filter_createiso\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\filter_createiso\filter_createiso.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-sampleplugins-filter_createiso-uninstall_subtargets: FORCE
 	@if not exist sampleplugins\filter_createiso\ mkdir sampleplugins\filter_createiso\ & if not exist sampleplugins\filter_createiso\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\filter_createiso\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\filter_createiso\filter_createiso.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd sampleplugins\filter_createiso\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\filter_createiso\filter_createiso.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-sampleplugins-filter_geodesic-qmake_all: sub-sampleplugins-filter_createiso-qmake_all FORCE
 	@if not exist sampleplugins\filter_geodesic\ mkdir sampleplugins\filter_geodesic\ & if not exist sampleplugins\filter_geodesic\ exit 1
-	cd sampleplugins\filter_geodesic\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\filter_geodesic\filter_geodesic.pro -spec win32-msvc
+	cd sampleplugins\filter_geodesic\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\filter_geodesic\filter_geodesic.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd sampleplugins\filter_geodesic\ && $(MAKE) -f Makefile qmake_all
 sub-sampleplugins-filter_geodesic: FORCE
 	@if not exist sampleplugins\filter_geodesic\ mkdir sampleplugins\filter_geodesic\ & if not exist sampleplugins\filter_geodesic\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\filter_geodesic\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\filter_geodesic\filter_geodesic.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd sampleplugins\filter_geodesic\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\filter_geodesic\filter_geodesic.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-sampleplugins-filter_geodesic-make_first-ordered: sub-sampleplugins-filter_createiso-make_first-ordered  FORCE
 	@if not exist sampleplugins\filter_geodesic\ mkdir sampleplugins\filter_geodesic\ & if not exist sampleplugins\filter_geodesic\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\filter_geodesic\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\filter_geodesic\filter_geodesic.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd sampleplugins\filter_geodesic\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\filter_geodesic\filter_geodesic.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-sampleplugins-filter_geodesic-make_first: FORCE
 	@if not exist sampleplugins\filter_geodesic\ mkdir sampleplugins\filter_geodesic\ & if not exist sampleplugins\filter_geodesic\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\filter_geodesic\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\filter_geodesic\filter_geodesic.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd sampleplugins\filter_geodesic\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\filter_geodesic\filter_geodesic.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-sampleplugins-filter_geodesic-all-ordered: sub-sampleplugins-filter_createiso-all-ordered  FORCE
 	@if not exist sampleplugins\filter_geodesic\ mkdir sampleplugins\filter_geodesic\ & if not exist sampleplugins\filter_geodesic\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\filter_geodesic\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\filter_geodesic\filter_geodesic.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd sampleplugins\filter_geodesic\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\filter_geodesic\filter_geodesic.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-sampleplugins-filter_geodesic-all: FORCE
 	@if not exist sampleplugins\filter_geodesic\ mkdir sampleplugins\filter_geodesic\ & if not exist sampleplugins\filter_geodesic\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\filter_geodesic\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\filter_geodesic\filter_geodesic.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd sampleplugins\filter_geodesic\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\filter_geodesic\filter_geodesic.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-sampleplugins-filter_geodesic-clean-ordered: sub-sampleplugins-filter_createiso-clean-ordered  FORCE
 	@if not exist sampleplugins\filter_geodesic\ mkdir sampleplugins\filter_geodesic\ & if not exist sampleplugins\filter_geodesic\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\filter_geodesic\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\filter_geodesic\filter_geodesic.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd sampleplugins\filter_geodesic\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\filter_geodesic\filter_geodesic.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-sampleplugins-filter_geodesic-clean: FORCE
 	@if not exist sampleplugins\filter_geodesic\ mkdir sampleplugins\filter_geodesic\ & if not exist sampleplugins\filter_geodesic\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\filter_geodesic\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\filter_geodesic\filter_geodesic.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd sampleplugins\filter_geodesic\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\filter_geodesic\filter_geodesic.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-sampleplugins-filter_geodesic-distclean-ordered: sub-sampleplugins-filter_createiso-distclean-ordered  FORCE
 	@if not exist sampleplugins\filter_geodesic\ mkdir sampleplugins\filter_geodesic\ & if not exist sampleplugins\filter_geodesic\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\filter_geodesic\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\filter_geodesic\filter_geodesic.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd sampleplugins\filter_geodesic\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\filter_geodesic\filter_geodesic.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-sampleplugins-filter_geodesic-distclean: FORCE
 	@if not exist sampleplugins\filter_geodesic\ mkdir sampleplugins\filter_geodesic\ & if not exist sampleplugins\filter_geodesic\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\filter_geodesic\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\filter_geodesic\filter_geodesic.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd sampleplugins\filter_geodesic\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\filter_geodesic\filter_geodesic.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-sampleplugins-filter_geodesic-install_subtargets-ordered: sub-sampleplugins-filter_createiso-install_subtargets-ordered  FORCE
 	@if not exist sampleplugins\filter_geodesic\ mkdir sampleplugins\filter_geodesic\ & if not exist sampleplugins\filter_geodesic\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\filter_geodesic\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\filter_geodesic\filter_geodesic.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd sampleplugins\filter_geodesic\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\filter_geodesic\filter_geodesic.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-sampleplugins-filter_geodesic-install_subtargets: FORCE
 	@if not exist sampleplugins\filter_geodesic\ mkdir sampleplugins\filter_geodesic\ & if not exist sampleplugins\filter_geodesic\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\filter_geodesic\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\filter_geodesic\filter_geodesic.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd sampleplugins\filter_geodesic\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\filter_geodesic\filter_geodesic.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-sampleplugins-filter_geodesic-uninstall_subtargets-ordered: sub-sampleplugins-filter_createiso-uninstall_subtargets-ordered  FORCE
 	@if not exist sampleplugins\filter_geodesic\ mkdir sampleplugins\filter_geodesic\ & if not exist sampleplugins\filter_geodesic\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\filter_geodesic\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\filter_geodesic\filter_geodesic.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd sampleplugins\filter_geodesic\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\filter_geodesic\filter_geodesic.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-sampleplugins-filter_geodesic-uninstall_subtargets: FORCE
 	@if not exist sampleplugins\filter_geodesic\ mkdir sampleplugins\filter_geodesic\ & if not exist sampleplugins\filter_geodesic\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\filter_geodesic\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\filter_geodesic\filter_geodesic.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd sampleplugins\filter_geodesic\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\filter_geodesic\filter_geodesic.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-sampleplugins-sample_filtergpu-qmake_all: sub-sampleplugins-filter_geodesic-qmake_all FORCE
 	@if not exist sampleplugins\sample_filtergpu\ mkdir sampleplugins\sample_filtergpu\ & if not exist sampleplugins\sample_filtergpu\ exit 1
-	cd sampleplugins\sample_filtergpu\ && $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\sample_filtergpu\sample_filtergpu.pro -spec win32-msvc
+	cd sampleplugins\sample_filtergpu\ && $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\sample_filtergpu\sample_filtergpu.pro -spec win32-msvc
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd sampleplugins\sample_filtergpu\ && $(MAKE) -f Makefile qmake_all
 sub-sampleplugins-sample_filtergpu: FORCE
 	@if not exist sampleplugins\sample_filtergpu\ mkdir sampleplugins\sample_filtergpu\ & if not exist sampleplugins\sample_filtergpu\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\sample_filtergpu\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\sample_filtergpu\sample_filtergpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile
+	cd sampleplugins\sample_filtergpu\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\sample_filtergpu\sample_filtergpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile
 sub-sampleplugins-sample_filtergpu-make_first-ordered: sub-sampleplugins-filter_geodesic-make_first-ordered  FORCE
 	@if not exist sampleplugins\sample_filtergpu\ mkdir sampleplugins\sample_filtergpu\ & if not exist sampleplugins\sample_filtergpu\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\sample_filtergpu\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\sample_filtergpu\sample_filtergpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd sampleplugins\sample_filtergpu\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\sample_filtergpu\sample_filtergpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-sampleplugins-sample_filtergpu-make_first: FORCE
 	@if not exist sampleplugins\sample_filtergpu\ mkdir sampleplugins\sample_filtergpu\ & if not exist sampleplugins\sample_filtergpu\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\sample_filtergpu\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\sample_filtergpu\sample_filtergpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
+	cd sampleplugins\sample_filtergpu\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\sample_filtergpu\sample_filtergpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile 
 sub-sampleplugins-sample_filtergpu-all-ordered: sub-sampleplugins-filter_geodesic-all-ordered  FORCE
 	@if not exist sampleplugins\sample_filtergpu\ mkdir sampleplugins\sample_filtergpu\ & if not exist sampleplugins\sample_filtergpu\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\sample_filtergpu\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\sample_filtergpu\sample_filtergpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd sampleplugins\sample_filtergpu\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\sample_filtergpu\sample_filtergpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-sampleplugins-sample_filtergpu-all: FORCE
 	@if not exist sampleplugins\sample_filtergpu\ mkdir sampleplugins\sample_filtergpu\ & if not exist sampleplugins\sample_filtergpu\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\sample_filtergpu\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\sample_filtergpu\sample_filtergpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
+	cd sampleplugins\sample_filtergpu\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\sample_filtergpu\sample_filtergpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile all
 sub-sampleplugins-sample_filtergpu-clean-ordered: sub-sampleplugins-filter_geodesic-clean-ordered  FORCE
 	@if not exist sampleplugins\sample_filtergpu\ mkdir sampleplugins\sample_filtergpu\ & if not exist sampleplugins\sample_filtergpu\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\sample_filtergpu\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\sample_filtergpu\sample_filtergpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd sampleplugins\sample_filtergpu\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\sample_filtergpu\sample_filtergpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-sampleplugins-sample_filtergpu-clean: FORCE
 	@if not exist sampleplugins\sample_filtergpu\ mkdir sampleplugins\sample_filtergpu\ & if not exist sampleplugins\sample_filtergpu\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\sample_filtergpu\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\sample_filtergpu\sample_filtergpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
+	cd sampleplugins\sample_filtergpu\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\sample_filtergpu\sample_filtergpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile clean
 sub-sampleplugins-sample_filtergpu-distclean-ordered: sub-sampleplugins-filter_geodesic-distclean-ordered  FORCE
 	@if not exist sampleplugins\sample_filtergpu\ mkdir sampleplugins\sample_filtergpu\ & if not exist sampleplugins\sample_filtergpu\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\sample_filtergpu\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\sample_filtergpu\sample_filtergpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd sampleplugins\sample_filtergpu\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\sample_filtergpu\sample_filtergpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-sampleplugins-sample_filtergpu-distclean: FORCE
 	@if not exist sampleplugins\sample_filtergpu\ mkdir sampleplugins\sample_filtergpu\ & if not exist sampleplugins\sample_filtergpu\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\sample_filtergpu\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\sample_filtergpu\sample_filtergpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
+	cd sampleplugins\sample_filtergpu\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\sample_filtergpu\sample_filtergpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile distclean
 sub-sampleplugins-sample_filtergpu-install_subtargets-ordered: sub-sampleplugins-filter_geodesic-install_subtargets-ordered  FORCE
 	@if not exist sampleplugins\sample_filtergpu\ mkdir sampleplugins\sample_filtergpu\ & if not exist sampleplugins\sample_filtergpu\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\sample_filtergpu\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\sample_filtergpu\sample_filtergpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd sampleplugins\sample_filtergpu\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\sample_filtergpu\sample_filtergpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-sampleplugins-sample_filtergpu-install_subtargets: FORCE
 	@if not exist sampleplugins\sample_filtergpu\ mkdir sampleplugins\sample_filtergpu\ & if not exist sampleplugins\sample_filtergpu\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\sample_filtergpu\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\sample_filtergpu\sample_filtergpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
+	cd sampleplugins\sample_filtergpu\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\sample_filtergpu\sample_filtergpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile install
 sub-sampleplugins-sample_filtergpu-uninstall_subtargets-ordered: sub-sampleplugins-filter_geodesic-uninstall_subtargets-ordered  FORCE
 	@if not exist sampleplugins\sample_filtergpu\ mkdir sampleplugins\sample_filtergpu\ & if not exist sampleplugins\sample_filtergpu\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\sample_filtergpu\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\sample_filtergpu\sample_filtergpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd sampleplugins\sample_filtergpu\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\sample_filtergpu\sample_filtergpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 sub-sampleplugins-sample_filtergpu-uninstall_subtargets: FORCE
 	@if not exist sampleplugins\sample_filtergpu\ mkdir sampleplugins\sample_filtergpu\ & if not exist sampleplugins\sample_filtergpu\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\sample_filtergpu\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\sample_filtergpu\sample_filtergpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
+	cd sampleplugins\sample_filtergpu\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\sample_filtergpu\sample_filtergpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile uninstall
 
 Makefile: meshlab_full.pro D:\Qt\SDK\5.9.6\msvc2015_64\mkspecs\win32-msvc\qmake.conf D:\Qt\SDK\5.9.6\msvc2015_64\mkspecs\features\spec_pre.prf \
 		D:\Qt\SDK\5.9.6\msvc2015_64\mkspecs\common\angle.conf \
@@ -4281,1081 +4281,1081 @@ uninstall_subtargets: sub-common-uninstall_subtargets-ordered sub-meshlab-uninst
 sub-common-debug_ordered:
 	@if not exist common\ mkdir common\ & if not exist common\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd common\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\common\common.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd common\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\common\common.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlab-debug_ordered: sub-common-debug_ordered 
 	@if not exist meshlab\ mkdir meshlab\ & if not exist meshlab\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlab\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlab\meshlab.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlab\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlab\meshlab.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabserver-debug_ordered: sub-meshlab-debug_ordered 
 	@if not exist meshlabserver\ mkdir meshlabserver\ & if not exist meshlabserver\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabserver\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabserver\meshlabserver.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabserver\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabserver\meshlabserver.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-io_3ds-debug_ordered: sub-meshlabserver-debug_ordered 
 	@if not exist meshlabplugins\io_3ds\ mkdir meshlabplugins\io_3ds\ & if not exist meshlabplugins\io_3ds\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_3ds\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_3ds\io_3ds.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\io_3ds\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_3ds\io_3ds.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-io_base-debug_ordered: sub-meshlabplugins-io_3ds-debug_ordered 
 	@if not exist meshlabplugins\io_base\ mkdir meshlabplugins\io_base\ & if not exist meshlabplugins\io_base\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_base\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_base\io_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\io_base\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_base\io_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-io_bre-debug_ordered: sub-meshlabplugins-io_base-debug_ordered 
 	@if not exist meshlabplugins\io_bre\ mkdir meshlabplugins\io_bre\ & if not exist meshlabplugins\io_bre\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_bre\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_bre\io_bre.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\io_bre\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_bre\io_bre.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-io_collada-debug_ordered: sub-meshlabplugins-io_bre-debug_ordered 
 	@if not exist meshlabplugins\io_collada\ mkdir meshlabplugins\io_collada\ & if not exist meshlabplugins\io_collada\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_collada\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_collada\io_collada.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\io_collada\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_collada\io_collada.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-io_ctm-debug_ordered: sub-meshlabplugins-io_collada-debug_ordered 
 	@if not exist meshlabplugins\io_ctm\ mkdir meshlabplugins\io_ctm\ & if not exist meshlabplugins\io_ctm\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_ctm\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_ctm\io_ctm.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\io_ctm\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_ctm\io_ctm.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-io_expe-debug_ordered: sub-meshlabplugins-io_ctm-debug_ordered 
 	@if not exist meshlabplugins\io_expe\ mkdir meshlabplugins\io_expe\ & if not exist meshlabplugins\io_expe\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_expe\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_expe\io_expe.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\io_expe\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_expe\io_expe.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-io_json-debug_ordered: sub-meshlabplugins-io_expe-debug_ordered 
 	@if not exist meshlabplugins\io_json\ mkdir meshlabplugins\io_json\ & if not exist meshlabplugins\io_json\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_json\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_json\io_json.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\io_json\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_json\io_json.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-io_tri-debug_ordered: sub-meshlabplugins-io_json-debug_ordered 
 	@if not exist meshlabplugins\io_tri\ mkdir meshlabplugins\io_tri\ & if not exist meshlabplugins\io_tri\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_tri\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_tri\io_tri.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\io_tri\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_tri\io_tri.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-io_x3d-debug_ordered: sub-meshlabplugins-io_tri-debug_ordered 
 	@if not exist meshlabplugins\io_x3d\ mkdir meshlabplugins\io_x3d\ & if not exist meshlabplugins\io_x3d\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_x3d\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_x3d\io_x3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\io_x3d\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_x3d\io_x3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-io_pdb-debug_ordered: sub-meshlabplugins-io_x3d-debug_ordered 
 	@if not exist meshlabplugins\io_pdb\ mkdir meshlabplugins\io_pdb\ & if not exist meshlabplugins\io_pdb\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_pdb\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_pdb\io_pdb.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\io_pdb\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_pdb\io_pdb.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-io_txt-debug_ordered: sub-meshlabplugins-io_pdb-debug_ordered 
 	@if not exist meshlabplugins\io_txt\ mkdir meshlabplugins\io_txt\ & if not exist meshlabplugins\io_txt\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_txt\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_txt\io_txt.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\io_txt\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_txt\io_txt.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-io_u3d-debug_ordered: sub-meshlabplugins-io_txt-debug_ordered 
 	@if not exist meshlabplugins\io_u3d\ mkdir meshlabplugins\io_u3d\ & if not exist meshlabplugins\io_u3d\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_u3d\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_u3d\io_u3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\io_u3d\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_u3d\io_u3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-filter_ao-debug_ordered: sub-meshlabplugins-io_u3d-debug_ordered 
 	@if not exist meshlabplugins\filter_ao\ mkdir meshlabplugins\filter_ao\ & if not exist meshlabplugins\filter_ao\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_ao\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_ao\filter_ao.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\filter_ao\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_ao\filter_ao.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-filter_camera-debug_ordered: sub-meshlabplugins-filter_ao-debug_ordered 
 	@if not exist meshlabplugins\filter_camera\ mkdir meshlabplugins\filter_camera\ & if not exist meshlabplugins\filter_camera\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_camera\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_camera\filter_camera.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\filter_camera\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_camera\filter_camera.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-filter_clean-debug_ordered: sub-meshlabplugins-filter_camera-debug_ordered 
 	@if not exist meshlabplugins\filter_clean\ mkdir meshlabplugins\filter_clean\ & if not exist meshlabplugins\filter_clean\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_clean\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_clean\filter_clean.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\filter_clean\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_clean\filter_clean.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-filter_color_projection-debug_ordered: sub-meshlabplugins-filter_clean-debug_ordered 
 	@if not exist meshlabplugins\filter_color_projection\ mkdir meshlabplugins\filter_color_projection\ & if not exist meshlabplugins\filter_color_projection\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_color_projection\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_color_projection\filter_color_projection.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\filter_color_projection\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_color_projection\filter_color_projection.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-filter_colorproc-debug_ordered: sub-meshlabplugins-filter_color_projection-debug_ordered 
 	@if not exist meshlabplugins\filter_colorproc\ mkdir meshlabplugins\filter_colorproc\ & if not exist meshlabplugins\filter_colorproc\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_colorproc\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_colorproc\filter_colorproc.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\filter_colorproc\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_colorproc\filter_colorproc.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-filter_create-debug_ordered: sub-meshlabplugins-filter_colorproc-debug_ordered 
 	@if not exist meshlabplugins\filter_create\ mkdir meshlabplugins\filter_create\ & if not exist meshlabplugins\filter_create\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_create\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_create\filter_create.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\filter_create\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_create\filter_create.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-filter_csg-debug_ordered: sub-meshlabplugins-filter_create-debug_ordered 
 	@if not exist meshlabplugins\filter_csg\ mkdir meshlabplugins\filter_csg\ & if not exist meshlabplugins\filter_csg\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_csg\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_csg\filter_csg.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\filter_csg\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_csg\filter_csg.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-filter_dirt-debug_ordered: sub-meshlabplugins-filter_csg-debug_ordered 
 	@if not exist meshlabplugins\filter_dirt\ mkdir meshlabplugins\filter_dirt\ & if not exist meshlabplugins\filter_dirt\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_dirt\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_dirt\filter_dirt.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\filter_dirt\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_dirt\filter_dirt.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-filter_fractal-debug_ordered: sub-meshlabplugins-filter_dirt-debug_ordered 
 	@if not exist meshlabplugins\filter_fractal\ mkdir meshlabplugins\filter_fractal\ & if not exist meshlabplugins\filter_fractal\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_fractal\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_fractal\filter_fractal.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\filter_fractal\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_fractal\filter_fractal.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-filter_func-debug_ordered: sub-meshlabplugins-filter_fractal-debug_ordered 
 	@if not exist meshlabplugins\filter_func\ mkdir meshlabplugins\filter_func\ & if not exist meshlabplugins\filter_func\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_func\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_func\filter_func.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\filter_func\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_func\filter_func.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-filter_img_patch_param-debug_ordered: sub-meshlabplugins-filter_func-debug_ordered 
 	@if not exist meshlabplugins\filter_img_patch_param\ mkdir meshlabplugins\filter_img_patch_param\ & if not exist meshlabplugins\filter_img_patch_param\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_img_patch_param\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_img_patch_param\filter_img_patch_param.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\filter_img_patch_param\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_img_patch_param\filter_img_patch_param.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-filter_isoparametrization-debug_ordered: sub-meshlabplugins-filter_img_patch_param-debug_ordered 
 	@if not exist meshlabplugins\filter_isoparametrization\ mkdir meshlabplugins\filter_isoparametrization\ & if not exist meshlabplugins\filter_isoparametrization\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_isoparametrization\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_isoparametrization\filter_isoparametrization.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\filter_isoparametrization\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_isoparametrization\filter_isoparametrization.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-filter_layer-debug_ordered: sub-meshlabplugins-filter_isoparametrization-debug_ordered 
 	@if not exist meshlabplugins\filter_layer\ mkdir meshlabplugins\filter_layer\ & if not exist meshlabplugins\filter_layer\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_layer\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_layer\filter_layer.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\filter_layer\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_layer\filter_layer.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-filter_measure-debug_ordered: sub-meshlabplugins-filter_layer-debug_ordered 
 	@if not exist meshlabplugins\filter_measure\ mkdir meshlabplugins\filter_measure\ & if not exist meshlabplugins\filter_measure\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_measure\filter_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\filter_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_measure\filter_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-filter_meshing-debug_ordered: sub-meshlabplugins-filter_measure-debug_ordered 
 	@if not exist meshlabplugins\filter_meshing\ mkdir meshlabplugins\filter_meshing\ & if not exist meshlabplugins\filter_meshing\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_meshing\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_meshing\filter_meshing.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\filter_meshing\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_meshing\filter_meshing.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-filter_mls-debug_ordered: sub-meshlabplugins-filter_meshing-debug_ordered 
 	@if not exist meshlabplugins\filter_mls\ mkdir meshlabplugins\filter_mls\ & if not exist meshlabplugins\filter_mls\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mls\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mls\filter_mls.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\filter_mls\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mls\filter_mls.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-filter_mutualglobal-debug_ordered: sub-meshlabplugins-filter_mls-debug_ordered 
 	@if not exist meshlabplugins\filter_mutualglobal\ mkdir meshlabplugins\filter_mutualglobal\ & if not exist meshlabplugins\filter_mutualglobal\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mutualglobal\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mutualglobal\filter_mutualglobal.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\filter_mutualglobal\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mutualglobal\filter_mutualglobal.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-filter_mutualinfoxml-debug_ordered: sub-meshlabplugins-filter_mutualglobal-debug_ordered 
 	@if not exist meshlabplugins\filter_mutualinfoxml\ mkdir meshlabplugins\filter_mutualinfoxml\ & if not exist meshlabplugins\filter_mutualinfoxml\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mutualinfoxml\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mutualinfoxml\filter_mutualinfoxml.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\filter_mutualinfoxml\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mutualinfoxml\filter_mutualinfoxml.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-filter_plymc-debug_ordered: sub-meshlabplugins-filter_mutualinfoxml-debug_ordered 
 	@if not exist meshlabplugins\filter_plymc\ mkdir meshlabplugins\filter_plymc\ & if not exist meshlabplugins\filter_plymc\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_plymc\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_plymc\filter_plymc.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\filter_plymc\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_plymc\filter_plymc.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-filter_qhull-debug_ordered: sub-meshlabplugins-filter_plymc-debug_ordered 
 	@if not exist meshlabplugins\filter_qhull\ mkdir meshlabplugins\filter_qhull\ & if not exist meshlabplugins\filter_qhull\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_qhull\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_qhull\filter_qhull.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\filter_qhull\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_qhull\filter_qhull.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-filter_quality-debug_ordered: sub-meshlabplugins-filter_qhull-debug_ordered 
 	@if not exist meshlabplugins\filter_quality\ mkdir meshlabplugins\filter_quality\ & if not exist meshlabplugins\filter_quality\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_quality\filter_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\filter_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_quality\filter_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-filter_sampling-debug_ordered: sub-meshlabplugins-filter_quality-debug_ordered 
 	@if not exist meshlabplugins\filter_sampling\ mkdir meshlabplugins\filter_sampling\ & if not exist meshlabplugins\filter_sampling\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sampling\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sampling\filter_sampling.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\filter_sampling\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sampling\filter_sampling.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-filter_screened_poisson-debug_ordered: sub-meshlabplugins-filter_sampling-debug_ordered 
 	@if not exist meshlabplugins\filter_screened_poisson\ mkdir meshlabplugins\filter_screened_poisson\ & if not exist meshlabplugins\filter_screened_poisson\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_screened_poisson\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_screened_poisson\filter_screened_poisson.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\filter_screened_poisson\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_screened_poisson\filter_screened_poisson.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-filter_sdfgpu-debug_ordered: sub-meshlabplugins-filter_screened_poisson-debug_ordered 
 	@if not exist meshlabplugins\filter_sdfgpu\ mkdir meshlabplugins\filter_sdfgpu\ & if not exist meshlabplugins\filter_sdfgpu\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sdfgpu\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sdfgpu\filter_sdfgpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\filter_sdfgpu\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sdfgpu\filter_sdfgpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-filter_select-debug_ordered: sub-meshlabplugins-filter_sdfgpu-debug_ordered 
 	@if not exist meshlabplugins\filter_select\ mkdir meshlabplugins\filter_select\ & if not exist meshlabplugins\filter_select\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_select\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_select\filter_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\filter_select\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_select\filter_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-filter_sketchfab-debug_ordered: sub-meshlabplugins-filter_select-debug_ordered 
 	@if not exist meshlabplugins\filter_sketchfab\ mkdir meshlabplugins\filter_sketchfab\ & if not exist meshlabplugins\filter_sketchfab\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sketchfab\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sketchfab\filter_sketchfab.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\filter_sketchfab\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sketchfab\filter_sketchfab.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-filter_ssynth-debug_ordered: sub-meshlabplugins-filter_sketchfab-debug_ordered 
 	@if not exist meshlabplugins\filter_ssynth\ mkdir meshlabplugins\filter_ssynth\ & if not exist meshlabplugins\filter_ssynth\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_ssynth\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_ssynth\filter_ssynth.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\filter_ssynth\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_ssynth\filter_ssynth.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-filter_texture-debug_ordered: sub-meshlabplugins-filter_ssynth-debug_ordered 
 	@if not exist meshlabplugins\filter_texture\ mkdir meshlabplugins\filter_texture\ & if not exist meshlabplugins\filter_texture\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_texture\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_texture\filter_texture.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\filter_texture\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_texture\filter_texture.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-filter_trioptimize-debug_ordered: sub-meshlabplugins-filter_texture-debug_ordered 
 	@if not exist meshlabplugins\filter_trioptimize\ mkdir meshlabplugins\filter_trioptimize\ & if not exist meshlabplugins\filter_trioptimize\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_trioptimize\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_trioptimize\filter_trioptimize.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\filter_trioptimize\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_trioptimize\filter_trioptimize.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-filter_unsharp-debug_ordered: sub-meshlabplugins-filter_trioptimize-debug_ordered 
 	@if not exist meshlabplugins\filter_unsharp\ mkdir meshlabplugins\filter_unsharp\ & if not exist meshlabplugins\filter_unsharp\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_unsharp\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_unsharp\filter_unsharp.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\filter_unsharp\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_unsharp\filter_unsharp.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-filter_voronoi-debug_ordered: sub-meshlabplugins-filter_unsharp-debug_ordered 
 	@if not exist meshlabplugins\filter_voronoi\ mkdir meshlabplugins\filter_voronoi\ & if not exist meshlabplugins\filter_voronoi\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_voronoi\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_voronoi\filter_voronoi.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\filter_voronoi\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_voronoi\filter_voronoi.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-render_gdp-debug_ordered: sub-meshlabplugins-filter_voronoi-debug_ordered 
 	@if not exist meshlabplugins\render_gdp\ mkdir meshlabplugins\render_gdp\ & if not exist meshlabplugins\render_gdp\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\render_gdp\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\render_gdp\render_gdp.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\render_gdp\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\render_gdp\render_gdp.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-render_radiance_scaling-debug_ordered: sub-meshlabplugins-render_gdp-debug_ordered 
 	@if not exist meshlabplugins\render_radiance_scaling\ mkdir meshlabplugins\render_radiance_scaling\ & if not exist meshlabplugins\render_radiance_scaling\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\render_radiance_scaling\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\render_radiance_scaling\render_radiance_scaling.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\render_radiance_scaling\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\render_radiance_scaling\render_radiance_scaling.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-decorate_base-debug_ordered: sub-meshlabplugins-render_radiance_scaling-debug_ordered 
 	@if not exist meshlabplugins\decorate_base\ mkdir meshlabplugins\decorate_base\ & if not exist meshlabplugins\decorate_base\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_base\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_base\decorate_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\decorate_base\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_base\decorate_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-decorate_background-debug_ordered: sub-meshlabplugins-decorate_base-debug_ordered 
 	@if not exist meshlabplugins\decorate_background\ mkdir meshlabplugins\decorate_background\ & if not exist meshlabplugins\decorate_background\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_background\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_background\decorate_background.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\decorate_background\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_background\decorate_background.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-decorate_raster_proj-debug_ordered: sub-meshlabplugins-decorate_background-debug_ordered 
 	@if not exist meshlabplugins\decorate_raster_proj\ mkdir meshlabplugins\decorate_raster_proj\ & if not exist meshlabplugins\decorate_raster_proj\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_raster_proj\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_raster_proj\decorate_raster_proj.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\decorate_raster_proj\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_raster_proj\decorate_raster_proj.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-decorate_shadow-debug_ordered: sub-meshlabplugins-decorate_raster_proj-debug_ordered 
 	@if not exist meshlabplugins\decorate_shadow\ mkdir meshlabplugins\decorate_shadow\ & if not exist meshlabplugins\decorate_shadow\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_shadow\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_shadow\decorate_shadow.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\decorate_shadow\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_shadow\decorate_shadow.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-edit_align-debug_ordered: sub-meshlabplugins-decorate_shadow-debug_ordered 
 	@if not exist meshlabplugins\edit_align\ mkdir meshlabplugins\edit_align\ & if not exist meshlabplugins\edit_align\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_align\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_align\edit_align.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\edit_align\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_align\edit_align.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-edit_manipulators-debug_ordered: sub-meshlabplugins-edit_align-debug_ordered 
 	@if not exist meshlabplugins\edit_manipulators\ mkdir meshlabplugins\edit_manipulators\ & if not exist meshlabplugins\edit_manipulators\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_manipulators\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_manipulators\edit_manipulators.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\edit_manipulators\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_manipulators\edit_manipulators.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-edit_measure-debug_ordered: sub-meshlabplugins-edit_manipulators-debug_ordered 
 	@if not exist meshlabplugins\edit_measure\ mkdir meshlabplugins\edit_measure\ & if not exist meshlabplugins\edit_measure\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_measure\edit_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\edit_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_measure\edit_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-edit_mutualcorrs-debug_ordered: sub-meshlabplugins-edit_measure-debug_ordered 
 	@if not exist meshlabplugins\edit_mutualcorrs\ mkdir meshlabplugins\edit_mutualcorrs\ & if not exist meshlabplugins\edit_mutualcorrs\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_mutualcorrs\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_mutualcorrs\edit_mutualcorrs.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\edit_mutualcorrs\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_mutualcorrs\edit_mutualcorrs.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-edit_paint-debug_ordered: sub-meshlabplugins-edit_mutualcorrs-debug_ordered 
 	@if not exist meshlabplugins\edit_paint\ mkdir meshlabplugins\edit_paint\ & if not exist meshlabplugins\edit_paint\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_paint\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_paint\edit_paint.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\edit_paint\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_paint\edit_paint.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-edit_point-debug_ordered: sub-meshlabplugins-edit_paint-debug_ordered 
 	@if not exist meshlabplugins\edit_point\ mkdir meshlabplugins\edit_point\ & if not exist meshlabplugins\edit_point\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_point\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_point\edit_point.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\edit_point\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_point\edit_point.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-edit_referencing-debug_ordered: sub-meshlabplugins-edit_point-debug_ordered 
 	@if not exist meshlabplugins\edit_referencing\ mkdir meshlabplugins\edit_referencing\ & if not exist meshlabplugins\edit_referencing\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_referencing\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_referencing\edit_referencing.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\edit_referencing\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_referencing\edit_referencing.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-edit_quality-debug_ordered: sub-meshlabplugins-edit_referencing-debug_ordered 
 	@if not exist meshlabplugins\edit_quality\ mkdir meshlabplugins\edit_quality\ & if not exist meshlabplugins\edit_quality\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_quality\edit_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\edit_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_quality\edit_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-meshlabplugins-edit_select-debug_ordered: sub-meshlabplugins-edit_quality-debug_ordered 
 	@if not exist meshlabplugins\edit_select\ mkdir meshlabplugins\edit_select\ & if not exist meshlabplugins\edit_select\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_select\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_select\edit_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd meshlabplugins\edit_select\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_select\edit_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-sampleplugins-sampleedit-debug_ordered: sub-meshlabplugins-edit_select-debug_ordered 
 	@if not exist sampleplugins\sampleedit\ mkdir sampleplugins\sampleedit\ & if not exist sampleplugins\sampleedit\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\sampleedit\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\sampleedit\sampleedit.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd sampleplugins\sampleedit\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\sampleedit\sampleedit.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-sampleplugins-samplefilter-debug_ordered: sub-sampleplugins-sampleedit-debug_ordered 
 	@if not exist sampleplugins\samplefilter\ mkdir sampleplugins\samplefilter\ & if not exist sampleplugins\samplefilter\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\samplefilter\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\samplefilter\samplefilter.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd sampleplugins\samplefilter\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\samplefilter\samplefilter.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-sampleplugins-samplefilterdyn-debug_ordered: sub-sampleplugins-samplefilter-debug_ordered 
 	@if not exist sampleplugins\samplefilterdyn\ mkdir sampleplugins\samplefilterdyn\ & if not exist sampleplugins\samplefilterdyn\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\samplefilterdyn\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\samplefilterdyn\samplefilterdyn.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd sampleplugins\samplefilterdyn\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\samplefilterdyn\samplefilterdyn.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-sampleplugins-filter_createiso-debug_ordered: sub-sampleplugins-samplefilterdyn-debug_ordered 
 	@if not exist sampleplugins\filter_createiso\ mkdir sampleplugins\filter_createiso\ & if not exist sampleplugins\filter_createiso\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\filter_createiso\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\filter_createiso\filter_createiso.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd sampleplugins\filter_createiso\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\filter_createiso\filter_createiso.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-sampleplugins-filter_geodesic-debug_ordered: sub-sampleplugins-filter_createiso-debug_ordered 
 	@if not exist sampleplugins\filter_geodesic\ mkdir sampleplugins\filter_geodesic\ & if not exist sampleplugins\filter_geodesic\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\filter_geodesic\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\filter_geodesic\filter_geodesic.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd sampleplugins\filter_geodesic\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\filter_geodesic\filter_geodesic.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 sub-sampleplugins-sample_filtergpu-debug_ordered: sub-sampleplugins-filter_geodesic-debug_ordered 
 	@if not exist sampleplugins\sample_filtergpu\ mkdir sampleplugins\sample_filtergpu\ & if not exist sampleplugins\sample_filtergpu\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\sample_filtergpu\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\sample_filtergpu\sample_filtergpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
+	cd sampleplugins\sample_filtergpu\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\sample_filtergpu\sample_filtergpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile debug
 debug: sub-common-debug_ordered sub-meshlab-debug_ordered sub-meshlabserver-debug_ordered sub-meshlabplugins-io_3ds-debug_ordered sub-meshlabplugins-io_base-debug_ordered sub-meshlabplugins-io_bre-debug_ordered sub-meshlabplugins-io_collada-debug_ordered sub-meshlabplugins-io_ctm-debug_ordered sub-meshlabplugins-io_expe-debug_ordered sub-meshlabplugins-io_json-debug_ordered sub-meshlabplugins-io_tri-debug_ordered sub-meshlabplugins-io_x3d-debug_ordered sub-meshlabplugins-io_pdb-debug_ordered sub-meshlabplugins-io_txt-debug_ordered sub-meshlabplugins-io_u3d-debug_ordered sub-meshlabplugins-filter_ao-debug_ordered sub-meshlabplugins-filter_camera-debug_ordered sub-meshlabplugins-filter_clean-debug_ordered sub-meshlabplugins-filter_color_projection-debug_ordered sub-meshlabplugins-filter_colorproc-debug_ordered sub-meshlabplugins-filter_create-debug_ordered sub-meshlabplugins-filter_csg-debug_ordered sub-meshlabplugins-filter_dirt-debug_ordered sub-meshlabplugins-filter_fractal-debug_ordered sub-meshlabplugins-filter_func-debug_ordered sub-meshlabplugins-filter_img_patch_param-debug_ordered sub-meshlabplugins-filter_isoparametrization-debug_ordered sub-meshlabplugins-filter_layer-debug_ordered sub-meshlabplugins-filter_measure-debug_ordered sub-meshlabplugins-filter_meshing-debug_ordered sub-meshlabplugins-filter_mls-debug_ordered sub-meshlabplugins-filter_mutualglobal-debug_ordered sub-meshlabplugins-filter_mutualinfoxml-debug_ordered sub-meshlabplugins-filter_plymc-debug_ordered sub-meshlabplugins-filter_qhull-debug_ordered sub-meshlabplugins-filter_quality-debug_ordered sub-meshlabplugins-filter_sampling-debug_ordered sub-meshlabplugins-filter_screened_poisson-debug_ordered sub-meshlabplugins-filter_sdfgpu-debug_ordered sub-meshlabplugins-filter_select-debug_ordered sub-meshlabplugins-filter_sketchfab-debug_ordered sub-meshlabplugins-filter_ssynth-debug_ordered sub-meshlabplugins-filter_texture-debug_ordered sub-meshlabplugins-filter_trioptimize-debug_ordered sub-meshlabplugins-filter_unsharp-debug_ordered sub-meshlabplugins-filter_voronoi-debug_ordered sub-meshlabplugins-render_gdp-debug_ordered sub-meshlabplugins-render_radiance_scaling-debug_ordered sub-meshlabplugins-decorate_base-debug_ordered sub-meshlabplugins-decorate_background-debug_ordered sub-meshlabplugins-decorate_raster_proj-debug_ordered sub-meshlabplugins-decorate_shadow-debug_ordered sub-meshlabplugins-edit_align-debug_ordered sub-meshlabplugins-edit_manipulators-debug_ordered sub-meshlabplugins-edit_measure-debug_ordered sub-meshlabplugins-edit_mutualcorrs-debug_ordered sub-meshlabplugins-edit_paint-debug_ordered sub-meshlabplugins-edit_point-debug_ordered sub-meshlabplugins-edit_referencing-debug_ordered sub-meshlabplugins-edit_quality-debug_ordered sub-meshlabplugins-edit_select-debug_ordered sub-sampleplugins-sampleedit-debug_ordered sub-sampleplugins-samplefilter-debug_ordered sub-sampleplugins-samplefilterdyn-debug_ordered sub-sampleplugins-filter_createiso-debug_ordered sub-sampleplugins-filter_geodesic-debug_ordered sub-sampleplugins-sample_filtergpu-debug_ordered
 
 sub-common-release_ordered:
 	@if not exist common\ mkdir common\ & if not exist common\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd common\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\common\common.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd common\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\common\common.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlab-release_ordered: sub-common-release_ordered 
 	@if not exist meshlab\ mkdir meshlab\ & if not exist meshlab\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlab\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlab\meshlab.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlab\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlab\meshlab.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabserver-release_ordered: sub-meshlab-release_ordered 
 	@if not exist meshlabserver\ mkdir meshlabserver\ & if not exist meshlabserver\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabserver\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabserver\meshlabserver.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabserver\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabserver\meshlabserver.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-io_3ds-release_ordered: sub-meshlabserver-release_ordered 
 	@if not exist meshlabplugins\io_3ds\ mkdir meshlabplugins\io_3ds\ & if not exist meshlabplugins\io_3ds\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_3ds\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_3ds\io_3ds.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\io_3ds\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_3ds\io_3ds.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-io_base-release_ordered: sub-meshlabplugins-io_3ds-release_ordered 
 	@if not exist meshlabplugins\io_base\ mkdir meshlabplugins\io_base\ & if not exist meshlabplugins\io_base\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_base\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_base\io_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\io_base\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_base\io_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-io_bre-release_ordered: sub-meshlabplugins-io_base-release_ordered 
 	@if not exist meshlabplugins\io_bre\ mkdir meshlabplugins\io_bre\ & if not exist meshlabplugins\io_bre\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_bre\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_bre\io_bre.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\io_bre\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_bre\io_bre.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-io_collada-release_ordered: sub-meshlabplugins-io_bre-release_ordered 
 	@if not exist meshlabplugins\io_collada\ mkdir meshlabplugins\io_collada\ & if not exist meshlabplugins\io_collada\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_collada\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_collada\io_collada.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\io_collada\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_collada\io_collada.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-io_ctm-release_ordered: sub-meshlabplugins-io_collada-release_ordered 
 	@if not exist meshlabplugins\io_ctm\ mkdir meshlabplugins\io_ctm\ & if not exist meshlabplugins\io_ctm\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_ctm\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_ctm\io_ctm.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\io_ctm\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_ctm\io_ctm.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-io_expe-release_ordered: sub-meshlabplugins-io_ctm-release_ordered 
 	@if not exist meshlabplugins\io_expe\ mkdir meshlabplugins\io_expe\ & if not exist meshlabplugins\io_expe\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_expe\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_expe\io_expe.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\io_expe\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_expe\io_expe.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-io_json-release_ordered: sub-meshlabplugins-io_expe-release_ordered 
 	@if not exist meshlabplugins\io_json\ mkdir meshlabplugins\io_json\ & if not exist meshlabplugins\io_json\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_json\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_json\io_json.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\io_json\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_json\io_json.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-io_tri-release_ordered: sub-meshlabplugins-io_json-release_ordered 
 	@if not exist meshlabplugins\io_tri\ mkdir meshlabplugins\io_tri\ & if not exist meshlabplugins\io_tri\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_tri\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_tri\io_tri.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\io_tri\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_tri\io_tri.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-io_x3d-release_ordered: sub-meshlabplugins-io_tri-release_ordered 
 	@if not exist meshlabplugins\io_x3d\ mkdir meshlabplugins\io_x3d\ & if not exist meshlabplugins\io_x3d\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_x3d\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_x3d\io_x3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\io_x3d\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_x3d\io_x3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-io_pdb-release_ordered: sub-meshlabplugins-io_x3d-release_ordered 
 	@if not exist meshlabplugins\io_pdb\ mkdir meshlabplugins\io_pdb\ & if not exist meshlabplugins\io_pdb\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_pdb\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_pdb\io_pdb.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\io_pdb\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_pdb\io_pdb.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-io_txt-release_ordered: sub-meshlabplugins-io_pdb-release_ordered 
 	@if not exist meshlabplugins\io_txt\ mkdir meshlabplugins\io_txt\ & if not exist meshlabplugins\io_txt\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_txt\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_txt\io_txt.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\io_txt\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_txt\io_txt.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-io_u3d-release_ordered: sub-meshlabplugins-io_txt-release_ordered 
 	@if not exist meshlabplugins\io_u3d\ mkdir meshlabplugins\io_u3d\ & if not exist meshlabplugins\io_u3d\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_u3d\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_u3d\io_u3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\io_u3d\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_u3d\io_u3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-filter_ao-release_ordered: sub-meshlabplugins-io_u3d-release_ordered 
 	@if not exist meshlabplugins\filter_ao\ mkdir meshlabplugins\filter_ao\ & if not exist meshlabplugins\filter_ao\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_ao\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_ao\filter_ao.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\filter_ao\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_ao\filter_ao.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-filter_camera-release_ordered: sub-meshlabplugins-filter_ao-release_ordered 
 	@if not exist meshlabplugins\filter_camera\ mkdir meshlabplugins\filter_camera\ & if not exist meshlabplugins\filter_camera\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_camera\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_camera\filter_camera.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\filter_camera\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_camera\filter_camera.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-filter_clean-release_ordered: sub-meshlabplugins-filter_camera-release_ordered 
 	@if not exist meshlabplugins\filter_clean\ mkdir meshlabplugins\filter_clean\ & if not exist meshlabplugins\filter_clean\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_clean\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_clean\filter_clean.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\filter_clean\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_clean\filter_clean.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-filter_color_projection-release_ordered: sub-meshlabplugins-filter_clean-release_ordered 
 	@if not exist meshlabplugins\filter_color_projection\ mkdir meshlabplugins\filter_color_projection\ & if not exist meshlabplugins\filter_color_projection\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_color_projection\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_color_projection\filter_color_projection.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\filter_color_projection\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_color_projection\filter_color_projection.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-filter_colorproc-release_ordered: sub-meshlabplugins-filter_color_projection-release_ordered 
 	@if not exist meshlabplugins\filter_colorproc\ mkdir meshlabplugins\filter_colorproc\ & if not exist meshlabplugins\filter_colorproc\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_colorproc\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_colorproc\filter_colorproc.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\filter_colorproc\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_colorproc\filter_colorproc.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-filter_create-release_ordered: sub-meshlabplugins-filter_colorproc-release_ordered 
 	@if not exist meshlabplugins\filter_create\ mkdir meshlabplugins\filter_create\ & if not exist meshlabplugins\filter_create\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_create\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_create\filter_create.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\filter_create\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_create\filter_create.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-filter_csg-release_ordered: sub-meshlabplugins-filter_create-release_ordered 
 	@if not exist meshlabplugins\filter_csg\ mkdir meshlabplugins\filter_csg\ & if not exist meshlabplugins\filter_csg\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_csg\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_csg\filter_csg.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\filter_csg\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_csg\filter_csg.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-filter_dirt-release_ordered: sub-meshlabplugins-filter_csg-release_ordered 
 	@if not exist meshlabplugins\filter_dirt\ mkdir meshlabplugins\filter_dirt\ & if not exist meshlabplugins\filter_dirt\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_dirt\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_dirt\filter_dirt.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\filter_dirt\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_dirt\filter_dirt.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-filter_fractal-release_ordered: sub-meshlabplugins-filter_dirt-release_ordered 
 	@if not exist meshlabplugins\filter_fractal\ mkdir meshlabplugins\filter_fractal\ & if not exist meshlabplugins\filter_fractal\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_fractal\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_fractal\filter_fractal.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\filter_fractal\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_fractal\filter_fractal.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-filter_func-release_ordered: sub-meshlabplugins-filter_fractal-release_ordered 
 	@if not exist meshlabplugins\filter_func\ mkdir meshlabplugins\filter_func\ & if not exist meshlabplugins\filter_func\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_func\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_func\filter_func.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\filter_func\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_func\filter_func.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-filter_img_patch_param-release_ordered: sub-meshlabplugins-filter_func-release_ordered 
 	@if not exist meshlabplugins\filter_img_patch_param\ mkdir meshlabplugins\filter_img_patch_param\ & if not exist meshlabplugins\filter_img_patch_param\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_img_patch_param\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_img_patch_param\filter_img_patch_param.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\filter_img_patch_param\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_img_patch_param\filter_img_patch_param.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-filter_isoparametrization-release_ordered: sub-meshlabplugins-filter_img_patch_param-release_ordered 
 	@if not exist meshlabplugins\filter_isoparametrization\ mkdir meshlabplugins\filter_isoparametrization\ & if not exist meshlabplugins\filter_isoparametrization\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_isoparametrization\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_isoparametrization\filter_isoparametrization.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\filter_isoparametrization\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_isoparametrization\filter_isoparametrization.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-filter_layer-release_ordered: sub-meshlabplugins-filter_isoparametrization-release_ordered 
 	@if not exist meshlabplugins\filter_layer\ mkdir meshlabplugins\filter_layer\ & if not exist meshlabplugins\filter_layer\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_layer\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_layer\filter_layer.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\filter_layer\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_layer\filter_layer.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-filter_measure-release_ordered: sub-meshlabplugins-filter_layer-release_ordered 
 	@if not exist meshlabplugins\filter_measure\ mkdir meshlabplugins\filter_measure\ & if not exist meshlabplugins\filter_measure\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_measure\filter_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\filter_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_measure\filter_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-filter_meshing-release_ordered: sub-meshlabplugins-filter_measure-release_ordered 
 	@if not exist meshlabplugins\filter_meshing\ mkdir meshlabplugins\filter_meshing\ & if not exist meshlabplugins\filter_meshing\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_meshing\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_meshing\filter_meshing.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\filter_meshing\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_meshing\filter_meshing.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-filter_mls-release_ordered: sub-meshlabplugins-filter_meshing-release_ordered 
 	@if not exist meshlabplugins\filter_mls\ mkdir meshlabplugins\filter_mls\ & if not exist meshlabplugins\filter_mls\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mls\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mls\filter_mls.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\filter_mls\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mls\filter_mls.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-filter_mutualglobal-release_ordered: sub-meshlabplugins-filter_mls-release_ordered 
 	@if not exist meshlabplugins\filter_mutualglobal\ mkdir meshlabplugins\filter_mutualglobal\ & if not exist meshlabplugins\filter_mutualglobal\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mutualglobal\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mutualglobal\filter_mutualglobal.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\filter_mutualglobal\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mutualglobal\filter_mutualglobal.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-filter_mutualinfoxml-release_ordered: sub-meshlabplugins-filter_mutualglobal-release_ordered 
 	@if not exist meshlabplugins\filter_mutualinfoxml\ mkdir meshlabplugins\filter_mutualinfoxml\ & if not exist meshlabplugins\filter_mutualinfoxml\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mutualinfoxml\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mutualinfoxml\filter_mutualinfoxml.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\filter_mutualinfoxml\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mutualinfoxml\filter_mutualinfoxml.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-filter_plymc-release_ordered: sub-meshlabplugins-filter_mutualinfoxml-release_ordered 
 	@if not exist meshlabplugins\filter_plymc\ mkdir meshlabplugins\filter_plymc\ & if not exist meshlabplugins\filter_plymc\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_plymc\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_plymc\filter_plymc.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\filter_plymc\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_plymc\filter_plymc.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-filter_qhull-release_ordered: sub-meshlabplugins-filter_plymc-release_ordered 
 	@if not exist meshlabplugins\filter_qhull\ mkdir meshlabplugins\filter_qhull\ & if not exist meshlabplugins\filter_qhull\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_qhull\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_qhull\filter_qhull.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\filter_qhull\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_qhull\filter_qhull.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-filter_quality-release_ordered: sub-meshlabplugins-filter_qhull-release_ordered 
 	@if not exist meshlabplugins\filter_quality\ mkdir meshlabplugins\filter_quality\ & if not exist meshlabplugins\filter_quality\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_quality\filter_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\filter_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_quality\filter_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-filter_sampling-release_ordered: sub-meshlabplugins-filter_quality-release_ordered 
 	@if not exist meshlabplugins\filter_sampling\ mkdir meshlabplugins\filter_sampling\ & if not exist meshlabplugins\filter_sampling\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sampling\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sampling\filter_sampling.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\filter_sampling\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sampling\filter_sampling.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-filter_screened_poisson-release_ordered: sub-meshlabplugins-filter_sampling-release_ordered 
 	@if not exist meshlabplugins\filter_screened_poisson\ mkdir meshlabplugins\filter_screened_poisson\ & if not exist meshlabplugins\filter_screened_poisson\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_screened_poisson\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_screened_poisson\filter_screened_poisson.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\filter_screened_poisson\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_screened_poisson\filter_screened_poisson.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-filter_sdfgpu-release_ordered: sub-meshlabplugins-filter_screened_poisson-release_ordered 
 	@if not exist meshlabplugins\filter_sdfgpu\ mkdir meshlabplugins\filter_sdfgpu\ & if not exist meshlabplugins\filter_sdfgpu\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sdfgpu\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sdfgpu\filter_sdfgpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\filter_sdfgpu\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sdfgpu\filter_sdfgpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-filter_select-release_ordered: sub-meshlabplugins-filter_sdfgpu-release_ordered 
 	@if not exist meshlabplugins\filter_select\ mkdir meshlabplugins\filter_select\ & if not exist meshlabplugins\filter_select\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_select\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_select\filter_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\filter_select\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_select\filter_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-filter_sketchfab-release_ordered: sub-meshlabplugins-filter_select-release_ordered 
 	@if not exist meshlabplugins\filter_sketchfab\ mkdir meshlabplugins\filter_sketchfab\ & if not exist meshlabplugins\filter_sketchfab\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sketchfab\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sketchfab\filter_sketchfab.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\filter_sketchfab\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sketchfab\filter_sketchfab.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-filter_ssynth-release_ordered: sub-meshlabplugins-filter_sketchfab-release_ordered 
 	@if not exist meshlabplugins\filter_ssynth\ mkdir meshlabplugins\filter_ssynth\ & if not exist meshlabplugins\filter_ssynth\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_ssynth\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_ssynth\filter_ssynth.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\filter_ssynth\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_ssynth\filter_ssynth.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-filter_texture-release_ordered: sub-meshlabplugins-filter_ssynth-release_ordered 
 	@if not exist meshlabplugins\filter_texture\ mkdir meshlabplugins\filter_texture\ & if not exist meshlabplugins\filter_texture\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_texture\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_texture\filter_texture.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\filter_texture\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_texture\filter_texture.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-filter_trioptimize-release_ordered: sub-meshlabplugins-filter_texture-release_ordered 
 	@if not exist meshlabplugins\filter_trioptimize\ mkdir meshlabplugins\filter_trioptimize\ & if not exist meshlabplugins\filter_trioptimize\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_trioptimize\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_trioptimize\filter_trioptimize.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\filter_trioptimize\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_trioptimize\filter_trioptimize.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-filter_unsharp-release_ordered: sub-meshlabplugins-filter_trioptimize-release_ordered 
 	@if not exist meshlabplugins\filter_unsharp\ mkdir meshlabplugins\filter_unsharp\ & if not exist meshlabplugins\filter_unsharp\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_unsharp\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_unsharp\filter_unsharp.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\filter_unsharp\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_unsharp\filter_unsharp.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-filter_voronoi-release_ordered: sub-meshlabplugins-filter_unsharp-release_ordered 
 	@if not exist meshlabplugins\filter_voronoi\ mkdir meshlabplugins\filter_voronoi\ & if not exist meshlabplugins\filter_voronoi\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_voronoi\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_voronoi\filter_voronoi.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\filter_voronoi\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_voronoi\filter_voronoi.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-render_gdp-release_ordered: sub-meshlabplugins-filter_voronoi-release_ordered 
 	@if not exist meshlabplugins\render_gdp\ mkdir meshlabplugins\render_gdp\ & if not exist meshlabplugins\render_gdp\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\render_gdp\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\render_gdp\render_gdp.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\render_gdp\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\render_gdp\render_gdp.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-render_radiance_scaling-release_ordered: sub-meshlabplugins-render_gdp-release_ordered 
 	@if not exist meshlabplugins\render_radiance_scaling\ mkdir meshlabplugins\render_radiance_scaling\ & if not exist meshlabplugins\render_radiance_scaling\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\render_radiance_scaling\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\render_radiance_scaling\render_radiance_scaling.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\render_radiance_scaling\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\render_radiance_scaling\render_radiance_scaling.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-decorate_base-release_ordered: sub-meshlabplugins-render_radiance_scaling-release_ordered 
 	@if not exist meshlabplugins\decorate_base\ mkdir meshlabplugins\decorate_base\ & if not exist meshlabplugins\decorate_base\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_base\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_base\decorate_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\decorate_base\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_base\decorate_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-decorate_background-release_ordered: sub-meshlabplugins-decorate_base-release_ordered 
 	@if not exist meshlabplugins\decorate_background\ mkdir meshlabplugins\decorate_background\ & if not exist meshlabplugins\decorate_background\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_background\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_background\decorate_background.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\decorate_background\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_background\decorate_background.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-decorate_raster_proj-release_ordered: sub-meshlabplugins-decorate_background-release_ordered 
 	@if not exist meshlabplugins\decorate_raster_proj\ mkdir meshlabplugins\decorate_raster_proj\ & if not exist meshlabplugins\decorate_raster_proj\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_raster_proj\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_raster_proj\decorate_raster_proj.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\decorate_raster_proj\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_raster_proj\decorate_raster_proj.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-decorate_shadow-release_ordered: sub-meshlabplugins-decorate_raster_proj-release_ordered 
 	@if not exist meshlabplugins\decorate_shadow\ mkdir meshlabplugins\decorate_shadow\ & if not exist meshlabplugins\decorate_shadow\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_shadow\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_shadow\decorate_shadow.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\decorate_shadow\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_shadow\decorate_shadow.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-edit_align-release_ordered: sub-meshlabplugins-decorate_shadow-release_ordered 
 	@if not exist meshlabplugins\edit_align\ mkdir meshlabplugins\edit_align\ & if not exist meshlabplugins\edit_align\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_align\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_align\edit_align.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\edit_align\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_align\edit_align.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-edit_manipulators-release_ordered: sub-meshlabplugins-edit_align-release_ordered 
 	@if not exist meshlabplugins\edit_manipulators\ mkdir meshlabplugins\edit_manipulators\ & if not exist meshlabplugins\edit_manipulators\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_manipulators\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_manipulators\edit_manipulators.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\edit_manipulators\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_manipulators\edit_manipulators.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-edit_measure-release_ordered: sub-meshlabplugins-edit_manipulators-release_ordered 
 	@if not exist meshlabplugins\edit_measure\ mkdir meshlabplugins\edit_measure\ & if not exist meshlabplugins\edit_measure\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_measure\edit_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\edit_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_measure\edit_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-edit_mutualcorrs-release_ordered: sub-meshlabplugins-edit_measure-release_ordered 
 	@if not exist meshlabplugins\edit_mutualcorrs\ mkdir meshlabplugins\edit_mutualcorrs\ & if not exist meshlabplugins\edit_mutualcorrs\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_mutualcorrs\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_mutualcorrs\edit_mutualcorrs.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\edit_mutualcorrs\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_mutualcorrs\edit_mutualcorrs.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-edit_paint-release_ordered: sub-meshlabplugins-edit_mutualcorrs-release_ordered 
 	@if not exist meshlabplugins\edit_paint\ mkdir meshlabplugins\edit_paint\ & if not exist meshlabplugins\edit_paint\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_paint\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_paint\edit_paint.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\edit_paint\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_paint\edit_paint.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-edit_point-release_ordered: sub-meshlabplugins-edit_paint-release_ordered 
 	@if not exist meshlabplugins\edit_point\ mkdir meshlabplugins\edit_point\ & if not exist meshlabplugins\edit_point\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_point\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_point\edit_point.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\edit_point\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_point\edit_point.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-edit_referencing-release_ordered: sub-meshlabplugins-edit_point-release_ordered 
 	@if not exist meshlabplugins\edit_referencing\ mkdir meshlabplugins\edit_referencing\ & if not exist meshlabplugins\edit_referencing\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_referencing\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_referencing\edit_referencing.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\edit_referencing\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_referencing\edit_referencing.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-edit_quality-release_ordered: sub-meshlabplugins-edit_referencing-release_ordered 
 	@if not exist meshlabplugins\edit_quality\ mkdir meshlabplugins\edit_quality\ & if not exist meshlabplugins\edit_quality\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_quality\edit_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\edit_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_quality\edit_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-meshlabplugins-edit_select-release_ordered: sub-meshlabplugins-edit_quality-release_ordered 
 	@if not exist meshlabplugins\edit_select\ mkdir meshlabplugins\edit_select\ & if not exist meshlabplugins\edit_select\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_select\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_select\edit_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd meshlabplugins\edit_select\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_select\edit_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-sampleplugins-sampleedit-release_ordered: sub-meshlabplugins-edit_select-release_ordered 
 	@if not exist sampleplugins\sampleedit\ mkdir sampleplugins\sampleedit\ & if not exist sampleplugins\sampleedit\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\sampleedit\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\sampleedit\sampleedit.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd sampleplugins\sampleedit\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\sampleedit\sampleedit.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-sampleplugins-samplefilter-release_ordered: sub-sampleplugins-sampleedit-release_ordered 
 	@if not exist sampleplugins\samplefilter\ mkdir sampleplugins\samplefilter\ & if not exist sampleplugins\samplefilter\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\samplefilter\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\samplefilter\samplefilter.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd sampleplugins\samplefilter\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\samplefilter\samplefilter.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-sampleplugins-samplefilterdyn-release_ordered: sub-sampleplugins-samplefilter-release_ordered 
 	@if not exist sampleplugins\samplefilterdyn\ mkdir sampleplugins\samplefilterdyn\ & if not exist sampleplugins\samplefilterdyn\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\samplefilterdyn\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\samplefilterdyn\samplefilterdyn.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd sampleplugins\samplefilterdyn\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\samplefilterdyn\samplefilterdyn.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-sampleplugins-filter_createiso-release_ordered: sub-sampleplugins-samplefilterdyn-release_ordered 
 	@if not exist sampleplugins\filter_createiso\ mkdir sampleplugins\filter_createiso\ & if not exist sampleplugins\filter_createiso\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\filter_createiso\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\filter_createiso\filter_createiso.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd sampleplugins\filter_createiso\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\filter_createiso\filter_createiso.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-sampleplugins-filter_geodesic-release_ordered: sub-sampleplugins-filter_createiso-release_ordered 
 	@if not exist sampleplugins\filter_geodesic\ mkdir sampleplugins\filter_geodesic\ & if not exist sampleplugins\filter_geodesic\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\filter_geodesic\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\filter_geodesic\filter_geodesic.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd sampleplugins\filter_geodesic\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\filter_geodesic\filter_geodesic.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 sub-sampleplugins-sample_filtergpu-release_ordered: sub-sampleplugins-filter_geodesic-release_ordered 
 	@if not exist sampleplugins\sample_filtergpu\ mkdir sampleplugins\sample_filtergpu\ & if not exist sampleplugins\sample_filtergpu\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\sample_filtergpu\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\sample_filtergpu\sample_filtergpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
+	cd sampleplugins\sample_filtergpu\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\sample_filtergpu\sample_filtergpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile release
 release: sub-common-release_ordered sub-meshlab-release_ordered sub-meshlabserver-release_ordered sub-meshlabplugins-io_3ds-release_ordered sub-meshlabplugins-io_base-release_ordered sub-meshlabplugins-io_bre-release_ordered sub-meshlabplugins-io_collada-release_ordered sub-meshlabplugins-io_ctm-release_ordered sub-meshlabplugins-io_expe-release_ordered sub-meshlabplugins-io_json-release_ordered sub-meshlabplugins-io_tri-release_ordered sub-meshlabplugins-io_x3d-release_ordered sub-meshlabplugins-io_pdb-release_ordered sub-meshlabplugins-io_txt-release_ordered sub-meshlabplugins-io_u3d-release_ordered sub-meshlabplugins-filter_ao-release_ordered sub-meshlabplugins-filter_camera-release_ordered sub-meshlabplugins-filter_clean-release_ordered sub-meshlabplugins-filter_color_projection-release_ordered sub-meshlabplugins-filter_colorproc-release_ordered sub-meshlabplugins-filter_create-release_ordered sub-meshlabplugins-filter_csg-release_ordered sub-meshlabplugins-filter_dirt-release_ordered sub-meshlabplugins-filter_fractal-release_ordered sub-meshlabplugins-filter_func-release_ordered sub-meshlabplugins-filter_img_patch_param-release_ordered sub-meshlabplugins-filter_isoparametrization-release_ordered sub-meshlabplugins-filter_layer-release_ordered sub-meshlabplugins-filter_measure-release_ordered sub-meshlabplugins-filter_meshing-release_ordered sub-meshlabplugins-filter_mls-release_ordered sub-meshlabplugins-filter_mutualglobal-release_ordered sub-meshlabplugins-filter_mutualinfoxml-release_ordered sub-meshlabplugins-filter_plymc-release_ordered sub-meshlabplugins-filter_qhull-release_ordered sub-meshlabplugins-filter_quality-release_ordered sub-meshlabplugins-filter_sampling-release_ordered sub-meshlabplugins-filter_screened_poisson-release_ordered sub-meshlabplugins-filter_sdfgpu-release_ordered sub-meshlabplugins-filter_select-release_ordered sub-meshlabplugins-filter_sketchfab-release_ordered sub-meshlabplugins-filter_ssynth-release_ordered sub-meshlabplugins-filter_texture-release_ordered sub-meshlabplugins-filter_trioptimize-release_ordered sub-meshlabplugins-filter_unsharp-release_ordered sub-meshlabplugins-filter_voronoi-release_ordered sub-meshlabplugins-render_gdp-release_ordered sub-meshlabplugins-render_radiance_scaling-release_ordered sub-meshlabplugins-decorate_base-release_ordered sub-meshlabplugins-decorate_background-release_ordered sub-meshlabplugins-decorate_raster_proj-release_ordered sub-meshlabplugins-decorate_shadow-release_ordered sub-meshlabplugins-edit_align-release_ordered sub-meshlabplugins-edit_manipulators-release_ordered sub-meshlabplugins-edit_measure-release_ordered sub-meshlabplugins-edit_mutualcorrs-release_ordered sub-meshlabplugins-edit_paint-release_ordered sub-meshlabplugins-edit_point-release_ordered sub-meshlabplugins-edit_referencing-release_ordered sub-meshlabplugins-edit_quality-release_ordered sub-meshlabplugins-edit_select-release_ordered sub-sampleplugins-sampleedit-release_ordered sub-sampleplugins-samplefilter-release_ordered sub-sampleplugins-samplefilterdyn-release_ordered sub-sampleplugins-filter_createiso-release_ordered sub-sampleplugins-filter_geodesic-release_ordered sub-sampleplugins-sample_filtergpu-release_ordered
 
 sub-common-check_ordered:
 	@if not exist common\ mkdir common\ & if not exist common\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd common\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\common\common.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd common\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\common\common.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlab-check_ordered: sub-common-check_ordered 
 	@if not exist meshlab\ mkdir meshlab\ & if not exist meshlab\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlab\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlab\meshlab.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlab\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlab\meshlab.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabserver-check_ordered: sub-meshlab-check_ordered 
 	@if not exist meshlabserver\ mkdir meshlabserver\ & if not exist meshlabserver\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabserver\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabserver\meshlabserver.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabserver\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabserver\meshlabserver.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-io_3ds-check_ordered: sub-meshlabserver-check_ordered 
 	@if not exist meshlabplugins\io_3ds\ mkdir meshlabplugins\io_3ds\ & if not exist meshlabplugins\io_3ds\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_3ds\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_3ds\io_3ds.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\io_3ds\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_3ds\io_3ds.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-io_base-check_ordered: sub-meshlabplugins-io_3ds-check_ordered 
 	@if not exist meshlabplugins\io_base\ mkdir meshlabplugins\io_base\ & if not exist meshlabplugins\io_base\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_base\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_base\io_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\io_base\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_base\io_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-io_bre-check_ordered: sub-meshlabplugins-io_base-check_ordered 
 	@if not exist meshlabplugins\io_bre\ mkdir meshlabplugins\io_bre\ & if not exist meshlabplugins\io_bre\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_bre\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_bre\io_bre.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\io_bre\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_bre\io_bre.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-io_collada-check_ordered: sub-meshlabplugins-io_bre-check_ordered 
 	@if not exist meshlabplugins\io_collada\ mkdir meshlabplugins\io_collada\ & if not exist meshlabplugins\io_collada\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_collada\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_collada\io_collada.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\io_collada\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_collada\io_collada.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-io_ctm-check_ordered: sub-meshlabplugins-io_collada-check_ordered 
 	@if not exist meshlabplugins\io_ctm\ mkdir meshlabplugins\io_ctm\ & if not exist meshlabplugins\io_ctm\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_ctm\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_ctm\io_ctm.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\io_ctm\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_ctm\io_ctm.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-io_expe-check_ordered: sub-meshlabplugins-io_ctm-check_ordered 
 	@if not exist meshlabplugins\io_expe\ mkdir meshlabplugins\io_expe\ & if not exist meshlabplugins\io_expe\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_expe\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_expe\io_expe.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\io_expe\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_expe\io_expe.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-io_json-check_ordered: sub-meshlabplugins-io_expe-check_ordered 
 	@if not exist meshlabplugins\io_json\ mkdir meshlabplugins\io_json\ & if not exist meshlabplugins\io_json\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_json\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_json\io_json.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\io_json\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_json\io_json.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-io_tri-check_ordered: sub-meshlabplugins-io_json-check_ordered 
 	@if not exist meshlabplugins\io_tri\ mkdir meshlabplugins\io_tri\ & if not exist meshlabplugins\io_tri\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_tri\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_tri\io_tri.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\io_tri\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_tri\io_tri.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-io_x3d-check_ordered: sub-meshlabplugins-io_tri-check_ordered 
 	@if not exist meshlabplugins\io_x3d\ mkdir meshlabplugins\io_x3d\ & if not exist meshlabplugins\io_x3d\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_x3d\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_x3d\io_x3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\io_x3d\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_x3d\io_x3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-io_pdb-check_ordered: sub-meshlabplugins-io_x3d-check_ordered 
 	@if not exist meshlabplugins\io_pdb\ mkdir meshlabplugins\io_pdb\ & if not exist meshlabplugins\io_pdb\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_pdb\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_pdb\io_pdb.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\io_pdb\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_pdb\io_pdb.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-io_txt-check_ordered: sub-meshlabplugins-io_pdb-check_ordered 
 	@if not exist meshlabplugins\io_txt\ mkdir meshlabplugins\io_txt\ & if not exist meshlabplugins\io_txt\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_txt\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_txt\io_txt.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\io_txt\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_txt\io_txt.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-io_u3d-check_ordered: sub-meshlabplugins-io_txt-check_ordered 
 	@if not exist meshlabplugins\io_u3d\ mkdir meshlabplugins\io_u3d\ & if not exist meshlabplugins\io_u3d\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_u3d\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_u3d\io_u3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\io_u3d\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_u3d\io_u3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-filter_ao-check_ordered: sub-meshlabplugins-io_u3d-check_ordered 
 	@if not exist meshlabplugins\filter_ao\ mkdir meshlabplugins\filter_ao\ & if not exist meshlabplugins\filter_ao\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_ao\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_ao\filter_ao.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\filter_ao\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_ao\filter_ao.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-filter_camera-check_ordered: sub-meshlabplugins-filter_ao-check_ordered 
 	@if not exist meshlabplugins\filter_camera\ mkdir meshlabplugins\filter_camera\ & if not exist meshlabplugins\filter_camera\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_camera\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_camera\filter_camera.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\filter_camera\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_camera\filter_camera.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-filter_clean-check_ordered: sub-meshlabplugins-filter_camera-check_ordered 
 	@if not exist meshlabplugins\filter_clean\ mkdir meshlabplugins\filter_clean\ & if not exist meshlabplugins\filter_clean\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_clean\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_clean\filter_clean.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\filter_clean\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_clean\filter_clean.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-filter_color_projection-check_ordered: sub-meshlabplugins-filter_clean-check_ordered 
 	@if not exist meshlabplugins\filter_color_projection\ mkdir meshlabplugins\filter_color_projection\ & if not exist meshlabplugins\filter_color_projection\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_color_projection\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_color_projection\filter_color_projection.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\filter_color_projection\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_color_projection\filter_color_projection.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-filter_colorproc-check_ordered: sub-meshlabplugins-filter_color_projection-check_ordered 
 	@if not exist meshlabplugins\filter_colorproc\ mkdir meshlabplugins\filter_colorproc\ & if not exist meshlabplugins\filter_colorproc\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_colorproc\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_colorproc\filter_colorproc.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\filter_colorproc\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_colorproc\filter_colorproc.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-filter_create-check_ordered: sub-meshlabplugins-filter_colorproc-check_ordered 
 	@if not exist meshlabplugins\filter_create\ mkdir meshlabplugins\filter_create\ & if not exist meshlabplugins\filter_create\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_create\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_create\filter_create.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\filter_create\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_create\filter_create.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-filter_csg-check_ordered: sub-meshlabplugins-filter_create-check_ordered 
 	@if not exist meshlabplugins\filter_csg\ mkdir meshlabplugins\filter_csg\ & if not exist meshlabplugins\filter_csg\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_csg\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_csg\filter_csg.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\filter_csg\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_csg\filter_csg.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-filter_dirt-check_ordered: sub-meshlabplugins-filter_csg-check_ordered 
 	@if not exist meshlabplugins\filter_dirt\ mkdir meshlabplugins\filter_dirt\ & if not exist meshlabplugins\filter_dirt\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_dirt\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_dirt\filter_dirt.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\filter_dirt\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_dirt\filter_dirt.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-filter_fractal-check_ordered: sub-meshlabplugins-filter_dirt-check_ordered 
 	@if not exist meshlabplugins\filter_fractal\ mkdir meshlabplugins\filter_fractal\ & if not exist meshlabplugins\filter_fractal\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_fractal\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_fractal\filter_fractal.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\filter_fractal\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_fractal\filter_fractal.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-filter_func-check_ordered: sub-meshlabplugins-filter_fractal-check_ordered 
 	@if not exist meshlabplugins\filter_func\ mkdir meshlabplugins\filter_func\ & if not exist meshlabplugins\filter_func\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_func\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_func\filter_func.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\filter_func\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_func\filter_func.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-filter_img_patch_param-check_ordered: sub-meshlabplugins-filter_func-check_ordered 
 	@if not exist meshlabplugins\filter_img_patch_param\ mkdir meshlabplugins\filter_img_patch_param\ & if not exist meshlabplugins\filter_img_patch_param\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_img_patch_param\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_img_patch_param\filter_img_patch_param.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\filter_img_patch_param\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_img_patch_param\filter_img_patch_param.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-filter_isoparametrization-check_ordered: sub-meshlabplugins-filter_img_patch_param-check_ordered 
 	@if not exist meshlabplugins\filter_isoparametrization\ mkdir meshlabplugins\filter_isoparametrization\ & if not exist meshlabplugins\filter_isoparametrization\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_isoparametrization\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_isoparametrization\filter_isoparametrization.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\filter_isoparametrization\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_isoparametrization\filter_isoparametrization.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-filter_layer-check_ordered: sub-meshlabplugins-filter_isoparametrization-check_ordered 
 	@if not exist meshlabplugins\filter_layer\ mkdir meshlabplugins\filter_layer\ & if not exist meshlabplugins\filter_layer\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_layer\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_layer\filter_layer.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\filter_layer\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_layer\filter_layer.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-filter_measure-check_ordered: sub-meshlabplugins-filter_layer-check_ordered 
 	@if not exist meshlabplugins\filter_measure\ mkdir meshlabplugins\filter_measure\ & if not exist meshlabplugins\filter_measure\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_measure\filter_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\filter_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_measure\filter_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-filter_meshing-check_ordered: sub-meshlabplugins-filter_measure-check_ordered 
 	@if not exist meshlabplugins\filter_meshing\ mkdir meshlabplugins\filter_meshing\ & if not exist meshlabplugins\filter_meshing\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_meshing\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_meshing\filter_meshing.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\filter_meshing\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_meshing\filter_meshing.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-filter_mls-check_ordered: sub-meshlabplugins-filter_meshing-check_ordered 
 	@if not exist meshlabplugins\filter_mls\ mkdir meshlabplugins\filter_mls\ & if not exist meshlabplugins\filter_mls\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mls\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mls\filter_mls.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\filter_mls\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mls\filter_mls.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-filter_mutualglobal-check_ordered: sub-meshlabplugins-filter_mls-check_ordered 
 	@if not exist meshlabplugins\filter_mutualglobal\ mkdir meshlabplugins\filter_mutualglobal\ & if not exist meshlabplugins\filter_mutualglobal\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mutualglobal\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mutualglobal\filter_mutualglobal.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\filter_mutualglobal\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mutualglobal\filter_mutualglobal.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-filter_mutualinfoxml-check_ordered: sub-meshlabplugins-filter_mutualglobal-check_ordered 
 	@if not exist meshlabplugins\filter_mutualinfoxml\ mkdir meshlabplugins\filter_mutualinfoxml\ & if not exist meshlabplugins\filter_mutualinfoxml\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mutualinfoxml\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mutualinfoxml\filter_mutualinfoxml.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\filter_mutualinfoxml\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mutualinfoxml\filter_mutualinfoxml.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-filter_plymc-check_ordered: sub-meshlabplugins-filter_mutualinfoxml-check_ordered 
 	@if not exist meshlabplugins\filter_plymc\ mkdir meshlabplugins\filter_plymc\ & if not exist meshlabplugins\filter_plymc\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_plymc\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_plymc\filter_plymc.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\filter_plymc\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_plymc\filter_plymc.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-filter_qhull-check_ordered: sub-meshlabplugins-filter_plymc-check_ordered 
 	@if not exist meshlabplugins\filter_qhull\ mkdir meshlabplugins\filter_qhull\ & if not exist meshlabplugins\filter_qhull\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_qhull\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_qhull\filter_qhull.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\filter_qhull\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_qhull\filter_qhull.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-filter_quality-check_ordered: sub-meshlabplugins-filter_qhull-check_ordered 
 	@if not exist meshlabplugins\filter_quality\ mkdir meshlabplugins\filter_quality\ & if not exist meshlabplugins\filter_quality\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_quality\filter_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\filter_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_quality\filter_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-filter_sampling-check_ordered: sub-meshlabplugins-filter_quality-check_ordered 
 	@if not exist meshlabplugins\filter_sampling\ mkdir meshlabplugins\filter_sampling\ & if not exist meshlabplugins\filter_sampling\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sampling\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sampling\filter_sampling.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\filter_sampling\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sampling\filter_sampling.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-filter_screened_poisson-check_ordered: sub-meshlabplugins-filter_sampling-check_ordered 
 	@if not exist meshlabplugins\filter_screened_poisson\ mkdir meshlabplugins\filter_screened_poisson\ & if not exist meshlabplugins\filter_screened_poisson\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_screened_poisson\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_screened_poisson\filter_screened_poisson.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\filter_screened_poisson\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_screened_poisson\filter_screened_poisson.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-filter_sdfgpu-check_ordered: sub-meshlabplugins-filter_screened_poisson-check_ordered 
 	@if not exist meshlabplugins\filter_sdfgpu\ mkdir meshlabplugins\filter_sdfgpu\ & if not exist meshlabplugins\filter_sdfgpu\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sdfgpu\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sdfgpu\filter_sdfgpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\filter_sdfgpu\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sdfgpu\filter_sdfgpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-filter_select-check_ordered: sub-meshlabplugins-filter_sdfgpu-check_ordered 
 	@if not exist meshlabplugins\filter_select\ mkdir meshlabplugins\filter_select\ & if not exist meshlabplugins\filter_select\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_select\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_select\filter_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\filter_select\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_select\filter_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-filter_sketchfab-check_ordered: sub-meshlabplugins-filter_select-check_ordered 
 	@if not exist meshlabplugins\filter_sketchfab\ mkdir meshlabplugins\filter_sketchfab\ & if not exist meshlabplugins\filter_sketchfab\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sketchfab\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sketchfab\filter_sketchfab.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\filter_sketchfab\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sketchfab\filter_sketchfab.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-filter_ssynth-check_ordered: sub-meshlabplugins-filter_sketchfab-check_ordered 
 	@if not exist meshlabplugins\filter_ssynth\ mkdir meshlabplugins\filter_ssynth\ & if not exist meshlabplugins\filter_ssynth\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_ssynth\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_ssynth\filter_ssynth.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\filter_ssynth\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_ssynth\filter_ssynth.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-filter_texture-check_ordered: sub-meshlabplugins-filter_ssynth-check_ordered 
 	@if not exist meshlabplugins\filter_texture\ mkdir meshlabplugins\filter_texture\ & if not exist meshlabplugins\filter_texture\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_texture\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_texture\filter_texture.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\filter_texture\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_texture\filter_texture.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-filter_trioptimize-check_ordered: sub-meshlabplugins-filter_texture-check_ordered 
 	@if not exist meshlabplugins\filter_trioptimize\ mkdir meshlabplugins\filter_trioptimize\ & if not exist meshlabplugins\filter_trioptimize\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_trioptimize\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_trioptimize\filter_trioptimize.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\filter_trioptimize\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_trioptimize\filter_trioptimize.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-filter_unsharp-check_ordered: sub-meshlabplugins-filter_trioptimize-check_ordered 
 	@if not exist meshlabplugins\filter_unsharp\ mkdir meshlabplugins\filter_unsharp\ & if not exist meshlabplugins\filter_unsharp\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_unsharp\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_unsharp\filter_unsharp.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\filter_unsharp\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_unsharp\filter_unsharp.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-filter_voronoi-check_ordered: sub-meshlabplugins-filter_unsharp-check_ordered 
 	@if not exist meshlabplugins\filter_voronoi\ mkdir meshlabplugins\filter_voronoi\ & if not exist meshlabplugins\filter_voronoi\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_voronoi\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_voronoi\filter_voronoi.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\filter_voronoi\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_voronoi\filter_voronoi.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-render_gdp-check_ordered: sub-meshlabplugins-filter_voronoi-check_ordered 
 	@if not exist meshlabplugins\render_gdp\ mkdir meshlabplugins\render_gdp\ & if not exist meshlabplugins\render_gdp\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\render_gdp\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\render_gdp\render_gdp.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\render_gdp\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\render_gdp\render_gdp.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-render_radiance_scaling-check_ordered: sub-meshlabplugins-render_gdp-check_ordered 
 	@if not exist meshlabplugins\render_radiance_scaling\ mkdir meshlabplugins\render_radiance_scaling\ & if not exist meshlabplugins\render_radiance_scaling\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\render_radiance_scaling\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\render_radiance_scaling\render_radiance_scaling.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\render_radiance_scaling\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\render_radiance_scaling\render_radiance_scaling.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-decorate_base-check_ordered: sub-meshlabplugins-render_radiance_scaling-check_ordered 
 	@if not exist meshlabplugins\decorate_base\ mkdir meshlabplugins\decorate_base\ & if not exist meshlabplugins\decorate_base\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_base\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_base\decorate_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\decorate_base\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_base\decorate_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-decorate_background-check_ordered: sub-meshlabplugins-decorate_base-check_ordered 
 	@if not exist meshlabplugins\decorate_background\ mkdir meshlabplugins\decorate_background\ & if not exist meshlabplugins\decorate_background\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_background\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_background\decorate_background.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\decorate_background\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_background\decorate_background.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-decorate_raster_proj-check_ordered: sub-meshlabplugins-decorate_background-check_ordered 
 	@if not exist meshlabplugins\decorate_raster_proj\ mkdir meshlabplugins\decorate_raster_proj\ & if not exist meshlabplugins\decorate_raster_proj\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_raster_proj\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_raster_proj\decorate_raster_proj.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\decorate_raster_proj\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_raster_proj\decorate_raster_proj.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-decorate_shadow-check_ordered: sub-meshlabplugins-decorate_raster_proj-check_ordered 
 	@if not exist meshlabplugins\decorate_shadow\ mkdir meshlabplugins\decorate_shadow\ & if not exist meshlabplugins\decorate_shadow\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_shadow\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_shadow\decorate_shadow.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\decorate_shadow\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_shadow\decorate_shadow.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-edit_align-check_ordered: sub-meshlabplugins-decorate_shadow-check_ordered 
 	@if not exist meshlabplugins\edit_align\ mkdir meshlabplugins\edit_align\ & if not exist meshlabplugins\edit_align\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_align\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_align\edit_align.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\edit_align\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_align\edit_align.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-edit_manipulators-check_ordered: sub-meshlabplugins-edit_align-check_ordered 
 	@if not exist meshlabplugins\edit_manipulators\ mkdir meshlabplugins\edit_manipulators\ & if not exist meshlabplugins\edit_manipulators\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_manipulators\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_manipulators\edit_manipulators.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\edit_manipulators\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_manipulators\edit_manipulators.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-edit_measure-check_ordered: sub-meshlabplugins-edit_manipulators-check_ordered 
 	@if not exist meshlabplugins\edit_measure\ mkdir meshlabplugins\edit_measure\ & if not exist meshlabplugins\edit_measure\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_measure\edit_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\edit_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_measure\edit_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-edit_mutualcorrs-check_ordered: sub-meshlabplugins-edit_measure-check_ordered 
 	@if not exist meshlabplugins\edit_mutualcorrs\ mkdir meshlabplugins\edit_mutualcorrs\ & if not exist meshlabplugins\edit_mutualcorrs\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_mutualcorrs\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_mutualcorrs\edit_mutualcorrs.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\edit_mutualcorrs\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_mutualcorrs\edit_mutualcorrs.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-edit_paint-check_ordered: sub-meshlabplugins-edit_mutualcorrs-check_ordered 
 	@if not exist meshlabplugins\edit_paint\ mkdir meshlabplugins\edit_paint\ & if not exist meshlabplugins\edit_paint\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_paint\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_paint\edit_paint.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\edit_paint\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_paint\edit_paint.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-edit_point-check_ordered: sub-meshlabplugins-edit_paint-check_ordered 
 	@if not exist meshlabplugins\edit_point\ mkdir meshlabplugins\edit_point\ & if not exist meshlabplugins\edit_point\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_point\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_point\edit_point.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\edit_point\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_point\edit_point.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-edit_referencing-check_ordered: sub-meshlabplugins-edit_point-check_ordered 
 	@if not exist meshlabplugins\edit_referencing\ mkdir meshlabplugins\edit_referencing\ & if not exist meshlabplugins\edit_referencing\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_referencing\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_referencing\edit_referencing.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\edit_referencing\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_referencing\edit_referencing.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-edit_quality-check_ordered: sub-meshlabplugins-edit_referencing-check_ordered 
 	@if not exist meshlabplugins\edit_quality\ mkdir meshlabplugins\edit_quality\ & if not exist meshlabplugins\edit_quality\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_quality\edit_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\edit_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_quality\edit_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-meshlabplugins-edit_select-check_ordered: sub-meshlabplugins-edit_quality-check_ordered 
 	@if not exist meshlabplugins\edit_select\ mkdir meshlabplugins\edit_select\ & if not exist meshlabplugins\edit_select\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_select\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_select\edit_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd meshlabplugins\edit_select\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_select\edit_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-sampleplugins-sampleedit-check_ordered: sub-meshlabplugins-edit_select-check_ordered 
 	@if not exist sampleplugins\sampleedit\ mkdir sampleplugins\sampleedit\ & if not exist sampleplugins\sampleedit\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\sampleedit\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\sampleedit\sampleedit.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd sampleplugins\sampleedit\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\sampleedit\sampleedit.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-sampleplugins-samplefilter-check_ordered: sub-sampleplugins-sampleedit-check_ordered 
 	@if not exist sampleplugins\samplefilter\ mkdir sampleplugins\samplefilter\ & if not exist sampleplugins\samplefilter\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\samplefilter\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\samplefilter\samplefilter.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd sampleplugins\samplefilter\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\samplefilter\samplefilter.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-sampleplugins-samplefilterdyn-check_ordered: sub-sampleplugins-samplefilter-check_ordered 
 	@if not exist sampleplugins\samplefilterdyn\ mkdir sampleplugins\samplefilterdyn\ & if not exist sampleplugins\samplefilterdyn\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\samplefilterdyn\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\samplefilterdyn\samplefilterdyn.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd sampleplugins\samplefilterdyn\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\samplefilterdyn\samplefilterdyn.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-sampleplugins-filter_createiso-check_ordered: sub-sampleplugins-samplefilterdyn-check_ordered 
 	@if not exist sampleplugins\filter_createiso\ mkdir sampleplugins\filter_createiso\ & if not exist sampleplugins\filter_createiso\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\filter_createiso\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\filter_createiso\filter_createiso.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd sampleplugins\filter_createiso\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\filter_createiso\filter_createiso.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-sampleplugins-filter_geodesic-check_ordered: sub-sampleplugins-filter_createiso-check_ordered 
 	@if not exist sampleplugins\filter_geodesic\ mkdir sampleplugins\filter_geodesic\ & if not exist sampleplugins\filter_geodesic\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\filter_geodesic\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\filter_geodesic\filter_geodesic.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd sampleplugins\filter_geodesic\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\filter_geodesic\filter_geodesic.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 sub-sampleplugins-sample_filtergpu-check_ordered: sub-sampleplugins-filter_geodesic-check_ordered 
 	@if not exist sampleplugins\sample_filtergpu\ mkdir sampleplugins\sample_filtergpu\ & if not exist sampleplugins\sample_filtergpu\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\sample_filtergpu\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\sample_filtergpu\sample_filtergpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
+	cd sampleplugins\sample_filtergpu\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\sample_filtergpu\sample_filtergpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile check
 check: sub-common-check_ordered sub-meshlab-check_ordered sub-meshlabserver-check_ordered sub-meshlabplugins-io_3ds-check_ordered sub-meshlabplugins-io_base-check_ordered sub-meshlabplugins-io_bre-check_ordered sub-meshlabplugins-io_collada-check_ordered sub-meshlabplugins-io_ctm-check_ordered sub-meshlabplugins-io_expe-check_ordered sub-meshlabplugins-io_json-check_ordered sub-meshlabplugins-io_tri-check_ordered sub-meshlabplugins-io_x3d-check_ordered sub-meshlabplugins-io_pdb-check_ordered sub-meshlabplugins-io_txt-check_ordered sub-meshlabplugins-io_u3d-check_ordered sub-meshlabplugins-filter_ao-check_ordered sub-meshlabplugins-filter_camera-check_ordered sub-meshlabplugins-filter_clean-check_ordered sub-meshlabplugins-filter_color_projection-check_ordered sub-meshlabplugins-filter_colorproc-check_ordered sub-meshlabplugins-filter_create-check_ordered sub-meshlabplugins-filter_csg-check_ordered sub-meshlabplugins-filter_dirt-check_ordered sub-meshlabplugins-filter_fractal-check_ordered sub-meshlabplugins-filter_func-check_ordered sub-meshlabplugins-filter_img_patch_param-check_ordered sub-meshlabplugins-filter_isoparametrization-check_ordered sub-meshlabplugins-filter_layer-check_ordered sub-meshlabplugins-filter_measure-check_ordered sub-meshlabplugins-filter_meshing-check_ordered sub-meshlabplugins-filter_mls-check_ordered sub-meshlabplugins-filter_mutualglobal-check_ordered sub-meshlabplugins-filter_mutualinfoxml-check_ordered sub-meshlabplugins-filter_plymc-check_ordered sub-meshlabplugins-filter_qhull-check_ordered sub-meshlabplugins-filter_quality-check_ordered sub-meshlabplugins-filter_sampling-check_ordered sub-meshlabplugins-filter_screened_poisson-check_ordered sub-meshlabplugins-filter_sdfgpu-check_ordered sub-meshlabplugins-filter_select-check_ordered sub-meshlabplugins-filter_sketchfab-check_ordered sub-meshlabplugins-filter_ssynth-check_ordered sub-meshlabplugins-filter_texture-check_ordered sub-meshlabplugins-filter_trioptimize-check_ordered sub-meshlabplugins-filter_unsharp-check_ordered sub-meshlabplugins-filter_voronoi-check_ordered sub-meshlabplugins-render_gdp-check_ordered sub-meshlabplugins-render_radiance_scaling-check_ordered sub-meshlabplugins-decorate_base-check_ordered sub-meshlabplugins-decorate_background-check_ordered sub-meshlabplugins-decorate_raster_proj-check_ordered sub-meshlabplugins-decorate_shadow-check_ordered sub-meshlabplugins-edit_align-check_ordered sub-meshlabplugins-edit_manipulators-check_ordered sub-meshlabplugins-edit_measure-check_ordered sub-meshlabplugins-edit_mutualcorrs-check_ordered sub-meshlabplugins-edit_paint-check_ordered sub-meshlabplugins-edit_point-check_ordered sub-meshlabplugins-edit_referencing-check_ordered sub-meshlabplugins-edit_quality-check_ordered sub-meshlabplugins-edit_select-check_ordered sub-sampleplugins-sampleedit-check_ordered sub-sampleplugins-samplefilter-check_ordered sub-sampleplugins-samplefilterdyn-check_ordered sub-sampleplugins-filter_createiso-check_ordered sub-sampleplugins-filter_geodesic-check_ordered sub-sampleplugins-sample_filtergpu-check_ordered
 
 sub-common-benchmark_ordered:
 	@if not exist common\ mkdir common\ & if not exist common\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd common\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\common\common.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd common\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\common\common.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlab-benchmark_ordered: sub-common-benchmark_ordered 
 	@if not exist meshlab\ mkdir meshlab\ & if not exist meshlab\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlab\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlab\meshlab.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlab\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlab\meshlab.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabserver-benchmark_ordered: sub-meshlab-benchmark_ordered 
 	@if not exist meshlabserver\ mkdir meshlabserver\ & if not exist meshlabserver\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabserver\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabserver\meshlabserver.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabserver\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabserver\meshlabserver.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-io_3ds-benchmark_ordered: sub-meshlabserver-benchmark_ordered 
 	@if not exist meshlabplugins\io_3ds\ mkdir meshlabplugins\io_3ds\ & if not exist meshlabplugins\io_3ds\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_3ds\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_3ds\io_3ds.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\io_3ds\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_3ds\io_3ds.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-io_base-benchmark_ordered: sub-meshlabplugins-io_3ds-benchmark_ordered 
 	@if not exist meshlabplugins\io_base\ mkdir meshlabplugins\io_base\ & if not exist meshlabplugins\io_base\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_base\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_base\io_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\io_base\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_base\io_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-io_bre-benchmark_ordered: sub-meshlabplugins-io_base-benchmark_ordered 
 	@if not exist meshlabplugins\io_bre\ mkdir meshlabplugins\io_bre\ & if not exist meshlabplugins\io_bre\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_bre\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_bre\io_bre.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\io_bre\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_bre\io_bre.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-io_collada-benchmark_ordered: sub-meshlabplugins-io_bre-benchmark_ordered 
 	@if not exist meshlabplugins\io_collada\ mkdir meshlabplugins\io_collada\ & if not exist meshlabplugins\io_collada\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_collada\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_collada\io_collada.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\io_collada\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_collada\io_collada.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-io_ctm-benchmark_ordered: sub-meshlabplugins-io_collada-benchmark_ordered 
 	@if not exist meshlabplugins\io_ctm\ mkdir meshlabplugins\io_ctm\ & if not exist meshlabplugins\io_ctm\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_ctm\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_ctm\io_ctm.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\io_ctm\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_ctm\io_ctm.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-io_expe-benchmark_ordered: sub-meshlabplugins-io_ctm-benchmark_ordered 
 	@if not exist meshlabplugins\io_expe\ mkdir meshlabplugins\io_expe\ & if not exist meshlabplugins\io_expe\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_expe\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_expe\io_expe.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\io_expe\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_expe\io_expe.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-io_json-benchmark_ordered: sub-meshlabplugins-io_expe-benchmark_ordered 
 	@if not exist meshlabplugins\io_json\ mkdir meshlabplugins\io_json\ & if not exist meshlabplugins\io_json\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_json\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_json\io_json.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\io_json\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_json\io_json.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-io_tri-benchmark_ordered: sub-meshlabplugins-io_json-benchmark_ordered 
 	@if not exist meshlabplugins\io_tri\ mkdir meshlabplugins\io_tri\ & if not exist meshlabplugins\io_tri\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_tri\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_tri\io_tri.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\io_tri\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_tri\io_tri.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-io_x3d-benchmark_ordered: sub-meshlabplugins-io_tri-benchmark_ordered 
 	@if not exist meshlabplugins\io_x3d\ mkdir meshlabplugins\io_x3d\ & if not exist meshlabplugins\io_x3d\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_x3d\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_x3d\io_x3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\io_x3d\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_x3d\io_x3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-io_pdb-benchmark_ordered: sub-meshlabplugins-io_x3d-benchmark_ordered 
 	@if not exist meshlabplugins\io_pdb\ mkdir meshlabplugins\io_pdb\ & if not exist meshlabplugins\io_pdb\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_pdb\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_pdb\io_pdb.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\io_pdb\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_pdb\io_pdb.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-io_txt-benchmark_ordered: sub-meshlabplugins-io_pdb-benchmark_ordered 
 	@if not exist meshlabplugins\io_txt\ mkdir meshlabplugins\io_txt\ & if not exist meshlabplugins\io_txt\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_txt\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_txt\io_txt.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\io_txt\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_txt\io_txt.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-io_u3d-benchmark_ordered: sub-meshlabplugins-io_txt-benchmark_ordered 
 	@if not exist meshlabplugins\io_u3d\ mkdir meshlabplugins\io_u3d\ & if not exist meshlabplugins\io_u3d\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\io_u3d\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\io_u3d\io_u3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\io_u3d\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\io_u3d\io_u3d.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-filter_ao-benchmark_ordered: sub-meshlabplugins-io_u3d-benchmark_ordered 
 	@if not exist meshlabplugins\filter_ao\ mkdir meshlabplugins\filter_ao\ & if not exist meshlabplugins\filter_ao\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_ao\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_ao\filter_ao.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\filter_ao\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_ao\filter_ao.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-filter_camera-benchmark_ordered: sub-meshlabplugins-filter_ao-benchmark_ordered 
 	@if not exist meshlabplugins\filter_camera\ mkdir meshlabplugins\filter_camera\ & if not exist meshlabplugins\filter_camera\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_camera\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_camera\filter_camera.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\filter_camera\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_camera\filter_camera.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-filter_clean-benchmark_ordered: sub-meshlabplugins-filter_camera-benchmark_ordered 
 	@if not exist meshlabplugins\filter_clean\ mkdir meshlabplugins\filter_clean\ & if not exist meshlabplugins\filter_clean\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_clean\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_clean\filter_clean.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\filter_clean\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_clean\filter_clean.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-filter_color_projection-benchmark_ordered: sub-meshlabplugins-filter_clean-benchmark_ordered 
 	@if not exist meshlabplugins\filter_color_projection\ mkdir meshlabplugins\filter_color_projection\ & if not exist meshlabplugins\filter_color_projection\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_color_projection\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_color_projection\filter_color_projection.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\filter_color_projection\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_color_projection\filter_color_projection.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-filter_colorproc-benchmark_ordered: sub-meshlabplugins-filter_color_projection-benchmark_ordered 
 	@if not exist meshlabplugins\filter_colorproc\ mkdir meshlabplugins\filter_colorproc\ & if not exist meshlabplugins\filter_colorproc\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_colorproc\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_colorproc\filter_colorproc.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\filter_colorproc\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_colorproc\filter_colorproc.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-filter_create-benchmark_ordered: sub-meshlabplugins-filter_colorproc-benchmark_ordered 
 	@if not exist meshlabplugins\filter_create\ mkdir meshlabplugins\filter_create\ & if not exist meshlabplugins\filter_create\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_create\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_create\filter_create.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\filter_create\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_create\filter_create.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-filter_csg-benchmark_ordered: sub-meshlabplugins-filter_create-benchmark_ordered 
 	@if not exist meshlabplugins\filter_csg\ mkdir meshlabplugins\filter_csg\ & if not exist meshlabplugins\filter_csg\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_csg\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_csg\filter_csg.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\filter_csg\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_csg\filter_csg.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-filter_dirt-benchmark_ordered: sub-meshlabplugins-filter_csg-benchmark_ordered 
 	@if not exist meshlabplugins\filter_dirt\ mkdir meshlabplugins\filter_dirt\ & if not exist meshlabplugins\filter_dirt\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_dirt\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_dirt\filter_dirt.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\filter_dirt\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_dirt\filter_dirt.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-filter_fractal-benchmark_ordered: sub-meshlabplugins-filter_dirt-benchmark_ordered 
 	@if not exist meshlabplugins\filter_fractal\ mkdir meshlabplugins\filter_fractal\ & if not exist meshlabplugins\filter_fractal\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_fractal\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_fractal\filter_fractal.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\filter_fractal\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_fractal\filter_fractal.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-filter_func-benchmark_ordered: sub-meshlabplugins-filter_fractal-benchmark_ordered 
 	@if not exist meshlabplugins\filter_func\ mkdir meshlabplugins\filter_func\ & if not exist meshlabplugins\filter_func\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_func\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_func\filter_func.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\filter_func\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_func\filter_func.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-filter_img_patch_param-benchmark_ordered: sub-meshlabplugins-filter_func-benchmark_ordered 
 	@if not exist meshlabplugins\filter_img_patch_param\ mkdir meshlabplugins\filter_img_patch_param\ & if not exist meshlabplugins\filter_img_patch_param\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_img_patch_param\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_img_patch_param\filter_img_patch_param.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\filter_img_patch_param\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_img_patch_param\filter_img_patch_param.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-filter_isoparametrization-benchmark_ordered: sub-meshlabplugins-filter_img_patch_param-benchmark_ordered 
 	@if not exist meshlabplugins\filter_isoparametrization\ mkdir meshlabplugins\filter_isoparametrization\ & if not exist meshlabplugins\filter_isoparametrization\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_isoparametrization\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_isoparametrization\filter_isoparametrization.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\filter_isoparametrization\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_isoparametrization\filter_isoparametrization.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-filter_layer-benchmark_ordered: sub-meshlabplugins-filter_isoparametrization-benchmark_ordered 
 	@if not exist meshlabplugins\filter_layer\ mkdir meshlabplugins\filter_layer\ & if not exist meshlabplugins\filter_layer\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_layer\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_layer\filter_layer.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\filter_layer\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_layer\filter_layer.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-filter_measure-benchmark_ordered: sub-meshlabplugins-filter_layer-benchmark_ordered 
 	@if not exist meshlabplugins\filter_measure\ mkdir meshlabplugins\filter_measure\ & if not exist meshlabplugins\filter_measure\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_measure\filter_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\filter_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_measure\filter_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-filter_meshing-benchmark_ordered: sub-meshlabplugins-filter_measure-benchmark_ordered 
 	@if not exist meshlabplugins\filter_meshing\ mkdir meshlabplugins\filter_meshing\ & if not exist meshlabplugins\filter_meshing\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_meshing\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_meshing\filter_meshing.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\filter_meshing\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_meshing\filter_meshing.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-filter_mls-benchmark_ordered: sub-meshlabplugins-filter_meshing-benchmark_ordered 
 	@if not exist meshlabplugins\filter_mls\ mkdir meshlabplugins\filter_mls\ & if not exist meshlabplugins\filter_mls\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mls\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mls\filter_mls.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\filter_mls\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mls\filter_mls.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-filter_mutualglobal-benchmark_ordered: sub-meshlabplugins-filter_mls-benchmark_ordered 
 	@if not exist meshlabplugins\filter_mutualglobal\ mkdir meshlabplugins\filter_mutualglobal\ & if not exist meshlabplugins\filter_mutualglobal\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mutualglobal\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mutualglobal\filter_mutualglobal.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\filter_mutualglobal\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mutualglobal\filter_mutualglobal.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-filter_mutualinfoxml-benchmark_ordered: sub-meshlabplugins-filter_mutualglobal-benchmark_ordered 
 	@if not exist meshlabplugins\filter_mutualinfoxml\ mkdir meshlabplugins\filter_mutualinfoxml\ & if not exist meshlabplugins\filter_mutualinfoxml\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_mutualinfoxml\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_mutualinfoxml\filter_mutualinfoxml.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\filter_mutualinfoxml\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_mutualinfoxml\filter_mutualinfoxml.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-filter_plymc-benchmark_ordered: sub-meshlabplugins-filter_mutualinfoxml-benchmark_ordered 
 	@if not exist meshlabplugins\filter_plymc\ mkdir meshlabplugins\filter_plymc\ & if not exist meshlabplugins\filter_plymc\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_plymc\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_plymc\filter_plymc.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\filter_plymc\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_plymc\filter_plymc.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-filter_qhull-benchmark_ordered: sub-meshlabplugins-filter_plymc-benchmark_ordered 
 	@if not exist meshlabplugins\filter_qhull\ mkdir meshlabplugins\filter_qhull\ & if not exist meshlabplugins\filter_qhull\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_qhull\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_qhull\filter_qhull.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\filter_qhull\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_qhull\filter_qhull.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-filter_quality-benchmark_ordered: sub-meshlabplugins-filter_qhull-benchmark_ordered 
 	@if not exist meshlabplugins\filter_quality\ mkdir meshlabplugins\filter_quality\ & if not exist meshlabplugins\filter_quality\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_quality\filter_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\filter_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_quality\filter_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-filter_sampling-benchmark_ordered: sub-meshlabplugins-filter_quality-benchmark_ordered 
 	@if not exist meshlabplugins\filter_sampling\ mkdir meshlabplugins\filter_sampling\ & if not exist meshlabplugins\filter_sampling\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sampling\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sampling\filter_sampling.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\filter_sampling\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sampling\filter_sampling.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-filter_screened_poisson-benchmark_ordered: sub-meshlabplugins-filter_sampling-benchmark_ordered 
 	@if not exist meshlabplugins\filter_screened_poisson\ mkdir meshlabplugins\filter_screened_poisson\ & if not exist meshlabplugins\filter_screened_poisson\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_screened_poisson\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_screened_poisson\filter_screened_poisson.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\filter_screened_poisson\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_screened_poisson\filter_screened_poisson.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-filter_sdfgpu-benchmark_ordered: sub-meshlabplugins-filter_screened_poisson-benchmark_ordered 
 	@if not exist meshlabplugins\filter_sdfgpu\ mkdir meshlabplugins\filter_sdfgpu\ & if not exist meshlabplugins\filter_sdfgpu\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sdfgpu\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sdfgpu\filter_sdfgpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\filter_sdfgpu\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sdfgpu\filter_sdfgpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-filter_select-benchmark_ordered: sub-meshlabplugins-filter_sdfgpu-benchmark_ordered 
 	@if not exist meshlabplugins\filter_select\ mkdir meshlabplugins\filter_select\ & if not exist meshlabplugins\filter_select\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_select\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_select\filter_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\filter_select\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_select\filter_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-filter_sketchfab-benchmark_ordered: sub-meshlabplugins-filter_select-benchmark_ordered 
 	@if not exist meshlabplugins\filter_sketchfab\ mkdir meshlabplugins\filter_sketchfab\ & if not exist meshlabplugins\filter_sketchfab\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_sketchfab\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_sketchfab\filter_sketchfab.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\filter_sketchfab\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_sketchfab\filter_sketchfab.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-filter_ssynth-benchmark_ordered: sub-meshlabplugins-filter_sketchfab-benchmark_ordered 
 	@if not exist meshlabplugins\filter_ssynth\ mkdir meshlabplugins\filter_ssynth\ & if not exist meshlabplugins\filter_ssynth\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_ssynth\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_ssynth\filter_ssynth.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\filter_ssynth\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_ssynth\filter_ssynth.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-filter_texture-benchmark_ordered: sub-meshlabplugins-filter_ssynth-benchmark_ordered 
 	@if not exist meshlabplugins\filter_texture\ mkdir meshlabplugins\filter_texture\ & if not exist meshlabplugins\filter_texture\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_texture\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_texture\filter_texture.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\filter_texture\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_texture\filter_texture.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-filter_trioptimize-benchmark_ordered: sub-meshlabplugins-filter_texture-benchmark_ordered 
 	@if not exist meshlabplugins\filter_trioptimize\ mkdir meshlabplugins\filter_trioptimize\ & if not exist meshlabplugins\filter_trioptimize\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_trioptimize\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_trioptimize\filter_trioptimize.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\filter_trioptimize\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_trioptimize\filter_trioptimize.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-filter_unsharp-benchmark_ordered: sub-meshlabplugins-filter_trioptimize-benchmark_ordered 
 	@if not exist meshlabplugins\filter_unsharp\ mkdir meshlabplugins\filter_unsharp\ & if not exist meshlabplugins\filter_unsharp\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_unsharp\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_unsharp\filter_unsharp.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\filter_unsharp\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_unsharp\filter_unsharp.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-filter_voronoi-benchmark_ordered: sub-meshlabplugins-filter_unsharp-benchmark_ordered 
 	@if not exist meshlabplugins\filter_voronoi\ mkdir meshlabplugins\filter_voronoi\ & if not exist meshlabplugins\filter_voronoi\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\filter_voronoi\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\filter_voronoi\filter_voronoi.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\filter_voronoi\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\filter_voronoi\filter_voronoi.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-render_gdp-benchmark_ordered: sub-meshlabplugins-filter_voronoi-benchmark_ordered 
 	@if not exist meshlabplugins\render_gdp\ mkdir meshlabplugins\render_gdp\ & if not exist meshlabplugins\render_gdp\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\render_gdp\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\render_gdp\render_gdp.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\render_gdp\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\render_gdp\render_gdp.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-render_radiance_scaling-benchmark_ordered: sub-meshlabplugins-render_gdp-benchmark_ordered 
 	@if not exist meshlabplugins\render_radiance_scaling\ mkdir meshlabplugins\render_radiance_scaling\ & if not exist meshlabplugins\render_radiance_scaling\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\render_radiance_scaling\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\render_radiance_scaling\render_radiance_scaling.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\render_radiance_scaling\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\render_radiance_scaling\render_radiance_scaling.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-decorate_base-benchmark_ordered: sub-meshlabplugins-render_radiance_scaling-benchmark_ordered 
 	@if not exist meshlabplugins\decorate_base\ mkdir meshlabplugins\decorate_base\ & if not exist meshlabplugins\decorate_base\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_base\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_base\decorate_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\decorate_base\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_base\decorate_base.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-decorate_background-benchmark_ordered: sub-meshlabplugins-decorate_base-benchmark_ordered 
 	@if not exist meshlabplugins\decorate_background\ mkdir meshlabplugins\decorate_background\ & if not exist meshlabplugins\decorate_background\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_background\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_background\decorate_background.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\decorate_background\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_background\decorate_background.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-decorate_raster_proj-benchmark_ordered: sub-meshlabplugins-decorate_background-benchmark_ordered 
 	@if not exist meshlabplugins\decorate_raster_proj\ mkdir meshlabplugins\decorate_raster_proj\ & if not exist meshlabplugins\decorate_raster_proj\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_raster_proj\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_raster_proj\decorate_raster_proj.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\decorate_raster_proj\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_raster_proj\decorate_raster_proj.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-decorate_shadow-benchmark_ordered: sub-meshlabplugins-decorate_raster_proj-benchmark_ordered 
 	@if not exist meshlabplugins\decorate_shadow\ mkdir meshlabplugins\decorate_shadow\ & if not exist meshlabplugins\decorate_shadow\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\decorate_shadow\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\decorate_shadow\decorate_shadow.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\decorate_shadow\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\decorate_shadow\decorate_shadow.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-edit_align-benchmark_ordered: sub-meshlabplugins-decorate_shadow-benchmark_ordered 
 	@if not exist meshlabplugins\edit_align\ mkdir meshlabplugins\edit_align\ & if not exist meshlabplugins\edit_align\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_align\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_align\edit_align.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\edit_align\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_align\edit_align.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-edit_manipulators-benchmark_ordered: sub-meshlabplugins-edit_align-benchmark_ordered 
 	@if not exist meshlabplugins\edit_manipulators\ mkdir meshlabplugins\edit_manipulators\ & if not exist meshlabplugins\edit_manipulators\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_manipulators\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_manipulators\edit_manipulators.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\edit_manipulators\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_manipulators\edit_manipulators.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-edit_measure-benchmark_ordered: sub-meshlabplugins-edit_manipulators-benchmark_ordered 
 	@if not exist meshlabplugins\edit_measure\ mkdir meshlabplugins\edit_measure\ & if not exist meshlabplugins\edit_measure\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_measure\edit_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\edit_measure\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_measure\edit_measure.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-edit_mutualcorrs-benchmark_ordered: sub-meshlabplugins-edit_measure-benchmark_ordered 
 	@if not exist meshlabplugins\edit_mutualcorrs\ mkdir meshlabplugins\edit_mutualcorrs\ & if not exist meshlabplugins\edit_mutualcorrs\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_mutualcorrs\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_mutualcorrs\edit_mutualcorrs.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\edit_mutualcorrs\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_mutualcorrs\edit_mutualcorrs.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-edit_paint-benchmark_ordered: sub-meshlabplugins-edit_mutualcorrs-benchmark_ordered 
 	@if not exist meshlabplugins\edit_paint\ mkdir meshlabplugins\edit_paint\ & if not exist meshlabplugins\edit_paint\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_paint\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_paint\edit_paint.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\edit_paint\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_paint\edit_paint.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-edit_point-benchmark_ordered: sub-meshlabplugins-edit_paint-benchmark_ordered 
 	@if not exist meshlabplugins\edit_point\ mkdir meshlabplugins\edit_point\ & if not exist meshlabplugins\edit_point\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_point\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_point\edit_point.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\edit_point\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_point\edit_point.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-edit_referencing-benchmark_ordered: sub-meshlabplugins-edit_point-benchmark_ordered 
 	@if not exist meshlabplugins\edit_referencing\ mkdir meshlabplugins\edit_referencing\ & if not exist meshlabplugins\edit_referencing\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_referencing\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_referencing\edit_referencing.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\edit_referencing\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_referencing\edit_referencing.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-edit_quality-benchmark_ordered: sub-meshlabplugins-edit_referencing-benchmark_ordered 
 	@if not exist meshlabplugins\edit_quality\ mkdir meshlabplugins\edit_quality\ & if not exist meshlabplugins\edit_quality\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_quality\edit_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\edit_quality\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_quality\edit_quality.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-meshlabplugins-edit_select-benchmark_ordered: sub-meshlabplugins-edit_quality-benchmark_ordered 
 	@if not exist meshlabplugins\edit_select\ mkdir meshlabplugins\edit_select\ & if not exist meshlabplugins\edit_select\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd meshlabplugins\edit_select\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\meshlabplugins\edit_select\edit_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd meshlabplugins\edit_select\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\meshlabplugins\edit_select\edit_select.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-sampleplugins-sampleedit-benchmark_ordered: sub-meshlabplugins-edit_select-benchmark_ordered 
 	@if not exist sampleplugins\sampleedit\ mkdir sampleplugins\sampleedit\ & if not exist sampleplugins\sampleedit\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\sampleedit\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\sampleedit\sampleedit.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd sampleplugins\sampleedit\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\sampleedit\sampleedit.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-sampleplugins-samplefilter-benchmark_ordered: sub-sampleplugins-sampleedit-benchmark_ordered 
 	@if not exist sampleplugins\samplefilter\ mkdir sampleplugins\samplefilter\ & if not exist sampleplugins\samplefilter\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\samplefilter\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\samplefilter\samplefilter.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd sampleplugins\samplefilter\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\samplefilter\samplefilter.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-sampleplugins-samplefilterdyn-benchmark_ordered: sub-sampleplugins-samplefilter-benchmark_ordered 
 	@if not exist sampleplugins\samplefilterdyn\ mkdir sampleplugins\samplefilterdyn\ & if not exist sampleplugins\samplefilterdyn\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\samplefilterdyn\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\samplefilterdyn\samplefilterdyn.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd sampleplugins\samplefilterdyn\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\samplefilterdyn\samplefilterdyn.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-sampleplugins-filter_createiso-benchmark_ordered: sub-sampleplugins-samplefilterdyn-benchmark_ordered 
 	@if not exist sampleplugins\filter_createiso\ mkdir sampleplugins\filter_createiso\ & if not exist sampleplugins\filter_createiso\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\filter_createiso\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\filter_createiso\filter_createiso.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd sampleplugins\filter_createiso\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\filter_createiso\filter_createiso.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-sampleplugins-filter_geodesic-benchmark_ordered: sub-sampleplugins-filter_createiso-benchmark_ordered 
 	@if not exist sampleplugins\filter_geodesic\ mkdir sampleplugins\filter_geodesic\ & if not exist sampleplugins\filter_geodesic\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\filter_geodesic\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\filter_geodesic\filter_geodesic.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd sampleplugins\filter_geodesic\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\filter_geodesic\filter_geodesic.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 sub-sampleplugins-sample_filtergpu-benchmark_ordered: sub-sampleplugins-filter_geodesic-benchmark_ordered 
 	@if not exist sampleplugins\sample_filtergpu\ mkdir sampleplugins\sample_filtergpu\ & if not exist sampleplugins\sample_filtergpu\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd sampleplugins\sample_filtergpu\ && ( if not exist Makefile $(QMAKE) -o Makefile G:\Work\meshlib\src\sampleplugins\sample_filtergpu\sample_filtergpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
+	cd sampleplugins\sample_filtergpu\ && ( if not exist Makefile $(QMAKE) -o Makefile H:\Work\meshlib\src\sampleplugins\sample_filtergpu\sample_filtergpu.pro -spec win32-msvc ) && $(MAKE) -f Makefile benchmark
 benchmark: sub-common-benchmark_ordered sub-meshlab-benchmark_ordered sub-meshlabserver-benchmark_ordered sub-meshlabplugins-io_3ds-benchmark_ordered sub-meshlabplugins-io_base-benchmark_ordered sub-meshlabplugins-io_bre-benchmark_ordered sub-meshlabplugins-io_collada-benchmark_ordered sub-meshlabplugins-io_ctm-benchmark_ordered sub-meshlabplugins-io_expe-benchmark_ordered sub-meshlabplugins-io_json-benchmark_ordered sub-meshlabplugins-io_tri-benchmark_ordered sub-meshlabplugins-io_x3d-benchmark_ordered sub-meshlabplugins-io_pdb-benchmark_ordered sub-meshlabplugins-io_txt-benchmark_ordered sub-meshlabplugins-io_u3d-benchmark_ordered sub-meshlabplugins-filter_ao-benchmark_ordered sub-meshlabplugins-filter_camera-benchmark_ordered sub-meshlabplugins-filter_clean-benchmark_ordered sub-meshlabplugins-filter_color_projection-benchmark_ordered sub-meshlabplugins-filter_colorproc-benchmark_ordered sub-meshlabplugins-filter_create-benchmark_ordered sub-meshlabplugins-filter_csg-benchmark_ordered sub-meshlabplugins-filter_dirt-benchmark_ordered sub-meshlabplugins-filter_fractal-benchmark_ordered sub-meshlabplugins-filter_func-benchmark_ordered sub-meshlabplugins-filter_img_patch_param-benchmark_ordered sub-meshlabplugins-filter_isoparametrization-benchmark_ordered sub-meshlabplugins-filter_layer-benchmark_ordered sub-meshlabplugins-filter_measure-benchmark_ordered sub-meshlabplugins-filter_meshing-benchmark_ordered sub-meshlabplugins-filter_mls-benchmark_ordered sub-meshlabplugins-filter_mutualglobal-benchmark_ordered sub-meshlabplugins-filter_mutualinfoxml-benchmark_ordered sub-meshlabplugins-filter_plymc-benchmark_ordered sub-meshlabplugins-filter_qhull-benchmark_ordered sub-meshlabplugins-filter_quality-benchmark_ordered sub-meshlabplugins-filter_sampling-benchmark_ordered sub-meshlabplugins-filter_screened_poisson-benchmark_ordered sub-meshlabplugins-filter_sdfgpu-benchmark_ordered sub-meshlabplugins-filter_select-benchmark_ordered sub-meshlabplugins-filter_sketchfab-benchmark_ordered sub-meshlabplugins-filter_ssynth-benchmark_ordered sub-meshlabplugins-filter_texture-benchmark_ordered sub-meshlabplugins-filter_trioptimize-benchmark_ordered sub-meshlabplugins-filter_unsharp-benchmark_ordered sub-meshlabplugins-filter_voronoi-benchmark_ordered sub-meshlabplugins-render_gdp-benchmark_ordered sub-meshlabplugins-render_radiance_scaling-benchmark_ordered sub-meshlabplugins-decorate_base-benchmark_ordered sub-meshlabplugins-decorate_background-benchmark_ordered sub-meshlabplugins-decorate_raster_proj-benchmark_ordered sub-meshlabplugins-decorate_shadow-benchmark_ordered sub-meshlabplugins-edit_align-benchmark_ordered sub-meshlabplugins-edit_manipulators-benchmark_ordered sub-meshlabplugins-edit_measure-benchmark_ordered sub-meshlabplugins-edit_mutualcorrs-benchmark_ordered sub-meshlabplugins-edit_paint-benchmark_ordered sub-meshlabplugins-edit_point-benchmark_ordered sub-meshlabplugins-edit_referencing-benchmark_ordered sub-meshlabplugins-edit_quality-benchmark_ordered sub-meshlabplugins-edit_select-benchmark_ordered sub-sampleplugins-sampleedit-benchmark_ordered sub-sampleplugins-samplefilter-benchmark_ordered sub-sampleplugins-samplefilterdyn-benchmark_ordered sub-sampleplugins-filter_createiso-benchmark_ordered sub-sampleplugins-filter_geodesic-benchmark_ordered sub-sampleplugins-sample_filtergpu-benchmark_ordered
 install:install_subtargets  FORCE
 

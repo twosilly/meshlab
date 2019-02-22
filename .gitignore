@@ -37,5 +37,8 @@ src/install/snap20????/prime
 src/install/snap20????/parts
 src/install/snap20????/stage
 src/install/snap20????/*.snap
+Makefile
+Makefile.Debug
+Makefile.Release
 *.Debug
 *.Release
