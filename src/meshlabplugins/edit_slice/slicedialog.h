@@ -49,8 +49,10 @@ public:
 	inline void setDefaultDistance(float f){
 	defaultdistance=f;
 	}
-		
+
+
 	inline void setDistanceRange(float dRange){
+		//TODO:滑块中值的缩放值rappresent任意刻度的px值
 		this->distanceRange=dRange/100;  // Scale of values in slider rappresent the value in px of any tick 
 		ui.labelDistanceRange->setText(QString("Distance range from 0 to "+ QString::number(dRange)));
 		

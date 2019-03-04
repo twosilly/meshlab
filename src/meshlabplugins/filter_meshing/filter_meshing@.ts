@@ -1,82 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1">
+<TS version="2.1" language="zh_CN">
 <context>
     <name>ExtraMeshFilterPlugin</name>
     <message>
         <location filename="meshfilter.cpp" line="215"/>
         <source>Subdivision Surfaces: Loop</source>
-        <translation type="unfinished"></translation>
+        <translation>细分表面:循环</translation>
     </message>
     <message>
         <location filename="meshfilter.cpp" line="216"/>
         <source>Subdivision Surfaces: Butterfly Subdivision</source>
-        <translation type="unfinished"></translation>
+        <translation>细分表面:Butterfly 细分</translation>
     </message>
     <message>
         <location filename="meshfilter.cpp" line="217"/>
         <source>Subdivision Surfaces: Midpoint</source>
-        <translation type="unfinished"></translation>
+        <translation>细分表面:中点</translation>
     </message>
     <message>
         <location filename="meshfilter.cpp" line="218"/>
         <source>Subdivision Surfaces: Catmull-Clark</source>
-        <translation type="unfinished"></translation>
+        <translation>细分表面:Catmull-Clark</translation>
     </message>
     <message>
         <location filename="meshfilter.cpp" line="219"/>
         <source>Simplification: Quadric Edge Collapse Decimation</source>
-        <translation type="unfinished"></translation>
+        <translation>简化:二次边缘折叠抽取</translation>
     </message>
     <message>
         <location filename="meshfilter.cpp" line="220"/>
         <source>Simplification: Quadric Edge Collapse Decimation (with texture)</source>
-        <translation type="unfinished"></translation>
+        <translation>简化:二次边缘折叠抽取(带纹理)</translation>
     </message>
     <message>
         <location filename="meshfilter.cpp" line="221"/>
         <source>Remeshing: Isotropic Explicit Remeshing</source>
-        <translation type="unfinished"></translation>
+        <translation>重新网格化：各向同性的明确重新网格化</translation>
     </message>
     <message>
         <location filename="meshfilter.cpp" line="222"/>
         <source>Simplification: Clustering Decimation</source>
-        <translation type="unfinished"></translation>
+        <translation>简化：聚类抽取</translation>
     </message>
     <message>
         <location filename="meshfilter.cpp" line="223"/>
         <source>Re-Orient all faces coherentely</source>
-        <translation type="unfinished"></translation>
+        <translation>一致地重新定位所有面</translation>
     </message>
     <message>
         <location filename="meshfilter.cpp" line="224"/>
         <source>Invert Faces Orientation</source>
-        <translation type="unfinished"></translation>
+        <translation>反转面方向</translation>
     </message>
     <message>
         <location filename="meshfilter.cpp" line="225"/>
         <source>Transform: Scale, Normalize</source>
-        <translation type="unfinished"></translation>
+        <translation>变换：缩放，标准化</translation>
     </message>
     <message>
         <location filename="meshfilter.cpp" line="226"/>
         <source>Transform: Translate, Center, set Origin</source>
-        <translation type="unfinished"></translation>
+        <translation>变换：转变，居中，设置原点</translation>
     </message>
     <message>
         <location filename="meshfilter.cpp" line="227"/>
         <source>Transform: Rotate</source>
-        <translation type="unfinished"></translation>
+        <translation>变换：旋转</translation>
     </message>
     <message>
         <location filename="meshfilter.cpp" line="228"/>
         <source>Transform: Rotate to Fit to a plane</source>
-        <translation type="unfinished"></translation>
+        <translation>变换：旋转以适合平面</translation>
     </message>
     <message>
         <location filename="meshfilter.cpp" line="229"/>
         <source>Transform: Align to Principal Axis</source>
-        <translation type="unfinished"></translation>
+        <translation>变换：与主轴对齐</translation>
     </message>
     <message>
         <location filename="meshfilter.cpp" line="230"/>
@@ -86,27 +86,27 @@
     <message>
         <location filename="meshfilter.cpp" line="231"/>
         <source>Matrix: Freeze Current Matrix</source>
-        <translation type="unfinished"></translation>
+        <translation>矩阵：冻结当前矩阵</translation>
     </message>
     <message>
         <location filename="meshfilter.cpp" line="232"/>
         <source>Matrix: Reset Current Matrix</source>
-        <translation type="unfinished"></translation>
+        <translation>矩阵：复位当前矩阵</translation>
     </message>
     <message>
         <location filename="meshfilter.cpp" line="233"/>
         <source>Matrix: Invert Current Matrix</source>
-        <translation type="unfinished"></translation>
+        <translation>矩阵：逆转当前矩阵</translation>
     </message>
     <message>
         <location filename="meshfilter.cpp" line="234"/>
         <source>Matrix: Set from translation/rotation/scale</source>
-        <translation type="unfinished"></translation>
+        <translation>矩阵:从平移/旋转/缩放设置</translation>
     </message>
     <message>
         <location filename="meshfilter.cpp" line="235"/>
         <source>Matrix: Set/Copy Transformation</source>
-        <translation type="unfinished"></translation>
+        <translation>矩阵:设置/复制转换</translation>
     </message>
     <message>
         <location filename="meshfilter.cpp" line="236"/>

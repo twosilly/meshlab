@@ -989,7 +989,7 @@ debug\moc_interfaces.cpp: ..\common\filterparameter.h \
 		..\common\interfaces.h \
 		debug\moc_predefs.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe
-	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src -IH:/Work/meshlib -IH:/Work/vcglib -IH:/Work/vcglib/eigenlib -IH:/Work/meshlib/src/external/glew-2.1.0/include -IH:/Work/meshlib/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward ..\common\interfaces.h -o debug\moc_interfaces.cpp
+	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src -IG:/Work/meshlab -IG:/Work/vcglib -IG:/Work/vcglib/eigenlib -IG:/Work/meshlab/src/external/glew-2.1.0/include -IG:/Work/meshlab/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward ..\common\interfaces.h -o debug\moc_interfaces.cpp
 
 debug\moc_mainwindow.cpp: ..\external\glew-2.1.0\include\GL\glew.h \
 		..\common\pluginmanager.h \
@@ -1744,7 +1744,7 @@ debug\moc_mainwindow.cpp: ..\external\glew-2.1.0\include\GL\glew.h \
 		mainwindow.h \
 		debug\moc_predefs.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe
-	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src -IH:/Work/meshlib -IH:/Work/vcglib -IH:/Work/vcglib/eigenlib -IH:/Work/meshlib/src/external/glew-2.1.0/include -IH:/Work/meshlib/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward mainwindow.h -o debug\moc_mainwindow.cpp
+	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src -IG:/Work/meshlab -IG:/Work/vcglib -IG:/Work/vcglib/eigenlib -IG:/Work/meshlab/src/external/glew-2.1.0/include -IG:/Work/meshlab/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward mainwindow.h -o debug\moc_mainwindow.cpp
 
 debug\moc_glarea.cpp: ..\external\glew-2.1.0\include\GL\glew.h \
 		..\..\..\vcglib\vcg\space\plane3.h \
@@ -2384,7 +2384,7 @@ debug\moc_glarea.cpp: ..\external\glew-2.1.0\include\GL\glew.h \
 		glarea.h \
 		debug\moc_predefs.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe
-	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src -IH:/Work/meshlib -IH:/Work/vcglib -IH:/Work/vcglib/eigenlib -IH:/Work/meshlib/src/external/glew-2.1.0/include -IH:/Work/meshlib/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward glarea.h -o debug\moc_glarea.cpp
+	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src -IG:/Work/meshlab -IG:/Work/vcglib -IG:/Work/vcglib/eigenlib -IG:/Work/meshlab/src/external/glew-2.1.0/include -IG:/Work/meshlab/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward glarea.h -o debug\moc_glarea.cpp
 
 debug\moc_multiViewer_Container.cpp: ..\external\glew-2.1.0\include\GL\glew.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QWidget \
@@ -2982,7 +2982,7 @@ debug\moc_multiViewer_Container.cpp: ..\external\glew-2.1.0\include\GL\glew.h \
 		multiViewer_Container.h \
 		debug\moc_predefs.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe
-	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src -IH:/Work/meshlib -IH:/Work/vcglib -IH:/Work/vcglib/eigenlib -IH:/Work/meshlib/src/external/glew-2.1.0/include -IH:/Work/meshlib/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward multiViewer_Container.h -o debug\moc_multiViewer_Container.cpp
+	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src -IG:/Work/meshlab -IG:/Work/vcglib -IG:/Work/vcglib/eigenlib -IG:/Work/meshlab/src/external/glew-2.1.0/include -IG:/Work/meshlab/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward multiViewer_Container.h -o debug\moc_multiViewer_Container.cpp
 
 debug\moc_plugindialog.cpp: D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QDialog \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qdialog.h \
@@ -3101,7 +3101,7 @@ debug\moc_plugindialog.cpp: D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QDialo
 		plugindialog.h \
 		debug\moc_predefs.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe
-	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src -IH:/Work/meshlib -IH:/Work/vcglib -IH:/Work/vcglib/eigenlib -IH:/Work/meshlib/src/external/glew-2.1.0/include -IH:/Work/meshlib/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward plugindialog.h -o debug\moc_plugindialog.cpp
+	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src -IG:/Work/meshlab -IG:/Work/vcglib -IG:/Work/vcglib/eigenlib -IG:/Work/meshlab/src/external/glew-2.1.0/include -IG:/Work/meshlab/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward plugindialog.h -o debug\moc_plugindialog.cpp
 
 debug\moc_customDialog.cpp: D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QDialog \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qdialog.h \
@@ -3760,7 +3760,7 @@ debug\moc_customDialog.cpp: D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QDialo
 		customDialog.h \
 		debug\moc_predefs.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe
-	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src -IH:/Work/meshlib -IH:/Work/vcglib -IH:/Work/vcglib/eigenlib -IH:/Work/meshlib/src/external/glew-2.1.0/include -IH:/Work/meshlib/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward customDialog.h -o debug\moc_customDialog.cpp
+	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src -IG:/Work/meshlab -IG:/Work/vcglib -IG:/Work/vcglib/eigenlib -IG:/Work/meshlab/src/external/glew-2.1.0/include -IG:/Work/meshlab/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward customDialog.h -o debug\moc_customDialog.cpp
 
 debug\moc_filterScriptDialog.cpp: D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QDialog \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qdialog.h \
@@ -4220,7 +4220,7 @@ debug\moc_filterScriptDialog.cpp: D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\
 		filterScriptDialog.h \
 		debug\moc_predefs.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe
-	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src -IH:/Work/meshlib -IH:/Work/vcglib -IH:/Work/vcglib/eigenlib -IH:/Work/meshlib/src/external/glew-2.1.0/include -IH:/Work/meshlib/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward filterScriptDialog.h -o debug\moc_filterScriptDialog.cpp
+	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src -IG:/Work/meshlab -IG:/Work/vcglib -IG:/Work/vcglib/eigenlib -IG:/Work/meshlab/src/external/glew-2.1.0/include -IG:/Work/meshlab/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward filterScriptDialog.h -o debug\moc_filterScriptDialog.cpp
 
 debug\moc_saveSnapshotDialog.cpp: D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QDialog \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qdialog.h \
@@ -4331,7 +4331,7 @@ debug\moc_saveSnapshotDialog.cpp: D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\
 		saveSnapshotDialog.h \
 		debug\moc_predefs.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe
-	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src -IH:/Work/meshlib -IH:/Work/vcglib -IH:/Work/vcglib/eigenlib -IH:/Work/meshlib/src/external/glew-2.1.0/include -IH:/Work/meshlib/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward saveSnapshotDialog.h -o debug\moc_saveSnapshotDialog.cpp
+	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src -IG:/Work/meshlab -IG:/Work/vcglib -IG:/Work/vcglib/eigenlib -IG:/Work/meshlab/src/external/glew-2.1.0/include -IG:/Work/meshlab/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward saveSnapshotDialog.h -o debug\moc_saveSnapshotDialog.cpp
 
 debug\moc_savemaskexporter.cpp: ..\..\..\vcglib\wrap\io_trimesh\io_mask.h \
 		stdpardialog.h \
@@ -5004,7 +5004,7 @@ debug\moc_savemaskexporter.cpp: ..\..\..\vcglib\wrap\io_trimesh\io_mask.h \
 		savemaskexporter.h \
 		debug\moc_predefs.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe
-	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src -IH:/Work/meshlib -IH:/Work/vcglib -IH:/Work/vcglib/eigenlib -IH:/Work/meshlib/src/external/glew-2.1.0/include -IH:/Work/meshlib/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward savemaskexporter.h -o debug\moc_savemaskexporter.cpp
+	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src -IG:/Work/meshlab -IG:/Work/vcglib -IG:/Work/vcglib/eigenlib -IG:/Work/meshlab/src/external/glew-2.1.0/include -IG:/Work/meshlab/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward savemaskexporter.h -o debug\moc_savemaskexporter.cpp
 
 debug\moc_changetexturename.cpp: D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QDialog \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qdialog.h \
@@ -5110,7 +5110,7 @@ debug\moc_changetexturename.cpp: D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\Q
 		changetexturename.h \
 		debug\moc_predefs.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe
-	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src -IH:/Work/meshlib -IH:/Work/vcglib -IH:/Work/vcglib/eigenlib -IH:/Work/meshlib/src/external/glew-2.1.0/include -IH:/Work/meshlib/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward changetexturename.h -o debug\moc_changetexturename.cpp
+	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src -IG:/Work/meshlab -IG:/Work/vcglib -IG:/Work/vcglib/eigenlib -IG:/Work/meshlab/src/external/glew-2.1.0/include -IG:/Work/meshlab/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward changetexturename.h -o debug\moc_changetexturename.cpp
 
 debug\moc_layerDialog.cpp: D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QTreeWidgetItem \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtreewidget.h \
@@ -5769,7 +5769,7 @@ debug\moc_layerDialog.cpp: D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QTreeWi
 		layerDialog.h \
 		debug\moc_predefs.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe
-	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src -IH:/Work/meshlib -IH:/Work/vcglib -IH:/Work/vcglib/eigenlib -IH:/Work/meshlib/src/external/glew-2.1.0/include -IH:/Work/meshlib/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward layerDialog.h -o debug\moc_layerDialog.cpp
+	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src -IG:/Work/meshlab -IG:/Work/vcglib -IG:/Work/vcglib/eigenlib -IG:/Work/meshlab/src/external/glew-2.1.0/include -IG:/Work/meshlab/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward layerDialog.h -o debug\moc_layerDialog.cpp
 
 debug\moc_stdpardialog.cpp: ..\common\interfaces.h \
 		..\common\filterparameter.h \
@@ -6424,7 +6424,7 @@ debug\moc_stdpardialog.cpp: ..\common\interfaces.h \
 		stdpardialog.h \
 		debug\moc_predefs.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe
-	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src -IH:/Work/meshlib -IH:/Work/vcglib -IH:/Work/vcglib/eigenlib -IH:/Work/meshlib/src/external/glew-2.1.0/include -IH:/Work/meshlib/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward stdpardialog.h -o debug\moc_stdpardialog.cpp
+	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src -IG:/Work/meshlab -IG:/Work/vcglib -IG:/Work/vcglib/eigenlib -IG:/Work/meshlab/src/external/glew-2.1.0/include -IG:/Work/meshlab/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward stdpardialog.h -o debug\moc_stdpardialog.cpp
 
 debug\moc_ml_std_par_dialog.cpp: D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QDockWidget \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qdockwidget.h \
@@ -7080,7 +7080,7 @@ debug\moc_ml_std_par_dialog.cpp: D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\Q
 		ml_std_par_dialog.h \
 		debug\moc_predefs.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe
-	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src -IH:/Work/meshlib -IH:/Work/vcglib -IH:/Work/vcglib/eigenlib -IH:/Work/meshlib/src/external/glew-2.1.0/include -IH:/Work/meshlib/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward ml_std_par_dialog.h -o debug\moc_ml_std_par_dialog.cpp
+	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src -IG:/Work/meshlab -IG:/Work/vcglib -IG:/Work/vcglib/eigenlib -IG:/Work/meshlab/src/external/glew-2.1.0/include -IG:/Work/meshlab/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward ml_std_par_dialog.h -o debug\moc_ml_std_par_dialog.cpp
 
 debug\moc_xmlstdpardialog.cpp: ..\common\xmlfilterinfo.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QStringList \
@@ -7794,7 +7794,7 @@ debug\moc_xmlstdpardialog.cpp: ..\common\xmlfilterinfo.h \
 		xmlstdpardialog.h \
 		debug\moc_predefs.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe
-	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src -IH:/Work/meshlib -IH:/Work/vcglib -IH:/Work/vcglib/eigenlib -IH:/Work/meshlib/src/external/glew-2.1.0/include -IH:/Work/meshlib/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward xmlstdpardialog.h -o debug\moc_xmlstdpardialog.cpp
+	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src -IG:/Work/meshlab -IG:/Work/vcglib -IG:/Work/vcglib/eigenlib -IG:/Work/meshlab/src/external/glew-2.1.0/include -IG:/Work/meshlab/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward xmlstdpardialog.h -o debug\moc_xmlstdpardialog.cpp
 
 debug\moc_additionalgui.cpp: D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QString \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qstring.h \
@@ -7985,7 +7985,7 @@ debug\moc_additionalgui.cpp: D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QString 
 		additionalgui.h \
 		debug\moc_predefs.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe
-	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src -IH:/Work/meshlib -IH:/Work/vcglib -IH:/Work/vcglib/eigenlib -IH:/Work/meshlib/src/external/glew-2.1.0/include -IH:/Work/meshlib/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward additionalgui.h -o debug\moc_additionalgui.cpp
+	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src -IG:/Work/meshlab -IG:/Work/vcglib -IG:/Work/vcglib/eigenlib -IG:/Work/meshlab/src/external/glew-2.1.0/include -IG:/Work/meshlab/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward additionalgui.h -o debug\moc_additionalgui.cpp
 
 debug\moc_xmlgeneratorgui.cpp: ..\common\xmlfilterinfo.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QStringList \
@@ -8207,7 +8207,7 @@ debug\moc_xmlgeneratorgui.cpp: ..\common\xmlfilterinfo.h \
 		xmlgeneratorgui.h \
 		debug\moc_predefs.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe
-	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src -IH:/Work/meshlib -IH:/Work/vcglib -IH:/Work/vcglib/eigenlib -IH:/Work/meshlib/src/external/glew-2.1.0/include -IH:/Work/meshlib/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward xmlgeneratorgui.h -o debug\moc_xmlgeneratorgui.cpp
+	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src -IG:/Work/meshlab -IG:/Work/vcglib -IG:/Work/vcglib/eigenlib -IG:/Work/meshlab/src/external/glew-2.1.0/include -IG:/Work/meshlab/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward xmlgeneratorgui.h -o debug\moc_xmlgeneratorgui.cpp
 
 debug\moc_ml_render_gui.cpp: D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QPushButton \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qpushbutton.h \
@@ -8724,7 +8724,7 @@ debug\moc_ml_render_gui.cpp: D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QPush
 		ml_render_gui.h \
 		debug\moc_predefs.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe
-	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src -IH:/Work/meshlib -IH:/Work/vcglib -IH:/Work/vcglib/eigenlib -IH:/Work/meshlib/src/external/glew-2.1.0/include -IH:/Work/meshlib/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward ml_render_gui.h -o debug\moc_ml_render_gui.cpp
+	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src -IG:/Work/meshlab -IG:/Work/vcglib -IG:/Work/vcglib/eigenlib -IG:/Work/meshlab/src/external/glew-2.1.0/include -IG:/Work/meshlab/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward ml_render_gui.h -o debug\moc_ml_render_gui.cpp
 
 debug\moc_ml_rendering_actions.cpp: D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QAction \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qaction.h \
@@ -9151,7 +9151,7 @@ debug\moc_ml_rendering_actions.cpp: D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidget
 		ml_rendering_actions.h \
 		debug\moc_predefs.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe
-	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src -IH:/Work/meshlib -IH:/Work/vcglib -IH:/Work/vcglib/eigenlib -IH:/Work/meshlib/src/external/glew-2.1.0/include -IH:/Work/meshlib/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward ml_rendering_actions.h -o debug\moc_ml_rendering_actions.cpp
+	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src -IG:/Work/meshlab -IG:/Work/vcglib -IG:/Work/vcglib/eigenlib -IG:/Work/meshlab/src/external/glew-2.1.0/include -IG:/Work/meshlab/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward ml_rendering_actions.h -o debug\moc_ml_rendering_actions.cpp
 
 debug\moc_filterthread.cpp: D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QThread \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qthread.h \
@@ -9908,7 +9908,7 @@ debug\moc_filterthread.cpp: D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QThread \
 		filterthread.h \
 		debug\moc_predefs.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe
-	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src/meshlab -IH:/Work/meshlib/src -IH:/Work/meshlib -IH:/Work/vcglib -IH:/Work/vcglib/eigenlib -IH:/Work/meshlib/src/external/glew-2.1.0/include -IH:/Work/meshlib/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward filterthread.h -o debug\moc_filterthread.cpp
+	D:\Qt\SDK\5.9.6\msvc2015_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include debug/moc_predefs.h -ID:/Qt/SDK/5.9.6/msvc2015_64/mkspecs/win32-msvc -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src/meshlab -IG:/Work/meshlab/src -IG:/Work/meshlab -IG:/Work/vcglib -IG:/Work/vcglib/eigenlib -IG:/Work/meshlab/src/external/glew-2.1.0/include -IG:/Work/meshlab/src/external/jhead-2.95 -ID:/Qt/SDK/5.9.6/msvc2015_64/include -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtOpenGL -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtWidgets -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtGui -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtANGLE -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXml -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtXmlPatterns -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtNetwork -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtScript -ID:/Qt/SDK/5.9.6/msvc2015_64/include/QtCore -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -Id:/Qt/SDK/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++ -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -Id:/Qt/SDK/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward filterthread.h -o debug\moc_filterthread.cpp
 
 compiler_moc_source_make_all:
 compiler_moc_source_clean:
@@ -12478,16 +12478,7 @@ debug\mainwindow_Init.obj: mainwindow_Init.cpp ../common/interfaces.h \
 		saveSnapshotDialog.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QFileDialog \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qfiledialog.h \
-		ui_congratsDialog.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QButtonGroup \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qbuttongroup.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QDialogButtonBox \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qdialogbuttonbox.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QHeaderView \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qheaderview.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QTextBrowser \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtextbrowser.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QVBoxLayout
+		ui_congratsDialog.h
 
 debug\mainwindow_RunTime.obj: mainwindow_RunTime.cpp mainwindow.h \
 		..\external\glew-2.1.0\include\GL\glew.h \
@@ -13249,11 +13240,6 @@ debug\mainwindow_RunTime.obj: mainwindow_RunTime.cpp mainwindow.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QFileDialog \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qfiledialog.h \
 		ui_aboutDialog.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QButtonGroup \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qbuttongroup.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QHeaderView \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qheaderview.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QVBoxLayout \
 		savemaskexporter.h \
 		alnParser.h \
 		filterthread.h \
@@ -15473,9 +15459,11 @@ debug\plugindialog.obj: plugindialog.cpp plugindialog.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QHBoxLayout
 
 debug\customDialog.obj: customDialog.cpp ui_customDialog.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QVariant \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qvariant.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qatomic.h \
+		customDialog.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QDialog \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qdialog.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtwidgetsglobal.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qtguiglobal.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qglobal.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qconfig-bootstrapped.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qconfig.h \
@@ -15487,21 +15475,30 @@ debug\customDialog.obj: customDialog.cpp ui_customDialog.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qsysinfo.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qlogging.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qflags.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qglobalstatic.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qmutex.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qnumeric.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qversiontagging.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qatomic.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qbasicatomic.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qatomic_bootstrap.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qgenericatomic.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qatomic_cxx11.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qatomic_msvc.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qbytearray.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qrefcount.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qglobalstatic.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qmutex.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qnumeric.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qversiontagging.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qtgui-config.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtwidgets-config.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qwidget.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qwindowdefs.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qobjectdefs.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qnamespace.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qarraydata.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qobjectdefs_impl.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qwindowdefs_win.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qobject.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qstring.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qchar.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qbytearray.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qrefcount.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qarraydata.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qstringbuilder.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qlist.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qalgorithms.h \
@@ -15512,117 +15509,58 @@ debug\customDialog.obj: customDialog.cpp ui_customDialog.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qstringlist.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qregexp.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qstringmatcher.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcoreevent.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qscopedpointer.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qmetatype.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qvarlengtharray.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcontainerfwd.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qobjectdefs.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qobjectdefs_impl.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qmap.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qdebug.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qhash.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qtextstream.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qiodevice.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qobject.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcoreevent.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qscopedpointer.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qobject_impl.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qlocale.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qshareddata.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qvector.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qpoint.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qset.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcontiguouscache.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qsharedpointer.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qsharedpointer_impl.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QAction \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qaction.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtwidgetsglobal.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qtguiglobal.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qtgui-config.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtwidgets-config.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qkeysequence.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qwidget.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qwindowdefs.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qwindowdefs_win.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qmargins.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qpaintdevice.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qrect.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qsize.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qpoint.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qpalette.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qcolor.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qrgb.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qrgba64.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qbrush.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qvector.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qmatrix.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qpolygon.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qregion.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qdatastream.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qiodevice.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qline.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qtransform.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qpainterpath.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qimage.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qpixelformat.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qpixmap.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qsharedpointer.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qshareddata.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qhash.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qsharedpointer_impl.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qfont.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qfontmetrics.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qfontinfo.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qsizepolicy.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qcursor.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qkeysequence.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qevent.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qvariant.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qmap.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qdebug.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qtextstream.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qlocale.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qset.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcontiguouscache.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qurl.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qurlquery.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qfile.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qfiledevice.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qvector2d.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qtouchdevice.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qicon.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qactiongroup.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QApplication \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qapplication.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcoreapplication.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qeventloop.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qdesktopwidget.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qguiapplication.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qinputmethod.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QButtonGroup \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qbuttongroup.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QComboBox \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qcombobox.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractitemdelegate.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qstyleoption.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractspinbox.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qvalidator.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qregularexpression.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qslider.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractslider.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qstyle.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtabbar.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtabwidget.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qrubberband.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qframe.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qabstractitemmodel.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QDialog \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qdialog.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QGridLayout \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qgridlayout.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qlayout.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qlayoutitem.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qboxlayout.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QGroupBox \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qgroupbox.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QHBoxLayout \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QHeaderView \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qheaderview.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractitemview.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractscrollarea.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qitemselectionmodel.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QLabel \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qlabel.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QPushButton \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qpushbutton.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractbutton.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QSpacerItem \
-		customDialog.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QDockWidget \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qdockwidget.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QColorDialog \
@@ -15632,6 +15570,8 @@ debug\customDialog.obj: customDialog.cpp ui_customDialog.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QtCoreDepends \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qabstractanimation.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qabstracteventdispatcher.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qeventloop.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qabstractitemmodel.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qabstractnativeeventfilter.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qabstractproxymodel.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qabstractstate.h \
@@ -15647,6 +15587,7 @@ debug\customDialog.obj: customDialog.cpp ui_customDialog.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcollator.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcommandlineoption.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcommandlineparser.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcoreapplication.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcryptographichash.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qdatetime.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qdeadlinetimer.h \
@@ -15673,6 +15614,7 @@ debug\customDialog.obj: customDialog.cpp ui_customDialog.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qhistorystate.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qidentityproxymodel.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qisenum.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qitemselectionmodel.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qjsonarray.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qjsonvalue.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qjsondocument.h \
@@ -15701,6 +15643,7 @@ debug\customDialog.obj: customDialog.cpp ui_customDialog.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qvariantanimation.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qqueue.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qreadwritelock.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qregularexpression.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qresource.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qsavefile.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qscopedvaluerollback.h \
@@ -15747,6 +15690,10 @@ debug\customDialog.obj: customDialog.cpp ui_customDialog.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QMap \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QString \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QPair \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QAction \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qaction.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qicon.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qactiongroup.h \
 		..\..\..\vcglib\vcg\math\matrix44.h \
 		..\..\..\vcglib\vcg\math\base.h \
 		..\..\..\vcglib\vcg\space\point3.h \
@@ -16126,6 +16073,11 @@ debug\customDialog.obj: customDialog.cpp ui_customDialog.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtOpenGL\qtopenglglobal.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\QSurfaceFormat \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qsurfaceformat.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QApplication \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qapplication.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qdesktopwidget.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qguiapplication.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qinputmethod.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtOpenGL\QGLContext \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtOpenGL\QGLFormat \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QMessageBox \
@@ -16134,14 +16086,37 @@ debug\customDialog.obj: customDialog.cpp ui_customDialog.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QDebug \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QCheckBox \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qcheckbox.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractbutton.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QRadioButton \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qradiobutton.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QSpinBox \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qspinbox.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractspinbox.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qvalidator.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QTableWidget \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtablewidget.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtableview.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\QPalette
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractitemview.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractscrollarea.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qframe.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractitemdelegate.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qstyleoption.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qslider.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractslider.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qstyle.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtabbar.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtabwidget.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qrubberband.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QComboBox \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qcombobox.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QGridLayout \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qgridlayout.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qlayout.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qlayoutitem.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qboxlayout.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\QPalette \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QHeaderView \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qheaderview.h
 
 debug\filterScriptDialog.obj: filterScriptDialog.cpp D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QFileDialog \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qfiledialog.h \
@@ -16248,60 +16223,16 @@ debug\filterScriptDialog.obj: filterScriptDialog.cpp D:\Qt\SDK\5.9.6\msvc2015_64
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qvector2d.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qtouchdevice.h \
 		ui_filterScriptDialog.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QVariant \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QAction \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qaction.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qicon.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qactiongroup.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QApplication \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qapplication.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcoreapplication.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qeventloop.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qdesktopwidget.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qguiapplication.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qinputmethod.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QButtonGroup \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qbuttongroup.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QDialog \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QGridLayout \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qgridlayout.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qlayout.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qlayoutitem.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qboxlayout.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QHBoxLayout \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QHeaderView \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qheaderview.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractitemview.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractscrollarea.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qframe.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qabstractitemmodel.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qitemselectionmodel.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractitemdelegate.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qstyleoption.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractspinbox.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qvalidator.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qregularexpression.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qslider.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractslider.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qstyle.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtabbar.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtabwidget.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qrubberband.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QListWidget \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qlistwidget.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qlistview.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QPushButton \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qpushbutton.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractbutton.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QSpacerItem \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QVBoxLayout \
 		filterScriptDialog.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QDialog \
 		..\common\filterscript.h \
 		..\common\filterparameter.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QtCore \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QtCoreDepends \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qabstractanimation.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qabstracteventdispatcher.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qeventloop.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qabstractitemmodel.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qabstractnativeeventfilter.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qabstractproxymodel.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qabstractstate.h \
@@ -16317,6 +16248,7 @@ debug\filterScriptDialog.obj: filterScriptDialog.cpp D:\Qt\SDK\5.9.6\msvc2015_64
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcollator.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcommandlineoption.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcommandlineparser.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcoreapplication.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcryptographichash.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qdatetime.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qdeadlinetimer.h \
@@ -16341,6 +16273,7 @@ debug\filterScriptDialog.obj: filterScriptDialog.cpp D:\Qt\SDK\5.9.6\msvc2015_64
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qhistorystate.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qidentityproxymodel.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qisenum.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qitemselectionmodel.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qjsonarray.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qjsonvalue.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qjsondocument.h \
@@ -16369,6 +16302,7 @@ debug\filterScriptDialog.obj: filterScriptDialog.cpp D:\Qt\SDK\5.9.6\msvc2015_64
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qvariantanimation.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qqueue.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qreadwritelock.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qregularexpression.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qresource.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qsavefile.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qscopedvaluerollback.h \
@@ -16415,6 +16349,10 @@ debug\filterScriptDialog.obj: filterScriptDialog.cpp D:\Qt\SDK\5.9.6\msvc2015_64
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QMap \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QString \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QPair \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QAction \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qaction.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qicon.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qactiongroup.h \
 		..\..\..\vcglib\vcg\math\matrix44.h \
 		..\..\..\vcglib\vcg\math\base.h \
 		..\..\..\vcglib\vcg\space\point3.h \
@@ -16794,6 +16732,11 @@ debug\filterScriptDialog.obj: filterScriptDialog.cpp D:\Qt\SDK\5.9.6\msvc2015_64
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtOpenGL\qtopenglglobal.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\QSurfaceFormat \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qsurfaceformat.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QApplication \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qapplication.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qdesktopwidget.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qguiapplication.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qinputmethod.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtOpenGL\QGLContext \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtOpenGL\QGLFormat \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QMessageBox \
@@ -16802,6 +16745,7 @@ debug\filterScriptDialog.obj: filterScriptDialog.cpp D:\Qt\SDK\5.9.6\msvc2015_64
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QDebug \
 		..\common\scriptsyntax.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QAbstractItemModel \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QVariant \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QVector \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QRegExp \
 		glarea.h \
@@ -16817,6 +16761,7 @@ debug\filterScriptDialog.obj: filterScriptDialog.cpp D:\Qt\SDK\5.9.6\msvc2015_64
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QWidget \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QSplitter \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qsplitter.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qframe.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QSplitterHandle \
 		ml_selection_buffers.h \
 		ml_default_decorators.h \
@@ -16824,6 +16769,18 @@ debug\filterScriptDialog.obj: filterScriptDialog.cpp D:\Qt\SDK\5.9.6\msvc2015_64
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QTreeWidgetItem \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtreewidget.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtreeview.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractitemview.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractscrollarea.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractitemdelegate.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qstyleoption.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractspinbox.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qvalidator.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qslider.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractslider.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qstyle.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtabbar.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtabwidget.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qrubberband.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtreewidgetitemiterator.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QDockWidget \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qdockwidget.h \
@@ -16832,16 +16789,25 @@ debug\filterScriptDialog.obj: filterScriptDialog.cpp D:\Qt\SDK\5.9.6\msvc2015_64
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qgroupbox.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QCheckBox \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qcheckbox.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractbutton.h \
 		ml_render_gui.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QPushButton \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qpushbutton.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QToolBar \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtoolbar.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QFrame \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QToolButton \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtoolbutton.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QGridLayout \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qgridlayout.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qlayout.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qlayoutitem.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qboxlayout.h \
 		ml_rendering_actions.h \
 		additionalgui.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QModelIndex \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QListView \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qlistview.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QCompleter \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qcompleter.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QStyledItemDelegate \
@@ -16895,6 +16861,7 @@ debug\filterScriptDialog.obj: filterScriptDialog.cpp D:\Qt\SDK\5.9.6\msvc2015_64
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtableview.h \
 		xmlstdpardialog.h \
 		..\common\mlexception.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QHBoxLayout \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QTextEdit \
 		xmlgeneratorgui.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtScript\QScriptValue \
@@ -16908,9 +16875,11 @@ debug\filterScriptDialog.obj: filterScriptDialog.cpp D:\Qt\SDK\5.9.6\msvc2015_64
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qmdisubwindow.h
 
 debug\saveSnapshotDialog.obj: saveSnapshotDialog.cpp ui_savesnapshotDialog.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QVariant \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qvariant.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qatomic.h \
+		saveSnapshotDialog.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QDialog \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qdialog.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtwidgetsglobal.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qtguiglobal.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qglobal.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qconfig-bootstrapped.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qconfig.h \
@@ -16922,21 +16891,30 @@ debug\saveSnapshotDialog.obj: saveSnapshotDialog.cpp ui_savesnapshotDialog.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qsysinfo.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qlogging.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qflags.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qglobalstatic.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qmutex.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qnumeric.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qversiontagging.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qatomic.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qbasicatomic.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qatomic_bootstrap.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qgenericatomic.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qatomic_cxx11.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qatomic_msvc.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qbytearray.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qrefcount.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qglobalstatic.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qmutex.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qnumeric.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qversiontagging.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qtgui-config.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtwidgets-config.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qwidget.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qwindowdefs.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qobjectdefs.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qnamespace.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qarraydata.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qobjectdefs_impl.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qwindowdefs_win.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qobject.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qstring.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qchar.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qbytearray.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qrefcount.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qarraydata.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qstringbuilder.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qlist.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qalgorithms.h \
@@ -16947,125 +16925,58 @@ debug\saveSnapshotDialog.obj: saveSnapshotDialog.cpp ui_savesnapshotDialog.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qstringlist.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qregexp.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qstringmatcher.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcoreevent.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qscopedpointer.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qmetatype.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qvarlengtharray.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcontainerfwd.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qobjectdefs.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qobjectdefs_impl.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qmap.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qdebug.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qhash.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qtextstream.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qiodevice.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qobject.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcoreevent.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qscopedpointer.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qobject_impl.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qlocale.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qshareddata.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qvector.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qpoint.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qset.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcontiguouscache.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qsharedpointer.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qsharedpointer_impl.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QAction \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qaction.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtwidgetsglobal.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qtguiglobal.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qtgui-config.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtwidgets-config.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qkeysequence.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qwidget.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qwindowdefs.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qwindowdefs_win.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qmargins.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qpaintdevice.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qrect.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qsize.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qpoint.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qpalette.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qcolor.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qrgb.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qrgba64.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qbrush.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qvector.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qmatrix.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qpolygon.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qregion.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qdatastream.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qiodevice.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qline.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qtransform.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qpainterpath.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qimage.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qpixelformat.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qpixmap.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qsharedpointer.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qshareddata.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qhash.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qsharedpointer_impl.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qfont.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qfontmetrics.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qfontinfo.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qsizepolicy.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qcursor.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qkeysequence.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qevent.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qvariant.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qmap.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qdebug.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qtextstream.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qlocale.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qset.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcontiguouscache.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qurl.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qurlquery.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qfile.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qfiledevice.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qvector2d.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qtouchdevice.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qicon.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qactiongroup.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QApplication \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qapplication.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcoreapplication.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qeventloop.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qdesktopwidget.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qguiapplication.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qinputmethod.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QButtonGroup \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qbuttongroup.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QCheckBox \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qcheckbox.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractbutton.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QComboBox \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qcombobox.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractitemdelegate.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qstyleoption.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractspinbox.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qvalidator.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qregularexpression.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qslider.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractslider.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qstyle.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtabbar.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtabwidget.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qrubberband.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qframe.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qabstractitemmodel.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QDialog \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qdialog.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QHBoxLayout \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qboxlayout.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qlayout.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qlayoutitem.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qgridlayout.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QHeaderView \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qheaderview.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractitemview.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractscrollarea.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qitemselectionmodel.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QLabel \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qlabel.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QLineEdit \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qlineedit.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qtextcursor.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qtextformat.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qpen.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qtextoption.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QPushButton \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qpushbutton.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QSpacerItem \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QSpinBox \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qspinbox.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QVBoxLayout \
-		saveSnapshotDialog.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QFileDialog \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qfiledialog.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qdir.h \
@@ -17825,18 +17736,16 @@ debug\layerDialog.obj: layerDialog.cpp ..\external\glew-2.1.0\include\GL\glew.h 
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qcolordialog.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QMdiSubWindow \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qmdisubwindow.h \
-		ui_layerDialog.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QButtonGroup \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qbuttongroup.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QHeaderView \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qheaderview.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QSpacerItem \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QVBoxLayout
+		ui_layerDialog.h
 
 debug\savemaskexporter.obj: savemaskexporter.cpp ui_savemaskexporter.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QVariant \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qvariant.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qatomic.h \
+		savemaskexporter.h \
+		..\..\..\vcglib\wrap\io_trimesh\io_mask.h \
+		stdpardialog.h \
+		../common/interfaces.h \
+		..\common\filterparameter.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QtCore \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QtCoreDepends \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qglobal.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qconfig-bootstrapped.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qconfig.h \
@@ -17848,21 +17757,26 @@ debug\savemaskexporter.obj: savemaskexporter.cpp ui_savemaskexporter.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qsysinfo.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qlogging.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qflags.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qglobalstatic.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qmutex.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qnumeric.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qversiontagging.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qatomic.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qbasicatomic.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qatomic_bootstrap.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qgenericatomic.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qatomic_cxx11.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qatomic_msvc.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qbytearray.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qrefcount.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qglobalstatic.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qmutex.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qnumeric.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qversiontagging.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qabstractanimation.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qobject.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qobjectdefs.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qnamespace.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qarraydata.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qobjectdefs_impl.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qstring.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qchar.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qbytearray.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qrefcount.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qarraydata.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qstringbuilder.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qlist.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qalgorithms.h \
@@ -17873,20 +17787,21 @@ debug\savemaskexporter.obj: savemaskexporter.cpp ui_savemaskexporter.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qstringlist.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qregexp.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qstringmatcher.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcoreevent.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qscopedpointer.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qmetatype.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qvarlengtharray.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcontainerfwd.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qobjectdefs.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qobjectdefs_impl.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qobject_impl.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qabstracteventdispatcher.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qeventloop.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qabstractitemmodel.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qvariant.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qmap.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qdebug.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qhash.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qtextstream.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qiodevice.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qobject.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcoreevent.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qscopedpointer.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qobject_impl.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qlocale.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qshareddata.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qvector.h \
@@ -17895,107 +17810,6 @@ debug\savemaskexporter.obj: savemaskexporter.cpp ui_savemaskexporter.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcontiguouscache.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qsharedpointer.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qsharedpointer_impl.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QAction \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qaction.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtwidgetsglobal.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qtguiglobal.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qtgui-config.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtwidgets-config.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qkeysequence.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qwidget.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qwindowdefs.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qwindowdefs_win.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qmargins.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qpaintdevice.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qrect.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qsize.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qpalette.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qcolor.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qrgb.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qrgba64.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qbrush.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qmatrix.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qpolygon.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qregion.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qdatastream.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qline.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qtransform.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qpainterpath.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qimage.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qpixelformat.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qpixmap.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qfont.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qfontmetrics.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qfontinfo.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qsizepolicy.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qcursor.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qevent.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qurl.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qurlquery.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qfile.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qfiledevice.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qvector2d.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qtouchdevice.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qicon.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qactiongroup.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QApplication \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qapplication.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcoreapplication.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qeventloop.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qdesktopwidget.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qguiapplication.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qinputmethod.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QButtonGroup \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qbuttongroup.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QCheckBox \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qcheckbox.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractbutton.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QDialog \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qdialog.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QGroupBox \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qgroupbox.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qframe.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QHBoxLayout \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qboxlayout.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qlayout.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qlayoutitem.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qgridlayout.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QHeaderView \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qheaderview.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractitemview.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractscrollarea.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qabstractitemmodel.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qitemselectionmodel.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractitemdelegate.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qstyleoption.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractspinbox.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qvalidator.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qregularexpression.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qslider.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractslider.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qstyle.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtabbar.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtabwidget.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qrubberband.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QListWidget \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qlistwidget.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qlistview.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QPushButton \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qpushbutton.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QRadioButton \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qradiobutton.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QSpacerItem \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QVBoxLayout \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QWidget \
-		savemaskexporter.h \
-		..\..\..\vcglib\wrap\io_trimesh\io_mask.h \
-		stdpardialog.h \
-		../common/interfaces.h \
-		..\common\filterparameter.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QtCore \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QtCoreDepends \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qabstractanimation.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qabstracteventdispatcher.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qabstractnativeeventfilter.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qabstractproxymodel.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qabstractstate.h \
@@ -18011,12 +17825,16 @@ debug\savemaskexporter.obj: savemaskexporter.cpp ui_savemaskexporter.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcollator.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcommandlineoption.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcommandlineparser.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcoreapplication.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcryptographichash.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qdatastream.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qdatetime.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qdeadlinetimer.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qelapsedtimer.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qdir.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qfileinfo.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qfile.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qfiledevice.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qdiriterator.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qeasingcurve.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qendian.h \
@@ -18037,6 +17855,7 @@ debug\savemaskexporter.obj: savemaskexporter.cpp ui_savemaskexporter.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qhistorystate.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qidentityproxymodel.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qisenum.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qitemselectionmodel.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qjsonarray.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qjsonvalue.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qjsondocument.h \
@@ -18044,9 +17863,11 @@ debug\savemaskexporter.obj: savemaskexporter.cpp ui_savemaskexporter.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qlibrary.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qlibraryinfo.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qversionnumber.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qline.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qlinkedlist.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qlockfile.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qloggingcategory.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qmargins.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qmath.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qmessageauthenticationcode.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qmetaobject.h \
@@ -18065,6 +17886,9 @@ debug\savemaskexporter.obj: savemaskexporter.cpp ui_savemaskexporter.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qvariantanimation.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qqueue.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qreadwritelock.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qrect.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qsize.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qregularexpression.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qresource.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qsavefile.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qscopedvaluerollback.h \
@@ -18096,6 +17920,8 @@ debug\savemaskexporter.obj: savemaskexporter.cpp ui_savemaskexporter.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qtimezone.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qtranslator.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qtypetraits.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qurl.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qurlquery.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\quuid.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qwaitcondition.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qwineventnotifier.h \
@@ -18111,6 +17937,40 @@ debug\savemaskexporter.obj: savemaskexporter.cpp ui_savemaskexporter.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QMap \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QString \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QPair \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QAction \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qaction.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtwidgetsglobal.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qtguiglobal.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qtgui-config.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtwidgets-config.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qkeysequence.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qwidget.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qwindowdefs.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qwindowdefs_win.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qpaintdevice.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qpalette.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qcolor.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qrgb.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qrgba64.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qbrush.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qmatrix.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qpolygon.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qregion.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qtransform.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qpainterpath.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qimage.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qpixelformat.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qpixmap.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qfont.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qfontmetrics.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qfontinfo.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qsizepolicy.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qcursor.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qevent.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qvector2d.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qtouchdevice.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qicon.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qactiongroup.h \
 		..\..\..\vcglib\vcg\math\matrix44.h \
 		..\..\..\vcglib\vcg\math\base.h \
 		..\..\..\vcglib\vcg\space\point3.h \
@@ -18487,20 +18347,48 @@ debug\savemaskexporter.obj: savemaskexporter.cpp ui_savemaskexporter.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtOpenGL\qtopenglglobal.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\QSurfaceFormat \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qsurfaceformat.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QApplication \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qapplication.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qdesktopwidget.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qguiapplication.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qinputmethod.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtOpenGL\QGLContext \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtOpenGL\QGLFormat \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QMessageBox \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qmessagebox.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qdialog.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\QTabletEvent \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QDebug \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QCheckBox \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qcheckbox.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractbutton.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QRadioButton \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qradiobutton.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QSpinBox \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qspinbox.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractspinbox.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qvalidator.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QTableWidget \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtablewidget.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtableview.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractitemview.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractscrollarea.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qframe.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractitemdelegate.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qstyleoption.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qslider.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractslider.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qstyle.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtabbar.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtabwidget.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qrubberband.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QComboBox \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qcombobox.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QGridLayout \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qgridlayout.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qlayout.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qlayoutitem.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qboxlayout.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QDockWidget \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qdockwidget.h \
 		glarea.h \
@@ -18513,18 +18401,22 @@ debug\savemaskexporter.obj: savemaskexporter.cpp ui_savemaskexporter.h \
 		glarea_setting.h \
 		snapshotsetting.h \
 		multiViewer_Container.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QWidget \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QVector \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QSplitter \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qsplitter.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QSplitterHandle \
 		ml_selection_buffers.h \
 		ml_default_decorators.h \
-		changetexturename.h
+		changetexturename.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QDialog
 
 debug\changetexturename.obj: changetexturename.cpp ui_renametexture.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QVariant \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qvariant.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qatomic.h \
+		changetexturename.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QDialog \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qdialog.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtwidgetsglobal.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qtguiglobal.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qglobal.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qconfig-bootstrapped.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qconfig.h \
@@ -18536,21 +18428,30 @@ debug\changetexturename.obj: changetexturename.cpp ui_renametexture.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qsysinfo.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qlogging.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qflags.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qglobalstatic.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qmutex.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qnumeric.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qversiontagging.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qatomic.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qbasicatomic.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qatomic_bootstrap.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qgenericatomic.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qatomic_cxx11.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qatomic_msvc.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qbytearray.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qrefcount.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qglobalstatic.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qmutex.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qnumeric.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qversiontagging.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qtgui-config.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtwidgets-config.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qwidget.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qwindowdefs.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qobjectdefs.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qnamespace.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qarraydata.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qobjectdefs_impl.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qwindowdefs_win.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qobject.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qstring.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qchar.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qbytearray.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qrefcount.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qarraydata.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qstringbuilder.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qlist.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qalgorithms.h \
@@ -18561,115 +18462,58 @@ debug\changetexturename.obj: changetexturename.cpp ui_renametexture.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qstringlist.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qregexp.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qstringmatcher.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcoreevent.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qscopedpointer.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qmetatype.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qvarlengtharray.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcontainerfwd.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qobjectdefs.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qobjectdefs_impl.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qmap.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qdebug.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qhash.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qtextstream.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qiodevice.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qobject.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcoreevent.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qscopedpointer.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qobject_impl.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qlocale.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qshareddata.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qvector.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qpoint.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qset.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcontiguouscache.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qsharedpointer.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qsharedpointer_impl.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QAction \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qaction.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtwidgetsglobal.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qtguiglobal.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qtgui-config.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtwidgets-config.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qkeysequence.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qwidget.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qwindowdefs.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qwindowdefs_win.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qmargins.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qpaintdevice.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qrect.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qsize.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qpoint.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qpalette.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qcolor.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qrgb.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qrgba64.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qbrush.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qvector.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qmatrix.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qpolygon.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qregion.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qdatastream.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qiodevice.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qline.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qtransform.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qpainterpath.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qimage.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qpixelformat.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qpixmap.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qsharedpointer.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qshareddata.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qhash.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qsharedpointer_impl.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qfont.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qfontmetrics.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qfontinfo.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qsizepolicy.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qcursor.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qkeysequence.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qevent.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qvariant.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qmap.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qdebug.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qtextstream.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qlocale.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qset.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcontiguouscache.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qurl.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qurlquery.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qfile.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qfiledevice.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qvector2d.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qtouchdevice.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qicon.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qactiongroup.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QApplication \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qapplication.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qcoreapplication.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qeventloop.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qdesktopwidget.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qguiapplication.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qinputmethod.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QButtonGroup \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qbuttongroup.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QDialog \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qdialog.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QHeaderView \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qheaderview.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractitemview.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractscrollarea.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qframe.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qabstractitemmodel.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qitemselectionmodel.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractitemdelegate.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qstyleoption.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractspinbox.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qvalidator.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qregularexpression.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qslider.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractslider.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qstyle.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtabbar.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtabwidget.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qrubberband.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QLabel \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qlabel.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QLineEdit \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qlineedit.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qtextcursor.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qtextformat.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qpen.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtGui\qtextoption.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QPushButton \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qpushbutton.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractbutton.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QSplitter \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qsplitter.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QWidget \
-		changetexturename.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QFileDialog \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qfiledialog.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\qdir.h \
@@ -21794,19 +21638,15 @@ debug\xmlgeneratorgui.obj: xmlgeneratorgui.cpp ..\common\meshmodel.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QVector \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QRegExp \
 		ui_filtercreatortab.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QButtonGroup \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qbuttongroup.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QFrame \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qframe.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QGridLayout \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qgridlayout.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qlayout.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qlayoutitem.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qboxlayout.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QHeaderView \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qheaderview.h \
+		ui_filtergui.h \
+		xmlgeneratorgui.h \
+		additionalgui.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QModelIndex \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QListView \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qlistview.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractitemview.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractscrollarea.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qframe.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractitemdelegate.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qstyleoption.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qabstractspinbox.h \
@@ -21817,12 +21657,6 @@ debug\xmlgeneratorgui.obj: xmlgeneratorgui.cpp ..\common\meshmodel.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtabbar.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qtabwidget.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qrubberband.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QLabel \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qlabel.h \
-		additionalgui.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QModelIndex \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QListView \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qlistview.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QCompleter \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qcompleter.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QStyledItemDelegate \
@@ -21859,6 +21693,8 @@ debug\xmlgeneratorgui.obj: xmlgeneratorgui.cpp ..\common\meshmodel.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qcombobox.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QPushButton \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qpushbutton.h \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QLabel \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qlabel.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QSlider \
 		..\common\searcher.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtCore\QSet \
@@ -21871,16 +21707,13 @@ debug\xmlgeneratorgui.obj: xmlgeneratorgui.cpp ..\common\meshmodel.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qproxystyle.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QCommonStyle \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qcommonstyle.h \
-		xmlgeneratorgui.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QTabWidget \
+		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QFrame \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QDockWidget \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qdockwidget.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QCheckBox \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qcheckbox.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtScript\QScriptValue \
-		ui_filtergui.h \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QGroupBox \
-		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qgroupbox.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QSplitter \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\qsplitter.h \
 		D:\Qt\SDK\5.9.6\msvc2015_64\include\QtWidgets\QFileDialog \

@@ -26,8 +26,8 @@
 
 PointEditFactory::PointEditFactory()
 {
-        editPoint = new QAction(QIcon(":/images/select_vertex_geodesic.png"),"Select Vertex Clusters", this);
-        editPointFittingPlane = new QAction(QIcon(":/images/select_vertex_plane.png"),"Select Vertexes on a Plane", this);
+        editPoint = new QAction(QIcon(":/images/select_vertex_geodesic.png"),tr("Select Vertex Clusters"), this);
+        editPointFittingPlane = new QAction(QIcon(":/images/select_vertex_plane.png"),tr("Select Vertexes on a Plane"), this);
 	
         actionList << editPoint;
         actionList << editPointFittingPlane;
@@ -36,7 +36,7 @@ PointEditFactory::PointEditFactory()
                 editAction->setCheckable(true);
 }
 	
-//gets a list of actions available from this plugin
+//从该插件获取可用操作的列表
 QList<QAction *> PointEditFactory::actions() const
 {
 	return actionList;

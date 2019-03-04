@@ -269,10 +269,12 @@ public:
 		switch(mode)
 		{
 		case FgtHole<MESH>::Trivial:
-				vcgHole::template FillHoleEar< TrivialEar >(mesh, *this, local_facePointer);
+                //TODO:不知道哪里错了
+                //vcgHole::template FillHoleEar< TrivialEar >(mesh, *this, local_facePointer);
 			break;
 		case FgtHole<MESH>::MinimumWeight:
-				vcgHole::template FillHoleEar< MinimumWeightEar >(mesh, *this, local_facePointer);
+            //TODO:不知道哪里错了
+                //vcgHole::template FillHoleEar< MinimumWeightEar >(mesh, *this, local_facePointer);
 			break;
 		case FgtHole<MESH>::SelfIntersection:
 				std::vector<FacePointer * > vfp = local_facePointer;
@@ -293,8 +295,8 @@ public:
 				typename std::vector<FacePointer>::iterator fpi = SelfIntersectionEar::AdjacencyRing().begin();
         for( ; fpi != SelfIntersectionEar::AdjacencyRing().end(); ++fpi)
 					vfp.push_back( &*fpi );
-
-				vcgHole::template FillHoleEar< SelfIntersectionEar >(mesh, *this, vfp);
+                //TODO:不知道哪里错了
+                //vcgHole::template FillHoleEar< SelfIntersectionEar >(mesh, *this, vfp);
 				SelfIntersectionEar::AdjacencyRing().clear();
 			break;
 		}

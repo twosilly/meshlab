@@ -34,8 +34,9 @@
 //#include <vcg/complex/edgemesh/base.h>
 //#include <vcg/simplex/edge/base.h>
 //#include <vcg/simplex/edge/component.h>
+#include <wrap/gl/glu_tessellator_cap.h>
 #include <wrap/io_edgemesh/export_svg.h>
-
+#include <vcg/complex/algorithms/intersection.h>
 typedef CMeshO n_Mesh;
 
 class n_Vertex;
@@ -49,19 +50,20 @@ class n_UsedTypes: public vcg::UsedTypes < vcg::Use<n_Vertex>::AsVertexType,
 class n_Vertex  : public vcg::Vertex<n_UsedTypes, vcg::vertex::Coord3f, vcg::vertex::BitFlags> {};
 class n_Edge    : public vcg::Edge<n_UsedTypes, vcg::edge::VertexRef> {};
 
-
-class n_EdgeMesh: public vcg::edg::EdgeMesh< std::vector<n_Vertex>, std::vector<n_Edge> > {};
+class n_EdgeMesh: public vcg::tri::TriMesh< std::vector<n_Vertex>, std::vector<n_Edge> > {};
+//class n_EdgeMesh: public vcg::edg::EdgeMesh< std::vector<n_Vertex>, std::vector<n_Edge> > {};
+//class n_EdgeMesh : public CMeshO {};
 
 typedef vcg::GridStaticPtr<CMeshO::FaceType, CMeshO::ScalarType> TriMeshGrid;
-typedef vcg::edg::EdgeMesh<std::vector<n_Vertex>,std::vector<n_Edge> > Edge_Mesh;
-typedef vcg::edg::io::SVGProperties SVGProperties;
+typedef vcg::tri::TriMesh<std::vector<n_Vertex>,std::vector<n_Edge> > Edge_Mesh;
+typedef vcg::tri::io::SVGProperties SVGProperties;
 
 
 
 class ExtraMeshSlidePlugin : public QObject, public MeshEditInterface
 {
 	Q_OBJECT
-	MESHLAB_PLUGIN_IID_EXPORTER(MESH_EDIT_INTERFACE_IID)
+	//MESHLAB_PLUGIN_IID_EXPORTER(MESH_EDIT_INTERFACE_IID)
 	Q_INTERFACES(MeshEditInterface)
 	
 public:
@@ -87,13 +89,13 @@ private:
 	bool isDragging;
 	GLArea * gla;
 	MeshModel *m;
-  vcg::Box3f b;
+	vcg::Box3f b;
 	SVGPro *svgpro;
 	float edgeMax;
 SVGProperties pr;
 	dialogslice *dialogsliceobj;
     void DrawPlane(GLArea * gla,MeshModel &m);
-	void UpdateVal(SVGPro * sv, SVGProperties * pr);
+    void UpdateVal(SVGPro * sv, SVGProperties * pr);
 	bool  activeDefaultTrackball;
     bool disableTransision;
 

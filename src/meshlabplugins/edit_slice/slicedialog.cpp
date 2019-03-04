@@ -38,6 +38,9 @@ dialogslice::dialogslice(QWidget *parent)
 	this->setGeometry(p.x()+(parent->width()-width()),p.y()+40,width(),height() );
 	this->setFloating(true);
 	multi_sigleExportFile=false; //Multi/Single file choose
+	distanceRange = 0.0;
+	defaultdistance = 0.0;
+	
     
 }
 

@@ -8,9 +8,10 @@ HEADERS =	edit_slice_factory.h \
 SOURCES       = edit_slice_factory.cpp \
 				editslice.cpp \
 				slicedialog.cpp\
+                                svgpro.cpp \
                 $$VCGDIR/wrap/gui/trackball.cpp \
-                $$VCGDIR/wrap/gui/trackmode.cpp \
-				svgpro.cpp
+                $$VCGDIR/wrap/gui/trackmode.cpp
+
 		
 TARGET        = editslice
 

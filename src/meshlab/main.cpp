@@ -40,15 +40,30 @@ int main(int argc, char *argv[])
 
     QString tmp = MeshLabApplication::appArchitecturalName(MeshLabApplication::HW_ARCHITECTURE(QSysInfo::WordSize));
     QCoreApplication::setApplicationName(MeshLabApplication::appArchitecturalName(MeshLabApplication::HW_ARCHITECTURE(QSysInfo::WordSize)));
+	//!FIXME:这里的加载语言包有内存泄漏
+	QDir dir("./language");
+	QStringList filters;
+	filters << "*.qm";
+	QFileInfoList str = dir.entryInfoList(filters,QDir::AllEntries, QDir::DirsFirst);
+	
+	for (int idx = 0;idx < str.count();idx++)
+	{
+		QFileInfo file_info = str.at(idx);
+		QTranslator *translator = new QTranslator;
+		qDebug() << "Dir:" << file_info.canonicalFilePath();
+		if (translator->load(file_info.canonicalFilePath()))
+		{
+			//qDebug() << "SB:" << translator.objectName();
+			app.installTranslator(translator);
+		}
+		else {
+			qDebug() << "SB-BS:" << translator->objectName();
+		}
+	}
+
+	
     
-    QTranslator translator;
-    if (translator.load(QString("./language/meshlab_zh")))
-    {
-             qDebug()<<"SB:"<<translator.objectName();
-             app.installTranslator(&translator);    
-    }else{
-        qDebug()<<"SB-BS:"<<translator.objectName();
-    }
+
 
     
     MainWindow window;

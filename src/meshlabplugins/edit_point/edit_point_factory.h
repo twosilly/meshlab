@@ -39,13 +39,16 @@ public:
         virtual ~PointEditFactory() { delete editPoint; }
 
 	//gets a list of actions available from this plugin
+    //从该插件获取可用操作的列表
 	virtual QList<QAction *> actions() const;
 	
 	//get the edit tool for the given action
+    //获取给定操作的编辑工具
 	virtual MeshEditInterface* getMeshEditInterface(QAction *);
     
 	//get the description for the given action
-        virtual QString getEditToolDescription(QAction *);
+    //获取给定操作的描述
+    virtual QString getEditToolDescription(QAction *);
 	
 private:
 	QList <QAction *> actionList;

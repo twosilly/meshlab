@@ -38,4 +38,5 @@ SUBDIRS       = common \
 #                meshlabplugins/filter_unsharp \
 #                meshlabplugins/io_collada \
 #                meshlabplugins/io_x3d \
+    meshlabplugins/Language
 

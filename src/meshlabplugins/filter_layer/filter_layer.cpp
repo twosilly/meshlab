@@ -63,21 +63,21 @@ FilterLayerPlugin::FilterLayerPlugin()
 QString FilterLayerPlugin::filterName(FilterIDType filterId) const
 {
     switch(filterId) {
-    case FP_SPLITSELECTEDFACES :  return QString("Move selected faces to another layer");
-    case FP_SPLITSELECTEDVERTICES : return QString("Move selected vertices to another layer") ;
-    case FP_SPLITCONNECTED :  return QString("Split in Connected Components");
-    case FP_DUPLICATE :  return QString("Duplicate Current layer");
-    case FP_DELETE_MESH :  return QString("Delete Current Mesh");
-    case FP_DELETE_NON_VISIBLE_MESH :  return QString("Delete all non visible Mesh Layers");
-    case FP_DELETE_RASTER :  return QString("Delete Current Raster");
-    case FP_DELETE_NON_SELECTED_RASTER :  return QString("Delete all Non Selected Rasters");
-    case FP_FLATTEN :  return QString("Flatten Visible Layers");
-    case FP_RENAME_MESH :  return QString("Rename Current Mesh");
-    case FP_RENAME_RASTER :  return QString("Rename Current Raster");
-    case FP_SELECTCURRENT :  return QString("Change the current layer");
-    case FP_MESH_VISIBILITY :  return QString("Change Visibility of layer(s)");
-	case FP_EXPORT_CAMERAS:  return QString("Export active rasters cameras to file");
-	case FP_IMPORT_CAMERAS:  return QString("Import cameras for active rasters from file");
+    case FP_SPLITSELECTEDFACES :  return QString(tr("Move selected faces to another layer"));
+    case FP_SPLITSELECTEDVERTICES : return QString(tr("Move selected vertices to another layer")) ;
+    case FP_SPLITCONNECTED :  return QString(tr("Split in Connected Components"));
+    case FP_DUPLICATE :  return QString(tr("Duplicate Current layer"));
+    case FP_DELETE_MESH :  return QString(tr("Delete Current Mesh"));
+    case FP_DELETE_NON_VISIBLE_MESH :  return QString(tr("Delete all non visible Mesh Layers"));
+    case FP_DELETE_RASTER :  return QString(tr("Delete Current Raster"));
+    case FP_DELETE_NON_SELECTED_RASTER :  return QString(tr("Delete all Non Selected Rasters"));
+    case FP_FLATTEN :  return QString(tr("Flatten Visible Layers"));
+    case FP_RENAME_MESH :  return QString(tr("Rename Current Mesh"));
+    case FP_RENAME_RASTER :  return QString(tr("Rename Current Raster"));
+    case FP_SELECTCURRENT :  return QString(tr("Change the current layer"));
+    case FP_MESH_VISIBILITY :  return QString(tr("Change Visibility of layer(s)"));
+	case FP_EXPORT_CAMERAS:  return QString(tr("Export active rasters cameras to file"));
+	case FP_IMPORT_CAMERAS:  return QString(tr("Import cameras for active rasters from file"));
     default : assert(0);
     }
 	return NULL;
@@ -87,21 +87,21 @@ QString FilterLayerPlugin::filterName(FilterIDType filterId) const
 QString FilterLayerPlugin::filterInfo(FilterIDType filterId) const
 {
     switch(filterId) {
-    case FP_SPLITSELECTEDFACES :  return QString("Selected faces are moved (or duplicated) in a new layer. Warning! per-vertex and per-face user defined attributes will not be transfered.");
-    case FP_SPLITSELECTEDVERTICES :  return QString("Selected vertices are moved (or duplicated) in a new layer. Warning! per-vertex user defined attributes will not be transfered.");
-    case FP_DELETE_MESH :  return QString("The current mesh layer is deleted");
-    case FP_DELETE_NON_VISIBLE_MESH :  return QString("All the non visible mesh layers are deleted");
-    case FP_DELETE_RASTER :  return QString("The current raster layer is deleted");
-    case FP_DELETE_NON_SELECTED_RASTER :  return QString("All non selected raster layers are deleted");
-    case FP_SPLITCONNECTED:  return QString("Split current Layer into many layers, one for each connected components");
-    case FP_DUPLICATE :  return QString("Create a new layer containing the same model as the current one");
-    case FP_FLATTEN :  return QString("Flatten all or only the visible layers into a single new mesh. <br> Transformations are preserved. Existing layers can be optionally deleted");
-    case FP_RENAME_MESH :  return QString("Explicitly change the label shown for a given mesh");
-    case FP_RENAME_RASTER :  return QString("Explicitly change the label shown for a given raster");
-    case FP_SELECTCURRENT :  return QString("Change the current layer to a chosen one");
-    case FP_MESH_VISIBILITY :  return QString("Make layer(s) visible/invisible. Useful for scripting.");
-	case FP_EXPORT_CAMERAS:  return QString("Export active cameras to file, in the .out or Agisoft .xml formats");
-	case FP_IMPORT_CAMERAS:  return QString("Import cameras for active rasters from .out or Agisoft .xml formats");
+    case FP_SPLITSELECTEDFACES :  return QString(tr("Selected faces are moved (or duplicated) in a new layer. Warning! per-vertex and per-face user defined attributes will not be transfered."));
+    case FP_SPLITSELECTEDVERTICES :  return QString(tr("Selected vertices are moved (or duplicated) in a new layer. Warning! per-vertex user defined attributes will not be transfered."));
+    case FP_DELETE_MESH :  return QString(tr("The current mesh layer is deleted"));
+    case FP_DELETE_NON_VISIBLE_MESH :  return QString(tr("All the non visible mesh layers are deleted"));
+    case FP_DELETE_RASTER :  return QString(tr("The current raster layer is deleted"));
+    case FP_DELETE_NON_SELECTED_RASTER :  return QString(tr("All non selected raster layers are deleted"));
+    case FP_SPLITCONNECTED:  return QString(tr("Split current Layer into many layers, one for each connected components"));
+    case FP_DUPLICATE :  return QString(tr("Create a new layer containing the same model as the current one"));
+    case FP_FLATTEN :  return QString(tr("Flatten all or only the visible layers into a single new mesh. <br> Transformations are preserved. Existing layers can be optionally deleted"));
+    case FP_RENAME_MESH :  return QString(tr("Explicitly change the label shown for a given mesh"));
+    case FP_RENAME_RASTER :  return QString(tr("Explicitly change the label shown for a given raster"));
+    case FP_SELECTCURRENT :  return QString(tr("Change the current layer to a chosen one"));
+    case FP_MESH_VISIBILITY :  return QString(tr("Make layer(s) visible/invisible. Useful for scripting."));
+	case FP_EXPORT_CAMERAS:  return QString(tr("Export active cameras to file, in the .out or Agisoft .xml formats"));
+	case FP_IMPORT_CAMERAS:  return QString(tr("Import cameras for active rasters from .out or Agisoft .xml formats"));
     default : assert(0);
     }
 	return NULL;
@@ -129,7 +129,7 @@ void FilterLayerPlugin::initParameterSet(QAction *action, MeshDocument &md, Rich
             "If true, flatten only visible layers, othwerwise, all layers are used"));
         parlst.addParam(new RichBool ("DeleteLayer", true, "Delete Layers ",
             "Delete all the layers used as source in flattening. <br>If all layers are visible only a single layer will remain after the invocation of this filter"));
-        parlst.addParam(new RichBool ("MergeVertices", true,  "Merge duplicate vertices",
+        parlst.addParam(new RichBool ("MergeVertices", true, "Merge duplicate vertices",
             "Merge the vertices that are duplicated among different layers. \n\n"
             "Very useful when the layers are spliced portions of a single big mesh."));
         parlst.addParam(new RichBool ("AlsoUnreferenced", false, "Keep unreferenced vertices",
@@ -137,36 +137,38 @@ void FilterLayerPlugin::initParameterSet(QAction *action, MeshDocument &md, Rich
             "Necessary for point-cloud layers"));
         break;
     case FP_RENAME_MESH :
-        parlst.addParam(new RichString ("newName",
+        parlst.addParam(new RichString (tr("newName"),
             mm->label(),
-            "New Label",
-            "New Label for the mesh"));
+			tr("New Label"),
+			tr("New Label for the mesh")));
         break;
     case FP_RENAME_RASTER :
-        parlst.addParam(new RichString ("newName",
+        parlst.addParam(new RichString (tr("newName"),
             rm->label(),
-            "New Label",
-            "New Label for the raster"));
+			tr("New Label"),
+			tr("New Label for the raster")));
         break;
     case FP_SELECTCURRENT :
-        parlst.addParam(new RichMesh ("layer",md.mm(),&md, "Layer Name",
-            "The name of the current layer"));
+        parlst.addParam(new RichMesh (tr("layer"),md.mm(),&md, tr("Layer Name"),
+			tr("The name of the current layer")));
         break;
     case FP_MESH_VISIBILITY :
-        parlst.addParam(new RichMesh ("layer",md.mm(),&md, "Layer Name", "The name of the layer that has to change visibility. If second parameter is not empty, this parameter is ignored"));
-		parlst.addParam(new RichString("lName", "", "Substring match", "Apply visibility to all layers with name substring matching the entered string. If not empty, the first parameter is ignored."));
-        parlst.addParam(new RichBool ("isMeshVisible", true,  "Visible", "It makes the selected layer(s) visible or invisible."));
+        parlst.addParam(new RichMesh (tr("layer"),md.mm(),&md, tr("Layer Name"), tr("The name of the layer that has to change visibility. If second parameter is not empty, this parameter is ignored")));
+		parlst.addParam(new RichString(tr("lName"), "", tr("Substring match"), tr("Apply visibility to all layers with name substring matching the entered string. If not empty, the first parameter is ignored.")));
+        parlst.addParam(new RichBool ("isMeshVisible", true, "Visible", "It makes the selected layer(s) visible or invisible."));
         break;
         
 	case FP_EXPORT_CAMERAS:
-		parlst.addParam(new RichEnum("ExportFile", 0, QStringList("Bundler .out") << "Agisoft xml", "Output format", "Choose the output format, The filter enables to export the cameras to both Bundler and Agisoft Photoscan."));
-		parlst.addParam(new RichString("newName",
-			"cameras",
-			"Export file name (the right extension will be added at the end)",
-			"Name of the output file, it will be saved in the same folder as the project file"));
+		parlst.addParam(new RichEnum(tr("ExportFile"), 0, QStringList(tr("Bundler .out")) << tr("Agisoft xml"),
+			tr("Output format"), tr("Choose the output format, The filter enables to export the cameras to both Bundler and Agisoft Photoscan.")));
+		parlst.addParam(new RichString(tr("newName"),
+			tr("cameras"),
+			tr("Export file name (the right extension will be added at the end)"),
+			tr("Name of the output file, it will be saved in the same folder as the project file")));
 		break;
 	case FP_IMPORT_CAMERAS:
-		parlst.addParam(new RichOpenFile("ImportFile", 0, QStringList("All Project Files (*.out *.xml);;Bundler Output (*.out);;Agisoft xml (*.xml)"),"Choose the camera file to be imported", "It's possible to import both Bundler .out and Agisoft .xml files. In both cases, distortion parameters won't be imported. In the case of Agisoft, it's necessary to undistort the images before exporting the xml file"));
+		parlst.addParam(new RichOpenFile(tr("ImportFile"), 0, QStringList(tr("All Project Files (*.out *.xml);;Bundler Output (*.out);;Agisoft xml (*.xml)")),
+			tr("Choose the camera file to be imported", "It's possible to import both Bundler .out and Agisoft .xml files. In both cases, distortion parameters won't be imported. In the case of Agisoft, it's necessary to undistort the images before exporting the xml file")));
 		break;
     default: break; // do not add any parameter for the other filters
     }
@@ -180,27 +182,27 @@ bool FilterLayerPlugin::applyFilter(QAction *filter, MeshDocument &md, RichParam
 
  switch(ID(filter))
  {
-	case  FP_RENAME_MESH:     md.mm()->setLabel(par.getString("newName")); break;
+	case  FP_RENAME_MESH:     md.mm()->setLabel(par.getString(tr("newName"))); break;
 
-	case  FP_RENAME_RASTER:   md.rm()->setLabel(par.getString("newName")); break;
+	case  FP_RENAME_RASTER:   md.rm()->setLabel(par.getString(tr("newName"))); break;
 
-	case  FP_SELECTCURRENT:   md.setCurrent(par.getMesh("layer")); break;
+	case  FP_SELECTCURRENT:   md.setCurrent(par.getMesh(tr("layer"))); break;
 
 	case  FP_MESH_VISIBILITY:   
 	{
-		QString match = par.getString("lName");
+		QString match = par.getString(tr("lName"));
 		if (match == "")
 		{
-			MeshModel *mm = par.getMesh("layer");
+			MeshModel *mm = par.getMesh(tr("layer"));
 			if (mm)
-				md.setVisible(mm->id(), par.getBool("isMeshVisible"));
+				md.setVisible(mm->id(), par.getBool(tr("isMeshVisible")));
 		}
 		else
 		{
 			foreach(MeshModel *mmp, md.meshList)
 			{
 				if (mmp->label().contains(match))
-					md.setVisible(mmp->id(), par.getBool("isMeshVisible"));
+					md.setVisible(mmp->id(), par.getBool(tr("isMeshVisible")));
 			}
 		}
 	} break;
@@ -235,14 +237,14 @@ bool FilterLayerPlugin::applyFilter(QAction *filter, MeshDocument &md, RichParam
 	{
 		MeshModel* currentModel = md.mm();
 
-		MeshModel* destModel = md.addNewMesh("","SelectedVerticesSubset",true);
+		MeshModel* destModel = md.addNewMesh(tr(""), tr("SelectedVerticesSubset"),true);
 		destModel->updateDataMask(currentModel);
 
 		numVertSel = (int)tri::UpdateSelection<CMeshO>::VertexCount(currentModel->cm);
 
 		tri::Append<CMeshO, CMeshO>::Mesh(destModel->cm, currentModel->cm, true);
 
-		if(par.getBool("DeleteOriginal"))	// delete original vert/faces
+		if(par.getBool(tr("DeleteOriginal")))	// delete original vert/faces
 		{
 			CMeshO::VertexIterator vi;
 
@@ -275,7 +277,7 @@ bool FilterLayerPlugin::applyFilter(QAction *filter, MeshDocument &md, RichParam
 	{
 		MeshModel *currentModel = md.mm();
 
-		MeshModel *destModel = md.addNewMesh("", "SelectedFacesSubset", true);
+		MeshModel *destModel = md.addNewMesh(tr(""), tr("SelectedFacesSubset"), true);
 		destModel->updateDataMask(currentModel);
 
 		// select all points involved
@@ -285,7 +287,7 @@ bool FilterLayerPlugin::applyFilter(QAction *filter, MeshDocument &md, RichParam
 
 		tri::Append<CMeshO, CMeshO>::Mesh(destModel->cm, currentModel->cm, true);
 
-		if(par.getBool("DeleteOriginal"))	// delete original faces
+		if(par.getBool(tr("DeleteOriginal")))	// delete original faces
 		{
 			CMeshO::VertexIterator vi;
 			CMeshO::FaceIterator   fi;
@@ -321,7 +323,7 @@ bool FilterLayerPlugin::applyFilter(QAction *filter, MeshDocument &md, RichParam
 	{
 		MeshModel *currentModel = md.mm();				// source = current
 		QString newName = currentModel->label() + "_copy";
-		MeshModel *destModel = md.addNewMesh("", newName, true); // After Adding a mesh to a MeshDocument the new mesh is the current one
+		MeshModel *destModel = md.addNewMesh(tr(""), newName, true); // After Adding a mesh to a MeshDocument the new mesh is the current one
 		destModel->updateDataMask(currentModel);
 		tri::Append<CMeshO, CMeshO>::Mesh(destModel->cm, currentModel->cm);
 
@@ -334,12 +336,12 @@ bool FilterLayerPlugin::applyFilter(QAction *filter, MeshDocument &md, RichParam
 
     case FP_FLATTEN :
 	{
-		bool deleteLayer = par.getBool("DeleteLayer");
-		bool mergeVisible = par.getBool("MergeVisible");
-		bool mergeVertices = par.getBool("MergeVertices");
-		bool alsoUnreferenced = par.getBool("AlsoUnreferenced");
+		bool deleteLayer = par.getBool(tr("DeleteLayer"));
+		bool mergeVisible = par.getBool(tr("MergeVisible"));
+		bool mergeVertices = par.getBool(tr("MergeVertices"));
+		bool alsoUnreferenced = par.getBool(tr("AlsoUnreferenced"));
 
-		MeshModel *destModel = md.addNewMesh("", "Merged Mesh", true);
+		MeshModel *destModel = md.addNewMesh(tr(""), tr("Merged Mesh"), true);
 
 		QList<MeshModel *> toBeDeletedList;
 
@@ -401,7 +403,7 @@ bool FilterLayerPlugin::applyFilter(QAction *filter, MeshDocument &md, RichParam
 			tri::UpdateSelection<CMeshO>::VertexClear(cm);
 			tri::UpdateSelection<CMeshO>::VertexFromFaceLoose(cm);
 
-			MeshModel *destModel= md.addNewMesh("",QString("CC %1").arg(i), true);
+			MeshModel *destModel= md.addNewMesh(tr(""),QString(tr("CC %1")).arg(i), true);
 			destModel->updateDataMask(currentModel);
 			tri::Append<CMeshO, CMeshO>::Mesh(destModel->cm, cm, true);
 
@@ -413,8 +415,8 @@ bool FilterLayerPlugin::applyFilter(QAction *filter, MeshDocument &md, RichParam
 
 	case FP_EXPORT_CAMERAS:
 	{
-		int output = par.getEnum("ExportFile");
-		QString name = par.getString("newName");
+		int output = par.getEnum(tr("ExportFile"));
+		QString name = par.getString(tr("newName"));
 				
 		if (output ==0)
 		{ 
@@ -463,13 +465,13 @@ bool FilterLayerPlugin::applyFilter(QAction *filter, MeshDocument &md, RichParam
 		}
 		else if (output==1)
 		{
-			name = name.append(".xml");
+			name = name.append(tr(".xml"));
 			
 			QFileInfo fi(name);
 			QDir tmpDir = QDir::current();
 			QDir::setCurrent(fi.absoluteDir().absolutePath());
 
-			//QDomDocument doc("AgisoftXML");
+			//QDomDocument doc(tr("AgisoftXML"));
 			QFile file(name);
 			file.open(QIODevice::WriteOnly);
 
@@ -477,11 +479,11 @@ bool FilterLayerPlugin::applyFilter(QAction *filter, MeshDocument &md, RichParam
 			xmlWriter.setAutoFormatting(true);
 			xmlWriter.writeStartDocument();
 
-			xmlWriter.writeStartElement("document");
-			xmlWriter.writeAttribute("version", "1.2.0");
+			xmlWriter.writeStartElement(("document"));
+			xmlWriter.writeAttribute(("version"), "1.2.0");
 
-			xmlWriter.writeStartElement("chunk");
-			xmlWriter.writeStartElement("sensors");
+			xmlWriter.writeStartElement(("chunk"));
+			xmlWriter.writeStartElement(("sensors"));
 			
 			for (int i = 0; i < md.rasterList.size(); i++)
 			{
@@ -501,80 +503,80 @@ bool FilterLayerPlugin::applyFilter(QAction *filter, MeshDocument &md, RichParam
 						pixelY = md.rasterList[i]->shot.Intrinsics.PixelSizeMm[1];
 					}
 
-					xmlWriter.writeStartElement("sensor");
-					xmlWriter.writeAttribute("id", QString::number(i));
-					xmlWriter.writeAttribute("label", "unknown"+QString::number(i));
-					xmlWriter.writeAttribute("type", "frame");
-					xmlWriter.writeStartElement("resolution");
-					xmlWriter.writeAttribute("width", QString::number(md.rasterList[i]->shot.Intrinsics.ViewportPx[0]));
-					xmlWriter.writeAttribute("height", QString::number(md.rasterList[i]->shot.Intrinsics.ViewportPx[1]));
+					xmlWriter.writeStartElement(("sensor"));
+					xmlWriter.writeAttribute(("id"), QString::number(i));
+					xmlWriter.writeAttribute(("label"), "unknown"+QString::number(i));
+					xmlWriter.writeAttribute(("type"), ("frame"));
+					xmlWriter.writeStartElement(("resolution"));
+					xmlWriter.writeAttribute(("width"), QString::number(md.rasterList[i]->shot.Intrinsics.ViewportPx[0]));
+					xmlWriter.writeAttribute(("height"), QString::number(md.rasterList[i]->shot.Intrinsics.ViewportPx[1]));
 					xmlWriter.writeEndElement();
-					xmlWriter.writeStartElement("property");
-					xmlWriter.writeAttribute("name", "pixel_width");
-					xmlWriter.writeAttribute("value", QString::number(pixelX));
+					xmlWriter.writeStartElement(("property"));
+					xmlWriter.writeAttribute(("name"), ("pixel_width"));
+					xmlWriter.writeAttribute(("value"), QString::number(pixelX));
 					xmlWriter.writeEndElement();
-					xmlWriter.writeStartElement("property");
-					xmlWriter.writeAttribute("name", "pixel_height");
-					xmlWriter.writeAttribute("value", QString::number(pixelY));
+					xmlWriter.writeStartElement(("property"));
+					xmlWriter.writeAttribute(("name"), ("pixel_height"));
+					xmlWriter.writeAttribute(("value"), QString::number(pixelY));
 					xmlWriter.writeEndElement();
-					xmlWriter.writeStartElement("property");
-					xmlWriter.writeAttribute("name", "focal_length");
-					xmlWriter.writeAttribute("value", QString::number(focal));
+					xmlWriter.writeStartElement(("property"));
+					xmlWriter.writeAttribute(("name"), ("focal_length"));
+					xmlWriter.writeAttribute(("value"), QString::number(focal));
 					xmlWriter.writeEndElement();
-					xmlWriter.writeStartElement("property");
-					xmlWriter.writeAttribute("name", "fixed");
-					xmlWriter.writeAttribute("value", "false");
+					xmlWriter.writeStartElement(("property"));
+					xmlWriter.writeAttribute(("name"), ("fixed"));
+					xmlWriter.writeAttribute(("value"), ("false"));
 					xmlWriter.writeEndElement();
-					xmlWriter.writeStartElement("calibration");
-					xmlWriter.writeAttribute("type", "frame");
-					xmlWriter.writeAttribute("class", "adjusted");
-					xmlWriter.writeStartElement("resolution");
-					xmlWriter.writeAttribute("width", QString::number(md.rasterList[i]->shot.Intrinsics.ViewportPx[0]));
-					xmlWriter.writeAttribute("height", QString::number(md.rasterList[i]->shot.Intrinsics.ViewportPx[1]));
+					xmlWriter.writeStartElement(("calibration"));
+					xmlWriter.writeAttribute(("type"), ("frame"));
+					xmlWriter.writeAttribute(("class"), ("adjusted"));
+					xmlWriter.writeStartElement(("resolution"));
+					xmlWriter.writeAttribute(("width"), QString::number(md.rasterList[i]->shot.Intrinsics.ViewportPx[0]));
+					xmlWriter.writeAttribute(("height"), QString::number(md.rasterList[i]->shot.Intrinsics.ViewportPx[1]));
 					xmlWriter.writeEndElement();
-					xmlWriter.writeTextElement("fx", QString::number(md.rasterList[i]->shot.Intrinsics.FocalMm / md.rasterList[i]->shot.Intrinsics.PixelSizeMm[0]));
-					xmlWriter.writeTextElement("fy", QString::number(md.rasterList[i]->shot.Intrinsics.FocalMm / md.rasterList[i]->shot.Intrinsics.PixelSizeMm[1]));
-					xmlWriter.writeTextElement("cx", QString::number(md.rasterList[i]->shot.Intrinsics.CenterPx[0]));
-					xmlWriter.writeTextElement("cy", QString::number(md.rasterList[i]->shot.Intrinsics.CenterPx[1]));
-					xmlWriter.writeTextElement("k1", "0");
-					xmlWriter.writeTextElement("k2", "0");
-					xmlWriter.writeTextElement("p1", "0");
-					xmlWriter.writeTextElement("p2", "0");
+					xmlWriter.writeTextElement(("fx"), QString::number(md.rasterList[i]->shot.Intrinsics.FocalMm / md.rasterList[i]->shot.Intrinsics.PixelSizeMm[0]));
+					xmlWriter.writeTextElement(("fy"), QString::number(md.rasterList[i]->shot.Intrinsics.FocalMm / md.rasterList[i]->shot.Intrinsics.PixelSizeMm[1]));
+					xmlWriter.writeTextElement(("cx"), QString::number(md.rasterList[i]->shot.Intrinsics.CenterPx[0]));
+					xmlWriter.writeTextElement(("cy"), QString::number(md.rasterList[i]->shot.Intrinsics.CenterPx[1]));
+					xmlWriter.writeTextElement(("k1"), "0");
+					xmlWriter.writeTextElement(("k2"), "0");
+					xmlWriter.writeTextElement(("p1"), "0");
+					xmlWriter.writeTextElement(("p2"), "0");
 					xmlWriter.writeEndElement();
 					xmlWriter.writeEndElement();
 				}
 			}
 			xmlWriter.writeEndElement();
-			xmlWriter.writeStartElement("cameras");
+			xmlWriter.writeStartElement(("cameras"));
 			for (int i = 0; i < md.rasterList.size(); i++)
 			{
 				if (md.rasterList[i]->visible)
 				{
-					xmlWriter.writeStartElement("camera");
-					xmlWriter.writeAttribute("id", QString::number(i));
-					xmlWriter.writeAttribute("label", md.rasterList[i]->currentPlane->shortName());
-					xmlWriter.writeAttribute("sensor_id", QString::number(i));
-					xmlWriter.writeAttribute("enabled", "true");
+					xmlWriter.writeStartElement(("camera"));
+					xmlWriter.writeAttribute(("id"), QString::number(i));
+					xmlWriter.writeAttribute(("label"), md.rasterList[i]->currentPlane->shortName());
+					xmlWriter.writeAttribute(("sensor_id"), QString::number(i));
+					xmlWriter.writeAttribute(("enabled"), "true");
 					Matrix44f mat = md.rasterList[i]->shot.Extrinsics.Rot();
 					Point3f pos = md.rasterList[i]->shot.Extrinsics.Tra();
 					QString transform= QString::number(mat[0][0]);
-					transform.append(" " + QString::number(-mat[1][0]));
-					transform.append(" " + QString::number(-mat[2][0]));
-					transform.append(" " + QString::number(pos[0]));
-					transform.append(" " + QString::number(mat[0][1]));
-					transform.append(" " + QString::number(-mat[1][1]));
-					transform.append(" " + QString::number(-mat[2][1]));
-					transform.append(" " + QString::number(pos[1]));
-					transform.append(" " + QString::number(mat[0][2]));
-					transform.append(" " + QString::number(-mat[1][2]));
-					transform.append(" " + QString::number(-mat[2][2]));
-					transform.append(" " + QString::number(pos[2]));
-					transform.append(" 0");
-					transform.append(" 0");
-					transform.append(" 0");
-					transform.append(" 1");
+					transform.append((" ") + QString::number(-mat[1][0]));
+					transform.append((" ") + QString::number(-mat[2][0]));
+					transform.append((" ") + QString::number(pos[0]));
+					transform.append((" ") + QString::number(mat[0][1]));
+					transform.append((" ") + QString::number(-mat[1][1]));
+					transform.append((" ") + QString::number(-mat[2][1]));
+					transform.append((" ") + QString::number(pos[1]));
+					transform.append((" ") + QString::number(mat[0][2]));
+					transform.append((" ") + QString::number(-mat[1][2]));
+					transform.append((" ") + QString::number(-mat[2][2]));
+					transform.append((" ") + QString::number(pos[2]));
+					transform.append((" 0"));
+					transform.append((" 0"));
+					transform.append((" 0"));
+					transform.append((" 1"));
 					
-					xmlWriter.writeTextElement("transform", transform);
+					xmlWriter.writeTextElement(("transform"), transform);
 					xmlWriter.writeEndElement();
 				}
 			}
@@ -587,7 +589,7 @@ bool FilterLayerPlugin::applyFilter(QAction *filter, MeshDocument &md, RichParam
 
 	case FP_IMPORT_CAMERAS:
 	{
-		QString fileName = par.getOpenFileName("ImportFile");
+		QString fileName = par.getOpenFileName(tr("ImportFile"));
 		if (fileName.isEmpty())
 		{	
 			this->errorMessage = "No file to open";
@@ -685,7 +687,7 @@ bool FilterLayerPlugin::applyFilter(QAction *filter, MeshDocument &md, RichParam
 			for (int i = 0; i < sensors.size(); i++)
 			{
 				QDomNode n = sensors.item(i);
-				int id = n.attributes().namedItem("id").nodeValue().toInt();
+				int id = n.attributes().namedItem(tr("id")).nodeValue().toInt();
 
 				QDomNode node = n.firstChild();
 				//Devices
@@ -745,7 +747,7 @@ bool FilterLayerPlugin::applyFilter(QAction *filter, MeshDocument &md, RichParam
 			}
 
 			///////// Read and import cameras 
-			QDomNodeList cameras = doc.elementsByTagName("camera");
+			QDomNodeList cameras = doc.elementsByTagName(tr("camera"));
 
 			if (cameras.size() == 0)
 			{
@@ -756,9 +758,9 @@ bool FilterLayerPlugin::applyFilter(QAction *filter, MeshDocument &md, RichParam
 			for (int i = 0; i < cameras.size(); i++)
 			{
 				QDomNode n = cameras.item(i);
-				//int id = n.attributes().namedItem("id").nodeValue().toInt();
-				int sensor_id = n.attributes().namedItem("sensor_id").nodeValue().toInt();
-				QString name = n.attributes().namedItem("label").nodeValue();
+				//int id = n.attributes().namedItem(tr("id")).nodeValue().toInt();
+				int sensor_id = n.attributes().namedItem(tr("sensor_id")).nodeValue().toInt();
+				QString name = n.attributes().namedItem(tr("label")).nodeValue();
 
 				int rasterId = -1;
 				for (int i = 0; i < md.rasterList.size(); i++)

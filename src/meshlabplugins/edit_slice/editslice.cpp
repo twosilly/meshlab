@@ -20,7 +20,7 @@
 * for more details.                                                         *
 *                                                                           *
 ****************************************************************************/
-
+#include <gl/glew.h>
 #include <QtGui>
 #include <math.h>
 #include <stdlib.h>
@@ -31,12 +31,12 @@
 
 #include <vcg/complex/algorithms/create/platonic.h>
 #include <vcg/space/index/grid_closest.h>
-#include <vcg/complex/intersection.h>
+#include <vcg/complex/algorithms/intersection.h>
 #include <wrap/gl/space.h>
 #include <wrap/gui/trackball.h>
 #include <qfiledialog.h>
 #include<limits>
-#include <vcg/complex/edgemesh/update/bounding.h>
+#include <vcg/complex/algorithms/update/bounding.h>
 #include <wrap/io_trimesh/import.h>
 
 #include <vcg/complex/algorithms/update/position.h>
@@ -50,7 +50,9 @@ using namespace vcg;
 
 
 ExtraMeshSlidePlugin::ExtraMeshSlidePlugin() {
- dialogsliceobj=0;
+	//TODO:
+ dialogsliceobj=nullptr;
+
  isDragging=false;
 
  trackball_slice.center=Point3f(0, 0, 0);
@@ -58,11 +60,10 @@ ExtraMeshSlidePlugin::ExtraMeshSlidePlugin() {
 }
 
 ExtraMeshSlidePlugin::~ExtraMeshSlidePlugin() {
-if ( dialogsliceobj!=0) { 
-			delete  dialogsliceobj; 
-			
-			 dialogsliceobj=0;
-			 }
+	if ( dialogsliceobj!=0) { 
+		delete  dialogsliceobj;
+		dialogsliceobj = nullptr;
+	}
 	
 }
 
@@ -123,13 +124,14 @@ void ExtraMeshSlidePlugin::RestoreDefault(){
 	dialogsliceobj->hide();
 	Matrix44f mat_trac_rotation ; 
 	trackball_slice.track.rot.ToMatrix( mat_trac_rotation ); //rotation Matrix of the plans' trackball 
-        Invert(mat_trac_rotation);
+    //TODO:
+	Inverse(mat_trac_rotation);
 	Point3f dir(1,0,0);   //the plans' normal vector init 
 	dir= mat_trac_rotation * dir; //rotation of the directions vector 
 	Point3f translation_plans=trackball_slice.track.tra;  //vettore di translazione dei piani
 	bool EvportVector=false;           //variabile used after
-	vector<n_EdgeMesh*> ev;           
-	ev.clear();                        
+	vector<n_EdgeMesh*> ev;
+	ev.clear();
 	
 	pr.projDir = dir; 
 	svgpro= new SVGPro(gla->window(), point_Vector.size(), dialogsliceobj->getExportOption());
@@ -146,8 +148,9 @@ void ExtraMeshSlidePlugin::RestoreDefault(){
 		
 		mesh_grid = new TriMeshGrid();
 		mesh_grid->Set(m->cm.face.begin() ,m->cm.face.end());
-		//pr.scale =  (pr.viewBox[0]/pr.numCol) /(edgeMax*(1.4142)) ;
+		pr.scale =  (pr.sizeCm.X() /pr.numCol) /(edgeMax*(1.4142)) ;
 		//pr.textDetails = svgpro->showText ;
+		pr.showTextDetails = true;
 		for(int i=0; i<point_Vector.size(); i++){	
 			Point3f rotationCenter=m->cm.bbox.Center(); //the point where the plans rotate
 			Point3f po=point_Vector[i]-m->cm.bbox.Center();
@@ -164,8 +167,10 @@ void ExtraMeshSlidePlugin::RestoreDefault(){
 			
 			double avg_length;  
 			edge_mesh = new n_EdgeMesh();
-			vcg::Intersection<n_Mesh, n_EdgeMesh, n_Mesh::ScalarType, TriMeshGrid>(p , *edge_mesh, avg_length, mesh_grid, intersected_cells);
-			vcg::edg::UpdateBounding<n_EdgeMesh>::Box(*edge_mesh);
+			//FIXME:
+			//vcg::Intersection<n_Mesh, n_EdgeMesh, n_Mesh::ScalarType, TriMeshGrid>(p , *edge_mesh, avg_length, mesh_grid, intersected_cells);
+			
+			vcg::tri::UpdateBounding<n_EdgeMesh>::Box(*edge_mesh);
 		
 			
 			if (!dialogsliceobj->getExportOption()){
@@ -176,42 +181,52 @@ void ExtraMeshSlidePlugin::RestoreDefault(){
 			   pr.numCol=1;
 			   pr.numRow=1;
 			   
-			   vcg::edg::io::ExporterSVG<n_EdgeMesh>::Save(*edge_mesh, fileN.toLatin1().data(), pr);
+               vcg::tri::io::ExporterSVG<n_EdgeMesh>::Save(*edge_mesh, fileN.toLatin1().data(), pr);
 		
 			}
 			else{
 		     
-			 ev.push_back(edge_mesh);
+             ev.push_back(edge_mesh);
              EvportVector=true;
             }
 		}
 	
 	if(EvportVector){
 		
-		vcg::edg::io::ExporterSVG<n_EdgeMesh>::Save(ev, fileName.toLatin1().data(),pr);
+        vcg::tri::io::ExporterSVG<n_EdgeMesh>::Save(ev, fileName.toLatin1().data(),pr);
         //Free memory allocated
+		//自由分配的内存
 		
 		vector<n_EdgeMesh*>::iterator it;
 		for(it=ev.begin(); it!=ev.end(); it++){
 			delete *it;}
 		
-		} 
+        }
    }
  dialogsliceobj->show();
  }
 
 void ExtraMeshSlidePlugin::UpdateVal(SVGPro* sv,  SVGProperties * pr)
 {
-	// pr->setDimension(sv->getImageWidth(),sv->getImageHeight());
-	// pr->viewBox= Point2f(sv->getViewBoxWidth(), sv->getViewBoxHeight());	
+    // pr->setDimension(sv->getImageWidth(),sv->getImageHeight());
+    // pr->viewBox= Point2f(sv->getViewBoxWidth(), sv->getViewBoxHeight());
 } 
  void ExtraMeshSlidePlugin::Decorate(MeshModel &m, GLArea * gla)
- {   
+ {
 	 
 	 this->gla=gla;
 	 this->m=&m;
 	 if(!gla->isEnabled()){
 	    dialogsliceobj->close();
+	 }
+	 if (!dialogsliceobj) {
+		 dialogsliceobj = new dialogslice(gla->window());
+		 dialogsliceobj->show();
+		 dialogsliceobj->setAllowedAreas(Qt::NoDockWidgetArea);
+		 this->m = &m;
+		 QObject::connect(dialogsliceobj, SIGNAL(exportMesh()), this, SLOT(SlotExportButton()));
+		 QObject::connect(dialogsliceobj, SIGNAL(Update_glArea()), this, SLOT(upGlA()));
+		 QObject::connect(dialogsliceobj, SIGNAL(RestoreDefault()), this, SLOT(RestoreDefault()));
 	 }
 	 DrawPlane(this->gla,*(this->m));
    
@@ -258,7 +273,8 @@ void ExtraMeshSlidePlugin::UpdateVal(SVGPro* sv,  SVGProperties * pr)
 	glPushMatrix();
 	glPushAttrib(GL_COLOR_BUFFER_BIT|GL_LIGHTING_BIT);
         trackball_slice.GetView();
-		trackball_slice.Apply(true);
+        //TODO:trackball_slice.Apply(true);
+        trackball_slice.Apply();
 		trackball_slice.center=centre;
 		trackball_slice.radius=edgeMax;
         glColor4f(1.0,0.0,0.0,0.8);
